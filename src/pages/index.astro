@@ -1,0 +1,51 @@
+---
+import "../styles/global.css";
+import { TIERS } from "../data/nav";
+---
+
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ER Practice Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="topbar">
+      <span class="brand">ER Practice Guide <span>Conduct &amp; performance</span></span>
+    </header>
+    <div style="max-width:760px;margin:0 auto;padding:40px 20px 80px">
+      <h1>ER Practice Guide</h1>
+      <p class="lead">
+        Training material on performance and conduct matters that can lead to dismissal under the Fair Work Act
+        2009 (Cth). Not legal advice. Any matter heading toward termination goes to a senior ER adviser, and to
+        Legal where the facts are contested or the employee is represented.
+      </p>
+      {TIERS.map((t) => (
+        <>
+          <h2>{t.title}</h2>
+          <ol class="principles">
+            {t.modules.map((m) => (
+              <li>
+                <span>
+                  {m.slug ? (
+                    <a href={`/modules/${m.slug}`}>{m.title}</a>
+                  ) : (
+                    <>
+                      {m.title} <span style="color:var(--muted);font-size:13px">(coming soon)</span>
+                    </>
+                  )}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </>
+      ))}
+    </div>
+  </body>
+</html>

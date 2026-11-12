@@ -1,0 +1,30 @@
+---
+import { getCollection, render } from "astro:content";
+import ModuleLayout from "../../layouts/ModuleLayout.astro";
+
+export async function getStaticPaths() {
+  const modules = await getCollection("modules");
+  return modules.map((m) => ({
+    params: { slug: m.data.slug },
+    props: { entry: m },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { id, title, tier, provisions, status, reviewer, last_verified, reading_minutes, related } = entry.data;
+---
+
+<ModuleLayout
+  id={id}
+  title={title}
+  tier={tier}
+  provisions={provisions}
+  status={status}
+  reviewer={reviewer}
+  last_verified={last_verified}
+  reading_minutes={reading_minutes}
+  related={related}
+>
+  <Content />
+</ModuleLayout>

@@ -1,0 +1,70 @@
+---
+import data from "../../data/citations.json";
+
+interface Props {
+  moduleId: number;
+}
+
+const { moduleId } = Astro.props as Props;
+
+const registry = data.citations as Record<
+  string,
+  {
+    citation: string;
+    short_name: string;
+    url: string | null;
+    outcome: string;
+    outcome_pinpoint: string;
+    outcome_status: "confirmed" | "partial";
+    modules: number[];
+    verification_status: string;
+  }
+>;
+const flagged = data.flagged_authorities as Record<
+  string,
+  { note: string; quoted_in: string; quoted_in_pinpoint: string }
+>;
+
+const rows = Object.values(registry)
+  .filter((e) => e.modules.includes(moduleId))
+  .sort((a, b) => b.citation.localeCompare(a.citation));
+
+const flaggedForThisModule = Object.entries(flagged).filter(([, f]) =>
+  rows.some((r) => r.citation === f.quoted_in)
+);
+---
+
+<div class="tablewrap">
+  <table>
+    <thead><tr><th>Decision</th><th>Outcome (confirmed from the text)</th></tr></thead>
+    <tbody>
+      {rows.map((r) => (
+        <tr>
+          <td>
+            {r.url ? (
+              <a class="cite" style="border:0" href={r.url} target="_blank" rel="noopener noreferrer">{r.citation}</a>
+            ) : (
+              <span class="cite unlinked" style="border:0">{r.citation}</span>
+            )}
+            <br /><em>{r.short_name}</em>
+          </td>
+          <td class="outcome">
+            {r.outcome_status === "partial" && <span class="pill draft" style="margin-right:6px">partial</span>}
+            {r.outcome} <span class="statute">{r.outcome_pinpoint}</span>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+{flaggedForThisModule.length > 0 && (
+  <div class="notice">
+    <strong>Older authorities quoted, not independently located in the corpus:</strong>
+    <ul style="margin:8px 0 0">
+      {flaggedForThisModule.map(([name, f]) => (
+        <li>{name} — quoted in {f.quoted_in} at {f.quoted_in_pinpoint}. Check against the original before relying on it.</li>
+      ))}
+    </ul>
+  </div>
+)}

@@ -1,0 +1,87 @@
+---
+interface Item {
+  group: string;
+  text: string;
+}
+interface Props {
+  title: string;
+  items: Item[];
+}
+const { title, items } = Astro.props as Props;
+const uid = `checklist-${Math.random().toString(36).slice(2, 9)}`;
+let lastGroup = "";
+---
+
+<div class="tool" id={uid} data-title={title}>
+  <div class="progress"><span class="count">0 of {items.length}</span><div class="bar" aria-hidden="true"><i class="fill"></i></div></div>
+  <ul class="checks">
+    {items.map((it, i) => {
+      const showGroup = it.group !== lastGroup;
+      lastGroup = it.group;
+      return (
+        <>
+          {showGroup && <li class="group">{it.group}</li>}
+          <li>
+            <label for={`${uid}-c${i}`}>
+              <input type="checkbox" id={`${uid}-c${i}`} data-text={it.text} />
+              <span>{it.text}</span>
+            </label>
+          </li>
+        </>
+      );
+    })}
+  </ul>
+  <div class="status open" role="status"></div>
+  <div class="row">
+    <button type="button" class="primary copy-btn">Copy checklist as text</button>
+    <button type="button" class="reset-btn">Clear all</button>
+  </div>
+</div>
+
+<script>
+  function initChecklist(root: HTMLElement) {
+    const boxes = Array.from(root.querySelectorAll<HTMLInputElement>(".checks input"));
+    const countEl = root.querySelector(".count")!;
+    const fillEl = root.querySelector<HTMLElement>(".fill")!;
+    const statusEl = root.querySelector<HTMLElement>(".status")!;
+    const title = root.dataset.title || "Checklist";
+
+    function update() {
+      const n = boxes.filter((b) => b.checked).length;
+      countEl.textContent = `${n} of ${boxes.length}`;
+      fillEl.style.width = `${(100 * n) / boxes.length}%`;
+      if (n === boxes.length) {
+        statusEl.className = "status ready";
+        statusEl.innerHTML = "<strong>All items ticked.</strong> This looks ready for senior ER review.";
+      } else {
+        const open = boxes.length - n;
+        statusEl.className = "status open";
+        statusEl.innerHTML = `<strong>${open} item${open === 1 ? "" : "s"} open.</strong> Don't recommend termination yet. Escalate the open items to a senior ER adviser.`;
+      }
+    }
+
+    boxes.forEach((b) => b.addEventListener("change", update));
+    update();
+
+    root.querySelector(".reset-btn")?.addEventListener("click", () => {
+      boxes.forEach((b) => (b.checked = false));
+      update();
+    });
+
+    root.querySelector(".copy-btn")?.addEventListener("click", (e) => {
+      const lines = [title, ...boxes.map((b) => `${b.checked ? "[x]" : "[ ]"} ${b.dataset.text}`)];
+      const btn = e.currentTarget as HTMLButtonElement;
+      navigator.clipboard
+        .writeText(lines.join("\n"))
+        .then(() => {
+          btn.textContent = "Copied";
+          setTimeout(() => (btn.textContent = "Copy checklist as text"), 1600);
+        })
+        .catch(() => {
+          btn.textContent = "Copy not allowed here";
+        });
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>(".tool[data-title]").forEach(initChecklist);
+</script>

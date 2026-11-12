@@ -1,0 +1,1060 @@
+{
+  "_comment": "Hand-verified citation facts. Each entry was confirmed by reading the reconstructed decision text from fwc-decision-chunks.snapshot.db \u2014 never from decision_extracts model fields. download_id, jurisdiction and decision_date are cross-checked against briefer_master.snapshot.db by build_citation_registry.py. This file is the only place pinpoints/outcomes are typed by hand; data/citations.json is always script-generated from this file plus the snapshots. outcome_status distinguishes a confirmed final finding from a partial read (the proposition pinpoint was confirmed, but the decision's own ultimate finding/order was not read in this pass).",
+  "citations": {
+    "[2026] FWC 218": {
+      "download_id": "809940",
+      "short_name": "Potter v Cement Australia Holdings",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Only the valid-reason test recitation at [28], [30], [31] was read and confirmed. This decision's own finding on Mr Potter's case was not read in this pass \u2014 not asserted here.",
+      "outcome_pinpoint": "[28]"
+    },
+    "[2023] FWC 65": {
+      "download_id": "367972",
+      "short_name": "25 employees v DP World Sydney & Brisbane",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Cited here only for its restatement of the Sydney Trains v Hilder principles at [36]; this case's own outcome is not relied on and not asserted.",
+      "outcome_pinpoint": "[36]"
+    },
+    "[2021] FWC 13": {
+      "download_id": "831370",
+      "short_name": "Hijazi v Calvary Health Care ACT",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Valid reason found related to conduct \u2014 confirmed at [91]. The finding relied on the employee's own concessions, with limited reliance on the investigation report \u2014 confirmed at [92].",
+      "outcome_pinpoint": "[91]",
+      "duplicate_download_ids": [
+        "752518",
+        "757576"
+      ],
+      "duplicate_note": "752518 is a byte-identical second scrape of the same decision (confirmed at [88] and [92]). 757576 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2023] FWC 961": {
+      "download_id": "706028",
+      "short_name": "Edward v Life Without Barriers",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 not unfair. Conduct (a slap) found proven on the balance of probabilities, with Briginshaw considerations applied at [42]-[45]; final order at [58].",
+      "outcome_pinpoint": "[58]",
+      "duplicate_download_ids": [
+        "640878",
+        "262643"
+      ],
+      "duplicate_note": "640878 is a byte-identical second scrape of the same decision (confirmed at [42]-[45]). 262643 is a 2-chunk metadata stub with no usable text."
+    },
+    "[2021] FWC 5677": {
+      "download_id": "703043",
+      "short_name": "Desmond v Lyndons",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Only the policy-breach principle (quoting B, C and D v Australian Postal Corporation) and the lawful-and-reasonable-direction test were read and confirmed at [12]-[13]. This decision's own finding on Ms Desmond's case was not read in this pass \u2014 not asserted here.",
+      "outcome_pinpoint": "[12]"
+    },
+    "[2021] FWC 3122": {
+      "download_id": "703506",
+      "short_name": "Eskander v Visy Board",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Cited only for the meaning of \"capacity\" under s.387(a), confirmed at [74]. This case's own outcome is not relied on and not asserted.",
+      "outcome_pinpoint": "[74]"
+    },
+    "[2025] FWC 3137": {
+      "download_id": "679738",
+      "short_name": "Glading v Advizer",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Valid reason found related to capacity (sustained underperformance against measured targets, despite training and two improvement plans) \u2014 confirmed at [84].",
+      "outcome_pinpoint": "[84]",
+      "duplicate_download_ids": [
+        "377878"
+      ],
+      "duplicate_note": "377878 is a 2-chunk metadata stub with no usable text."
+    },
+    "[2022] FWC 326": {
+      "download_id": "693072",
+      "short_name": "Ronchi v Johns Lyng Services",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Only the out-of-hours-conduct test (Rose v Telstra, as applied) was read and confirmed at [54]-[55]. This decision's own finding on Mr Ronchi's case was not read in this pass \u2014 not asserted here.",
+      "outcome_pinpoint": "[54]"
+    },
+    "[2022] FWC 2368": {
+      "download_id": "830457",
+      "short_name": "Elliott v Care for Kids Group",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "No valid reason found \u2014 confirmed at [56]. The dismissal was based on an arrangement about her parents' employment, not anything the employee did \u2014 confirmed at [53]-[55]. Compensation was subsequently calculated (paragraphs beyond [99], not independently re-read here).",
+      "outcome_pinpoint": "[56]",
+      "duplicate_download_ids": [
+        "678229"
+      ],
+      "duplicate_note": "678229 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2023] FWC 3367": {
+      "download_id": "693550",
+      "short_name": "Vetiyatil v Agripower",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "No valid reason found \u2014 confirmed at [60]. The allegation that Mr Vetiyatil knowingly lodged false ATO reports was not made out; he genuinely believed the reports were correct \u2014 confirmed at [58]-[59].",
+      "outcome_pinpoint": "[60]"
+    },
+    "[2023] FWC 2758": {
+      "download_id": "697680",
+      "short_name": "Stace v Complete Office Staffing",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Confirmed at [99]-[100]: the employer did not check that the information behind its site-access policy was still current, undermining the direction's reasonableness. This decision's final finding on valid reason was not read in this pass \u2014 not asserted here.",
+      "outcome_pinpoint": "[99]"
+    },
+    "[2020] FWC 5506": {
+      "download_id": "759220",
+      "short_name": "Rogers v TMM Group (Operations)",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Only the full text of s.382 at [20], and the parties' common ground at [4] that Mr Rogers met the minimum employment period but earned above the high income threshold, were read and confirmed. This decision's own finding on whether a modern award covered Mr Rogers (the point actually in dispute) was not read in this pass \u2014 not asserted here.",
+      "outcome_pinpoint": "[20]"
+    },
+    "[2022] FWC 2033": {
+      "download_id": "679933",
+      "short_name": "Mulipola v Hays Specialist Recruitment / Department of Veterans' Affairs",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application failed \u2014 Mr Mulipola had not served the minimum employment period under s.383 with either Hays or the Department of Veterans' Affairs, confirmed at [79]. His casual engagement at DVA lasted only 7 weeks and 1 day and did not meet the regular-and-systematic exception in s.384(2)(a), confirmed at [29] and [77].",
+      "outcome_pinpoint": "[79]",
+      "duplicate_download_ids": [
+        "679930"
+      ],
+      "duplicate_note": "679930 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2022] FWC 338": {
+      "download_id": "692873",
+      "short_name": "Johnson v Benex Civil",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Jurisdictional objection upheld, application dismissed \u2014 Ms Johnson's annual rate of earnings (salary plus the value of a company vehicle, health cover and mobile phone/data, calculated under s.332) exceeded the high income threshold applicable at the date of her dismissal ($153,600), and she was not covered by a modern award or enterprise agreement \u2014 confirmed at [107].",
+      "outcome_pinpoint": "[107]"
+    },
+    "[2023] FWC 2405": {
+      "download_id": "700090",
+      "short_name": "Chait v Church of Ubuntu",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Found that the application was made within the 21-day period required by s.394(2)(a); in the alternative, time was extended under s.394(2)(b)/(3) on the basis that exceptional circumstances were established \u2014 confirmed at [21].",
+      "outcome_pinpoint": "[21]",
+      "duplicate_download_ids": [
+        "257752"
+      ],
+      "duplicate_note": "257752 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2021] FWC 3903": {
+      "download_id": "831354",
+      "short_name": "Mamo v ICLED Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Extension of time refused and application dismissed \u2014 the Commission was not satisfied there were exceptional circumstances under s.394(3), even taking into account the applicant's evidence of a poor mental state following her dismissal, either individually or in combination \u2014 confirmed at [54].",
+      "outcome_pinpoint": "[54]",
+      "duplicate_download_ids": [
+        "727155",
+        "727151"
+      ],
+      "duplicate_note": "727155 is a byte-identical second scrape of the same decision (confirmed at [4] and [13]), chosen against as canonical only because 831354 has marginally more total chunk text. 727151 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2023] FWC 2493": {
+      "download_id": "699406",
+      "short_name": "Pewsukngem v Choc Dee Thai Restaurant",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "The jurisdictional objection that the dismissal was consistent with the Small Business Fair Dismissal Code was not upheld \u2014 the employer did not establish reasonable grounds for its belief that the conduct justified summary dismissal, confirmed at [135]-[136]. This is the jurisdictional ruling only; the Commission's later s.387 finding on harshness was not read in this pass and is not asserted here.",
+      "outcome_pinpoint": "[136]",
+      "duplicate_download_ids": [
+        "257510"
+      ],
+      "duplicate_note": "257510 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2021] FWC 928": {
+      "download_id": "778352",
+      "short_name": "McNichol v Shape Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found to be a case of genuine redundancy under s.389 \u2014 the Respondent no longer required the role, had no consultation obligation because no award or agreement applied, and redeployment was not reasonable in the circumstances \u2014 confirmed at [228]. Application accordingly barred from proceeding to a harshness assessment \u2014 confirmed at [229].",
+      "outcome_pinpoint": "[228]"
+    },
+    "[2021] FWC 3264": {
+      "download_id": "755009",
+      "short_name": "Baxter v Surfside Buslines Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "General protections dismissal application dismissed \u2014 the Commission concluded at [158] that the dismissal did not contravene the general protections provisions. Cited mainly for its recitation at [15] of the Keep v Performance Automobiles s.340 test (workplace right / adverse action / because of a prohibited reason, and the substantial-and-operative-factor test) and at [17] of the Tattsbet v Morrow objective-fact requirement before the s.361 onus engages.",
+      "outcome_pinpoint": "[158]"
+    },
+    "[2024] FWC 2475": {
+      "download_id": "703465",
+      "short_name": "Hastings v Platform To Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 confirmed at [50]. The applicant alleged dismissal because she exercised a workplace right (s.340) and because of her disability, Autism Spectrum Disorder (s.351). Adverse action (dismissal) was not disputed at [40]. The two decision-makers gave specific, consistent, first-hand evidence of the actual operational and conduct-based reasons for the dismissal, which the Commission accepted discharged the s.361 reverse onus \u2014 confirmed at [43], [47]-[49].",
+      "outcome_pinpoint": "[50]"
+    },
+    "[2024] FWC 840": {
+      "download_id": "682834",
+      "short_name": "Yoon v Go Travelling Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 confirmed at [33]. The applicant exercised a workplace right under s.341(1)(c) by inquiring about study-leave pay entitlements; dismissal was adverse action (not disputed, [26]). The decision-maker (Ms Tong) gave evidence, accepted as consistent and credible, that the real reason was the respondent's financial position, discharging the s.361 reverse onus \u2014 confirmed at [29]-[30], [33].",
+      "outcome_pinpoint": "[33]"
+    },
+    "[2025] FWC 777": {
+      "download_id": "639583",
+      "short_name": "Gray v Rim Fire Asia Pacific Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "The Commission found the adverse action (dismissal) was taken for protected reasons \u2014 confirmed at [31]: the applicant's workplace complaint about a co-worker (s.341(1)(c)(ii)) and his disclosure of a pre-existing medical condition (s.351). The respondent's actual decision-maker did not give evidence or a witness statement; the witness who did appear gave only unsupported verbal submissions about a redundancy rationale, which the Commission found did not discharge the s.361 reverse onus \u2014 confirmed at [26]-[30]. Remedy was left to a further directions process, confirmed at [32] \u2014 the remedy itself was not read in this pass.",
+      "outcome_pinpoint": "[31]"
+    },
+    "[2026] FWC 1138": {
+      "download_id": "847433",
+      "short_name": "Loy v Indigo Lawyers Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 confirmed at [29]-[30]. The applicant alleged dismissal for exercising a workplace right but, after being granted an extension of time, failed to file any evidence or submissions despite repeated directions and warnings. The Commission held that because there was no evidence she exercised a workplace right, it was unnecessary for the respondent to discharge the s.361 reverse onus at all \u2014 confirmed at [26]-[28]. Clean illustration that the presumption only engages once the applicant proves the underlying facts.",
+      "outcome_pinpoint": "[30]",
+      "duplicate_download_ids": [
+        "847432"
+      ],
+      "duplicate_note": "847432 is a 3-chunk/840-byte metadata stub with no usable text; 847433 is the full decision and is canonical."
+    },
+    "[2026] FWC 1685": {
+      "download_id": "852887",
+      "short_name": "Hibbet v Cowra Meat Processors Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed for want of jurisdiction \u2014 confirmed at [49]: the applicant, a casual employee not offered further shifts, was found not to have been \"dismissed\" within the meaning of s.386(1)(a) at all. The Commission expressly distinguished the s.361 reverse onus (which would apply to the reason for an adverse action) from the separate, un-reversed onus on the applicant to first prove the jurisdictional fact of dismissal \u2014 confirmed at [45]. The merits of the applicant's workplace-right allegation (an overtime complaint) were not reached.",
+      "outcome_pinpoint": "[49]"
+    },
+    "[2023] FWC 806": {
+      "download_id": "706946",
+      "short_name": "Maritime Union of Australia v DP World Brisbane Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "This is an enterprise-agreement dispute-resolution decision about the construction of a right-of-representation clause, not a general protections adverse-action case. Cited here only for the accurate paraphrase of s.346 and s.347(a)/(b) recorded as part of the employer's submission at [96] (itself unchallenged as a statement of the general protections scheme) \u2014 not relied on for, and not asserting anything about, this decision's own ruling on the enterprise agreement clause.",
+      "outcome_pinpoint": "[96]"
+    },
+    "[2024] FWC 2822": {
+      "download_id": "703510",
+      "short_name": "Olsen v Lynas Services Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "This decision resolves only an extension-of-time application under s.366(2); the Commission found exceptional circumstances and extended time to 4 August 2024, confirmed at [93]-[94]. The s.351(1) test (adverse action because of a protected attribute, here political opinion) and the s.351(2)-(3) anti-discrimination-law carve-out, read at [83]-[84], were considered only as part of the preliminary \"merits\" factor in the extension-of-time test. The substantive general protections discrimination claim itself was not decided in this decision and was not read in this pass.",
+      "outcome_pinpoint": "[93]"
+    },
+    "[2023] FWC 991": {
+      "download_id": "367108",
+      "short_name": "Cloutte v S & S Webster Investments",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Valid reason for dismissal found (failure to comply with a lawful and reasonable COVID-19 vaccination direction) \u2014 confirmed at [100]. The dismissal was found not harsh, unjust or unreasonable and the application was dismissed \u2014 confirmed at [109]. The Commission separately held the Vaccination Policy was not incorporated as a term of the Applicant's contract of employment, rejecting the Applicant's breach-of-contract argument \u2014 confirmed at [85]-[86].",
+      "outcome_pinpoint": "[109]"
+    },
+    "[2022] FWC 2527": {
+      "download_id": "710811",
+      "short_name": "Brass v KDR Victoria (Yarra Trams)",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found unfair \u2014 confirmed at [68] (no valid reason, and in any event disproportionate/harsh). The enterprise agreement's disciplinary procedure was mandatory once engaged and the employer's failure to follow it was a relevant, additional matter under s.387(h) \u2014 confirmed at [60], [63]. Remedy was reinstatement \u2014 confirmed at [69] (only the threshold 'reinstatement is appropriate' finding was read; the full remedy order terms beyond that were not independently re-read in this pass).",
+      "outcome_pinpoint": "[68]",
+      "duplicate_download_ids": [
+        "737463"
+      ],
+      "duplicate_note": "737463 is a 3-chunk metadata stub with no usable text for the same citation."
+    },
+    "[2021] FWC 4526": {
+      "download_id": "728378",
+      "short_name": "ASU v Powercor Australia & CitiPower",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "A s.739 agreement dispute about pay-point progression for Works Delivery Coordinators, not an unfair dismissal matter. The Commission determined that the enterprise agreement does not mandate or entitle the relevant employees to progress through the disputed pay points without the additional qualification in issue \u2014 confirmed at [27]. Cited in this module only for its statement that the employer's performance-management policy was not incorporated into the agreement and so created no enforceable term or right \u2014 confirmed at [19].",
+      "outcome_pinpoint": "[27]",
+      "duplicate_download_ids": [
+        "831157"
+      ],
+      "duplicate_note": "831157 is a near-identical second scrape of the same decision (20 chunks, 52,251 characters vs 728378's 52,431 characters); 728378 was treated as canonical as the longer of the two."
+    },
+    "[2025] FWC 702": {
+      "download_id": "693899",
+      "short_name": "Quayle v Redpath Contract Services",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found harsh and unreasonable, with compensation ordered \u2014 confirmed at [178]-[179]. There was a valid reason related to capacity (loss of site access and no suitable alternative role), but the employer's mischaracterisation of the matter as 'serious misconduct' under its own Disciplinary Procedure, and its failure to manage performance/attendance concerns in accordance with that Procedure, the contract and the enterprise agreement, made the dismissal harsh \u2014 confirmed at [6], [85], [178].",
+      "outcome_pinpoint": "[178]",
+      "duplicate_download_ids": [
+        "238306"
+      ],
+      "duplicate_note": "238306 is a 2-chunk metadata stub with no usable text for the same citation."
+    },
+    "[2022] FWC 1273": {
+      "download_id": "686230",
+      "short_name": "Benamar v Moreland City Council",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 dismissal not harsh, unjust or unreasonable, confirmed at [53]. The Commission found Mr Benamar's repeated refusal to comply with a lawful vaccination direction was serious misconduct within the meaning of reg 1.07, so no notice or payment in lieu was required under ss.117/123 \u2014 confirmed at [46]-[47].",
+      "outcome_pinpoint": "[53]"
+    },
+    "[2024] FWC 2513": {
+      "download_id": "608791",
+      "short_name": "Xu v Hisense Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 not satisfied the Applicant was unfairly dismissed, confirmed at [71]. The Commission found Mr Xu's conduct (broadcasting unsubstantiated allegations against senior colleagues by email and WeChat) met the reg 1.07 definition of serious misconduct and established a valid reason for dismissal \u2014 confirmed at [51].",
+      "outcome_pinpoint": "[71]",
+      "duplicate_download_ids": [
+        "616118"
+      ],
+      "duplicate_note": "616118 is a 2-chunk metadata stub with no usable text."
+    },
+    "[2021] FWC 6693": {
+      "download_id": "695888",
+      "short_name": "Chebbo v Major Crane Logistics",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found harsh, and therefore unfair, confirmed at [48]: Mr Chebbo's conduct (attending a protest in breach of stay-at-home orders and a direction to go home) gave the employer a valid reason to dismiss him, but did not meet the reg 1.07 threshold for serious misconduct, so he should have been dismissed on notice rather than summarily. Compensation was ordered equivalent to the notice period he was denied (4 weeks' pay) \u2014 confirmed at [49].",
+      "outcome_pinpoint": "[48]"
+    },
+    "[2024] FWC 913": {
+      "download_id": "686831",
+      "short_name": "Campbell v Gold Tiger Logistics Qld",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found unfair, confirmed at [106]. The Commission found there was no valid reason for the dismissal at all \u2014 confirmed at [87] \u2014 and separately that Ms Campbell was dismissed with immediate effect and given no notice period \u2014 confirmed at [95].",
+      "outcome_pinpoint": "[106]"
+    },
+    "[2024] FWC 3291": {
+      "download_id": "700369",
+      "short_name": "Black v Baker Heart and Diabetes Institute",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Dismissal found unreasonable (no valid reason) and harsh, confirmed at [72]: characterising Mrs Black's conduct as serious misconduct warranting summary dismissal was a disproportionate response. Compensation (not reinstatement) was found appropriate in principle at [74], but the Commission deferred the final amount pending updated particulars \u2014 that further remedy material was not read in this pass, so it is not asserted here.",
+      "outcome_pinpoint": "[72]"
+    },
+    "[2024] FWC 1685": {
+      "download_id": "681042",
+      "short_name": "Clyne v Surelinc Services",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found harsh, unjust and unreasonable \u2014 confirmed at [50]. The Commission found no valid reason for dismissal at [28], and separately that the alternate reasons the employer later relied on (raised for the first time in its Form F3 employer response) were not notified to the Applicant until after the dismissal, and that he was given no opportunity at all to respond to the termination letter \u2014 confirmed at [36]-[37]. Compensation of $27,707.66 was ordered \u2014 confirmed at [49], [51].",
+      "outcome_pinpoint": "[50]",
+      "duplicate_download_ids": [
+        "246721"
+      ],
+      "duplicate_note": "246721 is a 3-chunk metadata stub with no usable text for the same citation; 681042 (37 chunks) is canonical."
+    },
+    "[2023] FWC 3059": {
+      "download_id": "695070",
+      "short_name": "Hickey v Mt Alexander Timber & Hardware",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found not harsh, unjust or unreasonable overall \u2014 confirmed at [90]. The Commission accepted the Applicant's submission that the employer was \"going through the motions\" of giving him an opportunity to respond during the show cause process when a decision to end his employment had, in substance, already been made \u2014 confirmed at [73], and that this procedural defect weighed in the Applicant's favour \u2014 confirmed at [91]. However, the Commission found this was outweighed by a valid reason (dishonesty during the show cause process) \u2014 confirmed at [90]-[91]. Illustrates that a genuine s.387(b)/(c) failure does not automatically make a dismissal unfair.",
+      "outcome_pinpoint": "[90]"
+    },
+    "[2024] FWC 3017": {
+      "download_id": "702289",
+      "short_name": "McDonald & Phelps v Northern Rivers 4WD",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Both dismissals found unfair \u2014 confirmed at [52]. The applicants (employees of a 4WD parts and accessories retailer) were not notified of the valid reason for their dismissal (the closure of their store) prior to the dismissal taking effect, and were given no proper opportunity to respond \u2014 confirmed at [41], [43]. A small amount of compensation (24 hours' pay each) was ordered \u2014 confirmed at [61].",
+      "outcome_pinpoint": "[52]",
+      "duplicate_download_ids": [
+        "242043",
+        "615323"
+      ],
+      "duplicate_note": "242043 and 615323 are both 3-chunk metadata stubs with no usable text for the same citation; 702289 (36 chunks) is canonical."
+    },
+    "[2022] FWC 1576": {
+      "download_id": "684207",
+      "short_name": "Kazantzis & Ors v Patrick Stevedores Holdings",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "All applications dismissed (not unfair) \u2014 confirmed at [103]. Among other findings, the Commission found that standard-form show cause letters issued to each applicant (stevedores, straddle operators and a senior clerk dismissed for failing to comply with a COVID-19 vaccination requirement) notified each of them of the proposed reason for dismissal and gave each of them an adequate opportunity to respond \u2014 confirmed at [95]. Used here only for that s.387(b)/(c) finding; the vaccination-mandate reasoning itself is not relied on.",
+      "outcome_pinpoint": "[103]",
+      "duplicate_download_ids": [
+        "684209",
+        "683635",
+        "683642",
+        "683644",
+        "683647",
+        "683650"
+      ],
+      "duplicate_note": "All six are 2-chunk metadata stubs (under 650 bytes each) with no usable text for the same citation; 684207 (46 chunks, ~80,500 characters) is canonical."
+    },
+    "[2022] FWC 3249": {
+      "download_id": "709007",
+      "short_name": "Dajanovic v WACO Kwikform",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed. On s.387(d): excluding Mr Laalaa from PIP meetings as the Applicant's support person (because he was disruptive and tried to advocate the Applicant's case) was not an unreasonable refusal; the Commissioner treated the factor as weighing neutrally overall.",
+      "outcome_pinpoint": "[215]",
+      "duplicate_download_ids": [
+        "709008"
+      ],
+      "duplicate_note": "download_id 709008 holds only a 2-row, 498-character stub for this citation; 709007 (112 chunks, ~175,000 characters) is the full decision text and is used as canonical."
+    },
+    "[2024] FWC 953": {
+      "download_id": "686540",
+      "short_name": "Nuttall v BM Supplies Unit Trust",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Found to have been unfairly dismissed. On s.387(d): no refusal arose because the Applicant never requested a support person \u2014 there were no discussions relating to the dismissal before the phone call that terminated him.",
+      "outcome_pinpoint": "[72]"
+    },
+    "[2026] FWC 75": {
+      "download_id": "798289",
+      "short_name": "Riley v Nuvei Australia Merchant Services",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Found not to have been unfairly dismissed; application dismissed. On s.387(d): no evidence of a refusal \u2014 Nuvei told Mr Riley he could bring a support person to each meeting and he did \u2014 and the submission that an 'imbalance of arms' from in-house counsel attending was itself relevant to s.387(d) was rejected as misconceived.",
+      "outcome_pinpoint": "[63]",
+      "duplicate_download_ids": [
+        "802455",
+        "804594"
+      ],
+      "duplicate_note": "Three download_ids share this citation. 802455 (40 chunks, ~83,200 characters) is a near-complete second copy of the same decision text as 798289 (41 chunks, ~84,200 characters, used as canonical); 804594 holds only a 2-row stub."
+    },
+    "[2022] FWC 1439": {
+      "download_id": "681687",
+      "short_name": "Kubica v InvoCare Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Found not to have been unfairly dismissed; application dismissed. On s.387(d): the Applicant attended the show-cause meeting with his paid agent, so the Commission treated the factor as neutral. An earlier consultation letter (for a different, earlier meeting) had told the Applicant his support person could not ask questions or advocate on his behalf.",
+      "outcome_pinpoint": "[64]"
+    },
+    "[2023] FWC 793": {
+      "download_id": "643619",
+      "short_name": "Tutolo v Noongar Mia Mia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Found not to have been unfairly dismissed; application dismissed. On s.387(d): the Respondent's show-cause letter told the Applicant she could bring a support person, and there was no evidence of any refusal.",
+      "outcome_pinpoint": "[146]"
+    },
+    "[2023] FWC 2485": {
+      "download_id": "696197",
+      "short_name": "Wang v Perfect Shape Medical Beauty Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Found to have been unfairly dismissed; compensation of $4,312 ordered. On s.387(d): the Commission accepted the Applicant's unchallenged and unexplored assertion that her request for a support person was refused, and found that refusal unreasonable.",
+      "outcome_pinpoint": "[98]",
+      "duplicate_download_ids": [
+        "256224"
+      ],
+      "duplicate_note": "download_id 256224 holds only a 3-row, 1,229-character stub for this citation; 696197 (51 chunks, ~109,000 characters) is the full decision text and is used as canonical."
+    },
+    "[2023] FWC 3399": {
+      "download_id": "340743",
+      "short_name": "Vonja v Adcon Resources Victoria",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Found to have been unfairly dismissed; compensation ordered. On s.387(d): the Commission found Adcon did unreasonably refuse a support person \u2014 it refused Mr Vonja's request that the dismissal discussion continue in the site office where his union representative was located.",
+      "outcome_pinpoint": "[65]"
+    },
+    "[2022] FWC 1966": {
+      "download_id": "830599",
+      "short_name": "Szkwarek v Omega Network Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 the dismissal was not harsh, unjust or unreasonable, confirmed at [100]. On s.387(e), the Commission found the applicant's lateness, failure to notify and failure to attend a disciplinary meeting were matters of conduct rather than performance, so whether he had been warned about unsatisfactory performance was not a relevant consideration \u2014 confirmed at [84] (the Commission went on to find, in the alternative, that he had in fact been warned).",
+      "outcome_pinpoint": "[100]"
+    },
+    "[2022] FWC 520": {
+      "download_id": "682799",
+      "short_name": "Yap v Club Assist Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "No valid reason for dismissal found; the dismissal was held to be unjust and unreasonable and the applicant was reinstated under s.391(1)(a), with continuity of employment and lost remuneration orders \u2014 confirmed at [78]-[79]. On s.387(e), the Commission held that the warning letter relied on by the employer did not constitute a warning about unsatisfactory performance for the purposes of s.387(e), because (among other things) it was merely exhortatory and did not identify with precision what the employee needed to do to improve \u2014 confirmed at [51]-[53].",
+      "outcome_pinpoint": "[53]",
+      "duplicate_download_ids": [
+        "681212",
+        "682760"
+      ],
+      "duplicate_note": "681212 (3 chunks, 2925 chars) and 682760 (4 chunks, 1850 chars) are metadata stubs with no usable text; 682799 (158 chunks, 437482 chars) is the canonical full-text record."
+    },
+    "[2024] FWC 1449": {
+      "download_id": "682148",
+      "short_name": "Mustafa v Core Service Holdings Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found harsh, unjust and unreasonable \u2014 confirmed at [30]; compensation of four weeks' pay ($5,261.44 gross) ordered \u2014 confirmed at [44]. On s.387(e), the Commission found there was no evidence the applicant was warned about any alleged performance issues or advised that his employment was at risk \u2014 confirmed at [26].",
+      "outcome_pinpoint": "[30]"
+    },
+    "[2024] FWC 2078": {
+      "download_id": "678686",
+      "short_name": "Taylor v CJD Equipment Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 the applicant's dismissal was not unfair, confirmed at [139]. On s.387(e), the Commission found the written performance warnings had a sufficient nexus to the underperformance ultimately relied on for dismissal (continuing KPI and sales-target concerns raised in writing), satisfying s.387(e) \u2014 confirmed at [131].",
+      "outcome_pinpoint": "[139]",
+      "duplicate_download_ids": [
+        "245610"
+      ],
+      "duplicate_note": "245610 is a 3-chunk metadata stub (734 chars) with no usable text; 678686 (167 chunks, 375269 chars) is the canonical full-text record."
+    },
+    "[2020] FWC 416": {
+      "download_id": "777903",
+      "short_name": "Zhao v University of Technology Sydney",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found 'harsh and unreasonable' \u2014 confirmed at [120]. The 'harsh' finding rested on s.387(h) mitigating factors: 14 years of otherwise unblemished service, the career damage of a performance dismissal, very limited alternative employment prospects, and sole caring responsibility for elderly parents plus a mortgage \u2014 confirmed at [119]. Reinstatement, continuity of service and lost remuneration ordered \u2014 confirmed at [136]-[137]. Permission to appeal was later refused by a Full Bench majority (see [2020] FWCFB 3571), so these orders stood.",
+      "outcome_pinpoint": "[120]"
+    },
+    "[2020] FWCFB 3571": {
+      "download_id": "776599",
+      "short_name": "University of Technology Sydney v Zhao",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Full Bench majority (Catanzariti VP and Johns C) refused the University's permission to appeal \u2014 confirmed at [65]-[66]. Deputy President Colman dissented and would have granted permission, upheld the appeal and quashed the decision, but this was not the majority view, so Dr Zhao's reinstatement at first instance stood.",
+      "outcome_pinpoint": "[66]"
+    },
+    "[2021] FWC 1229": {
+      "download_id": "774925",
+      "short_name": "Gagulich v Cardio Respiratory Sleep Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found unjust and unfair \u2014 confirmed at [98]-[99] \u2014 because Ms Gagulich was not notified of, nor given a reasonable opportunity to respond to, certain reasons relied on for her dismissal. This was despite a valid reason being found, and despite the Commission finding the dismissal proportionate to her proven conduct under s.387(h) \u2014 confirmed at [95]. CRS's small size and lack of an HR function were accepted but found not to weigh in the harsh/unjust/unreasonable assessment under ss.387(f)-(g) \u2014 confirmed at [92]-[93].",
+      "outcome_pinpoint": "[99]",
+      "duplicate_download_ids": [
+        "774918"
+      ],
+      "duplicate_note": "774918 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2020] FWC 2819": {
+      "download_id": "729490",
+      "short_name": "Bertos v Northern NSW Football Limited",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 the dismissal was found not harsh, unjust or unreasonable, confirmed at [76]-[77]. The Commission rejected Mr Bertos's s.387(h) comparative-unfairness argument because none of his comparator examples were properly comparable \u2014 confirmed at [69] \u2014 applying the Full Bench's test (quoting Darvell v Australian Postal Corporation, in turn quoting Sexton v Pacific National and Daly v Bendigo Health Care Group) that there must be sufficient evidence of the allegedly comparable cases \u2014 confirmed at [67]-[68]. The proportionality of the summary dismissal was weighed against the gravity of the conduct \u2014 confirmed at [70] \u2014 and Mr Bertos's personal and economic circumstances (married, young family, COVID-affected job search) were considered under s.387(h) but did not outweigh that gravity \u2014 confirmed at [74].",
+      "outcome_pinpoint": "[76]",
+      "duplicate_download_ids": [
+        "729484"
+      ],
+      "duplicate_note": "729484 is a 2-chunk metadata stub with no usable text."
+    },
+    "[2020] FWC 4929": {
+      "download_id": "718759",
+      "short_name": "Jackson v Botanical Cuisine Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found harsh, unjust and unreasonable; Ms Jackson unfairly dismissed \u2014 confirmed at [14]. The employer's small size and lack of HR specialists were found, under ss.387(f)-(g), to have had an adverse effect on the (minimal) procedures followed \u2014 confirmed at [13] \u2014 but this did not excuse the outcome.",
+      "outcome_pinpoint": "[14]",
+      "duplicate_download_ids": [
+        "718751"
+      ],
+      "duplicate_note": "718751 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2023] FWC 927": {
+      "download_id": "706613",
+      "short_name": "Coorey v Australia Tile Wholesale Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Mr Coorey found unfairly dismissed \u2014 confirmed at [28]. A valid reason existed, but the dismissal was unreasonable because it was entirely lacking in procedural fairness \u2014 confirmed at [28]. The Commission found the employer's small size (no HR or specialist expertise) and the personal (rather than professional) nature of the relationship between the two men likely explained the absence of any procedure, under ss.387(f)-(g) \u2014 confirmed at [25] \u2014 but, again, this did not excuse the lack of fairness.",
+      "outcome_pinpoint": "[28]",
+      "duplicate_download_ids": [
+        "264338"
+      ],
+      "duplicate_note": "264338 is a 4-chunk metadata stub with no usable text."
+    },
+    "[2021] FWC 5905": {
+      "download_id": "711664",
+      "short_name": "Rezaeifard v Green Leaves ELC Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "No valid reason for dismissal found \u2014 confirmed at [132]; dismissal found harsh, unjust and unreasonable \u2014 confirmed at [139]; compensation ordered. Because the employer was a large organisation with a dedicated HR specialist, ss.387(f)-(g) did not operate to excuse its procedural failures \u2014 confirmed at [137]; the Commission clarified that ss.387(f)-(g) test only the presence or absence of HR expertise, not whether that expertise was well used \u2014 confirmed at [124]-[125]. Proportionality was framed by quoting the Byrne v Australian Airlines Ltd formulation that a dismissal may be harsh because it is disproportionate to the gravity of the misconduct \u2014 confirmed at [85].",
+      "outcome_pinpoint": "[139]",
+      "duplicate_download_ids": [
+        "711660"
+      ],
+      "duplicate_note": "711660 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2021] FWC 2203": {
+      "download_id": "737305",
+      "short_name": "Longobardi v New Horizons Enterprises Limited",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 dismissal found not harsh, unjust or unreasonable \u2014 confirmed at [92]-[93]. A valid reason was found, and the employer (a substantial enterprise with its own HR employees, so ss.387(f)-(g) were neutral \u2014 confirmed at [81]-[83]) was found to have conducted a fair and impartial investigation when the applicant challenged its quality as an 'other relevant matter' under s.387(h) \u2014 confirmed at [84]-[85]. The summary nature of the dismissal was weighed against the gravity of the conduct under s.387(h) \u2014 confirmed at [88].",
+      "outcome_pinpoint": "[92]"
+    },
+    "[2025] FWC 3826": {
+      "download_id": "622999",
+      "short_name": "Haslam v SAE Institute",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found harsh, unjust and unreasonable. The investigator's finding on one allegation changed from unsubstantiated to substantiated, and the recommendation from a warning to termination, after the decision-maker pushed back and the complainant's mother applied pressure \u2014 confirmed at [52]-[53]. The Commission found the decision-maker did not make a proper or fair assessment of the evidence \u2014 confirmed at [58]. Final finding that the employer did not comply with its obligation to act fairly and impartially in the disciplinary procedure \u2014 confirmed at [62]. Briginshaw standard noted at [14]; preference for live evidence over a written account at [31].",
+      "outcome_pinpoint": "[62]",
+      "duplicate_download_ids": [
+        "647409"
+      ],
+      "duplicate_note": "647409 is a second scrape of the same decision with near-identical chunking \u2014 confirmed at [14], [52]-[53], [58] and [62] against both download_ids."
+    },
+    "[2021] FWC 2243": {
+      "download_id": "703605",
+      "short_name": "Gunawardana v Services Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 valid reason found related to conduct, notwithstanding that the external investigator had restricted the investigation's scope and had not fully considered the employee's response to the draft report before finalising it, confirmed at [140]-[142]. A claim that the investigation was tainted merely because one manager had also been involved in an earlier, separate investigation was rejected for lack of evidence of actual partiality, confirmed at [146]. The Commission held that imperfect findings in an investigation report do not automatically invalidate the whole process where a valid reason is otherwise independently supported by other evidence, confirmed at [152]. Valid reason found at [153]. Final order (application dismissed) at [225].",
+      "outcome_pinpoint": "[153]"
+    },
+    "[2021] FWCFB 6018": {
+      "download_id": "710962",
+      "short_name": "Gunawardana v Services Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Full Bench appeal from [2021] FWC 2243. Permission to appeal refused \u2014 the Full Bench found the matter turned on its own facts and that the Commissioner's decision was open to her on the material before her, and did not raise any matter of importance or general application; confirmed at [40]. [2021] FWC 2243 was left undisturbed.",
+      "outcome_pinpoint": "[40]"
+    },
+    "[2023] FWC 1198": {
+      "download_id": "643964",
+      "short_name": "Bowen v Cape York Grassroots Aboriginal Corporation",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 not unfair. The Commission held the employer bears the onus of proving misconduct on the balance of probabilities in accordance with Briginshaw v Briginshaw, such that 'reasonable satisfaction' is not produced by inexact proofs, indefinite testimony or indirect inferences, confirmed at [81]. Found the allegations had been notified with sufficient detail to allow a response, confirmed at [60]. Found the conduct (misrepresenting grant approval) made out but not accompanied by evidence of related fraud, applying Briginshaw to scope the finding, confirmed at [90]. Final finding (not harsh, unjust or unreasonable) at [132], order dismissing the application at [134].",
+      "outcome_pinpoint": "[132]",
+      "duplicate_download_ids": [
+        "706176"
+      ],
+      "duplicate_note": "706176 is a second scrape of the same decision with slightly different chunk boundaries that shift paragraph numbering by roughly one paragraph from around [78] onward (confirmed by comparing reconstructed text); 643964 is used as canonical because its paragraph markers align with the pinpoints cited here."
+    },
+    "[2024] FWC 2914": {
+      "download_id": "702988",
+      "short_name": "Dickman v Ventia Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found harsh, unjust and unreasonable \u2014 no valid reason established. The employer's investigators elected not to speak to a key witness and relied solely on their own analysis of an email, leaving them without a sufficiently reliable counterfactual to find the employee had made a false denial, confirmed at [162]. Finding that misconduct was not established to the requisite standard on the balance of probabilities, confirmed at [140]. Final finding of unfairness at [168] and [229]; compensation of $25,773.82 ordered at [231].",
+      "outcome_pinpoint": "[229]",
+      "duplicate_download_ids": [
+        "242343"
+      ],
+      "duplicate_note": "242343 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2022] FWC 221": {
+      "download_id": "693464",
+      "short_name": "Keron v Westpac Banking Corporation",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 not unfair, after 35 years' service. The allegations put to the employee at the investigation meeting specified the date, approximate time, location, the precise physical conduct alleged and its approximate duration, confirmed at [100]. Final finding (not harsh, unjust or unreasonable) at [286], order dismissing the application at [287].",
+      "outcome_pinpoint": "[287]"
+    },
+    "[2022] FWC 1774": {
+      "download_id": "682714",
+      "short_name": "CFMMEU v British Concrete Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "The Commission found British Concrete never stood Mr Salha down, nor purported to, under s.524 \u2014 his absence from work stemmed from his non-compliance with a vaccination direction, not from any of the s.524(1) causes \u2014 so the Union had no standing to bring a s.526 dispute on his behalf. Application dismissed.",
+      "outcome_pinpoint": "[32]"
+    },
+    "[2024] FWC 3306": {
+      "download_id": "700348",
+      "short_name": "APESMA v Wollongong Resources",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "The Commission found the mine's month-long stand down was authorised under s.524(1)(c): there was a genuine stoppage of work caused by a regulator's Prohibition Notice, the employees could not be usefully employed, and Wollongong Resources had taken reasonable steps in response such that it could not reasonably be held responsible for the stoppage. Dispute application dismissed.",
+      "outcome_pinpoint": "[149]"
+    },
+    "[2025] FWCFB 274": {
+      "download_id": "800714",
+      "short_name": "ANMF v St Vincent's Private Hospitals (Full Bench)",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "On appeal, the Full Bench held the Commissioner erred: an employee's refusal of available redeployment work, made as protected industrial action, is not the same as having no useful work 'because of' industrial action under s.524(1)(a) \u2014 s.524 concerns an absence of work, not an employee's unwillingness to perform available work. The stand down was not authorised by s.524(1)(a). On redetermination, the Full Bench still declined to order payment on fairness grounds under s.526(4), for different reasons than the Commissioner gave. Permission to appeal granted; appeal dismissed.",
+      "outcome_pinpoint": "[53]",
+      "duplicate_download_ids": [
+        "645741"
+      ],
+      "duplicate_note": "645741 is a shorter scrape of the same Full Bench decision (76,466 chars across 30 chunks, versus 92,953 chars across 36 chunks for 800714). Both contain the same paragraphs quoted here; 800714 used as canonical."
+    },
+    "[2025] FWC 1441": {
+      "download_id": "689152",
+      "short_name": "Poulter v JA Concreting",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "This is a jurisdictional decision only, on whether Mr Poulter was 'dismissed' within s.386(1)(a) \u2014 the underlying unfair dismissal merits were not decided here. The Commission found JA Concreting's withholding of work and pay was authorised neither by Mr Poulter's contract of employment nor by s.524 (none of the s.524(1) causes were shown), so it was not a lawful stand down. By filing his unfair dismissal application, Mr Poulter accepted this repudiation, and his employment was found to have been terminated at his employer's initiative under s.386(1)(a). The objection to the application was dismissed.",
+      "outcome_pinpoint": "[25]",
+      "duplicate_download_ids": [
+        "236519"
+      ],
+      "duplicate_note": "236519 is a 3-chunk metadata stub with no usable text (1,018 characters total, versus 77,374 characters across 21 chunks for 689152)."
+    },
+    "[2020] FWC 1461": {
+      "download_id": "781758",
+      "short_name": "Kerig v Victoria University",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "In a s.739 dispute under the University's enterprise agreement, the Commission found the University had grounds, under the agreement's own two-step suspension clause (first, whether the misconduct allegation was serious enough to warrant the employee not being at work; second, whether that suspension should be paid or unpaid), to commence serious misconduct proceedings and to suspend Mr Kerig without pay while it did so, and had complied with the agreement's procedure.",
+      "outcome_pinpoint": "[146]"
+    },
+    "[2022] FWC 1530": {
+      "download_id": "682156",
+      "short_name": "James v Veolia Environmental Services",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Cited here only for a letter reproduced in the decision, in which the applicant's representative quoted Avenia v Railway & Transport Health Fund Ltd [2017] FCA 859 at [154] on the common law position on suspension without pay. This decision's own finding concerned an unrelated vaccination-mandate dismissal and is not relied on here \u2014 not asserted as this decision's holding.",
+      "outcome_pinpoint": "[18]"
+    },
+    "[2021] FWC 6329": {
+      "download_id": "715284",
+      "short_name": "Lakhan v Bus Tech (SA) Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "The Commission found Mr Lakhan's dismissal was harsh and unjust, and therefore unfair. Cited here for its reasoning on how the absence of a contemporaneous documentary record, and the self-serving potential of a senior manager's evidence, limited what factual findings could be made about disputed workplace conversations.",
+      "outcome_pinpoint": "[280]",
+      "duplicate_download_ids": [
+        "715277"
+      ],
+      "duplicate_note": "download_id 715277 is a 3-chunk/1,246-character stub of the same citation; 715284 (117 chunks, ~197,000 characters) is canonical and was used."
+    },
+    "[2023] FWC 276": {
+      "download_id": "798859",
+      "short_name": "Clark v Reliable Signs and Refinishing",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "The Commission found there was no valid reason for Mr Clark's dismissal. Cited here because the employer could point to no documented information \u2014 written or oral \u2014 recording any warning given to the Applicant, and its own witness's oral evidence was found to go beyond what was in his written statement.",
+      "outcome_pinpoint": "[101]"
+    },
+    "[2022] FWC 2455": {
+      "download_id": "677777",
+      "short_name": "Green v Citic Pacific Mining Management Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "The Commission found Mr Green's dismissal was not, in an objective sense, unfair. Cited here because it was the employee's own account of a conversation \u2014 inconsistent with his manager's contemporaneous diary note \u2014 that was rejected as self-serving, showing the documentary-record principle cuts against whichever party lacks the record, not only employers.",
+      "outcome_pinpoint": "[237]",
+      "duplicate_download_ids": [
+        "830464"
+      ],
+      "duplicate_note": "download_id 830464 (85 chunks, ~123,000 characters) is a shorter duplicate of the same citation; 677777 (156 chunks, ~228,000 characters) is canonical and was used."
+    },
+    "[2025] FWC 3513": {
+      "download_id": "646715",
+      "short_name": "ASU and RTBU v Queensland Rail Transit Authority",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "This is a s.739 enterprise-bargaining dispute, not an unfair dismissal matter, so it is cited only for its restatement of the general evidentiary principle that the Commission prefers documentary evidence to oral recollection where a dispute arises after the fact \u2014 and because the Commission applied that principle to find no agreement had in fact been reached on the disputed monetary value. The balance of the arbitrated outcome (board-trigger numbers, implementation detail) was not reviewed and is not relied on here.",
+      "outcome_pinpoint": "[38]"
+    },
+    "[2023] FWC 1502": {
+      "download_id": "704736",
+      "short_name": "Durmic v Department of Home Affairs",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Permission to be represented by a lawyer granted to the Department of Home Affairs under s.596(2)(a) (efficiency, given the complexity of the jurisdictional objection) and the Commission separately found it would also have been unfair not to allow representation under s.596(2)(b) if (a) had not been made out. Confirmed at [28], [30], [53], [54].",
+      "outcome_pinpoint": "[53]"
+    },
+    "[2021] FWC 6336": {
+      "download_id": "698955",
+      "short_name": "Donnola v Silverleaf Constructions Co Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Permission to be represented refused. The applicant's lawyer had been acting since the dispute arose and the applicant said he lacked legal training, but the Commission found no demonstrated complexity under s.596(2)(a) and no unfairness made out under s.596(2)(b) or (c) \u2014 lack of legal training alone is not enough. Confirmed at [19], [22], [28], [30]-[31], [35].",
+      "outcome_pinpoint": "[35]"
+    },
+    "[2021] FWC 526": {
+      "download_id": "742068",
+      "short_name": "Petersen v Kizuri Capital Pty Ltd (T/A Allpet Products)",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Confirmed: this is a standalone costs decision setting out the s.400A and s.611 statutory tests and the 'basic rule' that each party bears its own costs, with costs under those sections being the exception ([55]-[58]). Confirmed the Commission rejected the s.611(2) 'no reasonable prospect of success' ground against the respondent's defence of the substantive claim ([70]). This pass did NOT confirm the final costs order/quantum: the decision's own concluding paragraphs ([131]-[134], where a s.400A costs order for $3,947.05 over unanswered settlement offers was in fact made per the raw reconstructed text) sit beyond a paragraph-numbering gap in this corpus pass and could not be resolved through the standard paragraph reconstruction tool, so no pinpoint cite is made to that part of the outcome.",
+      "outcome_pinpoint": "[58]",
+      "duplicate_download_ids": [
+        "742063"
+      ],
+      "duplicate_note": "742063 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2020] FWC 316": {
+      "download_id": "724352",
+      "short_name": "Cowper v Trustees of Edmund Rice Education Australia (T/A St Joseph's Flexible Learning Centre)",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Costs application under s.400A and s.611 dismissed; no order for costs made. The respondent's vigorous but genuine defence of a factually disputed matter, and its reasoned non-acceptance of settlement offers, were not an unreasonable act or omission, and it was not reasonably apparent the defence had no reasonable prospects of success. Confirmed at [58], [60]-[62], [67]-[68], [80]-[82].",
+      "outcome_pinpoint": "[82]",
+      "duplicate_download_ids": [
+        "724347"
+      ],
+      "duplicate_note": "724347 is a 3-chunk metadata stub with no usable text."
+    },
+    "[2020] FWC 2491": {
+      "download_id": "831843",
+      "short_name": "McCaffery v Kizuri Capital Pty Ltd / WS Partners Unit Trust (T/A Warren Smith & Partners)",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Confirmed: the respondent's own s.611/s.400A costs application against the applicant (seeking $29,578.34) was dismissed in full \u2014 the vexatious-application claim was abandoned at hearing and no unreasonable act or omission by the applicant was established ([66]). The applicant's reciprocal costs application against the respondent then succeeded in part: because the respondent's 'vexatious application' head of claim had, on the facts known to it, no reasonable prospect of success and was pursued without reasonable cause, the Commission ordered the respondent to pay the applicant's costs of that part of the cross-claim on an indemnity basis, while rejecting the applicant's claim on the s.400A limb ([71], [73], [75]). The precise quantum/apportionment of that final costs order ([76]-[77]) was left to the parties to agree and is not asserted here.",
+      "outcome_pinpoint": "[73]"
+    },
+    "[2020] FWC 1181": {
+      "download_id": "771133",
+      "short_name": "Bell v Singaria (Aust) Pty Ltd (T/A Crown on McCredie)",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "A conciliation conference resulted in an agreed settlement (monetary payment plus resignation and a statement of service), with the cooling-off period waived. The applicant later tried to resile from it, but the Commission found a binding settlement had been reached and dismissed the unfair dismissal application under s.587(1)(c) as having no reasonable prospects of success. Confirmed at [5]-[9], [47]-[48].",
+      "outcome_pinpoint": "[48]"
+    },
+    "[2023] FWC 2900": {
+      "download_id": "256349",
+      "short_name": "Lee v Hybrid PG Pty Ltd atf Hybrid Property Group",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found harsh, unjust and unreasonable \u2014 confirmed at [112]. Reinstatement found inappropriate \u2014 confirmed at [118]. Compensation of $6,386.28 assessed over a 6-week anticipated employment period, reduced by one week ($1,064.38) for inadequate mitigation, not affected by the compensation cap, and ordered at $5,321.90 plus superannuation \u2014 confirmed at [127]-[129], [137]-[141].",
+      "outcome_pinpoint": "[141]",
+      "duplicate_download_ids": [
+        "696784"
+      ],
+      "duplicate_note": "696784 is a shorter, partial scrape of the same decision (64 chunks / ~108k characters of text vs 127 chunks / ~219k characters for 256349, which also reaches further into the decision, e.g. covering [121] onward on its own-line paragraph markers). 256349 is used as canonical; both were spot-checked and agree on every paragraph read for this module."
+    },
+    "[2026] FWC 2050": {
+      "download_id": "852737",
+      "short_name": "Allouche v Skyco Group Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Dismissal found unfair (unreasonable for lack of notice/opportunity to respond, and harsh given personal circumstances) \u2014 confirmed at [44]. Reinstatement found inappropriate because the applicant did not seek it, had found new work, and the valid reason involved threats against remaining staff \u2014 confirmed at [46]. Compensation found appropriate in principle but reduced to nil under s.392(3) because the applicant's own conduct contributed to the dismissal \u2014 confirmed at [48]-[49].",
+      "outcome_pinpoint": "[49]"
+    },
+    "[2020] FWC 4840": {
+      "download_id": "783221",
+      "short_name": "Thurston v Bunbury Medical Imaging Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Reinstatement found inappropriate due to a mutual, soundly-based loss of trust and confidence between the applicant and the practice owner \u2014 confirmed at [3], [7]-[8]. The first-instance compensation calculation (nil payable, confirmed at [38]) was overturned on appeal in [2021] FWCFB 280 for misapplying the Sprigg formula; this module relies only on the reinstatement-inappropriate reasoning (which the Full Bench left undisturbed) and uses the compensation calculation as a worked illustration of how that step can go wrong, not as a correct final figure.",
+      "outcome_pinpoint": "[8]",
+      "duplicate_download_ids": [
+        "781796"
+      ],
+      "duplicate_note": "781796 is a 3-chunk, ~980-character metadata stub with no usable text. 783221 (21 chunks, ~39.6k characters) is canonical."
+    },
+    "[2021] FWCFB 280": {
+      "download_id": "738912",
+      "short_name": "Thurston v Bunbury Medical Imaging Pty Ltd (appeal)",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Permission to appeal granted; the appeal succeeded only on the compensation calculation, which the Full Bench found misapplied the Sprigg formula by offsetting the applicant's full post-dismissal earnings against the full anticipated employment period rather than the shortfall between the two \u2014 confirmed at [30], [32], [34]. The appeal was otherwise dismissed (the reinstatement-inappropriate finding was not disturbed). Corrected compensation of $7,029.90 inclusive of superannuation was ordered \u2014 confirmed at [36], [40].",
+      "outcome_pinpoint": "[40]"
+    },
+    "[2020] FWC 2": {
+      "download_id": "786400",
+      "short_name": "Salisbury v Sigmatek Pty Ltd",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed under s.587(1)(c) for want of reasonable prospects of success \u2014 confirmed at [36]: the applicant had signed a Deed of Release on redundancy, the Commission found no duress in the signing, and the Deed barred the unfair dismissal claim. Cited here for [6], where the Commission records that it granted the respondent's lawyer permission to appear only after being satisfied the requirements of s.596(2)(a) of the FW Act were met; the unrepresented applicant had no equivalent permission to seek. Used to illustrate that legal or paid-agent representation in a Commission matter is not automatic, and that its presence on the other side is itself an escalation trigger.",
+      "outcome_pinpoint": "[36]",
+      "duplicate_download_ids": [
+        "786394"
+      ],
+      "duplicate_note": "786394 is a 6-chunk/1719-byte metadata stub with no usable text; 786400 is the full decision and is canonical."
+    }
+  },
+  "flagged_authorities": {
+    "Sydney Trains v Hilder [2020] FWCFB 1373": {
+      "status": "not_in_corpus",
+      "note": "Not found as a direct record in briefer_master.snapshot.db. Its s.387(a) principles are quoted at [2023] FWC 65 at [36], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original Full Bench decision.",
+      "quoted_in": "[2023] FWC 65",
+      "quoted_in_pinpoint": "[36]"
+    },
+    "Rose v Telstra Corporation Ltd, Print Q9292 (AIRC, Ross VP, 4 December 1998)": {
+      "status": "not_in_corpus",
+      "note": "A 1998 AIRC decision, predates this corpus. Its out-of-hours-conduct test is quoted at [2022] FWC 326 at [54]-[55], confirmed verbatim against that decision's text (including the AIRC print citation in a footnote). Flagged per the brief for checking against the original.",
+      "quoted_in": "[2022] FWC 326",
+      "quoted_in_pinpoint": "[54]"
+    },
+    "B, C and D v Australian Postal Corporation": {
+      "status": "not_checked",
+      "note": "Full Bench majority decision quoted at [2021] FWC 5677 at [12], confirmed verbatim against that decision's text. Not independently located as a direct corpus record in this pass \u2014 flagged for checking against the original rather than assumed out of corpus.",
+      "quoted_in": "[2021] FWC 5677",
+      "quoted_in_pinpoint": "[12]"
+    },
+    "Ulan Coal Mine Limited v Henry Jon Howarth and others": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision on the meaning of a person's \"job\" no longer being required to be performed under s.389(1)(a). Not found as a direct record in briefer_master.snapshot.db (this corpus contains zero FWAFB-cited decisions). Quoted at [2021] FWC 928 at [57], confirmed verbatim against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2021] FWC 928",
+      "quoted_in_pinpoint": "[57]"
+    },
+    "Skinner & Pemberton and Others v Asciano Services Pty Ltd": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision on the factors relevant to whether redeployment would have been reasonable under s.389(2). Not found as a direct record in briefer_master.snapshot.db (this corpus contains zero FWAFB-cited decisions). Quoted at [2021] FWC 928 at [58], confirmed verbatim against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2021] FWC 928",
+      "quoted_in_pinpoint": "[58]"
+    },
+    "Pinawin T/A Rose.Vi.Hair.Face.Body v Domingo": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision setting out the two-step test for whether a small business employer held a belief on reasonable grounds for summary dismissal under the Small Business Fair Dismissal Code (s.388). Not found as a direct record in briefer_master.snapshot.db (this corpus contains zero FWAFB-cited decisions). Quoted at [2023] FWC 2493 at [99], confirmed verbatim against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2023] FWC 2493",
+      "quoted_in_pinpoint": "[99]"
+    },
+    "Board of Bendigo Regional Institute of Technical and Further Education v Barclay (2012) 248 CLR 500": {
+      "status": "not_in_corpus",
+      "note": "High Court decision establishing the subjective, decision-maker's-state-of-mind approach to s.361. Not found as a direct record in briefer_master.snapshot.db. Its principles are quoted via Wigney J's distillation in CFMEU v De Martin & Gasparini (No 2), reproduced at [2024] FWC 2475 at [42], confirmed verbatim against that decision's text. Flagged for checking against the original High Court judgment before relying on it.",
+      "quoted_in": "[2024] FWC 2475",
+      "quoted_in_pinpoint": "[42]"
+    },
+    "Construction, Forestry, Mining and Energy Union v BHP Coal Pty Ltd (2014) 253 CLR 243": {
+      "status": "not_in_corpus",
+      "note": "High Court decision, companion authority to Barclay on the s.361 reverse onus. Not found as a direct record in briefer_master.snapshot.db. Quoted via the same Wigney J distillation at [2024] FWC 2475 at [42], confirmed verbatim against that decision's text. Flagged for checking against the original High Court judgment before relying on it.",
+      "quoted_in": "[2024] FWC 2475",
+      "quoted_in_pinpoint": "[42]"
+    },
+    "Construction, Forestry, Mining and Energy Union v De Martin & Gasparini Pty Ltd (No 2) [2017] FCA 1046": {
+      "status": "not_checked",
+      "note": "Federal Court (Wigney J) decision distilling the Barclay/BHP Coal principles on s.361. A metadata record exists for this decision (download_id fca-2017-1046) in briefer_master.snapshot.db's court_decision_metadata table, but it has zero rows in the fwc-decision-chunks.snapshot.db chunks table, so its paragraph [303] could not be independently reconstructed and verified in this pass. The passage is confirmed verbatim only as reproduced at [2024] FWC 2475 at [42] (and consistently at [2021] FWC 3264 at [18], not used as a citation in this module). Flagged for checking against the original Federal Court judgment.",
+      "quoted_in": "[2024] FWC 2475",
+      "quoted_in_pinpoint": "[42]"
+    },
+    "Tattsbet Limited v Morrow": {
+      "status": "not_in_corpus",
+      "note": "Full Court of the Federal Court decision (Jessup J, Allsop J and White CJ agreeing) holding that an applicant must establish the circumstance supporting an adverse-action allegation as an objective fact before the s.361 presumption is engaged. Not found as a direct record in briefer_master.snapshot.db. Quoted/summarised at [2021] FWC 3264 at [17], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2021] FWC 3264",
+      "quoted_in_pinpoint": "[17]"
+    },
+    "Keep v Performance Automobiles Pty Ltd": {
+      "status": "not_in_corpus",
+      "note": "Full Bench of the Fair Work Commission decision setting out the three-question framework for s.340 consent arbitrations and the substantial-and-operative-factor test. Not found as a direct record in briefer_master.snapshot.db. Quoted at [2021] FWC 3264 at [15], confirmed verbatim against that decision's text. Flagged for checking against the original Full Bench decision.",
+      "quoted_in": "[2021] FWC 3264",
+      "quoted_in_pinpoint": "[15]"
+    },
+    "Shea v TRUenergy Services Pty Ltd (No 6)": {
+      "status": "not_in_corpus",
+      "note": "Federal Court decision (Dodds-Streeton J) holding that whether a communication is a workplace complaint under s.341(1)(c) is a matter of substance, not form. Not found as a direct record in briefer_master.snapshot.db. Quoted at [2024] FWC 840 at [23], confirmed verbatim against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2024] FWC 840",
+      "quoted_in_pinpoint": "[23]"
+    },
+    "Jones v Dunkel (1959) 101 CLR 290": {
+      "status": "not_in_corpus",
+      "note": "High Court authority on the adverse inference available from a party's unexplained failure to call an available witness. Not found as a direct record in briefer_master.snapshot.db. Referenced in a footnote at [2025] FWC 777 at [21] to support the inference drawn against the respondent for not calling its actual decision-maker. Flagged for checking against the original before relying on it for the general principle.",
+      "quoted_in": "[2025] FWC 777",
+      "quoted_in_pinpoint": "[21]"
+    },
+    "Commonwealth Bank of Australia v Barker": {
+      "status": "not_checked",
+      "note": "Referred to (not quoted at length) at [2023] FWC 991 at [57] for the proposition that a clear statement that a policy is not contractual can protect an employer from contractual liability for breach of it. Not independently verified against the original High Court decision in this pass.",
+      "quoted_in": "[2023] FWC 991",
+      "quoted_in_pinpoint": "[57]"
+    },
+    "Crozier v Palazzo Corporation Pty Limited t/as Noble Storage and Transport (2000) 98 IR 137": {
+      "status": "not_in_corpus",
+      "note": "Full Bench of the AIRC decision establishing that procedural fairness requires an employee be notified of a valid reason before any decision to terminate is taken. Not found as a direct record in briefer_master.snapshot.db. Quoted at [2024] FWC 1685 at [30], confirmed verbatim against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2024] FWC 1685",
+      "quoted_in_pinpoint": "[30]"
+    },
+    "Wadey v YMCA Canberra [1996] IRCA 568": {
+      "status": "not_in_corpus",
+      "note": "Industrial Relations Court of Australia decision (Moore J) holding that an employer cannot merely pay 'lip service' to an opportunity to respond, and that going through the motions of an opportunity to respond when a firm decision to terminate has already been made does not constitute a real opportunity to defend. Not found as a direct record in briefer_master.snapshot.db. Quoted at [2024] FWC 1685 at [31], and consistently at [2023] FWC 3059 at [63] (not used as a citation in this module). Flagged for checking against the original.",
+      "quoted_in": "[2024] FWC 1685",
+      "quoted_in_pinpoint": "[31]"
+    },
+    "Gibson v Bosmac Pty Ltd (1995) 60 IR 1": {
+      "status": "not_in_corpus",
+      "note": "Industrial Relations Court of Australia decision (Wilcox CJ) holding that s.387(b)/(c) does not require particular formality, and that it is enough if the employee is aware of the precise nature of the employer's concern and has a full opportunity to respond to it. Not found as a direct record in briefer_master.snapshot.db. Quoted at [2024] FWC 1685 at [32], and consistently at [2023] FWC 3059 at [62] (not used as a citation in this module). Flagged for checking against the original.",
+      "quoted_in": "[2024] FWC 1685",
+      "quoted_in_pinpoint": "[32]"
+    },
+    "Bartlett v Ingleburn Bus Services Pty Ltd t/as Interline Bus Services [2020] FWCFB 6429": {
+      "status": "not_in_corpus",
+      "note": "Full Bench of the Fair Work Commission decision setting out the four well-established principles for applying s.387(b) and (c), including that notification must occur prior to the decision to dismiss being made, and that the opportunity to respond must be a real one. Not found as a direct record in briefer_master.snapshot.db (searched by citation [2020] FWCFB 6429). Quoted at [2024] FWC 1685 at [34], confirmed verbatim against that decision's text (and consistently summarised at [2024] FWC 3017 at [37], not used as a separate citation in this module). Flagged for checking against the original Full Bench decision.",
+      "quoted_in": "[2024] FWC 1685",
+      "quoted_in_pinpoint": "[34]"
+    },
+    "Sydney Trains v Trevor Cahill [2021] FWCFB 1137": {
+      "status": "not_in_corpus",
+      "note": "Full Bench of the Fair Work Commission decision (at [60]) holding that the s.387(b) inquiry is whether the employee was notified of the reason before the employer made the decision to terminate. Not found as a direct record in briefer_master.snapshot.db (searched by citation [2021] FWCFB 1137). Quoted/applied at [2024] FWC 3017 at [37], confirmed verbatim against that decision's text. Flagged for checking against the original Full Bench decision.",
+      "quoted_in": "[2024] FWC 3017",
+      "quoted_in_pinpoint": "[37]"
+    },
+    "McCarron v Commercial Facilities Management Pty Ltd t/a CFM Air Conditioning Pty Ltd": {
+      "status": "not_in_corpus",
+      "note": "Source of the four-part 'must clearly identify' warning test quoted at [51] of Yap v Club Assist. No neutral citation is given in the quoting decision beyond a pinpoint at [32] of the original \u2014 not independently located in this corpus.",
+      "quoted_in": "[2022] FWC 520",
+      "quoted_in_pinpoint": "[51]"
+    },
+    "Fastidia Pty Ltd v Goodwin (2000) 102 IR 131": {
+      "status": "not_in_corpus",
+      "note": "AIRC Full Bench decision (Print S9280, 21 August 2000), predating the FWC chunk corpus. Source of the 'must make it clear that the employee's employment is at risk' requirement quoted at [52] of Yap v Club Assist \u2014 not independently located in this corpus.",
+      "quoted_in": "[2022] FWC 520",
+      "quoted_in_pinpoint": "[52]"
+    },
+    "BlueScope Steel Limited v Sirijovski": {
+      "status": "not_checked",
+      "note": "Full Bench decision referred to (by name only, no neutral citation given in the quoting text) at [129] of Taylor v CJD Equipment as the source of the requirement that a warning have a sufficient nexus to the performance issue actually relied on for dismissal. Not independently located or checked in this corpus pass.",
+      "quoted_in": "[2024] FWC 2078",
+      "quoted_in_pinpoint": "[129]"
+    },
+    "Darvell v Australian Postal Corporation [2010] FWAFB 4082": {
+      "status": "not_in_corpus",
+      "note": "Full Bench authority on differential treatment of employees, quoted (in turn quoting Sexton v Pacific National (ACT) Pty Ltd) for the proposition that there must be sufficient evidence of allegedly comparable cases before differential treatment can be weighed under s.387(h). Not independently located in this corpus pass \u2014 check the quote against the original before relying on it.",
+      "quoted_in": "[2020] FWC 2819",
+      "quoted_in_pinpoint": "[68]"
+    },
+    "Daly v Bendigo Health Care Group": {
+      "status": "not_in_corpus",
+      "note": "Older (pre-FWC) decision of Senior Deputy President Kaufman, quoted within the Darvell quote for the proposition that an unexplained disparity in treatment between comparable employees does not, of itself, render a termination harsh, unjust or unreasonable where there is no evidence of why the other employees were treated differently. No citation located; not independently checked in this corpus pass.",
+      "quoted_in": "[2020] FWC 2819",
+      "quoted_in_pinpoint": "[68]"
+    },
+    "Byrne v Australian Airlines Ltd (1995) 185 CLR 410": {
+      "status": "not_in_corpus",
+      "note": "High Court authority (McHugh and Gummow JJ) for the proposition that a dismissal may be 'harsh' because it is disproportionate to the gravity of the misconduct relied on, even where it is not unjust or unreasonable. A pre-FWC High Court decision \u2014 not expected in, and not located in, this corpus. Check the quote against the original before relying on it.",
+      "quoted_in": "[2021] FWC 5905",
+      "quoted_in_pinpoint": "[85]"
+    },
+    "Briginshaw v Briginshaw [1938] HCA 34": {
+      "status": "not_in_corpus",
+      "note": "Pre-FWA High Court authority establishing that the standard of proof in civil proceedings remains the balance of probabilities, but that the nature and gravity of the allegation affects the process by which reasonable satisfaction is reached. Not independently in this corpus \u2014 check the quote against the original before relying on it.",
+      "quoted_in": "[2023] FWC 1198",
+      "quoted_in_pinpoint": "[81]"
+    },
+    "Avenia v Railway & Transport Health Fund Ltd [2017] FCA 859": {
+      "status": "not_checked",
+      "note": "A Federal Court decision (Lee J) whose catchwords are squarely on point \u2014 'right to direct employee not to work so as to provide for a temporary \"suspension\" pending a preliminary investigation'. It is present in briefer_master.snapshot.db's court_decision_metadata as download_id fca-2017-859, but that download_id has zero rows in the chunks snapshot, so its paragraph text could not be reconstructed or independently verified in this pass (the retained court_decision_extracts row for it is an unreliable LLM extraction and was not used for any claim). The quote at [154] ('At common law, an employer has no right to suspend an employee without pay') is confirmed verbatim only as reproduced in a litigant representative's letter within [2022] FWC 1530 at [18] \u2014 check the original judgment before relying on it.",
+      "quoted_in": "[2022] FWC 1530",
+      "quoted_in_pinpoint": "[18]"
+    },
+    "Watson v Foxman (1995) 49 NSWLR 315": {
+      "status": "not_in_corpus",
+      "note": "A 1995 NSW Supreme Court decision (McLelland CJ) on the fallibility of human memory in proving the content of oral conversations. Predates this corpus and is not an FWC matter. Quoted at [2025] FWC 3513 at [33], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original before relying on it.",
+      "quoted_in": "[2025] FWC 3513",
+      "quoted_in_pinpoint": "[33]"
+    },
+    "Colson v Barwon Health [2014] FWCFB 1949": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision quoted at [2020] FWC 416 at [123] for the requirement to find reinstatement inappropriate before considering compensation. Not independently located as a direct corpus record in this pass \u2014 flagged for checking against the original.",
+      "quoted_in": "[2020] FWC 416",
+      "quoted_in_pinpoint": "[123]"
+    },
+    "Nguyen and Le v Vietnamese Community in Australia [2014] FWCFB 7198": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision quoted at length at [2020] FWC 416 at [124]-[125] for the propositions on loss of trust and confidence (and itself quoting Perkins v Grace Worldwide). Also cited by name (not quoted) in [2026] FWC 2050 at [47] for the discretionary nature of remedy. Not independently located as a direct corpus record \u2014 flagged for checking against the original.",
+      "quoted_in": "[2020] FWC 416",
+      "quoted_in_pinpoint": "[124]"
+    },
+    "Perkins v Grace Worldwide (Aust) Pty Ltd (1997) 72 IR 186": {
+      "status": "not_in_corpus",
+      "note": "1997 Industrial Relations Court of Australia decision, predates the Fair Work Act and this corpus. Its 'trust and confidence' test for reinstatement practicability is quoted within the Nguyen and Le extract at [2020] FWC 416 at [124], and footnoted directly (and its governing test applied) at [2020] FWC 4840 at [3] and [5]. Confirmed verbatim against both decisions' text. Flagged for checking against the original.",
+      "quoted_in": "[2020] FWC 416",
+      "quoted_in_pinpoint": "[124]"
+    },
+    "Regional Express Holdings Limited t/a REX Airlines v Richards [2010] FWAFB 8753": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision quoted at [2020] FWC 416 at [126] on the implied loss of trust and confidence that follows a misconduct dismissal. Not independently located as a direct corpus record \u2014 flagged for checking against the original.",
+      "quoted_in": "[2020] FWC 416",
+      "quoted_in_pinpoint": "[126]"
+    },
+    "Sprigg v Paul's Licensed Festival Supermarket (1998) 88 IR 21": {
+      "status": "not_in_corpus",
+      "note": "1998 Australian Industrial Relations Commission Full Bench decision under the predecessor legislation (s.170CH(7)(c)), predates the Fair Work Act and this corpus. Its approach to compensation (the 'Sprigg formula') is named and summarised at [2023] FWC 2900 at [121] and at [2021] FWCFB 280 at [32]-[33], the latter quoting Sprigg directly on the speculative nature of the loss assessment. Flagged for checking against the original.",
+      "quoted_in": "[2021] FWCFB 280",
+      "quoted_in_pinpoint": "[32]"
+    },
+    "Bowden v Ottrey Homes Cobram and District Retirement Villages Inc T/A Ottrey [2013] FWCFB 431": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision quoted at [2021] FWCFB 280 at [32]-[34] for the modern restatement of the Sprigg formula's first step (the 'Anticipated Period of Employment'). Not independently located as a direct corpus record \u2014 flagged for checking against the original.",
+      "quoted_in": "[2021] FWCFB 280",
+      "quoted_in_pinpoint": "[32]"
+    },
+    "Vennix v Mayfield Childcare Limited [2020] FWCFB 1001": {
+      "status": "not_checked",
+      "note": "Cited by name (not quoted) at [2026] FWC 2050 at [47] for the proposition that whether an applicant has suffered financial loss may be relevant to whether a remedy should be ordered at all. Not independently located as a direct corpus record in this pass \u2014 flagged for checking against the original rather than assumed out of corpus.",
+      "quoted_in": "[2026] FWC 2050",
+      "quoted_in_pinpoint": "[47]"
+    }
+  }
+}

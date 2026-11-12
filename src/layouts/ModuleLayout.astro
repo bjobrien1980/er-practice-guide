@@ -1,0 +1,217 @@
+---
+import "../styles/global.css";
+import { TIERS } from "../data/nav";
+
+interface Props {
+  id: number;
+  title: string;
+  tier: number;
+  provisions: string[];
+  status: "draft" | "in-review" | "approved";
+  reviewer: string | null;
+  last_verified: string | null;
+  reading_minutes: number;
+  related: number[];
+}
+
+const { id, title, tier, provisions, status, reviewer, last_verified, reading_minutes, related } =
+  Astro.props as Props;
+
+const tierInfo = TIERS[tier - 1];
+const tierIndexInList = TIERS.findIndex((t) => t.modules.some((m) => m.id === id));
+
+const allModules = TIERS.flatMap((t) => t.modules);
+const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)).filter(Boolean) as {
+  id: number;
+  title: string;
+}[];
+
+const statusLabel: Record<string, string> = {
+  draft: "Draft: pending legal review",
+  "in-review": "In review",
+  approved: "Approved",
+};
+---
+
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — ER Practice Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/">ER Practice Guide <span>Conduct &amp; performance</span></a>
+      <div class="search" role="search">
+        <input id="q" type="search" placeholder="Search the guide" aria-label="Search the guide" autocomplete="off" />
+        <div class="results" id="results" role="listbox"></div>
+      </div>
+    </header>
+
+    <div class="shell">
+      <nav class="modules" aria-label="Modules">
+        {TIERS.map((t) => (
+          <>
+            <h2>{t.title}</h2>
+            <ol>
+              {t.modules.map((m) => (
+                <li class={m.id === id ? "current" : m.slug ? "done" : ""}>
+                  {m.slug ? (
+                    <a href={`/modules/${m.slug}`} aria-current={m.id === id ? "page" : undefined}>
+                      <span class="n">{m.id}</span>
+                      <span>{m.title}</span>
+                    </a>
+                  ) : (
+                    <span style="display:flex;gap:8px;align-items:baseline;width:100%">
+                      <span class="n">{m.id}</span>
+                      <span>{m.title}</span>
+                      <span class="soon">soon</span>
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </>
+        ))}
+      </nav>
+
+      <article id="top">
+        <div class="crumbs">{tierInfo?.title} · Module {id}</div>
+        <h1>{title}</h1>
+
+        <div class="meta">
+          <span><b>Provision{provisions.length > 1 ? "s" : ""}</b> {provisions.map((p) => <span class="statute">{p}</span>)}</span>
+          <span><b>Status</b> <span class="pill draft">{statusLabel[status]}</span></span>
+          <span><b>Last verified</b> {last_verified ?? "not yet"}</span>
+          <span><b>Reviewer</b> {reviewer ?? "unassigned"}</span>
+          <span><b>Reading time</b> {reading_minutes} min</span>
+        </div>
+
+        <div class="notice">
+          Training material, not legal advice. Any matter heading toward termination goes to a senior ER adviser, and
+          to Legal where the facts are contested or the employee is represented.
+        </div>
+
+        <slot />
+
+        <footer class="pagefoot">
+          <span>
+            {tierIndexInList >= 0 && id > 1 ? <>Previous module {id - 1}</> : <span />}
+          </span>
+          <span>
+            {id < 22 ? <>Next module {id + 1}</> : <span />}
+          </span>
+        </footer>
+      </article>
+
+      <aside class="rail" aria-label="On this page">
+        <h2>On this page</h2>
+        <ol id="toc"></ol>
+        {relatedModules.length > 0 && (
+          <div class="rel">
+            <h2>Related</h2>
+            <ol style="border:0">
+              {relatedModules.map((m) => (
+                <li style="padding:4px 0">
+                  {m.title ? (
+                    <a href={m.slug ? `/modules/${m.slug}` : undefined} style={m.slug ? "" : "color:var(--muted);pointer-events:none"}>
+                      {m.id}. {m.title}
+                    </a>
+                  ) : null}
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+      </aside>
+    </div>
+
+    <script>
+      const heads = Array.from(document.querySelectorAll<HTMLHeadingElement>("article h2[id]"));
+      const toc = document.getElementById("toc")!;
+      heads.forEach((h) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = `#${h.id}`;
+        a.textContent = h.textContent;
+        li.appendChild(a);
+        toc.appendChild(li);
+      });
+      const links = toc.querySelectorAll("a");
+      function spy() {
+        let cur = heads[0];
+        heads.forEach((h) => {
+          if (h.getBoundingClientRect().top < 120) cur = h;
+        });
+        links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === `#${cur?.id}`));
+      }
+      window.addEventListener("scroll", spy, { passive: true });
+      spy();
+    </script>
+
+    <script>
+      // Site-wide search, built at build time by Pagefind (npm run postbuild).
+      // /pagefind/pagefind.js only exists in a built `dist/`, not in `astro dev` — fail quietly there.
+      const input = document.getElementById("q") as HTMLInputElement;
+      const results = document.getElementById("results")!;
+
+      // Hidden from Vite's static import-analysis entirely (new Function body is just a
+      // string to the bundler) — /* @vite-ignore */ alone still let Vite's dev-server plugin
+      // try to eagerly resolve this path and throw when the file doesn't exist yet.
+      const dynamicImport = new Function("url", "return import(url)") as (url: string) => Promise<any>;
+
+      async function loadPagefind() {
+        try {
+          return await dynamicImport("/pagefind/pagefind.js");
+        } catch {
+          return null;
+        }
+      }
+
+      let pagefind: any = null;
+      let ready = loadPagefind().then((p) => (pagefind = p));
+
+      input.addEventListener("input", async () => {
+        const v = input.value.trim();
+        if (v.length < 2) {
+          results.classList.remove("open");
+          results.innerHTML = "";
+          return;
+        }
+        await ready;
+        if (!pagefind) {
+          results.innerHTML = '<p>Search is only available in the built site.<small>Run `npm run build` then `npm run preview`.</small></p>';
+          results.classList.add("open");
+          return;
+        }
+        const search = await pagefind.search(v);
+        const items = await Promise.all(search.results.slice(0, 8).map((r: any) => r.data()));
+        results.innerHTML = items.length
+          ? items.map((it: any) => `<a href="${it.url}">${it.meta?.title ?? it.url}<small>${it.excerpt.replace(/<[^>]+>/g, "")}</small></a>`).join("")
+          : "<p>No matches.<small>Try fewer words.</small></p>";
+        results.classList.add("open");
+      });
+      results.addEventListener("click", (e) => {
+        if ((e.target as HTMLElement).closest("a")) {
+          results.classList.remove("open");
+          input.value = "";
+        }
+      });
+      document.addEventListener("click", (e) => {
+        if (!(e.target as HTMLElement).closest(".search")) results.classList.remove("open");
+      });
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          results.classList.remove("open");
+          input.blur();
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+# Duplicate decision records
+
+Citations where the same decision appears under more than one `download_id` in briefer_master.snapshot.db. The canonical record is the one used in the registry.
+
+- `[2021] FWC 13` — canonical `download_id` **831370**; duplicate record(s) `752518, 757576`. 752518 is a byte-identical second scrape of the same decision (confirmed at [88] and [92]). 757576 is a 3-chunk metadata stub with no usable text.
+- `[2023] FWC 961` — canonical `download_id` **706028**; duplicate record(s) `640878, 262643`. 640878 is a byte-identical second scrape of the same decision (confirmed at [42]-[45]). 262643 is a 2-chunk metadata stub with no usable text.
+- `[2025] FWC 3137` — canonical `download_id` **679738**; duplicate record(s) `377878`. 377878 is a 2-chunk metadata stub with no usable text.
+- `[2022] FWC 2368` — canonical `download_id` **830457**; duplicate record(s) `678229`. 678229 is a 3-chunk metadata stub with no usable text.
+- `[2022] FWC 2033` — canonical `download_id` **679933**; duplicate record(s) `679930`. 679930 is a 3-chunk metadata stub with no usable text.
+- `[2023] FWC 2405` — canonical `download_id` **700090**; duplicate record(s) `257752`. 257752 is a 3-chunk metadata stub with no usable text.
+- `[2021] FWC 3903` — canonical `download_id` **831354**; duplicate record(s) `727155, 727151`. 727155 is a byte-identical second scrape of the same decision (confirmed at [4] and [13]), chosen against as canonical only because 831354 has marginally more total chunk text. 727151 is a 3-chunk metadata stub with no usable text.
+- `[2023] FWC 2493` — canonical `download_id` **699406**; duplicate record(s) `257510`. 257510 is a 3-chunk metadata stub with no usable text.
+- `[2026] FWC 1138` — canonical `download_id` **847433**; duplicate record(s) `847432`. 847432 is a 3-chunk/840-byte metadata stub with no usable text; 847433 is the full decision and is canonical.
+- `[2022] FWC 2527` — canonical `download_id` **710811**; duplicate record(s) `737463`. 737463 is a 3-chunk metadata stub with no usable text for the same citation.
+- `[2021] FWC 4526` — canonical `download_id` **728378**; duplicate record(s) `831157`. 831157 is a near-identical second scrape of the same decision (20 chunks, 52,251 characters vs 728378's 52,431 characters); 728378 was treated as canonical as the longer of the two.
+- `[2025] FWC 702` — canonical `download_id` **693899**; duplicate record(s) `238306`. 238306 is a 2-chunk metadata stub with no usable text for the same citation.
+- `[2024] FWC 2513` — canonical `download_id` **608791**; duplicate record(s) `616118`. 616118 is a 2-chunk metadata stub with no usable text.
+- `[2024] FWC 1685` — canonical `download_id` **681042**; duplicate record(s) `246721`. 246721 is a 3-chunk metadata stub with no usable text for the same citation; 681042 (37 chunks) is canonical.
+- `[2024] FWC 3017` — canonical `download_id` **702289**; duplicate record(s) `242043, 615323`. 242043 and 615323 are both 3-chunk metadata stubs with no usable text for the same citation; 702289 (36 chunks) is canonical.
+- `[2022] FWC 1576` — canonical `download_id` **684207**; duplicate record(s) `684209, 683635, 683642, 683644, 683647, 683650`. All six are 2-chunk metadata stubs (under 650 bytes each) with no usable text for the same citation; 684207 (46 chunks, ~80,500 characters) is canonical.
+- `[2022] FWC 3249` — canonical `download_id` **709007**; duplicate record(s) `709008`. download_id 709008 holds only a 2-row, 498-character stub for this citation; 709007 (112 chunks, ~175,000 characters) is the full decision text and is used as canonical.
+- `[2026] FWC 75` — canonical `download_id` **798289**; duplicate record(s) `802455, 804594`. Three download_ids share this citation. 802455 (40 chunks, ~83,200 characters) is a near-complete second copy of the same decision text as 798289 (41 chunks, ~84,200 characters, used as canonical); 804594 holds only a 2-row stub.
+- `[2023] FWC 2485` — canonical `download_id` **696197**; duplicate record(s) `256224`. download_id 256224 holds only a 3-row, 1,229-character stub for this citation; 696197 (51 chunks, ~109,000 characters) is the full decision text and is used as canonical.
+- `[2022] FWC 520` — canonical `download_id` **682799**; duplicate record(s) `681212, 682760`. 681212 (3 chunks, 2925 chars) and 682760 (4 chunks, 1850 chars) are metadata stubs with no usable text; 682799 (158 chunks, 437482 chars) is the canonical full-text record.
+- `[2024] FWC 2078` — canonical `download_id` **678686**; duplicate record(s) `245610`. 245610 is a 3-chunk metadata stub (734 chars) with no usable text; 678686 (167 chunks, 375269 chars) is the canonical full-text record.
+- `[2021] FWC 1229` — canonical `download_id` **774925**; duplicate record(s) `774918`. 774918 is a 3-chunk metadata stub with no usable text.
+- `[2020] FWC 2819` — canonical `download_id` **729490**; duplicate record(s) `729484`. 729484 is a 2-chunk metadata stub with no usable text.
+- `[2020] FWC 4929` — canonical `download_id` **718759**; duplicate record(s) `718751`. 718751 is a 3-chunk metadata stub with no usable text.
+- `[2023] FWC 927` — canonical `download_id` **706613**; duplicate record(s) `264338`. 264338 is a 4-chunk metadata stub with no usable text.
+- `[2021] FWC 5905` — canonical `download_id` **711664**; duplicate record(s) `711660`. 711660 is a 3-chunk metadata stub with no usable text.
+- `[2025] FWC 3826` — canonical `download_id` **622999**; duplicate record(s) `647409`. 647409 is a second scrape of the same decision with near-identical chunking — confirmed at [14], [52]-[53], [58] and [62] against both download_ids.
+- `[2023] FWC 1198` — canonical `download_id` **643964**; duplicate record(s) `706176`. 706176 is a second scrape of the same decision with slightly different chunk boundaries that shift paragraph numbering by roughly one paragraph from around [78] onward (confirmed by comparing reconstructed text); 643964 is used as canonical because its paragraph markers align with the pinpoints cited here.
+- `[2024] FWC 2914` — canonical `download_id` **702988**; duplicate record(s) `242343`. 242343 is a 3-chunk metadata stub with no usable text.
+- `[2025] FWCFB 274` — canonical `download_id` **800714**; duplicate record(s) `645741`. 645741 is a shorter scrape of the same Full Bench decision (76,466 chars across 30 chunks, versus 92,953 chars across 36 chunks for 800714). Both contain the same paragraphs quoted here; 800714 used as canonical.
+- `[2025] FWC 1441` — canonical `download_id` **689152**; duplicate record(s) `236519`. 236519 is a 3-chunk metadata stub with no usable text (1,018 characters total, versus 77,374 characters across 21 chunks for 689152).
+- `[2021] FWC 6329` — canonical `download_id` **715284**; duplicate record(s) `715277`. download_id 715277 is a 3-chunk/1,246-character stub of the same citation; 715284 (117 chunks, ~197,000 characters) is canonical and was used.
+- `[2022] FWC 2455` — canonical `download_id` **677777**; duplicate record(s) `830464`. download_id 830464 (85 chunks, ~123,000 characters) is a shorter duplicate of the same citation; 677777 (156 chunks, ~228,000 characters) is canonical and was used.
+- `[2021] FWC 526` — canonical `download_id` **742068**; duplicate record(s) `742063`. 742063 is a 3-chunk metadata stub with no usable text.
+- `[2020] FWC 316` — canonical `download_id` **724352**; duplicate record(s) `724347`. 724347 is a 3-chunk metadata stub with no usable text.
+- `[2023] FWC 2900` — canonical `download_id` **256349**; duplicate record(s) `696784`. 696784 is a shorter, partial scrape of the same decision (64 chunks / ~108k characters of text vs 127 chunks / ~219k characters for 256349, which also reaches further into the decision, e.g. covering [121] onward on its own-line paragraph markers). 256349 is used as canonical; both were spot-checked and agree on every paragraph read for this module.
+- `[2020] FWC 4840` — canonical `download_id` **783221**; duplicate record(s) `781796`. 781796 is a 3-chunk, ~980-character metadata stub with no usable text. 783221 (21 chunks, ~39.6k characters) is canonical.
+- `[2020] FWC 2` — canonical `download_id` **786400**; duplicate record(s) `786394`. 786394 is a 6-chunk/1719-byte metadata stub with no usable text; 786400 is the full decision and is canonical.

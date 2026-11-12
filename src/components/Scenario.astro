@@ -1,0 +1,42 @@
+---
+interface Props {
+  questions: string[];
+}
+const { questions } = Astro.props as Props;
+const uid = `scenario-${Math.random().toString(36).slice(2, 9)}`;
+---
+
+<div class="scenario" id={uid}>
+  <p style="margin-top:0;color:var(--muted);font-size:14px">Fictional scenario. Write your answers, then reveal the model answer.</p>
+  <div class="facts">
+    <slot name="facts" />
+  </div>
+  {questions.map((q, i) => (
+    <>
+      <p class="q"><label for={`${uid}-a${i}`}>{i + 1}. {q}</label></p>
+      <textarea id={`${uid}-a${i}`}></textarea>
+    </>
+  ))}
+  <div class="row"><button type="button" class="primary reveal-btn" aria-expanded="false">Reveal model answer</button></div>
+  <div class="answer" hidden>
+    <slot name="answer" />
+  </div>
+</div>
+
+<script>
+  function initScenario(root: HTMLElement) {
+    const btn = root.querySelector<HTMLButtonElement>(".reveal-btn")!;
+    const answer = root.querySelector<HTMLElement>(".answer")!;
+    btn.addEventListener("click", () => {
+      const open = answer.hasAttribute("hidden");
+      if (open) {
+        answer.removeAttribute("hidden");
+      } else {
+        answer.setAttribute("hidden", "");
+      }
+      btn.textContent = open ? "Hide model answer" : "Reveal model answer";
+      btn.setAttribute("aria-expanded", String(open));
+    });
+  }
+  document.querySelectorAll<HTMLElement>(".scenario").forEach(initScenario);
+</script>
