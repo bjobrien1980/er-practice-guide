@@ -5,7 +5,7 @@ An Astro-based ER practice guide focused on conduct, performance and dismissal-r
 ## Repository model
 
 - **MS64 is the canonical working environment.** Private Briefer snapshots and source material remain on MS64.
-- **GitHub is the versioned publication mirror.** The repository is private: <https://github.com/bjobrien1980/er-practice-guide>
+- **GitHub is the versioned publication mirror.** The repository is public: <https://github.com/bjobrien1980/er-practice-guide>
 - **`staging` is the automatic-sync branch.** Local changes are validated and pushed there.
 - **`main` is the publication branch.** Review the staging pull request before merging or deploying.
 
