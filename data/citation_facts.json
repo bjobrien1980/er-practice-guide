@@ -1241,6 +1241,66 @@
         "698743"
       ],
       "duplicate_note": "830973 has 43 chunks/73,161 characters versus 698743's 43 chunks/73,076 characters; 830973 used as canonical."
+    },
+    "[2026] FWC 1315": {
+      "download_id": "848217",
+      "short_name": "Wang v Service Stream Mobile Communications",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Genuine redundancy found on all three limbs of s.389; redeployment into a long-standing contractor's role held not reasonable at [17]-[18]. Jurisdictional objection upheld and application dismissed \u2014 confirmed at [23]-[25].",
+      "outcome_pinpoint": "[23]"
+    },
+    "[2026] FWC 642": {
+      "download_id": "806849",
+      "short_name": "Semaan v Country Road Clothing",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Not a genuine redundancy because award consultation was not complied with \u2014 confirmed at [41]. Dismissal nevertheless found not harsh, unjust or unreasonable and the application dismissed \u2014 confirmed at [61]-[63].",
+      "outcome_pinpoint": "[61]"
+    },
+    "[2025] FWC 1393": {
+      "download_id": "630670",
+      "short_name": "Pinto v Further Ed t/a Victorian Institute of Technology",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Findings that the employer failed to present evidence of changed operational requirements ([66]) and failed to comply with award consultation requirements ([63]) were read and confirmed. The decision's final orders were not available in the text read and are not asserted here.",
+      "outcome_pinpoint": "[66]"
+    },
+    "[2020] FWC 4724": {
+      "download_id": "786401",
+      "short_name": "Hurley v Tex Onsite",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Redundancy objection dismissed because the award consultation clause was not complied with \u2014 confirmed at [16]. Dismissal found harsh, unjust or unreasonable at [38]; compensation assessed as one week's pay at [44] and [51].",
+      "outcome_pinpoint": "[38]"
+    },
+    "[2022] FWC 1905": {
+      "download_id": "830582",
+      "short_name": "Graydon v Talent Konnects t/a Talentko",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Not a genuine redundancy: award consultation not complied with ([88]-[89]) and redeployment to a role advertised the next day would have been reasonable ([95]-[97]). Dismissal found harsh, unjust and unreasonable at [107]-[108]; compensation held appropriate at [110]. The amount ordered was not read and is not asserted here.",
+      "outcome_pinpoint": "[107]"
+    },
+    "[2026] FWC 2083": {
+      "download_id": "852802",
+      "short_name": "Redpath Contract Services v Papworth",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Employer's s.120 application to reduce redundancy pay dismissed: the alternative role offered was not other acceptable employment \u2014 confirmed at [26]-[29].",
+      "outcome_pinpoint": "[26]"
+    }
+  },
+  "external_authorities": {
+    "[2010] FWAFB 7578": {
+      "short_name": "Ulan Coal Mines Limited v Honeysett",
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2010fwafb7578.pdf",
+      "jurisdiction": "FWC Full Bench",
+      "decision_date": null,
+      "outcome_status": "partial",
+      "verification_status": "source_identity_confirmed",
+      "outcome": "Direct official source record for the redeployment passage at [34]. The original decision text was not independently read in this pass; the passage is reproduced and confirmed in [2022] FWC 1905 at [92].",
+      "outcome_pinpoint": "[34]"
     }
   },
   "flagged_authorities": {
@@ -1531,6 +1591,30 @@
       "note": "Full Bench decision not found as a direct record in briefer_master.snapshot.db. Its after-acquired-knowledge principle is quoted at [2021] FWC 6394 at [31], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original.",
       "quoted_in": "[2021] FWC 6394",
       "quoted_in_pinpoint": "[31]"
+    },
+    "Ulan Coal Mines Limited v Honeysett [2010] FWAFB 7578": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision on what redeployment under s.389(2) involves. Not read in the original. Its paragraph [34] is quoted at [2022] FWC 1905 at [92], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2022] FWC 1905",
+      "quoted_in_pinpoint": "[92]"
+    },
+    "Helensburgh Coal Pty Ltd v Bartley [2025] HCA 29": {
+      "status": "not_in_corpus",
+      "note": "High Court decision on the breadth of the s.389(2) redeployment inquiry, including work performed by contractors. Not read in the original. Described and quoted at [2026] FWC 1315 at [16], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2026] FWC 1315",
+      "quoted_in_pinpoint": "[16]"
+    },
+    "Maswan v Escada Textilvertrieb T/A ESCADA [2011] FWA 4239": {
+      "status": "not_in_corpus",
+      "note": "Observation of Watson VP on when a redundancy dismissal will be harsh, unjust or unreasonable. Not read in the original. Quoted at [2026] FWC 642 at [60], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2026] FWC 642",
+      "quoted_in_pinpoint": "[60]"
+    },
+    "Shachar v Electrical Home Aids Pty Ltd t/a Godfreys [2018] FWC 4892": {
+      "status": "not_in_corpus",
+      "note": "Passage on internal and external sources of changed operational requirements. Not read in the original. Quoted at [2025] FWC 1393 at [65], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2025] FWC 1393",
+      "quoted_in_pinpoint": "[65]"
     }
   }
 }

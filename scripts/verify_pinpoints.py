@@ -142,13 +142,21 @@ def main():
     parser.add_argument("--content", type=Path, default=DEFAULT_CONTENT_DIR)
     args = parser.parse_args()
 
-    facts = json.loads(args.facts.read_text()).get("citations", {})
+    facts_doc = json.loads(args.facts.read_text())
+    facts = facts_doc.get("citations", {})
+    external_authorities = facts_doc.get("external_authorities", {})
 
     confirmed = 0
     flagged = 0
+    external = 0
     failures = []
 
     for module_file, citation, at, phrase, status in find_cites_in_content(args.content):
+        if citation in external_authorities:
+            external += 1
+            print(f"EXTERNAL  {module_file}  {citation} at {at}  (direct source record; original text not independently read)")
+            continue
+
         if status == "flagged":
             flagged += 1
             print(f"FLAGGED  {module_file}  {citation} at {at}  (renders with visible unverified marker)")
@@ -166,7 +174,7 @@ def main():
             failures.append((module_file, citation, at, detail))
 
     print()
-    print(f"{confirmed} confirmed, {flagged} flagged, {len(failures)} failed")
+    print(f"{confirmed} confirmed, {external} external source records, {flagged} flagged, {len(failures)} failed")
 
     if failures:
         print("\nFAILURES:", file=sys.stderr)
