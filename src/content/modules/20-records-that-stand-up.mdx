@@ -1,15 +1,15 @@
 ---
-id: 19
+id: 20
 slug: records-that-stand-up
 title: Records that stand up
 tier: 4
 provisions: ["FWA s.387(a)"]
-version: "0.1.0"
-last_updated: "2026-11-12T14:39:11+08:00"
+version: "0.2.0"
+last_updated: "2026-11-12T17:39:52+08:00"
 law_current_as_at: null
 law_sources: []
 reading_minutes: 12
-related: [5, 17, 20]
+related: [6, 18, 21]
 ---
 
 import Cite from "../../components/Cite.astro";
@@ -27,11 +27,11 @@ import DecisionsCited from "../../components/DecisionsCited.astro";
 
 ## Why timing beats sincerity
 
-Module 8 makes the point that a warning needs to be "a document, not a memory". This module goes one step further: *when* a document (or a memory) was created changes how much it's worth, and the Commission actively tests that timing rather than taking a witness's word for it.
+[Module 9](/modules/performance-warnings) makes the point that a warning needs to be "a document, not a memory". This module goes one step further: *when* a document (or a memory) was created changes how much it's worth, and the Commission actively tests that timing rather than taking a witness's word for it.
 
 <div class="key">
 <h3>The working principle</h3>
-<p style="margin:0;font-size:14px;color:var(--muted)">Chief Justice McLelland's observations in <em>Watson v Foxman</em> (1995) 49 NSWLR 315 at 319, as quoted and applied in a Fair Work Commission bargaining dispute <Cite id="[2025] FWC 3513" at="[33]" phrase="human memory of what was said in a conversation is fallible for a variety of reasons" />. <em>Watson v Foxman</em> is a 1995 NSW Supreme Court decision, not an FWC matter and not in this corpus directly — check the quote against the original before relying on it.</p>
+<p class="source-note">Chief Justice McLelland's observations in <em>Watson v Foxman</em> (1995) 49 NSWLR 315 at 319, as quoted and applied in a Fair Work Commission bargaining dispute <Cite id="[2025] FWC 3513" at="[33]" phrase="human memory of what was said in a conversation is fallible for a variety of reasons" />. <em>Watson v Foxman</em> is a 1995 NSW Supreme Court decision, not an FWC matter and not read in the original for this guide — check the quote against the original before relying on it.</p>
 
 <ol class="principles">
 <li>Human memory of a conversation is fallible, and the degree of fallibility ordinarily increases with the passage of time.</li>
@@ -95,7 +95,7 @@ In *Lakhan v Bus Tech (SA)*, a senior manager gave evidence about what he'd told
 <p>A "contemporaneous" typed file note was shown, by its own metadata, to have been created eight months later with added detail. <Cite id="[2022] FWC 2527" at="[41]" phrase="eight months later, he included details that are not found in the handwritten file note" /></p>
 <p class="lesson">If you're going to rely on a document's timing, make sure its metadata agrees with you.</p>
 </div>
-<div class="fail near">
+<div class="fail won">
 <span class="tag">Employer won</span>
 <h3>The diary entry beat the recollection</h3>
 <p>An employee's own account of a phone call was rejected as self-serving because it conflicted with his manager's contemporaneous diary note. <Cite id="[2022] FWC 2455" at="[94]" phrase="inconsistent with the contemporaneous diary note made by Mr Crawford" /></p>
@@ -113,6 +113,7 @@ In *Lakhan v Bus Tech (SA)*, a senior manager gave evidence about what he'd told
 
 <Checklist
   title="Documentary evidence checklist"
+  openAdvice="Don't rely on the record yet. Escalate the open items to a senior ER adviser."
   items={[
     { group: "Build the file while it still matters", text: "Every warning, instruction or direction likely to be relied on later is written down close to the time it happened, not reconstructed afterwards." },
     { group: "Build the file while it still matters", text: "A file note records the date it was actually written, and is kept somewhere its own creation date can be checked later." },
@@ -128,7 +129,7 @@ In *Lakhan v Bus Tech (SA)*, a senior manager gave evidence about what he'd told
 
 ## Practice scenario: the reconstructed roster note
 
-<Scenario questions={["Does the area manager's summary count as a contemporaneous record?", "What's missing to make out the documentation side of a valid reason?", "How should this file have been built at the time?"]}>
+<Scenario questions={["Does the area manager's summary count as a contemporaneous record?", "What evidence or alternative explanation is missing?", "What non-dismissal outcome remains open?", "What's missing to make out the documentation side of a valid reason?", "How should this file have been built at the time?"]}>
   <Fragment slot="facts">
     <p>This is a fictional scenario. Jun is a shift supervisor at a café chain, three years' service, no prior written warnings. He's dismissed for "repeated failure to follow cash-handling procedure" after a till shortfall is found during a routine audit.</p>
     <p>The area manager says she gave Jun three verbal warnings over the preceding four months, and told him each time that his job was at risk if it happened again — but nothing was written down at the time. Two weeks after Jun lodges his unfair dismissal application, the area manager sends HR a one-page "summary of prior discussions", listing three dates and, for each one, a close paraphrase of what she says she told him.</p>
@@ -144,7 +145,7 @@ In *Lakhan v Bus Tech (SA)*, a senior manager gave evidence about what he'd told
       <li><strong>Missing:</strong> anything written at the time of any of the three conversations — a follow-up text or email to Jun, a note in the rostering or HR system, even a dated personal diary entry; and a plausible account of why specific wording has only now, under pressure, become available with unusual precision.</li>
       <li><strong>At the time, this file needed:</strong> a short, dated message to Jun after each conversation confirming what was discussed and that continued issues could lead to dismissal; and a file note made the same day, kept somewhere its creation date could later be checked, rather than reconstructed once a claim had already been lodged.</li>
     </ol>
-    <p style="margin-bottom:6px"><strong>Where it could land, depending on what else comes out:</strong></p>
+    <p class="spectrum-label"><strong>Where it could land, depending on what else comes out:</strong></p>
     <div class="spectrum">
       <div class="hi">Each conversation was in fact followed by a same-day email or system note to Jun, later located: that record is corroboration, not reconstruction, and the warnings likely stand up.</div>
       <div class="lo">Nothing exists except the after-the-fact summary: on the pattern in <em>Clark v Reliable Signs</em> above, there's no documented information about any warning, and that alone is likely to defeat a valid reason resting on "repeated" conduct Jun was never shown to have been warned about.</div>
@@ -156,4 +157,4 @@ In *Lakhan v Bus Tech (SA)*, a senior manager gave evidence about what he'd told
 
 Check each paragraph reference against the published decision on the FWC website before relying on it. *Watson v Foxman* is a 1995 NSW Supreme Court decision quoted in a later Commission decision and still needs checking against the original. The Queensland Rail matter is a bargaining dispute, not an unfair dismissal case, and is cited only for its evidentiary reasoning — not for any unfair dismissal proposition.
 
-<DecisionsCited moduleId={19} />
+<DecisionsCited moduleId={20} />

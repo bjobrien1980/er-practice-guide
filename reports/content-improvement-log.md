@@ -675,3 +675,63 @@ Deferred by design:
 
 Git provides the authoritative change history through commits, diffs, branches and pull requests. The visible module `Version` and `Last updated` fields describe the content state; they do not replace Git history or amount to legal verification.
 
+## v1.2 implementation record
+
+**Date:** 2026-11-12
+
+Executed the six agreed priorities:
+
+1. **Targeted legal-boundary pass:** revised general protections, notification, support-person, performance-warning, suspension, drug/alcohol, bullying/harassment, medical capacity, social-media and dishonesty guidance.
+2. **Core scenario improvements:** added questions about parallel pathways, evidence, interim measures and non-dismissal outcomes across core and Tier 3 scenarios.
+3. **Currency warning:** added a visible warning that current legislation, thresholds, regulations, Commission procedure and case law must be checked before reliance.
+4. **Scenario breadth:** preserved the human-readable format while making alternative outcomes explicit rather than assuming dismissal is the endpoint.
+5. **Accessibility and presentation:** added skip links, focus handling, labelled/live search results and responsive orientation links.
+6. **Section-level search cross-linking:** generated a 507-section search index so searches can link directly to relevant headings as well as module pages.
+
+All modules were advanced to version `0.2.0` with a new update timestamp. The guide remains a baseline human reference, not an exhaustive authority or prescriptive workflow.
+
+## Comparative full-mirror review
+
+**Date:** 2026-11-12
+
+A controlled comparison was run using identical topic searches against the limited snapshots used for the initial baseline and the current full read-only mirror. The comparison covered 13 module topics and compared the top 25 distinct decision results for each query.
+
+The tested topic searches returned the same decision-ID sets from both sources. All 126 unique authorities cited by the guide were present in both MasterDB populations. The full mirror contains 3 additional distinct Federal Court/Federal Court Full Court decision IDs and substantially more chunk rows, but those additional Federal Court records were not extracted and did not produce additional FWC results in the tested queries.
+
+Conclusion: full-mirror availability would not, on the evidence tested, have materially changed the initial FWC conduct/performance baseline. The comparative report is at `reports/comparative-full-mirror-review.md`. No guide content was changed as a result of the comparison.
+
+## Comparative live-production review
+
+**Date:** 2026-11-12
+
+A second controlled comparison was run directly against the live MS64 production MasterDB, FWC chunk database and Citation Map using immutable read-only SQLite connections. The live databases and full mirror matched on counts, all 126 guide authorities were present in live MasterDB, and all 13 topic searches returned identical top-25 decision-ID sets.
+
+Conclusion: the live-production comparison confirms the full-mirror result. The initial limited snapshot did not materially change the tested FWC conduct/performance baseline. The live review report is at `reports/comparative-live-production-review.md`. No guide content was changed and no live production data was modified.
+
+## Proposition-level review
+
+**Date:** 2026-11-12
+
+A proposition-level review was conducted against live MasterDB/Citation Map material, the current official Fair Work Act compilation and current official FWC guidance. It confirmed the reverse-onus and support-person boundaries, but identified four direct amendments for the next publication revision:
+
+- remove the remaining “routine and low-risk” suspension sentence;
+- describe the performance-warning framework as a recurring analytical framework, not a universal statutory test;
+- qualify the reg 1.07 summary-dismissal examples;
+- replace the broad after-acquired-evidence statement with a precise reason/procedure/remedy distinction.
+
+The review also identified current-source verification gates for positive-duty, Commission-procedure, medical-capacity framework and related time-sensitive propositions. The full findings are at `reports/proposition-level-review.md`. No guide module was changed during the review.
+
+## Proposition-level amendments and verification gates
+
+**Date:** 2026-11-12
+
+Applied the four direct amendments identified in the proposition-level review:
+
+- summary-dismissal examples under reg 1.07 are now qualified as potentially constituting serious misconduct, subject to current source, facts and process;
+- performance-warning guidance now describes a recurring analytical framework rather than a universal four-part statutory test;
+- suspension guidance no longer describes suspension as “routine and low-risk”;
+- after-acquired evidence guidance now distinguishes the existence of a reason, later evidence, procedural fairness and remedy.
+
+Added explicit current-source gates to the summary-dismissal, positive-duty, medical-capacity and Commission-proceedings modules. The affected modules moved to version `0.2.1` with updated timestamps.
+
+Added a new Tier 1 module, `using-ai-in-performance-and-conduct`, version `0.1.1`. It translates the structural lesson that structured legal material does not become a decision algorithm into a cautionary, human-accountability framework: AI may support evidence mapping and source retrieval, but cannot replace credibility assessment, legal judgment, proportionality or procedural fairness. The module includes a current-source gate, evidence-layer distinctions, AI failure modes, adviser checklist and scenario. It is linked in Tier 1 navigation and does not refer to the former internal project by name.

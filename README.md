@@ -22,6 +22,7 @@ Run from the repository root:
 | `npm run verify` | Verify citation pinpoints against the local Briefer decision snapshot |
 | `npm run linkcheck` | Check citation registry integrity and approved link domains |
 | `npm run preview` | Preview the production build locally |
+| `npm run readingtime -- --write` | Recalculate each module's reading time from its word count (200 words per minute) |
 | `bash scripts/sync-staging.sh` | Validate, commit and push pending changes on `staging` |
 
 ## Automatic staging sync

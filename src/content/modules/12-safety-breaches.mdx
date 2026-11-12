@@ -1,15 +1,15 @@
 ---
-id: 11
+id: 12
 slug: safety-breaches
 title: Safety breaches
 tier: 3
 provisions: ["FWA s.387(a)"]
-version: "0.1.0"
-last_updated: "2026-11-12T14:39:11+08:00"
+version: "0.2.0"
+last_updated: "2026-11-12T17:39:52+08:00"
 law_current_as_at: null
 law_sources: []
 reading_minutes: 12
-related: [10, 5, 9]
+related: [11, 6, 10]
 ---
 
 import Cite from "../../components/Cite.astro";
@@ -27,9 +27,9 @@ import DecisionsCited from "../../components/DecisionsCited.astro";
 
 ## Safety sits inside s.387(a), not beside it
 
-Section 387(a) doesn't treat safety as a separate factor — it is folded into the valid reason test itself, which asks whether there was a valid reason for the dismissal related to the person's capacity or conduct, "including its effect on the safety and welfare of other employees" <Cite id="[2020] FWC 250" at="[61]" phrase="effect on the safety and welfare of other employees" />. The general valid reason test is covered in Module 5; this module is about what changes when the conduct is a safety breach.
+Section 387(a) doesn't treat safety as a separate factor — it is folded into the valid reason test itself, which asks whether there was a valid reason for the dismissal related to the person's capacity or conduct, "including its effect on the safety and welfare of other employees" <Cite id="[2020] FWC 250" at="[61]" phrase="effect on the safety and welfare of other employees" />. The general valid reason test is covered in [Module 6](/modules/valid-reason); this module is about what changes when the conduct is a safety breach.
 
-A useful Full Bench statement, quoted in *Plesiotis v Huhtamaki*, is that the "fair go all round" standard behind s.387 needs to weigh the employer's own safety obligations alongside the employee's conduct, "especially in inherently dangerous workplaces" <Cite id="[2020] FWC 120" at="[131]" phrase="especially in inherently dangerous workplaces" />. That authority (*BHP Coal Pty Ltd t/a BMA v Schmidt*) is not independently located in this corpus pass — check the quote against the original before relying on it.
+A useful Full Bench statement, quoted in *Plesiotis v Huhtamaki*, is that the "fair go all round" standard behind s.387 needs to weigh the employer's own safety obligations alongside the employee's conduct, "especially in inherently dangerous workplaces" <Cite id="[2020] FWC 120" at="[131]" phrase="especially in inherently dangerous workplaces" />. That authority (*BHP Coal Pty Ltd t/a BMA v Schmidt*) has not been read in the original for this guide — check the quote against the original before relying on it.
 
 ## The safety-critical nature of the role raises the bar
 
@@ -70,7 +70,7 @@ Both, depending on what it's used to prove.
 - The same point was made more bluntly elsewhere: "long employment in the one area can lead to complacency", and that is never an excuse for a safety breach <Cite id="[2020] FWC 3924" at="[243]" phrase="Long employment in the one area can lead to complacency" />.
 - Honesty under questioning is credited, but it is not a free pass. A crew leader's Show Cause response was found to be "brave and honest" <Cite id="[2022] FWC 1522" at="[232]" phrase="His response to the Show Cause Letter was brave and honest" /> — the Commission weighed that genuinely in his favour, and upheld the dismissal anyway because his seniority made the underlying conduct more serious, not less.
 
-**A related risk-management point advisers should flag on its own footing:** harsh, inconsistent discipline for an honestly self-reported near miss risks teaching a workforce to stop reporting near misses at all — which is the opposite of what a safety system needs. This corpus pass did not turn up an FWC decision squarely deciding a case on that chilling-effect argument, so don't present it to a client as settled Commission doctrine. It is, however, the same underlying reasoning the Commission used in rejecting an "actual outcome only" approach to risk-rating <Cite id="[2020] FWC 250" at="[121]" phrase="necessarily directed at what could have occurred as a result of an incident rather than what actually occurred" /> — and it is a legitimate reason, independent of case law, to design discipline around the breach and the role rather than around who happened to be unlucky enough to get caught, or honest enough to self-report.
+**A related risk-management point advisers should flag on its own footing:** harsh, inconsistent discipline for an honestly self-reported near miss risks teaching a workforce to stop reporting near misses at all — which is the opposite of what a safety system needs. The decisions reviewed for this guide did not include an FWC decision squarely deciding a case on that chilling-effect argument, so don't present it to a client as settled Commission doctrine. It is, however, the same underlying reasoning the Commission used in rejecting an "actual outcome only" approach to risk-rating <Cite id="[2020] FWC 250" at="[121]" phrase="necessarily directed at what could have occurred as a result of an incident rather than what actually occurred" /> — and it is a legitimate reason, independent of case law, to design discipline around the breach and the role rather than around who happened to be unlucky enough to get caught, or honest enough to self-report.
 
 ## What the Commission looks for
 
@@ -103,7 +103,7 @@ Across these decisions, the pattern is consistent:
 <p>The employer was entitled to start enforcing a pedestrian-walkway rule properly after a near miss, but its own past inconsistency still weighed toward unfairness. <Cite id="[2020] FWC 120" at="[156]" phrase="inconsistent approach taken previously is a factor that weighs in favour of a finding that the termination is unfair" /></p>
 <p class="lesson">Document the date you started enforcing a rule properly, and be ready to own the gap before that date.</p>
 </div>
-<div class="fail near">
+<div class="fail won">
 <span class="tag">Employer won, narrowly</span>
 <h3>Long service nearly tipped it</h3>
 <p>Thirty years' service and the employee's age weighed towards a finding of harshness, but the safety-critical nature of the role was found to outweigh it. <Cite id="[2020] FWC 250" at="[177]" phrase="application is therefore dismissed" /></p>
@@ -115,6 +115,7 @@ Across these decisions, the pattern is consistent:
 
 <Checklist
   title="Safety breach checklist (s.387(a))"
+  openAdvice="Don't recommend termination yet. Escalate the open items to a senior ER adviser."
   items={[
     { group: "The reason", text: "The specific rule or procedure breached is identified, and I can explain why it is genuinely safety-related, not just a label." },
     { group: "The reason", text: "I have assessed potential consequence (what could have happened on a worse version of these facts), not only what actually happened." },
@@ -133,24 +134,24 @@ Across these decisions, the pattern is consistent:
 
 <Scenario questions={["Is there a valid reason yet?", "What's missing before you could rely on it?", "What non-dismissal outcome remains open?", "How would you frame the allegation, and what would you flag as a risk either way?"]}>
   <Fragment slot="facts">
-    <p>This is a fictional scenario for practice. Priya is a Patient Services Assistant with 14 years' service at a metropolitan hospital, with no prior disciplinary history. The ward's manual-handling policy requires a mechanical patient hoist for any transfer assessed as "high risk", with a two-person lift only as a documented fallback when the hoist is unavailable.</p>
+    <p>This is a fictional scenario for practice. Nadia is a Patient Services Assistant with 14 years' service at a metropolitan hospital, with no prior disciplinary history. The ward's manual-handling policy requires a mechanical patient hoist for any transfer assessed as "high risk", with a two-person lift only as a documented fallback when the hoist is unavailable.</p>
     <div class="telemetry">
       <span>14:10</span><b>Hoist on Ward 4 logged as "slow to charge" (maintenance ticket, unresolved 6 days)</b>
-      <span>14:22</span><b>Priya and a graduate nurse perform a two-person manual transfer without the hoist</b>
-      <span>14:23</span><b>Patient begins to slip; Priya takes the weight and holds the transfer; no fall, no injury</b>
-      <span>14:24</span><b>Priya reports the near miss to the shift coordinator before finishing the shift</b>
+      <span>14:22</span><b>Nadia and a graduate nurse perform a two-person manual transfer without the hoist</b>
+      <span>14:23</span><b>Patient begins to slip; Nadia takes the weight and holds the transfer; no fall, no injury</b>
+      <span>14:24</span><b>Nadia reports the near miss to the shift coordinator before finishing the shift</b>
     </div>
-    <p>The ward manager wants Priya dismissed, citing a "zero tolerance" manual handling policy. Two other staff were given a verbal reminder (not a written warning) for similar hoist-avoidance in the past year, but neither incident was escalated at the time. The hospital's hoist fleet has a known pattern of "slow to charge" tickets that often sit unresolved for days.</p>
+    <p>The ward manager wants Nadia dismissed, citing a "zero tolerance" manual handling policy. Two other staff were given a verbal reminder (not a written warning) for similar hoist-avoidance in the past year, but neither incident was escalated at the time. The hospital's hoist fleet has a known pattern of "slow to charge" tickets that often sit unresolved for days.</p>
   </Fragment>
   <Fragment slot="answer">
     <ol>
-      <li><strong>Not yet.</strong> There is a real safety breach (skipping the hoist without documenting the fallback), but you don't yet know whether the hoist was genuinely unavailable in a way that made the two-person lift a reasonable, if undocumented, fallback — or whether Priya bypassed a working hoist to save time.</li>
-      <li><strong>Missing:</strong> whether the hoist was actually non-functional at 14:10 or merely slow; whether Priya raised the fault before the transfer; how the two prior hoist-avoidance incidents were actually handled and by whom; and the hospital's own record on resolving "slow to charge" tickets, since an unmaintained fleet undercuts "zero tolerance" messaging.</li>
+      <li><strong>Not yet.</strong> There is a real safety breach (skipping the hoist without documenting the fallback), but you don't yet know whether the hoist was genuinely unavailable in a way that made the two-person lift a reasonable, if undocumented, fallback — or whether Nadia bypassed a working hoist to save time.</li>
+      <li><strong>Missing:</strong> whether the hoist was actually non-functional at 14:10 or merely slow; whether Nadia raised the fault before the transfer; how the two prior hoist-avoidance incidents were actually handled and by whom; and the hospital's own record on resolving "slow to charge" tickets, since an unmaintained fleet undercuts "zero tolerance" messaging.</li>
       <li><strong>Framing:</strong> "You performed a high-risk manual transfer without the hoist and without documenting the fallback assessment, contrary to policy." Don't frame it as reckless or dishonest — she held the patient safely and reported it herself within the hour. Separately, flag to the client (not as settled law, but as a live business risk) that treating this self-report more harshly than the two undocumented verbal-reminder cases risks signalling to staff that reporting a near miss is worse than staying quiet about one.</li>
     </ol>
-    <p style="margin-bottom:6px"><strong>Where it could land, depending on what the further inquiries show:</strong></p>
+    <p class="spectrum-label"><strong>Where it could land, depending on what the further inquiries show:</strong></p>
     <div class="spectrum">
-      <div class="hi">Hoist was working and Priya knew it: a serious safety breach, and her experience cuts against her — she should have known better.</div>
+      <div class="hi">Hoist was working and Nadia knew it: a serious safety breach, and her experience cuts against her — she should have known better.</div>
       <div class="lo">Hoist fleet genuinely unreliable and others were only reminded verbally for the same thing: a written warning and a fix to the hoist maintenance backlog, not dismissal.</div>
     </div>
   </Fragment>
@@ -160,4 +161,4 @@ Across these decisions, the pattern is consistent:
 
 Check each paragraph reference against the published decision on the FWC website before relying on it. *BHP Coal Pty Ltd t/a BMA v Schmidt* is cited as quoted in a later decision and still needs checking in the original.
 
-<DecisionsCited moduleId={11} />
+<DecisionsCited moduleId={12} />

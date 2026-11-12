@@ -1,0 +1,224 @@
+---
+id: 3
+slug: using-ai-in-performance-and-conduct
+title: Using AI in performance and conduct matters
+tier: 1
+provisions: ["FWA s.387", "FWA s.361", "Applicable privacy, discrimination and records law"]
+version: "0.1.1"
+last_updated: "2026-11-12T18:24:37+08:00"
+law_current_as_at: null
+law_sources: []
+reading_minutes: 11
+related: [2, 6, 7, 14, 17, 20, 21, 22]
+---
+
+import Checklist from "../../components/Checklist.astro";
+import Scenario from "../../components/Scenario.astro";
+
+<p class="lead">AI can help organise evidence, retrieve sources and expose gaps. It cannot decide whether an employee is credible, whether dishonesty is proved, whether a medical condition affects capacity, or whether dismissal is fair. The person making the decision remains responsible for the evidence, the reasoning and the process.</p>
+
+<div class="notice">
+<strong>Current-source gate:</strong> this is a cautionary practice module, not a complete statement of law or an AI policy. Before using AI with a live matter, check the current legislation, applicable industrial instrument, contract, policy, privacy and confidentiality requirements, records settings, discrimination risks, surveillance or monitoring rules, and any organisational AI policy. Record the source/check date and the system used.
+</div>
+
+## What you'll be able to do
+
+- Use AI for bounded preparation and research without handing it the disciplinary judgment.
+- Separate allegations, evidence, employee responses, findings and legal conclusions.
+- Test an AI output for source identity, currency, completeness, ambiguity and outcome leakage.
+- Recognise when an apparently fluent answer has created procedural-fairness or confidentiality risk.
+- Keep a human decision-maker accountable for the conclusion and the reasons.
+
+## The line not to cross
+
+> **Use AI to improve the questions, the evidence map and the source trail. Do not use it to outsource the judgment.**
+
+AI output is not a finding of fact, a legal conclusion, a credibility assessment or a fair process. A polished paragraph can still be based on an incomplete record, a misidentified authority or an assumption that no one has tested.
+
+This matters especially in performance and conduct matters because the central questions are often evaluative. The record may show what was alleged and what was said, but a decision-maker still has to determine what happened, what was understood, what weight to give competing accounts, whether the conduct was intentional, and what consequence is justified. A structured prompt or a confident model response does not remove those judgments.
+
+## Good uses: preparation, not decision
+
+AI may be useful for bounded tasks such as:
+
+- building a chronology from documents that have been authorised for use;
+- identifying missing documents, unanswered questions and internal inconsistencies;
+- separating the allegation from the evidence said to support it;
+- comparing a policy, contract or industrial instrument with the proposed allegation;
+- suggesting interview questions that test both the allegation and reasonable alternative explanations;
+- locating potentially relevant legislation and decisions for a human to verify;
+- comparing successive drafts of a warning or investigation report;
+- checking whether a draft letter states a conclusion that its evidence does not support;
+- identifying whether a cited authority is indirect, incomplete or apparently outdated;
+- generating a list of issues for a human adviser to investigate further.
+
+The output of these tasks should be treated as a **research aid or draft**, not as an answer to the matter.
+
+## What AI should not decide
+
+Do not ask an AI system to make, or accept without independent human assessment, conclusions about:
+
+- whether an employee is credible;
+- whether dishonesty, intent or recklessness is proved;
+- whether an explanation is implausible merely because it is unusual;
+- whether a medical condition affects capacity or inherent requirements;
+- whether conduct is sufficiently connected to employment;
+- whether a positive test or policy breach automatically justifies dismissal;
+- whether a reason is valid without analysing the actual decision-maker's reason;
+- whether dismissal is harsh, unjust or unreasonable;
+- what sanction should be imposed;
+- whether the employee has had a meaningful opportunity to respond;
+- whether a proposed reason is safe to put to the employee or rely on in a hearing.
+
+An AI system can help identify the question. It cannot answer the question by authority of its fluency.
+
+## The structural lesson: structure is not judgment
+
+A legal provision can be represented in a structured, source-linked way without becoming a decision algorithm. That distinction is directly relevant here.
+
+A model may be able to map:
+
+- the statutory factors;
+- the relevant documents;
+- the competing accounts;
+- the authorities;
+- the apparent gaps; and
+- the questions still requiring an answer.
+
+That does not mean it can reliably perform the evaluative work between those inputs and a lawful outcome. In particular, s.387 is not made mechanical by listing its factors. Fact construction, attribution, credibility, relevance, weight and overall judgment remain human legal work.
+
+**A checklist can expose what still needs judgment. It cannot prove that the judgment has been made correctly.**
+
+## Keep the layers separate
+
+An AI-assisted matter file should distinguish at least these layers:
+
+<div class="tablewrap">
+
+| Layer | The question | Do not do this |
+|---|---|---|
+| Allegation | What is said to have happened? | Write the allegation as an established fact. |
+| Source evidence | What document, witness or system record supports it? | Treat the existence of a document as proof of its contents. |
+| Response | What does the employee say, and what alternative explanation is raised? | Summarise only the employer's account. |
+| Finding | What, if anything, is established on the available evidence? | Let the model silently convert probability or tone into a finding. |
+| Legal assessment | What provision, instrument or policy applies, and what does it require? | Treat a case-derived framework as statutory text. |
+| Consequence | What action is proportionate and procedurally available? | Jump from an allegation to a sanction. |
+
+</div>
+
+The distinction matters because AI systems tend to smooth these layers into a single coherent narrative. Coherence is not corroboration.
+
+## Source and evidence checks
+
+Before relying on an AI-assisted legal or factual proposition, ask each question separately:
+
+- **Identity:** Is the authority or document the one the output names?
+- **Currency:** Was the current legislation, regulation, rule or policy checked?
+- **Pinpoint:** Does the cited passage actually support the proposition?
+- **Source class:** Is this primary legislation, an original decision, a later decision quoting another authority, a submission, guidance or local practice?
+- **Completeness:** Did the system receive the whole relevant record, or only selected extracts?
+- **Dispute status:** Is this an allegation, an account, an accepted fact, a finding or an inference?
+- **Timing:** Was the information available to the decision-maker at the time, or was it discovered later?
+- **Uncertainty:** What remains disputed, unknown or deliberately not determined?
+
+Retrieval success is not proof of legal correctness. A source appearing in an AI answer is not proof that it was read, current or correctly applied.
+
+## A safer sequence
+
+1. Define the question narrowly and identify the governing source.
+2. Decide what material may lawfully and safely be supplied to the system.
+3. Separate allegations, evidence, responses and established findings before asking for synthesis.
+4. Ask first for gaps, competing explanations and questions — not a dismissal recommendation.
+5. Require every legal proposition to be checked against the current primary source and the original authority where possible.
+6. Have the human adviser or decision-maker independently assess the evidence and applicable law.
+7. Give the employee the substance of any allegation or material relied on, and a meaningful opportunity to respond.
+8. Record the material role AI played, including any important input or output that affected the process.
+9. Check the final reasons against the evidence actually available at the decision date.
+10. Treat the matter as unresolved where the evidence does not justify a finding. Do not let a complete-looking AI summary close the gap.
+
+## How AI-assisted work fails
+
+<div class="fails">
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The clean narrative</h3>
+<p>The system turns several disputed accounts into one smooth chronology. The missing qualifiers and unresolved disputes disappear.</p>
+<p class="lesson">Compare the output with the underlying documents and require separate treatment of each account.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The invented authority</h3>
+<p>The output gives a plausible case name, paragraph number or quotation that has not been checked.</p>
+<p class="lesson">Verify identity and pinpoint against the original published source. If the source cannot be checked, say so.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The policy shortcut</h3>
+<p>The output says a policy breach justifies dismissal because the policy describes the conduct as serious.</p>
+<p class="lesson">Analyse the policy's status, the actual evidence, the employee's understanding, the response opportunity, the statutory test and proportionality separately.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>Outcome leakage</h3>
+<p>The system uses a later decision or outcome to describe what should have been known or decided at the earlier decision date.</p>
+<p class="lesson">Distinguish contemporaneous material from after-acquired evidence. Later information may affect the assessment or remedy, but it does not retrospectively create a fair process.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The confidence score</h3>
+<p>The system assigns a percentage or label to credibility, dishonesty or dismissal risk.</p>
+<p class="lesson">Treat the score as unsupported unless its basis, evidence and limitations can be explained. A numerical appearance does not make evaluative judgment objective.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The confidential upload</h3>
+<p>Sensitive personnel information is placed in a system without checking authorisation, retention, access, training or contractual restrictions.</p>
+<p class="lesson">Use only an approved system and minimum necessary material. If that cannot be established, do not upload the matter.</p>
+</div>
+</div>
+
+## Adviser checklist
+
+<Checklist
+  title="Using AI in a performance or conduct matter"
+  openAdvice="Don't rely on the AI-assisted output yet. Resolve the open items first."
+  readyAdvice="The output is ready for the human decision-maker's own assessment."
+  items={[
+    { group: "Before use", text: "The question is narrow, the governing source is identified, and the proposed AI use is preparation or research rather than decision-making." },
+    { group: "Before use", text: "The system is approved for the material, and privacy, confidentiality, records, surveillance and applicable policy requirements have been checked." },
+    { group: "Evidence", text: "Allegations, source evidence, employee responses, findings and legal conclusions are kept separate." },
+    { group: "Evidence", text: "The output has been checked against the complete relevant record, including material that complicates the preferred account." },
+    { group: "Sources", text: "Every important legal proposition has been checked against current primary sources and the original authority where possible." },
+    { group: "Sources", text: "Indirect quotations, missing pinpoints, outdated sources and unresolved propositions are identified rather than silently repaired." },
+    { group: "Decision", text: "A human decision-maker has independently assessed credibility, intent, materiality, proportionality and the applicable legal test." },
+    { group: "Process", text: "The employee has been given the substance of the allegation and a meaningful opportunity to respond to material relied on." },
+    { group: "Records", text: "The material role of AI, and any output that affected the process, is recorded consistently with applicable records requirements." },
+    { group: "Limits", text: "The system is not being asked to decide credibility, medical capacity, sanction or dismissal outcome, and the output can be traced to evidence and current sources." },
+  ]}
+/>
+
+## Practice scenario: the fluent dismissal recommendation
+
+<Scenario questions={["What is wrong with the recommendation?", "Which parts of the record need to be separated?", "What should the investigator ask next?", "What can the human decision-maker rely on, if anything?", "What process risk has the AI introduced?"]}>
+  <Fragment slot="facts">
+    <p>This is a fictional scenario. An AI tool is given a complaint, three interview summaries and the employer's social-media policy. It produces a recommendation that the employee be summarily dismissed for "deliberate reputational misconduct". The recommendation says the employee admitted the conduct, that the policy clearly prohibits it, and that the employee's explanation is not credible.</p>
+    <p>The source material shows something less clear: the employee accepted making the post but denied knowing the account could be linked to the employer; the complainant's account conflicts with a colleague's; the policy was amended after the post; and the AI tool was not given the employee's earlier written response or the version of the policy in force at the time.</p>
+  </Fragment>
+  <Fragment slot="answer">
+    <ol>
+      <li><strong>The recommendation is not a finding.</strong> It has converted an admission of making a post into an admission of deliberate reputational misconduct, and has treated a credibility conclusion as though it came from the evidence.</li>
+      <li><strong>The layers need separating:</strong> what was posted, what the employee understood, whether the account was connected to the employer, which policy applied at the time, what each witness actually observed, and what the employee said in response.</li>
+      <li><strong>Next questions:</strong> obtain the policy version in force at the time; verify the post and account context; test the competing witness accounts; ask what the employee understood about the connection to employment; and put the material allegation and evidence to the employee.</li>
+      <li><strong>Possible use of the output:</strong> it may help identify issues to investigate. It cannot itself establish intent, credibility, serious misconduct or a basis for summary dismissal.</li>
+      <li><strong>Process risk:</strong> the employer could rely on an incomplete record, apply a later policy retrospectively, fail to put the real allegation to the employee, and later be unable to explain how the conclusion was reached.</li>
+    </ol>
+  </Fragment>
+</Scenario>
+
+## What this module does not decide
+
+This module does not determine whether a particular AI tool may be used, whether particular information may be uploaded, or what an employer must disclose about AI use. Those questions depend on current law, the employment relationship, applicable instruments, organisational policy, system configuration and the facts.
+
+The practical baseline is narrower:
+
+> **If the human decision-maker cannot explain the evidence, the reasoning and the process without saying “the AI told me”, the matter is not ready for decision.**

@@ -6,13 +6,22 @@ interface Item {
 interface Props {
   title: string;
   items: Item[];
+  /** What to do while items are open. Follows "N items open." */
+  openAdvice?: string;
+  /** What a fully ticked list means. Follows "All items ticked." */
+  readyAdvice?: string;
 }
-const { title, items } = Astro.props as Props;
+const {
+  title,
+  items,
+  openAdvice = "Work through the open items, or escalate them to a senior ER adviser, before going further.",
+  readyAdvice = "This looks ready for senior ER review.",
+} = Astro.props as Props;
 const uid = `checklist-${Math.random().toString(36).slice(2, 9)}`;
 let lastGroup = "";
 ---
 
-<div class="tool" id={uid} data-title={title}>
+<div class="tool" id={uid} data-title={title} data-open-advice={openAdvice} data-ready-advice={readyAdvice}>
   <div class="progress"><span class="count">0 of {items.length}</span><div class="bar" aria-hidden="true"><i class="fill"></i></div></div>
   <ul class="checks">
     {items.map((it, i) => {
@@ -36,6 +45,7 @@ let lastGroup = "";
     <button type="button" class="primary copy-btn">Copy checklist as text</button>
     <button type="button" class="reset-btn">Clear all</button>
   </div>
+  <p class="saved-note">Ticks are saved in this browser only.</p>
 </div>
 
 <script>
@@ -50,22 +60,45 @@ let lastGroup = "";
       const n = boxes.filter((b) => b.checked).length;
       countEl.textContent = `${n} of ${boxes.length}`;
       fillEl.style.width = `${(100 * n) / boxes.length}%`;
-      if (n === boxes.length) {
-        statusEl.className = "status ready";
-        statusEl.innerHTML = "<strong>All items ticked.</strong> This looks ready for senior ER review.";
-      } else {
-        const open = boxes.length - n;
-        statusEl.className = "status open";
-        statusEl.innerHTML = `<strong>${open} item${open === 1 ? "" : "s"} open.</strong> Don't recommend termination yet. Escalate the open items to a senior ER adviser.`;
-      }
+      const open = boxes.length - n;
+      const lead = document.createElement("strong");
+      lead.textContent = open === 0 ? "All items ticked." : `${open} item${open === 1 ? "" : "s"} open.`;
+      const advice = open === 0 ? root.dataset.readyAdvice : root.dataset.openAdvice;
+      statusEl.className = open === 0 ? "status ready" : "status open";
+      statusEl.replaceChildren(lead, ` ${advice ?? ""}`);
     }
 
-    boxes.forEach((b) => b.addEventListener("change", update));
+    // Ticks are remembered in this browser, keyed by page and checklist title.
+    const storeKey = `erpg:checklist:${location.pathname.replace(/\/$/, "")}:${title}`;
+    function save() {
+      try {
+        const ticked = boxes.filter((b) => b.checked).map((b) => b.dataset.text);
+        if (ticked.length) localStorage.setItem(storeKey, JSON.stringify(ticked));
+        else localStorage.removeItem(storeKey);
+      } catch {
+        // Storage unavailable (private window, blocked site data): the checklist still works.
+      }
+    }
+    try {
+      // Saved by item text, so editing or reordering the checklist never ticks the wrong item.
+      const ticked = new Set<string>(JSON.parse(localStorage.getItem(storeKey) ?? "[]"));
+      boxes.forEach((b) => (b.checked = ticked.has(b.dataset.text ?? "")));
+    } catch {
+      // Nothing saved, or storage unavailable.
+    }
+
+    boxes.forEach((b) =>
+      b.addEventListener("change", () => {
+        update();
+        save();
+      })
+    );
     update();
 
     root.querySelector(".reset-btn")?.addEventListener("click", () => {
       boxes.forEach((b) => (b.checked = false));
       update();
+      save();
     });
 
     root.querySelector(".copy-btn")?.addEventListener("click", (e) => {

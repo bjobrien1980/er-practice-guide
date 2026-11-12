@@ -1,24 +1,14 @@
 ---
-import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en-AU">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Parallel pathways — ER Practice Guide</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="topbar"><a class="brand" href="/">ER Practice Guide <span>Conduct &amp; performance</span></a><nav class="quick-links"><a href="/start-here">Start here</a><a href="/glossary">Glossary</a></nav></header>
-    <main class="standalone">
+<BaseLayout title="Parallel pathways" description="A screening map of the legal and workplace pathways a single workplace event can raise. Training material only, not legal advice.">
+  <main id="top" class="standalone" data-pagefind-body>
       <p class="eyebrow">Orientation</p>
       <h1>Parallel pathways</h1>
       <p class="lead">A single workplace event can raise several legal questions. This map is a screening tool, not a conclusion that every pathway applies.</p>
       <div class="notice">Training material only — not legal advice. The applicable source may be legislation, an award, enterprise agreement, contract, policy, evidence or case-specific advice.</div>
-      <div class="pathway-grid">
+      <div class="link-grid">
         <a href="/modules/who-can-claim"><b>Unfair dismissal</b><small>Eligibility, dismissal, s.387 merits and remedy.</small></a>
         <a href="/modules/general-protections"><b>General protections</b><small>Workplace rights, protected activity, adverse action and reverse onus.</small></a>
         <a href="/modules/medical-capacity"><b>Capacity and disability</b><small>Inherent requirements, medical evidence, adjustment and discrimination risk.</small></a>
@@ -34,8 +24,7 @@ import "../styles/global.css";
       </div>
       <h2>Use the map without turning it into a checklist</h2>
       <p>The point is not to complete every box. It is to avoid treating an issue as a simple conduct or performance matter when the facts may engage another source or protection.</p>
-      <ul class="principles compact"><li>Identify the obvious pathway.</li><li>Ask what fact would activate a second pathway.</li><li>Check the source that governs that pathway.</li><li>Keep unresolved pathways visible while the facts are tested.</li></ul>
+      <ul class="compact"><li>Identify the obvious pathway.</li><li>Ask what fact would activate a second pathway.</li><li>Check the source that governs that pathway.</li><li>Keep unresolved pathways visible while the facts are tested.</li></ul>
       <p class="backlink"><a href="/start-here">← Start here</a> · <a href="/">Return to the guide</a></p>
-    </main>
-  </body>
-</html>
+  </main>
+</BaseLayout>

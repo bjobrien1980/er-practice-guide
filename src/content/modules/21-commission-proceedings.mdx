@@ -1,15 +1,15 @@
 ---
-id: 20
+id: 21
 slug: commission-proceedings
 title: Commission proceedings
 tier: 4
 provisions: ["FWA s.596", "FWA s.611", "FWA s.400A"]
-version: "0.1.0"
-last_updated: "2026-11-12T14:39:11+08:00"
+version: "0.2.1"
+last_updated: "2026-11-12T18:11:03+08:00"
 law_current_as_at: null
 law_sources: []
-reading_minutes: 12
-related: [2, 21, 9]
+reading_minutes: 10
+related: [2, 22, 10]
 ---
 
 import Cite from "../../components/Cite.astro";
@@ -40,6 +40,8 @@ Conciliation can end in a few different ways:
 **A conciliation outcome can be final, even if nothing was signed on the day.** In *Bell*, the applicant later tried to walk away from the deal reached at conciliation. The Commission found a binding settlement had been reached and <Cite id="[2020] FWC 1181" at="[47]" phrase="I exercise my discretion to dismiss Ms Bell's application under s 587(1)(c) of the FW Act" />; <Cite id="[2020] FWC 1181" at="[48]" phrase="I dismiss her application for an unfair dismissal remedy" />. Treat what's agreed at conciliation as real — confirm your client's instructions before anything is put to the other side, not after.
 
 ## Representation: permission, not a right
+
+**Current-source gate:** before relying on any statement about representation, conciliation, settlement, costs or Commission procedure, check the current Fair Work Act, Commission Rules, current Commission guidance and the procedural orders for the matter. Case law remains useful but does not guarantee that a current procedural practice is unchanged.
 
 Section 596 of the Fair Work Act doesn't let a party simply turn up with a lawyer or paid agent. In *Durmic v Department of Home Affairs*, the Commission described a decision to grant or refuse permission as one that <Cite id="[2023] FWC 1502" at="[12]" phrase="cannot be properly characterised as a mere procedural decision" />, because it can change the whole dynamic of the hearing.
 
@@ -82,10 +84,10 @@ There are two separate statutory routes:
 
 A costs application is itself an application — if it's weak, it can expose the person who brought it.
 
-## Failure patterns
+## How representation and costs applications fail
 
 <div class="fails">
-<div class="fail">
+<div class="fail near">
 <span class="tag">Permission refused</span>
 <h3>"My client isn't legally trained" isn't a reason on its own</h3>
 <p>No complexity was identified in the actual case; the Commission found the lack of legal training alone did not justify representation. <Cite id="[2021] FWC 6336" at="[22]" phrase="the absence of such training in itself is not a sufficient reason" /></p>
@@ -103,7 +105,7 @@ A costs application is itself an application — if it's weak, it can expose the
 <p>The respondent's own vexatious-application claim was abandoned at hearing and had no reasonable prospects when made; it ended up paying the applicant's costs of that part of the dispute on an indemnity basis. <Cite id="[2020] FWC 2491" at="[73]" phrase="I further exercise my discretion to order that the Respondent pay the Applicant's costs" /></p>
 <p class="lesson">Assess your own costs application as critically as you'd assess the other side's case — it can turn on you.</p>
 </div>
-<div class="fail">
+<div class="fail near">
 <span class="tag">Settlement treated as reversible</span>
 <h3>Trying to walk away from a conciliation outcome</h3>
 <p>Terms reached verbally at a telephone conciliation conference were held to be a binding settlement, and the later application was dismissed as having no reasonable prospects. <Cite id="[2020] FWC 1181" at="[48]" phrase="I dismiss her application for an unfair dismissal remedy" /></p>
@@ -115,6 +117,7 @@ A costs application is itself an application — if it's weak, it can expose the
 
 <Checklist
   title="Commission proceedings checklist"
+  openAdvice="Resolve the open items before the next step in the proceeding."
   items={[
     { group: "Before conciliation", text: "The client understands conciliation is confidential and without prejudice — and that what's agreed there can still be final and binding." },
     { group: "Before conciliation", text: "Settlement authority and bottom line are confirmed with the client before the conference, not improvised on the call." },
@@ -129,7 +132,7 @@ A costs application is itself an application — if it's weak, it can expose the
 
 ## Practice scenario: the store manager's case
 
-<Scenario questions={["Should the Commission grant Northfield permission to be represented by a lawyer?", "What should you tell Northfield about the upcoming conciliation conference?", "Can Northfield recover costs if the claim turns out to be weak?"]}>
+<Scenario questions={["Should the Commission grant Northfield permission to be represented by a lawyer?", "What should you tell Northfield about the upcoming conciliation conference?", "What non-dismissal or settlement outcome remains open?", "Can Northfield recover costs if the claim turns out to be weak?"]}>
   <Fragment slot="facts">
     <p>This is a fictional scenario. Northfield Mercantile is a mid-sized retail chain with stores in three states. A duty manager, dismissed after a cash-handling discrepancy was found at her store, has lodged an unfair dismissal application. Northfield has one HR generalist and no in-house lawyer. Northfield's external lawyer wants permission to appear, pointing to "the general complexity of retail employment law". The applicant intends to argue that Northfield's cash-handling policy was inconsistently applied across its stores, which will require comparing rostering and audit records from multiple sites.</p>
     <p>Northfield's operations director has told the HR generalist: "This case is obviously weak — she admitted the till was short. Can we get our legal costs back once we win?" A conciliation conference is listed for next week.</p>
@@ -145,6 +148,6 @@ A costs application is itself an application — if it's weak, it can expose the
 
 ## Decisions cited
 
-Every pinpoint below was read in the reconstructed decision text before it was used. Rows marked "partial" confirm the proposition pinpoint only — a later part of that decision (such as the exact costs figure ultimately ordered) was not independently confirmed in this pass.
+Every pinpoint below was read in the reconstructed decision text before it was used. Rows marked "partial" confirm the proposition pinpoint only — a later part of that decision (such as the exact costs figure ultimately ordered) has not been separately confirmed.
 
-<DecisionsCited moduleId={20} />
+<DecisionsCited moduleId={21} />

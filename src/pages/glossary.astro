@@ -1,42 +1,14 @@
 ---
-import "../styles/global.css";
-const terms = [
-  ["adverse-action", "Adverse action", "Action by an employer that disadvantages an employee, including dismissal, for a prohibited reason under the general protections provisions."],
-  ["workplace-right", "Workplace right", "A right or entitlement arising under a workplace law, instrument or process, or the ability to make a complaint or inquiry about employment."],
-  ["reverse-onus", "Reverse onus", "An evidentiary rule in general protections proceedings. Once the relevant statutory facts are in issue, the decision-maker may presume the prohibited reason unless the employer proves otherwise."],
-  ["minimum-employment-period", "Minimum employment period", "The statutory period relevant to eligibility for an unfair dismissal application. It is not the same question as whether a dismissal was fair."],
-  ["high-income-threshold", "High-income threshold", "A statutory threshold that may affect unfair dismissal coverage, subject to the applicable award or enterprise agreement and the law current at the relevant time."],
-  ["genuine-redundancy", "Genuine redundancy", "A statutory concept with specific elements. Calling a decision a restructure does not itself establish genuine redundancy."],
-  ["serious-misconduct", "Serious misconduct", "Conduct that may justify summary dismissal under the applicable law, instrument, contract or policy. The label does not replace analysis of the facts and process."],
-  ["summary-dismissal", "Summary dismissal", "Dismissal without notice where the employer relies on a lawful basis to do so. The source of the power and the facts supporting it must be checked."],
-  ["support-person", "Support person", "A person who attends a disciplinary or dismissal meeting to provide support. Their role and the employee's opportunity to have one may also be governed by an instrument, contract, policy or established process."],
-  ["representation", "Representation", "Advocacy or assistance in a workplace process or proceeding. Whether a person may be represented, and by whom, depends on the applicable source and forum."],
-  ["briginshaw", "Briginshaw considerations", "The practical caution that serious allegations require evidence commensurate with their gravity before a fact is found on the balance of probabilities."],
-  ["reinstatement", "Reinstatement", "Returning an unfairly dismissed employee to employment. It has statutory primacy among remedies, but whether it is appropriate depends on the facts."],
-  ["mitigation", "Mitigation", "Steps taken by a dismissed employee to reduce loss, usually relevant to compensation. It does not retrospectively make a dismissal fair."],
-  ["repudiation", "Repudiation", "Conduct showing an intention not to be bound by an employment relationship or a fundamental term. The question is objective and fact-dependent."],
-  ["pip", "PIP", "Performance improvement plan. A PIP is a possible management tool, not a universal legal precondition to dismissal."],
-  ["ea", "EA", "Enterprise agreement."],
-  ["fwa", "FWA", "Fair Work Act 2009 (Cth)."],
-  ["fwc", "FWC", "Fair Work Commission."]
-];
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { GLOSSARY } from "../data/glossary";
 ---
 
-<html lang="en-AU">
-  <head>
-    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Glossary — ER Practice Guide</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <header class="topbar"><a class="brand" href="/">ER Practice Guide <span>Conduct &amp; performance</span></a><nav class="quick-links"><a href="/start-here">Start here</a><a href="/pathways">Pathways</a></nav></header>
-    <main class="standalone">
+<BaseLayout title="Glossary" description="Plain-language starting points for terms used across the ER Practice Guide. Training material only, not legal advice.">
+  <main id="top" class="standalone" data-pagefind-body>
       <p class="eyebrow">Reference</p><h1>Glossary</h1>
       <p class="lead">Plain-language starting points for terms used across the guide. Definitions are deliberately concise; the relevant module and current source control the analysis.</p>
       <div class="notice">Training material only — not legal advice. Definitions may be incomplete outside the context in which the term is used.</div>
-      <div class="glossary">{terms.map(([id, term, definition]) => <section id={id}><h2>{term}</h2><p>{definition}</p></section>)}</div>
+      <div class="glossary">{GLOSSARY.map((g) => <section id={g.id}><h2>{g.term}</h2><p>{g.definition}</p></section>)}</div>
       <p class="backlink"><a href="/start-here">← Start here</a> · <a href="/">Return to the guide</a></p>
-    </main>
-  </body>
-</html>
+  </main>
+</BaseLayout>

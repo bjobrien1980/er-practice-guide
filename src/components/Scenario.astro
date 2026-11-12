@@ -7,7 +7,7 @@ const uid = `scenario-${Math.random().toString(36).slice(2, 9)}`;
 ---
 
 <div class="scenario" id={uid}>
-  <p style="margin-top:0;color:var(--muted);font-size:14px">Fictional scenario. Write your answers, then reveal the model answer.</p>
+  <p class="scenario-note">Fictional scenario. Write your answers, then reveal the model answer.</p>
   <div class="facts">
     <slot name="facts" />
   </div>
@@ -17,7 +17,11 @@ const uid = `scenario-${Math.random().toString(36).slice(2, 9)}`;
       <textarea id={`${uid}-a${i}`}></textarea>
     </>
   ))}
-  <div class="row"><button type="button" class="primary reveal-btn" aria-expanded="false">Reveal model answer</button></div>
+  <div class="row">
+    <button type="button" class="primary reveal-btn" aria-expanded="false">Reveal model answer</button>
+    <button type="button" class="clear-btn">Clear my answers</button>
+  </div>
+  <p class="saved-note">Your answers are saved in this browser only.</p>
   <div class="answer" hidden>
     <slot name="answer" />
   </div>
@@ -38,5 +42,34 @@ const uid = `scenario-${Math.random().toString(36).slice(2, 9)}`;
       btn.setAttribute("aria-expanded", String(open));
     });
   }
-  document.querySelectorAll<HTMLElement>(".scenario").forEach(initScenario);
+  // Answers are remembered in this browser, keyed by page and question number.
+  function initAnswers(root: HTMLElement, index: number) {
+    const areas = Array.from(root.querySelectorAll<HTMLTextAreaElement>("textarea"));
+    const storeKey = `erpg:scenario:${location.pathname.replace(/\/$/, "")}:${index}`;
+    function save() {
+      try {
+        const answers = areas.map((a) => a.value);
+        if (answers.some((v) => v.trim())) localStorage.setItem(storeKey, JSON.stringify(answers));
+        else localStorage.removeItem(storeKey);
+      } catch {
+        // Storage unavailable: the scenario still works, it just won't remember.
+      }
+    }
+    try {
+      const saved = JSON.parse(localStorage.getItem(storeKey) ?? "[]");
+      if (Array.isArray(saved)) areas.forEach((a, i) => (a.value = typeof saved[i] === "string" ? saved[i] : ""));
+    } catch {
+      // Nothing saved, or storage unavailable.
+    }
+    areas.forEach((a) => a.addEventListener("input", save));
+    root.querySelector(".clear-btn")?.addEventListener("click", () => {
+      areas.forEach((a) => (a.value = ""));
+      save();
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>(".scenario").forEach((root, index) => {
+    initScenario(root);
+    initAnswers(root, index);
+  });
 </script>
