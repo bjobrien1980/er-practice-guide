@@ -14,7 +14,8 @@
       "outcome_status": "partial",
       "verification_status": "confirmed",
       "modules": [
-        5
+        5,
+        10
       ]
     },
     "[2023] FWC 65": {
@@ -77,7 +78,8 @@
       "verification_status": "confirmed",
       "modules": [
         3,
-        5
+        5,
+        10
       ]
     },
     "[2021] FWC 3122": {
@@ -92,7 +94,8 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        5
+        5,
+        13
       ]
     },
     "[2025] FWC 3137": {
@@ -1283,6 +1286,647 @@
       "modules": [
         22
       ]
+    },
+    "[2022] FWC 103": {
+      "citation": "[2022] FWC 103",
+      "short_name": "Roach v Pacific National Services",
+      "download_id": "694723",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-rodney-roach-v-pacific-national-services-pty-ltd-2022-fwc-103?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2022-01-21",
+      "outcome": "Read start to finish. Mr Roach, a train driver, smoked cannabis on a day off and returned a positive urine test for cannabinoids two days later in a safety-critical rail role. The Commission accepted he may not have felt impaired but held that did not establish he was not in fact impaired, found a valid reason in simply attending work with a proscribed level of cannabinoids in his system (not in his being discernibly affected), found he had an independent notification obligation he breached, and found the dismissal was not unfair.",
+      "outcome_pinpoint": "[62]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        10
+      ]
+    },
+    "[2023] FWC 2465": {
+      "citation": "[2023] FWC 2465",
+      "short_name": "Haigh v Platinum Blasting Services",
+      "download_id": "699455",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-sheldon-haigh-v-platinum-blasting-services-pty-ltd-2023-fwc-2465?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2023-09-26",
+      "outcome": "Read start to finish. Mr Haigh, an MPU operator handling explosives at a mine, was prescribed medicinal cannabis, disclosed it once, then resumed using it after stopping an alternative medication without re-disclosing, which only came to light after a post-incident test. The Commission found a valid reason in the non-disclosure itself \u2014 holding that policy language like \"could impair\" and \"may affect\" captures the possibility of impairment regardless of whether actual impairment is proven \u2014 but found the dismissal was not harsh, unjust or unreasonable overall and dismissed the application, despite accepting he had passed every drug test.",
+      "outcome_pinpoint": "[89]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        10
+      ]
+    },
+    "[2024] FWC 2154": {
+      "citation": "[2024] FWC 2154",
+      "short_name": "Macnish v Virgin Australia",
+      "download_id": "678493",
+      "url": "https://www.fwc.gov.au/document-view/decisions/document-pr778284?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2024-08-13",
+      "outcome": "Read the valid-reason reasoning in detail (a very long decision; not every paragraph was read). A cabin crew member had a glass of prosecco 7.5 hours before signing on, inside Virgin's 8-hour alcohol rule, after checking with a manager and breathalysing himself. The Commission found he had technically breached the rule but that Virgin's drug and alcohol policy material was spread inconsistently across multiple manuals and communicated with conflicting messaging about whether the 8-hour rule was binding, found no valid reason for the dismissal, found it harsh in any event, and ordered reinstatement.",
+      "outcome_pinpoint": "[6]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        10
+      ]
+    },
+    "[2020] FWC 250": {
+      "citation": "[2020] FWC 250",
+      "short_name": "Williams v Viridian Glass",
+      "download_id": "748783",
+      "url": "https://www.fwc.gov.au/document-view/decisions/williams-ashley-v-csr-limited-t-a-viridian-2020-fwc-250?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2020-01-17",
+      "outcome": "Valid reason found: a course of safety-related misconduct over several years in which the Applicant (a 30-year driver/glass worker) repeatedly failed to comply with safety policies and procedures, confirmed at [142]. Long service and age weighed towards harshness but were outweighed by the criticality of safety in a high-risk work environment, confirmed at [176]. Application dismissed, confirmed at [177].",
+      "outcome_pinpoint": "[177]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        11
+      ]
+    },
+    "[2020] FWC 120": {
+      "citation": "[2020] FWC 120",
+      "short_name": "Plesiotis v Huhtamaki",
+      "download_id": "740565",
+      "url": "https://www.fwc.gov.au/document-view/decisions/plesiotis-chris-v-huhtamaki-australia-pty-ltd-t-a-huhtamaki-2020-fwc-120?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2020-01-16",
+      "outcome": "Valid reason found at [140] (repeated, deliberate breach of a pedestrian-walkway safety rule plus other misconduct). The Respondent's past inconsistent enforcement of the walkway rule was found relevant and weighed somewhat towards unfairness, confirmed at [129]-[130] and [156], but was not enough to outweigh the other factors. Application for an unfair dismissal remedy dismissed, confirmed at [163].",
+      "outcome_pinpoint": "[163]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        11
+      ]
+    },
+    "[2021] FWC 838": {
+      "citation": "[2021] FWC 838",
+      "short_name": "MacDonald v Whitehaven Coal Mining",
+      "download_id": "762009",
+      "url": "https://www.fwc.gov.au/document-view/decisions/macdonald-nathan-v-whitehaven-coal-mining-ltd-2021-fwc-838?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-03-24",
+      "outcome": "Valid reason found (breach of a mine's Safehaven Rules, described as a 'near miss'), confirmed at [148]-[149]. Despite the valid reason, the dismissal was found harsh, unjust and unreasonable because the Applicant was treated more severely than colleagues involved in an actual, more serious collision, confirmed at [152] and [156].",
+      "outcome_pinpoint": "[156]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        11
+      ]
+    },
+    "[2022] FWC 1522": {
+      "citation": "[2022] FWC 1522",
+      "short_name": "Paterson v Western Power",
+      "download_id": "710165",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-aaron-paterson-v-electricity-networks-corporation-t-a-western-power-2022-fwc-1522?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2022-10-21",
+      "outcome": "Dismissal of a 12-year electricity-network crew leader upheld following an incident in which a customer received an electric shock (actual harm, not a near miss). His seniority/leadership role at the time was treated as an aggravating factor that justified harsher treatment than other employees investigated over the same incident, confirmed at [231]. His honest, responsibility-accepting Show Cause response was credited but not decisive, confirmed at [232]. Application dismissed, confirmed at [239].",
+      "outcome_pinpoint": "[239]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        11
+      ]
+    },
+    "[2020] FWC 3924": {
+      "citation": "[2020] FWC 3924",
+      "short_name": "Stephenson v Metcash Trading",
+      "download_id": "719858",
+      "url": "https://www.fwc.gov.au/document-view/decisions/stephenson-patrick-v-metcash-trading-limited-2020-fwc-3924?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2020-09-01",
+      "outcome": "No valid reason found. A 30-year warehouse operator was dismissed after a low-severity tugger collision with no injury or property damage; the Commission found the incident did not justify dismissal, partly because the other driver was also at fault and travelling against the one-way rule, confirmed at [196]-[197] and [220]. The Commission rejected a blanket consistency argument (comparator incidents were materially different) but accepted the comparison with the other driver in the same incident was not probative either way given his shorter service and clean record, confirmed at [211] and [213]. The Commission separately observed that long service in one role can itself breed complacency and is no excuse for safety breaches, confirmed at [243]. Applicant reinstated.",
+      "outcome_pinpoint": "[220]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        11
+      ]
+    },
+    "[2023] FWC 1997": {
+      "citation": "[2023] FWC 1997",
+      "short_name": "Swift v Highland Pine Products",
+      "download_id": "702419",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-lindsay-swift-v-highland-pine-products-pty-ltd-2023-fwc-1997-3?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2023-08-10",
+      "outcome": "The Commission set out the legal meaning of sexual harassment in s.28A of the Sex Discrimination Act 1984 (Cth) \u2014 confirmed at [62] \u2014 and found that Mr Swift sexually harassed three colleagues over an extended period \u2014 confirmed at [67]. The Commission held sexual harassment is conduct that will ordinarily justify dismissal, and that an employer's positive duty to eliminate sexual harassment applied to the respondent at the time of the dismissal \u2014 confirmed at [68]. Intent and consent were held irrelevant to whether the conduct was sexual harassment \u2014 confirmed at [69]-[70]. The application was dismissed; the dismissal was not unfair \u2014 confirmed at [93]-[94].",
+      "outcome_pinpoint": "[67]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        12
+      ]
+    },
+    "[2024] FWC 2731": {
+      "citation": "[2024] FWC 2731",
+      "short_name": "Josey v OS MCAP",
+      "download_id": "704042",
+      "url": "https://www.fwc.gov.au/document-view/decisions/evelyn-josey-v-os-mcap-pty-ltd-2024-fwc-2731-2?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2024-10-02",
+      "outcome": "The Commission applied the employer's sexual-harassment definition (mirroring s.28A SDA) and found, on the balance of probabilities, that the Applicant's conduct on a flight constituted sexual harassment and a separate incident constituted (non-sexual) harassment \u2014 confirmed at [145], [150], [152] and [154]. The Commission noted the employer's submission about its legislated positive duty to eliminate sexual harassment \u2014 confirmed at [155] \u2014 and found a valid reason for dismissal \u2014 confirmed at [156]. The application was dismissed; the dismissal was not unfair.",
+      "outcome_pinpoint": "[152]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        12
+      ]
+    },
+    "[2024] FWC 2062": {
+      "citation": "[2024] FWC 2062",
+      "short_name": "Smout v BHP Coal",
+      "download_id": "704872",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-roy-smout-v-bhp-coal-pty-ltd-2024-fwc-2062-2?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2024-09-19",
+      "outcome": "The Commission found the Applicant's conduct towards two colleagues was sexual harassment and that this gave the Respondent a valid reason to terminate \u2014 confirmed at [160]. The Respondent had submitted its action was consistent with its positive duty to prevent or eliminate workplace sexual harassment under the SDA \u2014 confirmed at [106]. Despite the valid reason, the Commission found the dismissal process was rushed purely for administrative convenience (an impending mine ownership transfer and an Easter long weekend), denying the Applicant a full opportunity to respond, and held the dismissal unfair overall \u2014 confirmed at [181]-[182].",
+      "outcome_pinpoint": "[160]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        12
+      ]
+    },
+    "[2026] FWC 1551": {
+      "citation": "[2026] FWC 1551",
+      "short_name": "RTBU v Metro Trains Melbourne",
+      "download_id": "852932",
+      "url": "https://dms.fwc.gov.au/document-view/decisions/australian-rail-tram-and-bus-industry-union-139v-v-metro-trains-melbourne?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2026-06-09",
+      "outcome": "This is an enterprise-agreement dispute under s.739 of the FW Act about an employer's handling of a sexual harassment complaint \u2014 not an unfair dismissal matter. It is cited here only for its explanation, drawn from the Revised Explanatory Memorandum to the Respect at Work reforms, of the purpose of the positive duty inserted into the Sex Discrimination Act 1984 (Cth) \u2014 confirmed at [29]. The Commission's ultimate findings on Metro's compliance with the enterprise agreement clause were not read in this pass and nothing about them is asserted here.",
+      "outcome_pinpoint": "[29]",
+      "outcome_status": "partial",
+      "verification_status": "confirmed",
+      "modules": [
+        12
+      ]
+    },
+    "[2025] FWC 2853": {
+      "citation": "[2025] FWC 2853",
+      "short_name": "Walsh v Unitywater",
+      "download_id": "681102",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-leslie-walsh-v-northern-seq-distributor-retail-authority-trading-as-unitywater-2025-fwc-2853?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2025-09-24",
+      "outcome": "The Commission found the evidence did not establish that Mr Walsh's conduct was repeated and unreasonable, or that it created a risk to health and safety, and so it did not rise to workplace bullying (a single heated, in-the-moment incident was not enough) \u2014 confirmed at [176]. The Commission was also not satisfied the conduct was discriminatory or constituted sexual harassment, and found no valid reason for the dismissal \u2014 confirmed at [177]-[178]. The dismissal was found unfair; reinstatement, continuity of service and compensation were ordered.",
+      "outcome_pinpoint": "[176]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        12
+      ]
+    },
+    "[2024] FWC 3231": {
+      "citation": "[2024] FWC 3231",
+      "short_name": "Bale v Centrex",
+      "download_id": "700731",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-laisenia-stewart-bale-v-centrex-limited-2024-fwc-3231-3?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2024-11-22",
+      "outcome": "Mr Bale sent emails to a colleague that were, on their face, belittling and insulting \u2014 confirmed at [2]. The Commission found this conduct was serious and self-evidently a valid reason for dismissal \u2014 confirmed at [109]. The application was dismissed; the dismissal was not unfair \u2014 confirmed at [110]-[111].",
+      "outcome_pinpoint": "[109]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        12
+      ]
+    },
+    "[2024] FWC 2115": {
+      "citation": "[2024] FWC 2115",
+      "short_name": "Pawelczyk v Commonwealth Bank of Australia",
+      "download_id": "678416",
+      "url": "https://www.fwc.gov.au/document-view/decisions/document-2024fwc2115?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2024-08-15",
+      "outcome": "Mr Pawelczyk sent more than 50 messages to his manager over six days; the Commission found it did not matter whether he intended to cause harm, and that the messages were deliberate and targeted \u2014 confirmed at [11]. The Commission found a valid reason for the dismissal \u2014 confirmed at [56] \u2014 and that the dismissal process was fair. The dismissal was not unfair.",
+      "outcome_pinpoint": "[56]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        12
+      ]
+    },
+    "[2020] FWC 3684": {
+      "citation": "[2020] FWC 3684",
+      "short_name": "Montgomery v Essential Energy",
+      "download_id": "773187",
+      "url": "https://www.fwc.gov.au/document-view/decisions/montgomery-sophia-v-essential-energy-2020-fwc-3684?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2020-07-14",
+      "outcome": "Deputy President Dean applied the three-part inherent-requirements test (quoting a Full Bench) and found a valid reason for dismissal related to capacity: the applicant was not capable of performing the inherent requirements of her role at the time of dismissal, was unlikely to be able to do so in the foreseeable future, and no reasonable adjustment could accommodate her incapacity. Confirmed at [66]-[67] and [73].",
+      "outcome_pinpoint": "[73]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        13
+      ]
+    },
+    "[2022] FWC 1871": {
+      "citation": "[2022] FWC 1871",
+      "short_name": "Mueller v Snack Brands Australia",
+      "download_id": "681948",
+      "url": "https://www.fwc.gov.au/document-view/decisions/toni-mueller-v-the-real-mccoy-snackfood-co-pty-limited-2022-fwc-1871?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2022-07-19",
+      "outcome": "Application dismissed. The Commission found a valid reason for dismissal based on the applicant's inability, confirmed by an unchallenged independent medical (Fitness For Duty) report, to safely perform the inherent requirements of a Receivables Forklift Operator role, now or into the future, and found no reasonable work adjustment could overcome the restrictions. Confirmed at [33]-[43] and [67]-[68].",
+      "outcome_pinpoint": "[67]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        13
+      ]
+    },
+    "[2022] FWC 786": {
+      "citation": "[2022] FWC 786",
+      "short_name": "Adkins v Energy Queensland",
+      "download_id": "685701",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-malcolm-adkins-v-energy-queensland-limited-2022-fwc-786?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2022-06-01",
+      "outcome": "Application dismissed. The Commission gave substantial weight to the consistent, long-term view of the applicant's treating GP (who saw him most frequently) that he was permanently restricted from working with his supervisor, found a proposed reasonable adjustment (reporting-line change) was in substance unworkable, and found a valid reason for dismissal related to capacity. Confirmed at [220]-[221]; the quoted inherent-requirements principle from X v Commonwealth is confirmed at [103].",
+      "outcome_pinpoint": "[221]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        13
+      ]
+    },
+    "[2023] FWC 1125": {
+      "citation": "[2023] FWC 1125",
+      "short_name": "Arora v Kinetic (Melbourne)",
+      "download_id": "706315",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-kapil-arora-v-kinetic-melbourne-pty-ltd-2023-fwc-1125?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2023-05-11",
+      "outcome": "Application dismissed. The Commission found a valid reason for dismissal related to capacity, found the company had afforded the applicant a reasonable opportunity to recover (almost three months, with no reasonable basis to expect imminent improvement) before dismissing him, and explained that two apparently conflicting fitness-for-duty reports were not truly in conflict because they were commissioned by different entities for different purposes. Confirmed at [15]-[16], [20], [23] and [27].",
+      "outcome_pinpoint": "[27]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        13
+      ]
+    },
+    "[2024] FWC 880": {
+      "citation": "[2024] FWC 880",
+      "short_name": "Thomas v Oz Design Furniture Ballina",
+      "download_id": "686905",
+      "url": "https://www.fwc.gov.au/document-view/decisions/michael-thomas-v-oz-design-furniture-ballina-pty-ltd-2024-fwc-880?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2024-04-05",
+      "outcome": "Application dismissed. Applying the three-part inherent-requirements test to an employee on a progressively reducing return-to-work schedule after a serious car accident, the Commission found a valid reason for dismissal related to capacity. Procedural deficiencies (no prior notification or opportunity to respond) added weight to a finding of unfairness but were ultimately outweighed by the strength of the capacity evidence and the employer's patience in keeping the role open. Confirmed at [52]-[55], [68] and [71].",
+      "outcome_pinpoint": "[71]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        13
+      ]
+    },
+    "[2020] FWC 5557": {
+      "citation": "[2020] FWC 5557",
+      "short_name": "Palibrk v XL Express",
+      "download_id": "781226",
+      "url": "https://www.fwc.gov.au/document-view/decisions/palibrk-michael-v-xl-express-xl-personnel-pty-ltd-2020-fwc-5557?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2020-10-19",
+      "outcome": "Confirmed only for the proposition that dismissal for inability to perform the inherent requirements of a role \"within a reasonable time frame\" is a capacity-related reason, and that on these facts (over 12 months' absence, no medical evidence of an end point) the Commission found a valid reason for dismissal related to capacity at [68]. This decision's overall conclusion on harshness (the Commission's remarks at [94] indicate the dismissal was ultimately found unfair) was not independently traced in this pass -- it appears to turn on separate notice-entitlement findings around [90]-[93] that this pass did not fully reconstruct. Do not rely on this entry for the overall outcome.",
+      "outcome_pinpoint": "[68]",
+      "outcome_status": "partial",
+      "verification_status": "confirmed",
+      "modules": [
+        13
+      ]
+    },
+    "[2023] FWC 2906": {
+      "citation": "[2023] FWC 2906",
+      "short_name": "Lee v Origin Energy",
+      "download_id": "696799",
+      "url": "https://www.fwc.gov.au/document-view/decisions/steven-lee-v-origin-energy-2023-fwc-2906?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2023-11-03",
+      "outcome": "Application dismissed. The applicant had been absent for over two years with an unchanged prognosis and repeatedly failed to comply with lawful and reasonable directions to attend an independent medical examination. The Commission found those IME directions lawful and reasonable and the applicant's non-compliance (together with the underlying medical evidence) a valid reason for dismissal. Confirmed at [93], [97]-[101] and [136].",
+      "outcome_pinpoint": "[136]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        13
+      ]
+    },
+    "[2026] FWC 554": {
+      "citation": "[2026] FWC 554",
+      "short_name": "Rennick v WorkSafe Victoria",
+      "download_id": "806287",
+      "url": "https://dms.fwc.gov.au/document-view/decisions/mr-peter-rennick-v-victorian-workcover-authority-2026-fwc-554?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2026-03-02",
+      "outcome": "Application dismissed. The applicant conceded he could not perform the inherent requirements of his role at the date of dismissal; the Commission found this, confirmed by consistent medical evidence of total and likely permanent incapacity, a valid reason for dismissal. The Commission rejected arguments that the employer should instead have pursued early-intervention rehabilitation, extended leave without pay, or redeployment, finding none of those options were relevant to valid reason or made the dismissal unfair on the facts. Confirmed at [35], [54], [56]-[57], [59] and [61].",
+      "outcome_pinpoint": "[61]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        13
+      ]
+    },
+    "[2025] FWC 2226": {
+      "citation": "[2025] FWC 2226",
+      "short_name": "Clark v Woolworths Group",
+      "download_id": "684888",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-anthony-clark-v-woolworths-group-limited-trading-as-primary-connect-2025-fwc-2226?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2025-07-30",
+      "outcome": "Found two valid reasons for dismissal under s.387(a): persistent absenteeism (92 days of absence in the prior year) meaning Mr Clark was not meeting the inherent requirement of attending for work, and repeated failure to follow lawful and reasonable directions to notify the company of absences and provide supporting medical evidence. Held the dismissal was not harsh, unjust or unreasonable; application dismissed. Note: the decision itself records that an appeal under s.604 (C2025/8102) was lodged against it \u2014 this entry reflects the first-instance findings only.",
+      "outcome_pinpoint": "[44]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        14
+      ]
+    },
+    "[2021] FWC 1217": {
+      "citation": "[2021] FWC 1217",
+      "short_name": "Umerez v Flanders Electric",
+      "download_id": "781346",
+      "url": "https://www.fwc.gov.au/document-view/decisions/umerez-edgardo-b-v-flanders-electric-of-australia-pty-ltd-t-a-flanders-of-australia-2021-fwc-1217?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-03-05",
+      "outcome": "On two specific absence days taken close to a period of authorised, certified sick leave, the Commission found no valid reason even though no medical certificate covered those exact two days. But a separate instance of turning up 1.5 hours late with no claimed illness, injury or emergency was found to be a valid reason. Taking the whole s.387 analysis together (including two prior written warnings), the dismissal overall was found not harsh, unjust or unreasonable and the application was dismissed.",
+      "outcome_pinpoint": "[122]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        14
+      ]
+    },
+    "[2023] FWC 2471": {
+      "citation": "[2023] FWC 2471",
+      "short_name": "Liu v Itsumo Aus",
+      "download_id": "636792",
+      "url": "https://www.fwc.gov.au/document-view/decisions/andrean-liu-v-itsumo-aus-pty-ltd-359304?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2023-11-20",
+      "outcome": "Jurisdictional hearing only. The employer argued the employee had abandoned his employment on one of three alternative dates while on a workers' compensation absence. The Commission held the employer never attempted to contact the employee to check its suspicion, and the employee's absence was fully explained by his ongoing, employer-acknowledged workers' compensation incapacity and rehabilitation plan. Found the employee did not abandon his employment, but separately found there was also no dismissal by the employer (the employment relationship was still on foot) \u2014 so the unfair dismissal application was dismissed for want of a dismissal on either view.",
+      "outcome_pinpoint": "[71]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        14
+      ]
+    },
+    "[2025] FWC 3612": {
+      "citation": "[2025] FWC 3612",
+      "short_name": "Subedi v Crispy Bakehouse",
+      "download_id": "677063",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-bishwash-subedi-v-crispy-bakehouse-co-pty-ltd-1?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2025-11-28",
+      "outcome": "Jurisdictional decision on whether there was a dismissal and whether the application was in time. The employer had a reasonable basis to suspect abandonment after the employee failed to return from overseas leave as planned, but the Commission held it was incumbent on the employer to confirm this with the employee before acting on that belief, which it did not do. Found the employee was dismissed when later removed from the staff rostering chat; jurisdictional objections (including abandonment) dismissed. This decision addresses jurisdiction only, not the eventual merits of the unfair dismissal claim.",
+      "outcome_pinpoint": "[16]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        14
+      ]
+    },
+    "[2021] FWC 6333": {
+      "citation": "[2021] FWC 6333",
+      "short_name": "Fathers v Global Line Marking Services",
+      "download_id": "830951",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-tristan-fathers-v-global-line-marking-services-pty-ltd-2021-fwc-6333?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-11-12",
+      "outcome": "A general protections dismissal dispute under s.365 (which uses the same s.386 definition of dismissal). The employee missed five consecutive rostered shifts without advising anyone in advance, despite a manager's attempt to reach him. The Commission found the employee abandoned his employment, so there was no dismissal at the employer's initiative within the meaning of s.386; the application was dismissed.",
+      "outcome_pinpoint": "[42]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        14
+      ]
+    },
+    "[2021] FWC 2322": {
+      "citation": "[2021] FWC 2322",
+      "short_name": "Cornell v Action Events Group",
+      "download_id": "717386",
+      "url": "https://www.fwc.gov.au/document-view/decisions/cornell-michael-v-action-events-2021-fwc-2322?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-04-28",
+      "outcome": "The employee stopped responding to the employer after his last certified sick leave period expired, including not replying to a letter warning that continued silence would be treated as abandonment. Weeks later he resigned, then brought an unfair dismissal claim. The Commission found his conduct manifested a decision to abandon his employment, so he was not dismissed within the meaning of s.386; the jurisdictional objection was upheld and the application was dismissed.",
+      "outcome_pinpoint": "[11]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        14
+      ]
+    },
+    "[2023] FWC 907": {
+      "citation": "[2023] FWC 907",
+      "short_name": "Pelly v Ventia Australia Pty Ltd",
+      "download_id": "706717",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-martin-pelly-v-ventia-pty-limited-2023-fwc-907?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2023-04-18",
+      "outcome": "Valid reason found for two policy breaches arising from posts in a private Facebook/messenger group (a disrespectful on-shift post about management, and an unauthorised base photo) \u2014 confirmed at [120]-[121]. But overall dismissal found harsh/unreasonable because of a haphazard notification process and differential treatment of a comparable colleague; the Applicant was reinstated with partial backpay \u2014 confirmed at [122]-[123], [157]-[161]. Upheld on appeal: the Full Bench recorded that the Commissioner had found a valid reason but still found the dismissal unjust and unreasonable, and dismissed Ventia's appeal \u2014 confirmed against [2023] FWCFB 201 at [2] (and, independently read, at its final orders).",
+      "outcome_pinpoint": "[121]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        15
+      ]
+    },
+    "[2023] FWCFB 201": {
+      "citation": "[2023] FWCFB 201",
+      "short_name": "Ventia Australia Pty Ltd v Pelly",
+      "download_id": "696948",
+      "url": "https://www.fwc.gov.au/document-view/decisions/ventia-australia-pty-ltd-v-mr-martin-pelly-2023-fwcfb-201?from=search",
+      "jurisdiction": "FWCFB",
+      "decision_date": "2023-11-01",
+      "outcome": "Full Bench granted permission to appeal but dismissed the appeal, recording that the Commissioner had found a valid reason but still concluded the dismissal was unjust and unreasonable \u2014 confirmed at [2] and, independently read in the final paragraphs of the decision, at its concluding orders (permission to appeal granted; appeal dismissed). Note: a known corpus chunking defect causes an automated paragraph lookup for \"[132]\" in this decision to land on an earlier, unrelated reference to paragraph [132] of the first-instance decision rather than this Full Bench's own final order \u2014 for that reason only [2] is used as a <Cite> pinpoint; the final-order text was confirmed by direct reading, not via an automated-safe pinpoint.",
+      "outcome_pinpoint": "[2]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": []
+    },
+    "[2021] FWC 3030": {
+      "citation": "[2021] FWC 3030",
+      "short_name": "Waddy v Ability Centre Australasia Ltd",
+      "download_id": "703568",
+      "url": "https://www.fwc.gov.au/document-view/decisions/waddy-paul-stephen-v-ability-centre-australasia-ltd-2021-fwc-3030?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-05-31",
+      "outcome": "Valid reason found: the Applicant's own public Facebook posts (racist comments about Aboriginal people) breached a Social Media Policy whose scope the Commission found did not overreach, because the Applicant had identified himself as the Respondent's employee on his profile and the posts were visible to the general public. Dismissal found not harsh, unjust or unreasonable \u2014 confirmed at [36], [38], [43]-[47] and [69].",
+      "outcome_pinpoint": "[69]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        15
+      ]
+    },
+    "[2021] FWC 2570": {
+      "citation": "[2021] FWC 2570",
+      "short_name": "Thompson v 360 Finance Pty Ltd",
+      "download_id": "769041",
+      "url": "https://www.fwc.gov.au/document-view/decisions/thompson-matthew-v-360-finance-pty-ltd-2021-fwc-2570?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-05-06",
+      "outcome": "Valid reason found: the Applicant posted a sexually explicit meme referencing a female colleague to his personal, public Facebook page, then a second (arguably retaliatory) meme. The Commission rejected the argument that a \"robust\" sales-floor culture excused the conduct, finding it plainly inappropriate and sufficiently serious to justify dismissal; the dismissal was found neither harsh nor unjust \u2014 confirmed at [254], [256]-[257] and [266]-[267].",
+      "outcome_pinpoint": "[266]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        15
+      ]
+    },
+    "[2021] FWC 1952": {
+      "citation": "[2021] FWC 1952",
+      "short_name": "Besanko v R.B. Aquatics Pty Ltd T/A Swimmers",
+      "download_id": "723309",
+      "url": "https://www.fwc.gov.au/document-view/decisions/besanko-jasmine-v-r-b-aquatics-pty-ltd-t-a-swimmers-2021-fwc-1952?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-04-26",
+      "outcome": "No valid reason found. The Applicant, a swim instructor, posted a competing swim school's name in reply to a stranger's request in a private, 16,100-member community Facebook group; a colleague who saw the post via her own notifications screenshotted it and forwarded it to management despite both women's profiles being set to private. The Commission found the private settings meant readers could not have told the Applicant worked for the Respondent, so there was no demonstrated connection to the employment sufficient to found a valid reason, and the summary dismissal was also not consistent with the Small Business Fair Dismissal Code. Dismissal found unfair; reinstatement found inappropriate; no compensation ordered because no loss was shown \u2014 confirmed at [12]-[13], [45]-[46], [52] and [99].",
+      "outcome_pinpoint": "[52]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        15
+      ]
+    },
+    "[2020] FWC 4819": {
+      "citation": "[2020] FWC 4819",
+      "short_name": "Tiavo v Axiom Australia Pty Ltd",
+      "download_id": "784491",
+      "url": "https://www.fwc.gov.au/document-view/decisions/tiavo-samuel-v-axiom-rail-pty-ltd-2020-fwc-4819?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2020-09-15",
+      "outcome": "The Commission rejected the applicant's claim that an incorrect timesheet entry was an innocent mistake, finding on the balance of probabilities (applying Briginshaw given the seriousness of a dishonesty finding) that he dishonestly entered his time. The dismissal was not harsh, unjust or unreasonable and the application was dismissed.",
+      "outcome_pinpoint": "[114]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        16
+      ]
+    },
+    "[2021] FWC 3224": {
+      "citation": "[2021] FWC 3224",
+      "short_name": "Goburdhun v Endeavour Group Limited T/A BWS",
+      "download_id": "763838",
+      "url": "https://www.fwc.gov.au/document-view/decisions/goburdhun-saajid-v-endeavour-group-limited-t-a-bws-2021-fwc-3224?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-06-11",
+      "outcome": "The Commission found the applicant deliberately and repeatedly falsified his clock-out times over eleven consecutive days to conceal that he was leaving work early, rejecting his explanation. This was serious misconduct and the dismissal was neither harsh, unjust nor unreasonable.",
+      "outcome_pinpoint": "[141]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        16
+      ]
+    },
+    "[2023] FWC 946": {
+      "citation": "[2023] FWC 946",
+      "short_name": "Raitt v G-Force Recruitment Ltd",
+      "download_id": "706645",
+      "url": "https://www.fwc.gov.au/document-view/decisions/ms-nicole-raitt-v-g-force-recruitment-ltd-2023-fwc-946?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2023-04-20",
+      "outcome": "The Commission found the applicant was not honest in her dealings with the company, including representing by electronic records that she had attended participant appointments she had not, corroborated by multiple participants independently reporting the same thing. The company had good and substantiated reasons to dismiss her and the dismissal was not unfair.",
+      "outcome_pinpoint": "[21]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        16
+      ]
+    },
+    "[2026] FWC 2346": {
+      "citation": "[2026] FWC 2346",
+      "short_name": "Petrie v Amazon Commercial Services Pty Ltd",
+      "download_id": "857841",
+      "url": "https://dms.fwc.gov.au/document-view/decisions/colin-petrie-v-amazon-commercial-services-pty-ltd-2026-fwc-2346?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2026-06-25",
+      "outcome": "The Commission found the applicant's sign-off on a maintenance work order reflected an honest, but mistaken, understanding of what he had been authorised to do, not dishonesty or falsification. Overall the Commission was not satisfied the respondent had a valid reason for dismissal and ordered reinstatement.",
+      "outcome_pinpoint": "[135]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        16
+      ]
+    },
+    "[2021] FWC 6682": {
+      "citation": "[2021] FWC 6682",
+      "short_name": "Stark v Charter Mercantile Agency Pty Ltd",
+      "download_id": "696027",
+      "url": "https://www.fwc.gov.au/document-view/decisions/stark-fiona-v-charter-mercantile-agency-pty-ltd-2021-fwc-6682?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-12-23",
+      "outcome": "The Commission found it unnecessary to decide whether inaccurate timesheets were a deliberately deceitful act or reflected a genuine (if mistaken) belief about how to record hours worked, because the inaccuracy itself was a valid reason in a workplace that relied heavily on trust. Despite a procedural fairness failure, the dismissal was, on balance, not harsh, unjust or unreasonable.",
+      "outcome_pinpoint": "[95]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        16
+      ]
+    },
+    "[2024] FWC 311": {
+      "citation": "[2024] FWC 311",
+      "short_name": "Lainas v AMSPEC Australia Pty Ltd",
+      "download_id": "625924",
+      "url": "https://www.fwc.gov.au/document-view/decisions/peter-lainas-v-amspec-australia-pty-ltd-2024-fwc-311-0?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2024-02-07",
+      "outcome": "The Commission found the applicant's 20 June 2022 timesheet claim for hours inconsistent with the company's recorded entry/exit times was a further valid reason for dismissal, alongside other conduct. Overall, however, the Commission found the dismissal was still harsh, unjust or unreasonable because of separate procedural failures, and reduced compensation by 30% on account of the applicant's misconduct. This entry confirms the timesheet finding and the overall unfair-dismissal/compensation-reduction outcome; the full multi-ground reasoning (covert recordings, abusive emails, notice issues) was not independently re-verified paragraph by paragraph.",
+      "outcome_pinpoint": "[81]",
+      "outcome_status": "partial",
+      "verification_status": "confirmed",
+      "modules": [
+        16
+      ]
+    },
+    "[2024] FWC 1837": {
+      "citation": "[2024] FWC 1837",
+      "short_name": "Spottiswood v Brand Collective Australia",
+      "download_id": "679587",
+      "url": "https://www.fwc.gov.au/document-view/decisions/document-pr776963?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2024-07-29",
+      "outcome": "In an extension-of-time decision, the Commission found the applicant had misrepresented on his resume that he was a CA ANZ member when he was not, and commented in passing that the merits of his case were accordingly not strong. The application itself was dismissed for want of an extension of time, not on a final merits/valid-reason determination, so only the resume-misrepresentation finding is relied on here, not a concluded valid-reason outcome.",
+      "outcome_pinpoint": "[33]",
+      "outcome_status": "partial",
+      "verification_status": "confirmed",
+      "modules": [
+        16
+      ]
+    },
+    "[2026] FWC 898": {
+      "citation": "[2026] FWC 898",
+      "short_name": "Bowen v Queensland Rail Transit Authority",
+      "download_id": "846301",
+      "url": "https://dms.fwc.gov.au/document-view/decisions/mr-luke-bowen-v-queensland-rail-transit-authority-2026-fwc-898?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2026-03-19",
+      "outcome": "Cited here only for its discussion, quoting a Full Bench decision in Newton v Toll Transport Pty Ltd, of Streeter v Telstra Corporation Limited: that an employee's dishonesty in interviews with their employer during an investigation can itself found a separate valid reason for dismissal, even where the underlying out-of-hours conduct does not. This decision's own facts and outcome (concerning undisclosed criminal charges) are not relied on and not asserted here.",
+      "outcome_pinpoint": "[144]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        16
+      ]
+    },
+    "[2021] FWC 6394": {
+      "citation": "[2021] FWC 6394",
+      "short_name": "Molina v Galloway",
+      "download_id": "830973",
+      "url": "https://www.fwc.gov.au/document-view/decisions/ms-milena-molina-v-brett-galloway-2021-fwc-6394-0?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2021-11-19",
+      "outcome": "Cited here only for its statement of the general principle, drawing on APS Group (Placements) Pty Ltd v O'Loughlin, that after-acquired knowledge or evidence may strengthen an employer's valid-reason case while weakening its procedural-fairness case. This decision's own subject matter (a ruling on reopening evidence in an unrelated unfair dismissal matter) is not relied on and not asserted here.",
+      "outcome_pinpoint": "[31]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": []
     }
   },
   "flagged_authorities": {
@@ -1495,6 +2139,84 @@
       "note": "Cited by name (not quoted) at [2026] FWC 2050 at [47] for the proposition that whether an applicant has suffered financial loss may be relevant to whether a remedy should be ordered at all. Not independently located as a direct corpus record in this pass \u2014 flagged for checking against the original rather than assumed out of corpus.",
       "quoted_in": "[2026] FWC 2050",
       "quoted_in_pinpoint": "[47]"
+    },
+    "R v The Darling Island Stevedoring and Lighterage Company Limited; Ex parte Halliday and Sullivan (1938) 60 CLR 601": {
+      "status": "not_in_corpus",
+      "note": "High Court decision (Dixon J) setting the common-law test for the lawfulness of an employer's direction, quoted at [2021] FWC 5677 at [18], confirmed verbatim against that decision's text. Pre-dates this corpus and is not found as a direct record. Flagged for checking against the original before relying on it for the general proposition.",
+      "quoted_in": "[2021] FWC 5677",
+      "quoted_in_pinpoint": "[18]"
+    },
+    "Briggs v AWH Pty Ltd": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision on an appeal against dismissal for refusing a urine test, summarised (not quoted verbatim) at [2021] FWC 5677 at [15]-[16] for the proposition that random and targeted drug testing is a reasonable and legitimate employer response to workplace drug-use safety risk. Not found as a direct record in this corpus. Flagged for checking against the original Full Bench decision before relying on the summary.",
+      "quoted_in": "[2021] FWC 5677",
+      "quoted_in_pinpoint": "[15]"
+    },
+    "BHP Coal Pty Ltd t/a BMA v Schmidt [2016] FWCFB 1540": {
+      "status": "not_in_corpus",
+      "note": "Full Bench authority on fairness and safety breaches ('a fair go all round' in relation to breaches of safety procedures, especially in inherently dangerous workplaces). Not independently located as a direct record in this corpus pass - check the quote against the original before relying on it.",
+      "quoted_in": "[2020] FWC 120",
+      "quoted_in_pinpoint": "[131]"
+    },
+    "Jetstar Airways Pty Ltd v Neeteson-Lemkes [2013] FWCFB 9075": {
+      "status": "not_in_corpus",
+      "note": "Full Bench authority setting out the three-part inherent-requirements test (currently capable / capable in the foreseeable future / reasonable adjustment). Not independently located as a direct record in this corpus; the quote has been confirmed verbatim against the quoting decision.",
+      "quoted_in": "[2020] FWC 3684",
+      "quoted_in_pinpoint": "[11]"
+    },
+    "X v Commonwealth (1999) 200 CLR 177": {
+      "status": "not_in_corpus",
+      "note": "High Court authority on the meaning of 'inherent requirements' (decided under the Disability Discrimination Act 1992), including that performing duties without unreasonable risk to the safety of fellow employees is itself an inherent requirement of employment. Not independently located as a direct record in this corpus; the quote has been confirmed verbatim against the quoting decision. Also referenced (without a verbatim quote checked) in [2022] FWC 1871 at footnote 46 and in [2022] FWC 2387 at [102].",
+      "quoted_in": "[2022] FWC 786",
+      "quoted_in_pinpoint": "[103]"
+    },
+    "Blackadder v Ramsey Butchering Services Pty Ltd": {
+      "status": "not_in_corpus",
+      "note": "Full Federal Court authority holding an employer has a right to direct an employee to attend an independent medical examination where there is a genuine indication of need and the request is reasonable. Not independently located as a direct record in this corpus; the quote has been confirmed verbatim against the quoting decision.",
+      "quoted_in": "[2023] FWC 2906",
+      "quoted_in_pinpoint": "[93]"
+    },
+    "CSL Limited T/A CSL Behring v Chris Papaioannou [2018] FWCFB 1005": {
+      "status": "not_in_corpus",
+      "note": "Full Bench authority holding that, in a capacity-related dismissal, s.387(a) requires the Commission to make its own findings as to whether the applicant suffered the alleged incapacity at the time of dismissal, based on the medical and other evidence before it. Not independently located as a direct record in this corpus; the quote has been confirmed verbatim against the quoting decision.",
+      "quoted_in": "[2023] FWC 1125",
+      "quoted_in_pinpoint": "[15]"
+    },
+    "\"Abandonment of Employment\" Full Bench test case [2018] FWCFB 139": {
+      "status": "not_in_corpus",
+      "note": "The source of the core abandonment test (conduct conveying to a reasonable person in the employer's position a renunciation of the employment contract). Quoted verbatim, and confirmed against the quoting decision's own text, in both Liu v Itsumo Aus and Fathers v Global Line Marking Services. The original Full Bench decision itself is not in this corpus snapshot and has not been independently checked.",
+      "quoted_in": "[2023] FWC 2471",
+      "quoted_in_pinpoint": "[16]"
+    },
+    "Shamrock Consultancy Pty Ltd v Norma Ah San": {
+      "status": "not_checked",
+      "note": "Cited for the proposition that the abandonment test is objective \u2014 whether the employee's conduct would convey repudiation to a reasonable person in the employer's position, based on facts reasonably known to the employer at the time. Confirmed verbatim against the quoting decision's text; the original decision's own neutral citation was not able to be confirmed from the reconstructed footnotes in this pass, so it has not been independently located or checked in the corpus.",
+      "quoted_in": "[2023] FWC 2471",
+      "quoted_in_pinpoint": "[20]"
+    },
+    "Sydney Trains v Bobrenitsky (Full Bench of the Fair Work Commission)": {
+      "status": "not_checked",
+      "note": "A Full Bench decision refining the Rose v Telstra out-of-hours test into a multi-factor \"entire factual matrix\" test for online/out-of-hours conduct. No neutral citation is given for this Full Bench decision in the quoting text. Not found as a direct record in briefer_master.snapshot.db under any FWCFB citation tried. A related Full Federal Court decision on a later appeal in the same matter, Bobrenitsky v Sydney Trains [2023] FCAFC 96 (download_id fcafc-2023-96, 95 chunks in the chunks snapshot), is in this corpus and concerns the same employee and employer, but on different facts (a drink-driving charge and a subsequent failure to self-report, not social media) \u2014 it was read and does not independently contain the \"entire factual matrix\" passage quoted below, so it is not relied on to verify that passage. The passage itself is confirmed verbatim only as quoted at [2023] FWC 907 at [116]. Flagged for checking against the original Full Bench decision before relying on it.",
+      "quoted_in": "[2023] FWC 907",
+      "quoted_in_pinpoint": "[116]"
+    },
+    "Newton v Toll Transport Pty Ltd [2021] FWCFB 3457": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision not found as a direct record in briefer_master.snapshot.db. Its discussion of Streeter v Telstra is quoted at [2026] FWC 898 at [144], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original.",
+      "quoted_in": "[2026] FWC 898",
+      "quoted_in_pinpoint": "[144]"
+    },
+    "Streeter v Telstra Corporation Limited [2008] AIRCFB 15": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision not found as a direct record in briefer_master.snapshot.db. It is discussed and quoted at second hand (via Newton v Toll Transport) at [2026] FWC 898 at [144]. The summary of its facts and holding was confirmed verbatim against that decision's text, but the original Streeter decision itself should be checked before relying on it.",
+      "quoted_in": "[2026] FWC 898",
+      "quoted_in_pinpoint": "[144]"
+    },
+    "APS Group (Placements) Pty Ltd v O'Loughlin (2011) 209 IR 351; [2011] FWAFB 5230": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision not found as a direct record in briefer_master.snapshot.db. Its after-acquired-knowledge principle is quoted at [2021] FWC 6394 at [31], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original.",
+      "quoted_in": "[2021] FWC 6394",
+      "quoted_in_pinpoint": "[31]"
     }
   }
 }

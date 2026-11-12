@@ -212,3 +212,81 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 - Quoted in: [2026] FWC 2050 at [47]
 - Cited by name (not quoted) at [2026] FWC 2050 at [47] for the proposition that whether an applicant has suffered financial loss may be relevant to whether a remedy should be ordered at all. Not independently located as a direct corpus record in this pass — flagged for checking against the original rather than assumed out of corpus.
 
+## R v The Darling Island Stevedoring and Lighterage Company Limited; Ex parte Halliday and Sullivan (1938) 60 CLR 601
+
+- Status: `not_in_corpus`
+- Quoted in: [2021] FWC 5677 at [18]
+- High Court decision (Dixon J) setting the common-law test for the lawfulness of an employer's direction, quoted at [2021] FWC 5677 at [18], confirmed verbatim against that decision's text. Pre-dates this corpus and is not found as a direct record. Flagged for checking against the original before relying on it for the general proposition.
+
+## Briggs v AWH Pty Ltd
+
+- Status: `not_in_corpus`
+- Quoted in: [2021] FWC 5677 at [15]
+- Full Bench decision on an appeal against dismissal for refusing a urine test, summarised (not quoted verbatim) at [2021] FWC 5677 at [15]-[16] for the proposition that random and targeted drug testing is a reasonable and legitimate employer response to workplace drug-use safety risk. Not found as a direct record in this corpus. Flagged for checking against the original Full Bench decision before relying on the summary.
+
+## BHP Coal Pty Ltd t/a BMA v Schmidt [2016] FWCFB 1540
+
+- Status: `not_in_corpus`
+- Quoted in: [2020] FWC 120 at [131]
+- Full Bench authority on fairness and safety breaches ('a fair go all round' in relation to breaches of safety procedures, especially in inherently dangerous workplaces). Not independently located as a direct record in this corpus pass - check the quote against the original before relying on it.
+
+## Jetstar Airways Pty Ltd v Neeteson-Lemkes [2013] FWCFB 9075
+
+- Status: `not_in_corpus`
+- Quoted in: [2020] FWC 3684 at [11]
+- Full Bench authority setting out the three-part inherent-requirements test (currently capable / capable in the foreseeable future / reasonable adjustment). Not independently located as a direct record in this corpus; the quote has been confirmed verbatim against the quoting decision.
+
+## X v Commonwealth (1999) 200 CLR 177
+
+- Status: `not_in_corpus`
+- Quoted in: [2022] FWC 786 at [103]
+- High Court authority on the meaning of 'inherent requirements' (decided under the Disability Discrimination Act 1992), including that performing duties without unreasonable risk to the safety of fellow employees is itself an inherent requirement of employment. Not independently located as a direct record in this corpus; the quote has been confirmed verbatim against the quoting decision. Also referenced (without a verbatim quote checked) in [2022] FWC 1871 at footnote 46 and in [2022] FWC 2387 at [102].
+
+## Blackadder v Ramsey Butchering Services Pty Ltd
+
+- Status: `not_in_corpus`
+- Quoted in: [2023] FWC 2906 at [93]
+- Full Federal Court authority holding an employer has a right to direct an employee to attend an independent medical examination where there is a genuine indication of need and the request is reasonable. Not independently located as a direct record in this corpus; the quote has been confirmed verbatim against the quoting decision.
+
+## CSL Limited T/A CSL Behring v Chris Papaioannou [2018] FWCFB 1005
+
+- Status: `not_in_corpus`
+- Quoted in: [2023] FWC 1125 at [15]
+- Full Bench authority holding that, in a capacity-related dismissal, s.387(a) requires the Commission to make its own findings as to whether the applicant suffered the alleged incapacity at the time of dismissal, based on the medical and other evidence before it. Not independently located as a direct record in this corpus; the quote has been confirmed verbatim against the quoting decision.
+
+## "Abandonment of Employment" Full Bench test case [2018] FWCFB 139
+
+- Status: `not_in_corpus`
+- Quoted in: [2023] FWC 2471 at [16]
+- The source of the core abandonment test (conduct conveying to a reasonable person in the employer's position a renunciation of the employment contract). Quoted verbatim, and confirmed against the quoting decision's own text, in both Liu v Itsumo Aus and Fathers v Global Line Marking Services. The original Full Bench decision itself is not in this corpus snapshot and has not been independently checked.
+
+## Shamrock Consultancy Pty Ltd v Norma Ah San
+
+- Status: `not_checked`
+- Quoted in: [2023] FWC 2471 at [20]
+- Cited for the proposition that the abandonment test is objective — whether the employee's conduct would convey repudiation to a reasonable person in the employer's position, based on facts reasonably known to the employer at the time. Confirmed verbatim against the quoting decision's text; the original decision's own neutral citation was not able to be confirmed from the reconstructed footnotes in this pass, so it has not been independently located or checked in the corpus.
+
+## Sydney Trains v Bobrenitsky (Full Bench of the Fair Work Commission)
+
+- Status: `not_checked`
+- Quoted in: [2023] FWC 907 at [116]
+- A Full Bench decision refining the Rose v Telstra out-of-hours test into a multi-factor "entire factual matrix" test for online/out-of-hours conduct. No neutral citation is given for this Full Bench decision in the quoting text. Not found as a direct record in briefer_master.snapshot.db under any FWCFB citation tried. A related Full Federal Court decision on a later appeal in the same matter, Bobrenitsky v Sydney Trains [2023] FCAFC 96 (download_id fcafc-2023-96, 95 chunks in the chunks snapshot), is in this corpus and concerns the same employee and employer, but on different facts (a drink-driving charge and a subsequent failure to self-report, not social media) — it was read and does not independently contain the "entire factual matrix" passage quoted below, so it is not relied on to verify that passage. The passage itself is confirmed verbatim only as quoted at [2023] FWC 907 at [116]. Flagged for checking against the original Full Bench decision before relying on it.
+
+## Newton v Toll Transport Pty Ltd [2021] FWCFB 3457
+
+- Status: `not_in_corpus`
+- Quoted in: [2026] FWC 898 at [144]
+- Full Bench decision not found as a direct record in briefer_master.snapshot.db. Its discussion of Streeter v Telstra is quoted at [2026] FWC 898 at [144], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original.
+
+## Streeter v Telstra Corporation Limited [2008] AIRCFB 15
+
+- Status: `not_in_corpus`
+- Quoted in: [2026] FWC 898 at [144]
+- Full Bench decision not found as a direct record in briefer_master.snapshot.db. It is discussed and quoted at second hand (via Newton v Toll Transport) at [2026] FWC 898 at [144]. The summary of its facts and holding was confirmed verbatim against that decision's text, but the original Streeter decision itself should be checked before relying on it.
+
+## APS Group (Placements) Pty Ltd v O'Loughlin (2011) 209 IR 351; [2011] FWAFB 5230
+
+- Status: `not_in_corpus`
+- Quoted in: [2021] FWC 6394 at [31]
+- Full Bench decision not found as a direct record in briefer_master.snapshot.db. Its after-acquired-knowledge principle is quoted at [2021] FWC 6394 at [31], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original.
+
