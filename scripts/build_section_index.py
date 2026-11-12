@@ -30,6 +30,8 @@ class SectionParser(HTMLParser):
             self.in_ignored = False
         if tag in {"h1", "h2", "h3"} and self.current:
             self.current["heading"] = " ".join("".join(self.parts).split())
+            self.sections.append({**self.current, "parts": []})
+            self.current = None
             self.parts = []
 
     def handle_data(self, data):

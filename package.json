@@ -10,7 +10,7 @@
     "contentcheck": "python3 scripts/rendered_content_check.py",
     "prebuild": "npm run registry && npm run verify && npm run linkcheck",
     "build": "astro build",
-    "postbuild": "pagefind --site dist && npm run contentcheck",
+    "postbuild": "python3 scripts/build_section_index.py && pagefind --site dist && npm run contentcheck",
     "preview": "astro preview",
     "astro": "astro"
   },

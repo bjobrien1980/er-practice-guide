@@ -174,7 +174,19 @@ const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)
       }
 
       let pagefind: any = null;
-      let ready = loadPagefind().then((p) => (pagefind = p));
+      let sectionIndex: any[] = [];
+      async function loadSearchAssets() {
+        const [pagefindModule, sectionResponse] = await Promise.all([
+          dynamicImport("/pagefind/pagefind.js").catch(() => null),
+          fetch("/search-sections.json").then((r) => r.ok ? r.json() : []).catch(() => []),
+        ]);
+        pagefind = pagefindModule;
+        sectionIndex = Array.isArray(sectionResponse) ? sectionResponse : [];
+      }
+      let ready = loadSearchAssets();
+
+      const escapeHtml = (value: string) => value.replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]!));
+      const termsFor = (value: string) => value.toLowerCase().split(/\s+/).filter(Boolean);
 
       input.addEventListener("input", async () => {
         const v = input.value.trim();
@@ -184,16 +196,20 @@ const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)
           return;
         }
         await ready;
+        const terms = termsFor(v);
+        const sections = sectionIndex
+          .filter((item) => terms.every((term) => `${item.heading} ${item.excerpt}`.toLowerCase().includes(term)))
+          .slice(0, 6);
+        const sectionHtml = sections.map((item) => `<a href="${escapeHtml(item.url)}"><b>${escapeHtml(item.heading)}</b><small>${escapeHtml(item.excerpt)}</small></a>`).join("");
         if (!pagefind) {
-          results.innerHTML = '<p>Search is only available in the built site.<small>Run `npm run build` then `npm run preview`.</small></p>';
+          results.innerHTML = sectionHtml || '<p>Search is only available in the built site.<small>Run `npm run build` then `npm run preview`.</small></p>';
           results.classList.add("open");
           return;
         }
         const search = await pagefind.search(v);
-        const items = await Promise.all(search.results.slice(0, 8).map((r: any) => r.data()));
-        results.innerHTML = items.length
-          ? items.map((it: any) => `<a href="${it.url}">${it.meta?.title ?? it.url}<small>${it.excerpt.replace(/<[^>]+>/g, "")}</small></a>`).join("")
-          : "<p>No matches.<small>Try fewer words.</small></p>";
+        const items = await Promise.all(search.results.slice(0, 6).map((r: any) => r.data()));
+        const pageHtml = items.map((it: any) => `<a href="${escapeHtml(it.url)}"><b>${escapeHtml(it.meta?.title ?? it.url)}</b><small>${it.excerpt.replace(/<[^>]+>/g, "")}</small></a>`).join("");
+        results.innerHTML = sectionHtml + pageHtml || "<p>No matches.<small>Try fewer words.</small></p>";
         results.classList.add("open");
       });
       results.addEventListener("click", (e) => {
