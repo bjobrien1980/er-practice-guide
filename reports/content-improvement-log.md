@@ -708,3 +708,16 @@ A second controlled comparison was run directly against the live MS64 production
 
 Conclusion: the live-production comparison confirms the full-mirror result. The initial limited snapshot did not materially change the tested FWC conduct/performance baseline. The live review report is at `reports/comparative-live-production-review.md`. No guide content was changed and no live production data was modified.
 
+## Proposition-level review
+
+**Date:** 2026-11-12
+
+A proposition-level review was conducted against live MasterDB/Citation Map material, the current official Fair Work Act compilation and current official FWC guidance. It confirmed the reverse-onus and support-person boundaries, but identified four direct amendments for the next publication revision:
+
+- remove the remaining “routine and low-risk” suspension sentence;
+- describe the performance-warning framework as a recurring analytical framework, not a universal statutory test;
+- qualify the reg 1.07 summary-dismissal examples;
+- replace the broad after-acquired-evidence statement with a precise reason/procedure/remedy distinction.
+
+The review also identified current-source verification gates for positive-duty, Commission-procedure, medical-capacity framework and related time-sensitive propositions. The full findings are at `reports/proposition-level-review.md`. No guide module was changed during the review.
+
