@@ -24,13 +24,13 @@ export const TIERS: NavTier[] = [
   {
     title: "Tier 3: Situations",
     modules: [
-      { id: 10, title: "Drug and alcohol" },
-      { id: 11, title: "Safety breaches" },
-      { id: 12, title: "Bullying and harassment" },
-      { id: 13, title: "Medical capacity" },
-      { id: 14, title: "Absenteeism and abandonment" },
-      { id: 15, title: "Social media and out of hours" },
-      { id: 16, title: "Dishonesty and falsified records" },
+      { id: 10, title: "Drug and alcohol", slug: "drug-and-alcohol" },
+      { id: 11, title: "Safety breaches", slug: "safety-breaches" },
+      { id: 12, title: "Bullying, harassment and sexual harassment", slug: "bullying-and-harassment" },
+      { id: 13, title: "Medical capacity and inherent requirements", slug: "medical-capacity" },
+      { id: 14, title: "Absenteeism and abandonment", slug: "absenteeism-and-abandonment" },
+      { id: 15, title: "Social media and out-of-hours conduct", slug: "social-media-and-out-of-hours" },
+      { id: 16, title: "Dishonesty and falsified records", slug: "dishonesty-and-falsified-records" },
     ],
   },
   {

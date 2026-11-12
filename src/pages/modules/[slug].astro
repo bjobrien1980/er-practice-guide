@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { id, title, tier, provisions, status, reviewer, last_verified, reading_minutes, related } = entry.data;
+const { id, title, tier, provisions, version, last_updated, reading_minutes, related } = entry.data;
 ---
 
 <ModuleLayout
@@ -20,9 +20,8 @@ const { id, title, tier, provisions, status, reviewer, last_verified, reading_mi
   title={title}
   tier={tier}
   provisions={provisions}
-  status={status}
-  reviewer={reviewer}
-  last_verified={last_verified}
+  version={version}
+  last_updated={last_updated}
   reading_minutes={reading_minutes}
   related={related}
 >

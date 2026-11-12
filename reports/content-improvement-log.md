@@ -449,3 +449,229 @@ Each external authority should have a recorded status such as:
 - unresolved.
 
 The rendered module should not need to display all of this, but the build and legal-review records should retain it alongside the module version and last-update timestamp.
+
+## Tier 3 review log
+
+**Review date:** 2026-11-12
+
+**Scope:** All seven newly completed Tier 3 modules at `http://localhost:4321`:
+
+- Drug and alcohol;
+- Safety breaches;
+- Bullying, harassment and sexual harassment;
+- Medical capacity and inherent requirements;
+- Absenteeism and abandonment;
+- Social media and out-of-hours conduct;
+- Dishonesty and falsified records.
+
+The Tier 3 work is a material improvement over the former “coming soon” state. The modules use clear scenarios, checklists, failure patterns and cross-references to the s.387 modules. The recommendations below are intended to keep the modules legally bounded and portable across employers, rather than to impose a universal ER process.
+
+### T3-001 — Add a common Tier 3 triage frame
+
+**Priority:** High
+
+Each situation module should begin with a short, consistent distinction between:
+
+- the legal issue the module addresses;
+- issues it does not decide;
+- other pathways that may run in parallel;
+- the applicable legislation, award, enterprise agreement, contract or policy to check;
+- local-process matters that belong in an organisation-specific overlay.
+
+The current modules are generally framed as dismissal-risk modules. They should also make clear when the matter may be resolved without dismissal or may require a different legal pathway.
+
+### T3-002 — Keep dismissal analysis separate from the underlying workplace issue
+
+**Priority:** High
+
+The Tier 3 modules should not imply that the main question is always whether dismissal is defensible. For example:
+
+- a drug/alcohol matter may first be a fitness-for-work, testing-authority or medical-information issue;
+- a safety breach may first be a WHS incident and consultation issue;
+- a bullying complaint may require a complaint-resolution or employer-duty analysis;
+- a capacity matter may require adjustment or redeployment analysis;
+- absenteeism may involve protected leave or workers compensation;
+- social-media conduct may engage workplace-rights or discrimination protections.
+
+The modules should state these possible pathways before moving to s.387.
+
+### T3-003 — Drug and alcohol: qualify testing and disclosure propositions
+
+**Priority:** High
+
+The module usefully distinguishes presence from impairment and identifies policy communication, refusals, prescription medicine and medicinal cannabis. It should add or sharpen:
+
+- the need to identify the legal/contractual/policy authority for the testing regime;
+- the distinction between screening, confirmatory testing, cut-offs and chain of custody;
+- privacy and medical-information considerations;
+- the difference between a positive test, actual impairment, policy breach and failure to disclose;
+- the role of reasonable adjustment and disability/discrimination issues;
+- the limits of treating a positive result as sufficient without checking the applicable policy and circumstances.
+
+Statements such as “a positive result, on its own, can be a valid reason” should be expressly confined to a case where the applicable regime, test reliability, policy and role context support that conclusion. Random testing should be described as context-dependent, not universally legitimate.
+
+### T3-004 — Safety breaches: add the WHS and incident-management boundary
+
+**Priority:** High
+
+The safety module is strong on s.387(a), near misses, consistency, seniority and evidence. Add a clear boundary between:
+
+- the employer’s WHS duties and incident-response obligations;
+- consultation with workers and representatives where applicable;
+- incident preservation and investigation;
+- immediate risk controls; and
+- the separate decision whether disciplinary action is legally and factually justified.
+
+These matters should be framed as legal questions and source checks, not as a universal incident-management workflow. The module should also warn against treating a “zero tolerance” label as resolving proportionality or consistency.
+
+### T3-005 — Bullying and harassment: separate the legal pathways more prominently
+
+**Priority:** High
+
+The module correctly distinguishes a conduct dismissal from an employee’s own stop-bullying or sexual-harassment application. That distinction should be moved closer to the opening and expanded to cover:
+
+- workplace bullying under the Fair Work Act;
+- sexual harassment under the Sex Discrimination Act and Fair Work Act;
+- the employer’s positive duty and its commencement/timing;
+- possible general-protections, discrimination and WHS consequences;
+- the difference between a complainant’s allegation and a proven disciplinary finding;
+- how the respondent’s account and procedural fairness affect the dismissal analysis.
+
+The module should avoid implying that a complaint-handling process, confidentiality direction or interim arrangement is universally required in one prescribed form. Those matters depend on the applicable instruments and local arrangements.
+
+### T3-006 — Medical capacity: qualify the three-part test and strengthen privacy safeguards
+
+**Priority:** High
+
+The capacity module provides a useful distinction between capacity and conduct and correctly links the issue to inherent requirements, medical evidence, adjustment and s.387(b)/(c). It should add stronger qualifications around:
+
+- collecting, using and disclosing medical information;
+- consent and the limits of medical inquiries;
+- the legal basis and reasonableness of an IME or request for medical information;
+- reasonable adjustments and disability discrimination;
+- whether redeployment, leave or other alternatives are required by the applicable law/instrument or are merely possible considerations;
+- the difference between evidence available at the decision date and later evidence that may illuminate an existing condition.
+
+The “three questions” should be labelled as an analytical framework drawn from authority, not as a universally exhaustive statutory test. The phrase that a careful process is the “best insurance” should be replaced with a more legally neutral formulation.
+
+### T3-007 — Absenteeism and abandonment: avoid turning recurring factors into mandatory elements
+
+**Priority:** High
+
+The distinction between ordinary absenteeism and abandonment is one of the strongest parts of the new material. The abandonment section should qualify the recurring factors—contact attempts, a period of silence and lack of an innocent explanation—as evidentiary considerations rather than fixed statutory preconditions.
+
+The module should also cross-reference:
+
+- personal/carer’s leave and other protected absences;
+- workers compensation and rehabilitation;
+- medical incapacity;
+- general-protections risk where the absence follows a complaint, inquiry or protected activity;
+- the difference between an employee’s inability to communicate and an objective renunciation of employment.
+
+The text should avoid presenting Monday/Friday clustering or missing certificates as inherently suspicious without context.
+
+### T3-008 — Social media and out-of-hours conduct: add protected-expression and evidence limits
+
+**Priority:** High
+
+The module’s connection-to-work framework and public/private distinction are useful. Add explicit checks for:
+
+- political opinion and other protected attributes;
+- union membership, industrial activity and workplace rights;
+- whether the employee’s account was accessed lawfully and whether screenshots are authentic and complete;
+- privacy, surveillance and workplace-monitoring limits;
+- whether the policy actually covered the conduct and was communicated;
+- whether the alleged post was edited, reposted, impersonated or taken out of context;
+- whether the employer is relying on reputational discomfort rather than a legally material connection to work.
+
+The proposition that naming the employer turns personal opinions into business risk should be softened. It is a factual indicator, not a legal rule.
+
+### T3-009 — Dishonesty and falsified records: sharpen the fact/intent distinction
+
+**Priority:** Critical
+
+The module appropriately distinguishes inaccurate records from dishonest intent and uses a strong honest-mistake example. It should make the distinction explicit in the headline and checklist:
+
+- an inaccurate record;
+- negligence or poor checking;
+- a breach of procedure;
+- reckless conduct; and
+- deliberate dishonesty or falsification
+
+are not interchangeable allegations.
+
+The section on conduct discovered after dismissal requires particular legal review. The statement that later-discovered falsification can “usually” still support a valid reason is too broad without explaining the distinction between:
+
+- the existence of a reason at the time of dismissal;
+- facts discovered later;
+- procedural fairness, which cannot be reconstructed after dismissal; and
+- remedy or litigation consequences of after-acquired evidence.
+
+The module should also add digital-evidence integrity, audit trails, system access logs, authorship, metadata and the employee’s opportunity to answer the actual electronic material relied on.
+
+### T3-010 — Repair incomplete rendered propositions before publication
+
+**Priority:** Critical
+
+The absenteeism module contains visible incomplete sentences, including:
+
+- “The Commission found [2025] FWC 2226 at [32] …”;
+- “and separately, he had [2025] FWC 2226 at [33].”;
+- “The employee missed [2021] FWC 6333 at [20] … The Commission found [2021] FWC 6333 at [42].”
+
+These are substantive content failures, not merely formatting defects. The underlying source text or generated synthesis needs to be restored and the rendered-content completeness gate extended to the new modules.
+
+All seven Tier 3 modules also still display `Last verified: not yet`. They should receive module version, last-update timestamp, source-verification status and reviewer status before being treated as publishable.
+
+### T3-011 — Verify new authorities against the actual linked decisions
+
+**Priority:** High
+
+The Tier 3 modules introduce a substantial number of new authorities, including 2026 decisions and authorities quoted indirectly through later decisions. Verify each citation against:
+
+- the decision title and citation;
+- the linked FWC document identity;
+- the pinpoint paragraph;
+- whether the proposition is a holding, observation or quoted authority;
+- whether an appeal or later decision affects its weight;
+- whether the source was independently read or only reconstructed through the snapshot.
+
+This should run through the canonical authority registry and the Chrome-based identity check, not only the static link-domain check.
+
+### T3-012 — Add non-dismissal outcomes and varied workplace contexts to scenarios
+
+**Priority:** Medium
+
+The scenarios are useful but predominantly ask whether the employer has a valid reason to dismiss. Add contrasting outcomes such as:
+
+- coaching or clarification rather than discipline;
+- policy or equipment failure rather than employee misconduct;
+- adjustment or temporary restriction;
+- protected leave or workers compensation;
+- no valid reason because the employer’s evidence is incomplete;
+- a valid concern but an unsuitable dismissal process.
+
+Keep these as analytical alternatives, not prescribed employer practice. The examples should also be tested against the intended audience’s operational environments, including union representation, labour-hire, safety-critical work and culturally or medically sensitive matters.
+
+## v1.1 implementation decisions
+
+**Date:** 2026-11-12
+
+Implemented:
+
+- Start Here decision map;
+- parallel pathway map;
+- expanded Tier 3 scenario prompts to test non-dismissal and alternative pathways;
+- rendered-content quality gate covering routes, metadata, disclaimers, internal links and duplicated adjacent citations;
+- searchable glossary with orientation links and cross-links from the guide homepage and module headers.
+
+Deferred by design:
+
+- formulaic common module structure;
+- proposition-type labels;
+- exhaustive authority registry;
+- separate legal-review register;
+- enterprise-specific local overlay.
+
+Git provides the authoritative change history through commits, diffs, branches and pull requests. The visible module `Version` and `Last updated` fields describe the content state; they do not replace Git history or amount to legal verification.
+

@@ -7,14 +7,13 @@ interface Props {
   title: string;
   tier: number;
   provisions: string[];
-  status: "draft" | "in-review" | "approved";
-  reviewer: string | null;
-  last_verified: string | null;
+  version: string;
+  last_updated: string;
   reading_minutes: number;
   related: number[];
 }
 
-const { id, title, tier, provisions, status, reviewer, last_verified, reading_minutes, related } =
+const { id, title, tier, provisions, version, last_updated, reading_minutes, related } =
   Astro.props as Props;
 
 const tierInfo = TIERS[tier - 1];
@@ -26,11 +25,6 @@ const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)
   title: string;
 }[];
 
-const statusLabel: Record<string, string> = {
-  draft: "Draft: pending legal review",
-  "in-review": "In review",
-  approved: "Approved",
-};
 ---
 
 <html lang="en-AU">
@@ -48,6 +42,11 @@ const statusLabel: Record<string, string> = {
   <body>
     <header class="topbar">
       <a class="brand" href="/">ER Practice Guide <span>Conduct &amp; performance</span></a>
+      <nav class="quick-links" aria-label="Guide orientation">
+        <a href="/start-here">Start here</a>
+        <a href="/pathways">Pathways</a>
+        <a href="/glossary">Glossary</a>
+      </nav>
       <div class="search" role="search">
         <input id="q" type="search" placeholder="Search the guide" aria-label="Search the guide" autocomplete="off" />
         <div class="results" id="results" role="listbox"></div>
@@ -87,15 +86,13 @@ const statusLabel: Record<string, string> = {
 
         <div class="meta">
           <span><b>Provision{provisions.length > 1 ? "s" : ""}</b> {provisions.map((p) => <span class="statute">{p}</span>)}</span>
-          <span><b>Status</b> <span class="pill draft">{statusLabel[status]}</span></span>
-          <span><b>Last verified</b> {last_verified ?? "not yet"}</span>
-          <span><b>Reviewer</b> {reviewer ?? "unassigned"}</span>
+          <span><b>Version</b> <span class="pill draft">{version}</span></span>
+          <span><b>Last updated</b> {last_updated}</span>
           <span><b>Reading time</b> {reading_minutes} min</span>
         </div>
 
         <div class="notice">
-          Training material, not legal advice. Any matter heading toward termination goes to a senior ER adviser, and
-          to Legal where the facts are contested or the employee is represented.
+          Training material only — not legal advice. It is an educational guide to Australian employment-law concepts and selected authorities, not a substitute for checking the current legislation, applicable industrial instruments, workplace policies, evidence or case-specific legal advice.
         </div>
 
         <slot />

@@ -29,6 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MASTER_DB = "file:" + str(Path.home() / "briefer-claude/snapshots/briefer_master.snapshot.db") + "?mode=ro"
 URLS_JSON = Path.home() / "briefer-claude/snapshots/fwc-decision-public-urls.json"
+URL_OVERRIDES = ROOT / "data" / "citation-url-overrides.json"
 DEFAULT_FACTS_PATH = ROOT / "data" / "citation_facts.json"
 DEFAULT_CONTENT_DIR = ROOT / "src" / "content" / "modules"
 DEFAULT_OUT_PATH = ROOT / "data" / "citations.json"
@@ -91,6 +92,7 @@ def main():
         sys.exit(1)
 
     url_records = json.loads(URLS_JSON.read_text())["records"]
+    url_overrides = json.loads(URL_OVERRIDES.read_text()) if URL_OVERRIDES.exists() else {}
 
     con = sqlite3.connect(MASTER_DB, uri=True)
     cur = con.cursor()
@@ -124,6 +126,9 @@ def main():
             rec = url_records.get(download_id)
             if rec:
                 url = rec.get("url_source") or rec.get("url_pdf") or rec.get("document_key")
+
+        if cite in url_overrides:
+            url = url_overrides[cite]
 
         if url is None:
             missing_url.append(cite)

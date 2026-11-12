@@ -7,9 +7,10 @@
     "registry": "python3 scripts/build_citation_registry.py",
     "verify": "python3 scripts/verify_pinpoints.py",
     "linkcheck": "python3 scripts/link_check.py",
+    "contentcheck": "python3 scripts/rendered_content_check.py",
     "prebuild": "npm run registry && npm run verify && npm run linkcheck",
     "build": "astro build",
-    "postbuild": "pagefind --site dist",
+    "postbuild": "pagefind --site dist && npm run contentcheck",
     "preview": "astro preview",
     "astro": "astro"
   },
