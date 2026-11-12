@@ -40,6 +40,7 @@ const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)
     />
   </head>
   <body>
+    <a class="skip-link" href="#top">Skip to content</a>
     <header class="topbar">
       <a class="brand" href="/">ER Practice Guide <span>Conduct &amp; performance</span></a>
       <nav class="quick-links" aria-label="Guide orientation">
@@ -49,7 +50,7 @@ const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)
       </nav>
       <div class="search" role="search">
         <input id="q" type="search" placeholder="Search the guide" aria-label="Search the guide" autocomplete="off" />
-        <div class="results" id="results" role="listbox"></div>
+        <div class="results" id="results" role="listbox" aria-live="polite" aria-label="Search results"></div>
       </div>
     </header>
 
@@ -94,6 +95,7 @@ const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)
         <div class="notice">
           Training material only — not legal advice. It is an educational guide to Australian employment-law concepts and selected authorities, not a substitute for checking the current legislation, applicable industrial instruments, workplace policies, evidence or case-specific legal advice.
         </div>
+        <div class="currency-warning"><b>Currency warning:</b> legislation, thresholds, regulations, Commission procedure and case law can change. Check the current source before relying on a time-sensitive proposition.</div>
 
         <slot />
 
