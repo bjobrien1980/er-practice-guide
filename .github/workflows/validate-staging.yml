@@ -38,3 +38,6 @@ jobs:
 
       - name: Build the static site
         run: npx astro build
+
+      - name: Check rendered routes and content
+        run: npm run contentcheck
