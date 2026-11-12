@@ -1,0 +1,161 @@
+---
+// Shared page chrome: document head, skip link, top bar and site search.
+// Every page renders through this layout so the header cannot drift between pages.
+import "../styles/global.css";
+
+interface Props {
+  /** Page name; the site name is appended. Omit on the home page. */
+  title?: string;
+  description?: string;
+}
+
+const SITE = "ER Practice Guide";
+const { title, description = "Training material on conduct, performance and dismissal-related issues under the Fair Work Act 2009 (Cth). Not legal advice." } =
+  Astro.props as Props;
+
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const QUICK_LINKS = [
+  { href: "/start-here", label: "Start here" },
+  { href: "/pathways", label: "Pathways" },
+  { href: "/glossary", label: "Glossary" },
+];
+---
+
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} — ${SITE}` : SITE}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#top">Skip to content</a>
+    <header class="topbar">
+      <a class="brand" href="/" aria-current={path === "/" ? "page" : undefined}>{SITE} <span>Conduct &amp; performance</span></a>
+      <nav class="quick-links" aria-label="Guide orientation">
+        {QUICK_LINKS.map((l) => (
+          <a href={l.href} aria-current={path === l.href ? "page" : undefined}>{l.label}</a>
+        ))}
+      </nav>
+      <div class="search" role="search">
+        <input id="q" type="search" placeholder="Search the guide" aria-label="Search the guide" aria-controls="results" autocomplete="off" />
+        <div class="results" id="results" aria-live="polite" aria-label="Search results"></div>
+      </div>
+    </header>
+
+    <slot />
+
+    <script>
+      // Site-wide search, built at build time by Pagefind (npm run postbuild).
+      // /pagefind/pagefind.js only exists in a built `dist/`, not in `astro dev` — fail quietly there.
+      const input = document.getElementById("q") as HTMLInputElement;
+      const results = document.getElementById("results")!;
+
+      // Hidden from Vite's static import-analysis entirely (new Function body is just a
+      // string to the bundler) — /* @vite-ignore */ alone still let Vite's dev-server plugin
+      // try to eagerly resolve this path and throw when the file doesn't exist yet.
+      const dynamicImport = new Function("url", "return import(url)") as (url: string) => Promise<any>;
+
+      let pagefind: any = null;
+      let sectionIndex: any[] = [];
+      async function loadSearchAssets() {
+        const [pagefindModule, sectionResponse] = await Promise.all([
+          dynamicImport("/pagefind/pagefind.js").catch(() => null),
+          fetch("/search-sections.json").then((r) => r.ok ? r.json() : []).catch(() => []),
+        ]);
+        pagefind = pagefindModule;
+        sectionIndex = Array.isArray(sectionResponse) ? sectionResponse : [];
+      }
+      // Loaded on first use so pages that are never searched don't fetch the index.
+      let ready: Promise<void> | null = null;
+
+      const escapeHtml = (value: string) => value.replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]!));
+      const termsFor = (value: string) => value.toLowerCase().split(/\s+/).filter(Boolean);
+
+      input.addEventListener("input", async () => {
+        const v = input.value.trim();
+        if (v.length < 2) {
+          results.classList.remove("open");
+          results.innerHTML = "";
+          return;
+        }
+        ready ??= loadSearchAssets();
+        await ready;
+        if (input.value.trim() !== v) return; // a newer keystroke is already being handled
+        const terms = termsFor(v);
+        const sections = sectionIndex
+          .filter((item) => terms.every((term) => `${item.heading} ${item.excerpt}`.toLowerCase().includes(term)))
+          .slice(0, 6);
+        const sectionHtml = sections.map((item) => `<a href="${escapeHtml(item.url)}"><b>${escapeHtml(item.heading)}</b><small>${escapeHtml(item.excerpt)}</small></a>`).join("");
+        if (!pagefind) {
+          results.innerHTML = sectionHtml || '<p>Search is only available in the built site.<small>Run `npm run build` then `npm run preview`.</small></p>';
+          results.classList.add("open");
+          return;
+        }
+        const search = await pagefind.search(v);
+        const items = await Promise.all(search.results.slice(0, 6).map((r: any) => r.data()));
+        if (input.value.trim() !== v) return;
+        const pageHtml = items.map((it: any) => `<a href="${escapeHtml(it.url)}"><b>${escapeHtml(it.meta?.title ?? it.url)}</b><small>${it.excerpt.replace(/<[^>]+>/g, "")}</small></a>`).join("");
+        results.innerHTML = sectionHtml + pageHtml || "<p>No matches.<small>Try fewer words.</small></p>";
+        results.classList.add("open");
+      });
+      results.addEventListener("click", (e) => {
+        if ((e.target as HTMLElement).closest("a")) {
+          results.classList.remove("open");
+          input.value = "";
+        }
+      });
+      document.addEventListener("click", (e) => {
+        if (!(e.target as HTMLElement).closest(".search")) results.classList.remove("open");
+      });
+      // Keyboard: Down/Up move through the results, Enter on the box opens the first one,
+      // Escape closes the list and returns to the box.
+      const resultLinks = () => Array.from(results.querySelectorAll<HTMLAnchorElement>("a"));
+      input.addEventListener("keydown", (e) => {
+        const links = resultLinks();
+        if (e.key === "Escape") {
+          results.classList.remove("open");
+          input.blur();
+        } else if (e.key === "ArrowDown" && links.length) {
+          e.preventDefault();
+          results.classList.add("open");
+          links[0].focus();
+        } else if (e.key === "ArrowUp" && links.length) {
+          e.preventDefault();
+          results.classList.add("open");
+          links[links.length - 1].focus();
+        } else if (e.key === "Enter" && links.length && results.classList.contains("open")) {
+          e.preventDefault();
+          links[0].click();
+        }
+      });
+      results.addEventListener("keydown", (e) => {
+        const links = resultLinks();
+        const at = links.indexOf(document.activeElement as HTMLAnchorElement);
+        if (at < 0) return;
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+          e.preventDefault();
+          const to = at + (e.key === "ArrowDown" ? 1 : -1);
+          if (to < 0 || to >= links.length) input.focus();
+          else links[to].focus();
+        } else if (e.key === "Home" || e.key === "End") {
+          e.preventDefault();
+          links[e.key === "Home" ? 0 : links.length - 1].focus();
+        } else if (e.key === "Escape") {
+          results.classList.remove("open");
+          input.focus();
+        }
+      });
+      input.addEventListener("focus", () => {
+        if (results.innerHTML && input.value.trim().length >= 2) results.classList.add("open");
+      });
+    </script>
+  </body>
+</html>

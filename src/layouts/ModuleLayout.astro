@@ -1,6 +1,7 @@
 ---
-import "../styles/global.css";
-import { TIERS } from "../data/nav";
+import BaseLayout from "./BaseLayout.astro";
+import { getTiers } from "../data/nav";
+import { linkGlossaryTerms } from "../lib/glossary-links";
 
 interface Props {
   id: number;
@@ -9,224 +10,145 @@ interface Props {
   provisions: string[];
   version: string;
   last_updated: string;
+  law_current_as_at: string | null;
+  law_sources: string[];
   reading_minutes: number;
   related: number[];
+  headings: { depth: number; slug: string; text: string }[];
 }
 
-const { id, title, tier, provisions, version, last_updated, reading_minutes, related } =
+const { id, title, tier, provisions, version, last_updated, law_current_as_at, law_sources, reading_minutes, related, headings } =
   Astro.props as Props;
 
+const TIERS = await getTiers();
 const tierInfo = TIERS[tier - 1];
-const tierIndexInList = TIERS.findIndex((t) => t.modules.some((m) => m.id === id));
-
 const allModules = TIERS.flatMap((t) => t.modules);
-const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)).filter(Boolean) as {
-  id: number;
-  title: string;
-}[];
+const position = allModules.findIndex((m) => m.id === id);
+const prev = position > 0 ? allModules[position - 1] : undefined;
+const next = position >= 0 ? allModules[position + 1] : undefined;
+const relatedModules = related
+  .map((rid) => allModules.find((m) => m.id === rid))
+  .filter((m) => m !== undefined);
+const sections = headings.filter((h) => h.depth === 2);
 
+// Show the calendar date as written in the source timestamp, without shifting time zones.
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+function dateLabel(value: string) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(value);
+  return m ? `${Number(m[3])} ${MONTHS[Number(m[2]) - 1]} ${m[1]}` : value;
+}
+const updatedLabel = dateLabel(last_updated);
+
+// Glossary terms are linked on first use in the module body.
+const body = linkGlossaryTerms(await Astro.slots.render("default"));
 ---
 
-<html lang="en-AU">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} — ER Practice Guide</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <a class="skip-link" href="#top">Skip to content</a>
-    <header class="topbar">
-      <a class="brand" href="/">ER Practice Guide <span>Conduct &amp; performance</span></a>
-      <nav class="quick-links" aria-label="Guide orientation">
-        <a href="/start-here">Start here</a>
-        <a href="/pathways">Pathways</a>
-        <a href="/glossary">Glossary</a>
-      </nav>
-      <div class="search" role="search">
-        <input id="q" type="search" placeholder="Search the guide" aria-label="Search the guide" autocomplete="off" />
-        <div class="results" id="results" role="listbox" aria-live="polite" aria-label="Search results"></div>
-      </div>
-    </header>
+<BaseLayout title={title}>
+  <div class="shell">
+    <nav class="modules" aria-label="Modules">
+      {TIERS.map((t) => (
+        <>
+          <p class="nav-heading">{t.title}</p>
+          <ol>
+            {t.modules.map((m) => (
+              <li class={m.id === id ? "current" : undefined}>
+                <a href={`/modules/${m.slug}`} aria-current={m.id === id ? "page" : undefined}>
+                  <span class="n">{m.id}</span>
+                  <span>{m.title}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </>
+      ))}
+    </nav>
 
-    <div class="shell">
-      <nav class="modules" aria-label="Modules">
-        {TIERS.map((t) => (
-          <>
-            <h2>{t.title}</h2>
-            <ol>
-              {t.modules.map((m) => (
-                <li class={m.id === id ? "current" : m.slug ? "done" : ""}>
-                  {m.slug ? (
-                    <a href={`/modules/${m.slug}`} aria-current={m.id === id ? "page" : undefined}>
-                      <span class="n">{m.id}</span>
-                      <span>{m.title}</span>
-                    </a>
-                  ) : (
-                    <span style="display:flex;gap:8px;align-items:baseline;width:100%">
-                      <span class="n">{m.id}</span>
-                      <span>{m.title}</span>
-                      <span class="soon">soon</span>
-                    </span>
-                  )}
-                </li>
-              ))}
-            </ol>
-          </>
-        ))}
-      </nav>
+    <article id="top" data-pagefind-body>
+      <p class="crumbs"><a href="/#modules">All modules</a> · {tierInfo?.title} · Module {id}</p>
+      <h1>{title}</h1>
 
-      <article id="top">
-        <div class="crumbs">{tierInfo?.title} · Module {id}</div>
-        <h1>{title}</h1>
-
-        <div class="meta">
-          <span><b>Provision{provisions.length > 1 ? "s" : ""}</b> {provisions.map((p) => <span class="statute">{p}</span>)}</span>
-          <span><b>Version</b> <span class="pill draft">{version}</span></span>
-          <span><b>Last updated</b> {last_updated}</span>
-          <span><b>Reading time</b> {reading_minutes} min</span>
-        </div>
-
-        <div class="notice">
-          Training material only — not legal advice. It is an educational guide to Australian employment-law concepts and selected authorities, not a substitute for checking the current legislation, applicable industrial instruments, workplace policies, evidence or case-specific legal advice.
-        </div>
-        <div class="currency-warning"><b>Currency warning:</b> legislation, thresholds, regulations, Commission procedure and case law can change. Check the current source before relying on a time-sensitive proposition.</div>
-
-        <slot />
-
-        <footer class="pagefoot">
-          <span>
-            {tierIndexInList >= 0 && id > 1 ? <>Previous module {id - 1}</> : <span />}
+      <div class="meta">
+        <span class="provisions"><b>Provision{provisions.length > 1 ? "s" : ""}</b> {provisions.map((p) => <span class="statute">{p}</span>)}</span>
+        <span><b>Version</b> <span class="pill">{version}</span></span>
+        <span><b>Last updated</b> <time datetime={last_updated}>{updatedLabel}</time></span>
+        <span><b>Reading time</b> {reading_minutes} min</span>
+        {/* Shown only once a currency check has been recorded in the module's front matter. */}
+        {law_current_as_at && (
+          <span class="currency">
+            <b>Law checked</b>{" "}
+            <time datetime={law_current_as_at}>{dateLabel(law_current_as_at)}</time>
+            {law_sources.length > 0 && <> against {law_sources.join("; ")}</>}
           </span>
-          <span>
-            {id < 22 ? <>Next module {id + 1}</> : <span />}
-          </span>
-        </footer>
-      </article>
-
-      <aside class="rail" aria-label="On this page">
-        <h2>On this page</h2>
-        <ol id="toc"></ol>
-        {relatedModules.length > 0 && (
-          <div class="rel">
-            <h2>Related</h2>
-            <ol style="border:0">
-              {relatedModules.map((m) => (
-                <li style="padding:4px 0">
-                  {m.title ? (
-                    <a href={m.slug ? `/modules/${m.slug}` : undefined} style={m.slug ? "" : "color:var(--muted);pointer-events:none"}>
-                      {m.id}. {m.title}
-                    </a>
-                  ) : null}
-                </li>
-              ))}
-            </ol>
-          </div>
         )}
-      </aside>
-    </div>
+      </div>
 
-    <script>
-      const heads = Array.from(document.querySelectorAll<HTMLHeadingElement>("article h2[id]"));
-      const toc = document.getElementById("toc")!;
+      <div class="notice">
+        Training material only — not legal advice. It is an educational guide to Australian employment-law concepts and selected authorities, not a substitute for checking the current legislation, applicable industrial instruments, workplace policies, evidence or case-specific legal advice.
+      </div>
+      <div class="notice info"><b>Currency warning:</b> legislation, thresholds, regulations, Commission procedure and case law can change. Check the current source before relying on a time-sensitive proposition.</div>
+
+      {sections.length > 0 && (
+        <details class="toc-inline">
+          <summary>On this page</summary>
+          <ol>
+            {sections.map((h) => (
+              <li><a href={`#${h.slug}`}>{h.text}</a></li>
+            ))}
+          </ol>
+        </details>
+      )}
+
+      <Fragment set:html={body} />
+
+      <nav class="pagefoot" aria-label="Previous and next module">
+        {prev ? (
+          <a href={`/modules/${prev.slug}`} rel="prev"><small>Previous</small>{prev.id}. {prev.title}</a>
+        ) : <span />}
+        {next ? (
+          <a class="next" href={`/modules/${next.slug}`} rel="next"><small>Next</small>{next.id}. {next.title}</a>
+        ) : <span />}
+      </nav>
+    </article>
+
+    <aside class="rail" aria-label="On this page">
+      <p class="nav-heading">On this page</p>
+      <ol id="toc">
+        {sections.map((h) => (
+          <li><a href={`#${h.slug}`}>{h.text}</a></li>
+        ))}
+      </ol>
+      {relatedModules.length > 0 && (
+        <div class="rel">
+          <p class="nav-heading">Related</p>
+          <ol>
+            {relatedModules.map((m) => (
+              <li><a href={`/modules/${m.slug}`}>{m.id}. {m.title}</a></li>
+            ))}
+          </ol>
+        </div>
+      )}
+    </aside>
+  </div>
+
+  <script>
+    // Highlight the section currently being read in the "On this page" rail.
+    const links = Array.from(document.querySelectorAll<HTMLAnchorElement>("#toc a"));
+    const heads = links
+      .map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1))))
+      .filter((h): h is HTMLElement => h !== null);
+    function spy() {
+      let cur = heads[0];
       heads.forEach((h) => {
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        a.href = `#${h.id}`;
-        a.textContent = h.textContent;
-        li.appendChild(a);
-        toc.appendChild(li);
+        if (h.getBoundingClientRect().top < 120) cur = h;
       });
-      const links = toc.querySelectorAll("a");
-      function spy() {
-        let cur = heads[0];
-        heads.forEach((h) => {
-          if (h.getBoundingClientRect().top < 120) cur = h;
-        });
-        links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === `#${cur?.id}`));
-      }
+      links.forEach((a) => {
+        if (cur && decodeURIComponent(a.hash.slice(1)) === cur.id) a.setAttribute("aria-current", "location");
+        else a.removeAttribute("aria-current");
+      });
+    }
+    if (heads.length) {
       window.addEventListener("scroll", spy, { passive: true });
       spy();
-    </script>
-
-    <script>
-      // Site-wide search, built at build time by Pagefind (npm run postbuild).
-      // /pagefind/pagefind.js only exists in a built `dist/`, not in `astro dev` — fail quietly there.
-      const input = document.getElementById("q") as HTMLInputElement;
-      const results = document.getElementById("results")!;
-
-      // Hidden from Vite's static import-analysis entirely (new Function body is just a
-      // string to the bundler) — /* @vite-ignore */ alone still let Vite's dev-server plugin
-      // try to eagerly resolve this path and throw when the file doesn't exist yet.
-      const dynamicImport = new Function("url", "return import(url)") as (url: string) => Promise<any>;
-
-      async function loadPagefind() {
-        try {
-          return await dynamicImport("/pagefind/pagefind.js");
-        } catch {
-          return null;
-        }
-      }
-
-      let pagefind: any = null;
-      let sectionIndex: any[] = [];
-      async function loadSearchAssets() {
-        const [pagefindModule, sectionResponse] = await Promise.all([
-          dynamicImport("/pagefind/pagefind.js").catch(() => null),
-          fetch("/search-sections.json").then((r) => r.ok ? r.json() : []).catch(() => []),
-        ]);
-        pagefind = pagefindModule;
-        sectionIndex = Array.isArray(sectionResponse) ? sectionResponse : [];
-      }
-      let ready = loadSearchAssets();
-
-      const escapeHtml = (value: string) => value.replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]!));
-      const termsFor = (value: string) => value.toLowerCase().split(/\s+/).filter(Boolean);
-
-      input.addEventListener("input", async () => {
-        const v = input.value.trim();
-        if (v.length < 2) {
-          results.classList.remove("open");
-          results.innerHTML = "";
-          return;
-        }
-        await ready;
-        const terms = termsFor(v);
-        const sections = sectionIndex
-          .filter((item) => terms.every((term) => `${item.heading} ${item.excerpt}`.toLowerCase().includes(term)))
-          .slice(0, 6);
-        const sectionHtml = sections.map((item) => `<a href="${escapeHtml(item.url)}"><b>${escapeHtml(item.heading)}</b><small>${escapeHtml(item.excerpt)}</small></a>`).join("");
-        if (!pagefind) {
-          results.innerHTML = sectionHtml || '<p>Search is only available in the built site.<small>Run `npm run build` then `npm run preview`.</small></p>';
-          results.classList.add("open");
-          return;
-        }
-        const search = await pagefind.search(v);
-        const items = await Promise.all(search.results.slice(0, 6).map((r: any) => r.data()));
-        const pageHtml = items.map((it: any) => `<a href="${escapeHtml(it.url)}"><b>${escapeHtml(it.meta?.title ?? it.url)}</b><small>${it.excerpt.replace(/<[^>]+>/g, "")}</small></a>`).join("");
-        results.innerHTML = sectionHtml + pageHtml || "<p>No matches.<small>Try fewer words.</small></p>";
-        results.classList.add("open");
-      });
-      results.addEventListener("click", (e) => {
-        if ((e.target as HTMLElement).closest("a")) {
-          results.classList.remove("open");
-          input.value = "";
-        }
-      });
-      document.addEventListener("click", (e) => {
-        if (!(e.target as HTMLElement).closest(".search")) results.classList.remove("open");
-      });
-      input.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") {
-          results.classList.remove("open");
-          input.blur();
-        }
-      });
-    </script>
-  </body>
-</html>
+    }
+  </script>
+</BaseLayout>

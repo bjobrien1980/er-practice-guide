@@ -34,7 +34,7 @@ const flaggedForThisModule = Object.entries(flagged).filter(([, f]) =>
 );
 ---
 
-<div class="tablewrap">
+<div class="tablewrap decisions">
   <table>
     <thead><tr><th>Decision</th><th>Outcome (confirmed from the text)</th></tr></thead>
     <tbody>
@@ -42,14 +42,14 @@ const flaggedForThisModule = Object.entries(flagged).filter(([, f]) =>
         <tr>
           <td>
             {r.url ? (
-              <a class="cite" style="border:0" href={r.url} target="_blank" rel="noopener noreferrer">{r.citation}</a>
+              <a class="cite" href={r.url} target="_blank" rel="noopener noreferrer">{r.citation}</a>
             ) : (
-              <span class="cite unlinked" style="border:0">{r.citation}</span>
+              <span class="cite unlinked">{r.citation}</span>
             )}
             <br /><em>{r.short_name}</em>
           </td>
           <td class="outcome">
-            {r.outcome_status === "partial" && <span class="pill draft" style="margin-right:6px">partial</span>}
+            {r.outcome_status === "partial" && <span class="pill draft">partial</span>}
             {r.outcome} <span class="statute">{r.outcome_pinpoint}</span>
           </td>
         </tr>
@@ -60,8 +60,8 @@ const flaggedForThisModule = Object.entries(flagged).filter(([, f]) =>
 
 {flaggedForThisModule.length > 0 && (
   <div class="notice">
-    <strong>Older authorities quoted, not independently located in the corpus:</strong>
-    <ul style="margin:8px 0 0">
+    <strong>Older authorities quoted second-hand, not read in the original for this guide:</strong>
+    <ul>
       {flaggedForThisModule.map(([name, f]) => (
         <li>{name} — quoted in {f.quoted_in} at {f.quoted_in_pinpoint}. Check against the original before relying on it.</li>
       ))}

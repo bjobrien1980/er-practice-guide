@@ -32,11 +32,30 @@ def source_slugs():
     return slugs
 
 
+def decisions_table_errors():
+    """Each module's <DecisionsCited moduleId> must match its own frontmatter id.
+
+    The citation registry keys decisions by module id, so a stale id silently renders
+    another module's decisions (or an empty table) after modules are renumbered.
+    """
+    errors = []
+    for path in sorted(MODULE_SOURCE.glob("*.mdx")):
+        text = path.read_text()
+        own = re.search(r"^id:\s*(\d+)", text, re.MULTILINE)
+        if not own:
+            errors.append(f"{path.name}: missing id metadata")
+            continue
+        for used in re.findall(r"<DecisionsCited\s+moduleId=\{(\d+)\}", text):
+            if used != own.group(1):
+                errors.append(f"{path.name}: DecisionsCited moduleId={used} does not match module id {own.group(1)}")
+    return errors
+
+
 def main():
     if not DIST.exists():
         raise AssertionError("dist/ does not exist; run the static build first")
 
-    errors = []
+    errors = decisions_table_errors()
     expected = {"index.html", "start-here/index.html", "pathways/index.html", "glossary/index.html"}
     expected.update(f"modules/{slug}/index.html" for slug in source_slugs())
     for relative in sorted(expected):

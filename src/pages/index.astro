@@ -1,57 +1,40 @@
 ---
-import "../styles/global.css";
-import { TIERS } from "../data/nav";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getTiers } from "../data/nav";
+
+const TIERS = await getTiers();
 ---
 
-<html lang="en-AU">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ER Practice Guide</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <a class="skip-link" href="#top">Skip to content</a>
-    <header class="topbar">
-      <span class="brand">ER Practice Guide <span>Conduct &amp; performance</span></span>
-    </header>
-    <div id="top" style="max-width:760px;margin:0 auto;padding:40px 20px 80px">
-      <h1>ER Practice Guide</h1>
-      <p class="lead">
-        Training material on performance and conduct matters that can lead to dismissal under the Fair Work Act
-        2009 (Cth). Training material only — not legal advice. This guide is educational and does not replace checking
-        current legislation, applicable industrial instruments, workplace policies, evidence or case-specific advice.
-      </p>
-      <div class="home-links">
-        <a href="/start-here"><b>Start here</b><small>Frame a matter before choosing a legal pathway.</small></a>
-        <a href="/pathways"><b>Parallel pathways</b><small>Screen for overlapping legal and workplace issues.</small></a>
-        <a href="/glossary"><b>Glossary</b><small>Plain-language definitions of recurring terms.</small></a>
-      </div>
+<BaseLayout>
+  <main id="top" class="standalone" data-pagefind-body>
+    <p class="eyebrow">Conduct, performance and dismissal</p>
+    <h1>ER Practice Guide</h1>
+    <p class="lead">
+      Training material on performance and conduct matters that can lead to dismissal under the Fair Work Act
+      2009 (Cth).
+    </p>
+    <div class="notice">
+      Training material only — not legal advice. This guide is educational and does not replace checking
+      current legislation, applicable industrial instruments, workplace policies, evidence or case-specific advice.
+    </div>
+    <div class="link-grid">
+      <a href="/start-here"><b>Start here</b><small>Frame a matter before choosing a legal pathway.</small></a>
+      <a href="/pathways"><b>Parallel pathways</b><small>Screen for overlapping legal and workplace issues.</small></a>
+      <a href="/glossary"><b>Glossary</b><small>Plain-language definitions of recurring terms.</small></a>
+    </div>
+    <div id="modules" class="tiers">
       {TIERS.map((t) => (
-        <>
+        <section>
           <h2>{t.title}</h2>
-          <ol class="principles">
+          <ol class="module-list">
             {t.modules.map((m) => (
               <li>
-                <span>
-                  {m.slug ? (
-                    <a href={`/modules/${m.slug}`}>{m.title}</a>
-                  ) : (
-                    <>
-                      {m.title} <span style="color:var(--muted);font-size:13px">(coming soon)</span>
-                    </>
-                  )}
-                </span>
+                <a href={`/modules/${m.slug}`}><span class="n">{m.id}</span><span>{m.title}</span></a>
               </li>
             ))}
           </ol>
-        </>
+        </section>
       ))}
     </div>
-  </body>
-</html>
+  </main>
+</BaseLayout>

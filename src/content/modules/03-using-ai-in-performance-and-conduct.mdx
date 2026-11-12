@@ -8,7 +8,7 @@ version: "0.1.1"
 last_updated: "2026-11-12T18:24:37+08:00"
 law_current_as_at: null
 law_sources: []
-reading_minutes: 10
+reading_minutes: 11
 related: [2, 6, 7, 14, 17, 20, 21, 22]
 ---
 
@@ -93,6 +93,8 @@ That does not mean it can reliably perform the evaluative work between those inp
 
 An AI-assisted matter file should distinguish at least these layers:
 
+<div class="tablewrap">
+
 | Layer | The question | Do not do this |
 |---|---|---|
 | Allegation | What is said to have happened? | Write the allegation as an established fact. |
@@ -101,6 +103,8 @@ An AI-assisted matter file should distinguish at least these layers:
 | Finding | What, if anything, is established on the available evidence? | Let the model silently convert probability or tone into a finding. |
 | Legal assessment | What provision, instrument or policy applies, and what does it require? | Treat a case-derived framework as statutory text. |
 | Consequence | What action is proportionate and procedurally available? | Jump from an allegation to a sanction. |
+
+</div>
 
 The distinction matters because AI systems tend to smooth these layers into a single coherent narrative. Coherence is not corroboration.
 
@@ -132,48 +136,53 @@ Retrieval success is not proof of legal correctness. A source appearing in an AI
 9. Check the final reasons against the evidence actually available at the decision date.
 10. Treat the matter as unresolved where the evidence does not justify a finding. Do not let a complete-looking AI summary close the gap.
 
-## Common failure modes
+## How AI-assisted work fails
 
-### The clean narrative
-
-The system turns several disputed accounts into one smooth chronology. The missing qualifiers and unresolved disputes disappear.
-
-**Correction:** compare the output with the underlying documents and require separate treatment of each account.
-
-### The invented authority
-
-The output gives a plausible case name, paragraph number or quotation that has not been checked.
-
-**Correction:** verify identity and pinpoint against the original published source. If the source cannot be checked, say so.
-
-### The policy shortcut
-
-The output says a policy breach justifies dismissal because the policy describes the conduct as serious.
-
-**Correction:** analyse the policy's status, the actual evidence, the employee's understanding, the response opportunity, the statutory test and proportionality separately.
-
-### Outcome leakage
-
-The system uses a later decision or outcome to describe what should have been known or decided at the earlier decision date.
-
-**Correction:** distinguish contemporaneous material from after-acquired evidence. Later information may affect the assessment or remedy, but it does not retrospectively create a fair process.
-
-### The confidence score
-
-The system assigns a percentage or label to credibility, dishonesty or dismissal risk.
-
-**Correction:** treat the score as unsupported unless its basis, evidence and limitations can be explained. A numerical appearance does not make evaluative judgment objective.
-
-### The confidential upload
-
-Sensitive personnel information is placed in a system without checking authorisation, retention, access, training or contractual restrictions.
-
-**Correction:** use only an approved system and minimum necessary material. If that cannot be established, do not upload the matter.
+<div class="fails">
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The clean narrative</h3>
+<p>The system turns several disputed accounts into one smooth chronology. The missing qualifiers and unresolved disputes disappear.</p>
+<p class="lesson">Compare the output with the underlying documents and require separate treatment of each account.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The invented authority</h3>
+<p>The output gives a plausible case name, paragraph number or quotation that has not been checked.</p>
+<p class="lesson">Verify identity and pinpoint against the original published source. If the source cannot be checked, say so.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The policy shortcut</h3>
+<p>The output says a policy breach justifies dismissal because the policy describes the conduct as serious.</p>
+<p class="lesson">Analyse the policy's status, the actual evidence, the employee's understanding, the response opportunity, the statutory test and proportionality separately.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>Outcome leakage</h3>
+<p>The system uses a later decision or outcome to describe what should have been known or decided at the earlier decision date.</p>
+<p class="lesson">Distinguish contemporaneous material from after-acquired evidence. Later information may affect the assessment or remedy, but it does not retrospectively create a fair process.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The confidence score</h3>
+<p>The system assigns a percentage or label to credibility, dishonesty or dismissal risk.</p>
+<p class="lesson">Treat the score as unsupported unless its basis, evidence and limitations can be explained. A numerical appearance does not make evaluative judgment objective.</p>
+</div>
+<div class="fail near">
+<span class="tag">Process risk</span>
+<h3>The confidential upload</h3>
+<p>Sensitive personnel information is placed in a system without checking authorisation, retention, access, training or contractual restrictions.</p>
+<p class="lesson">Use only an approved system and minimum necessary material. If that cannot be established, do not upload the matter.</p>
+</div>
+</div>
 
 ## Adviser checklist
 
 <Checklist
   title="Using AI in a performance or conduct matter"
+  openAdvice="Don't rely on the AI-assisted output yet. Resolve the open items first."
+  readyAdvice="The output is ready for the human decision-maker's own assessment."
   items={[
     { group: "Before use", text: "The question is narrow, the governing source is identified, and the proposed AI use is preparation or research rather than decision-making." },
     { group: "Before use", text: "The system is approved for the material, and privacy, confidentiality, records, surveillance and applicable policy requirements have been checked." },
@@ -184,7 +193,7 @@ Sensitive personnel information is placed in a system without checking authorisa
     { group: "Decision", text: "A human decision-maker has independently assessed credibility, intent, materiality, proportionality and the applicable legal test." },
     { group: "Process", text: "The employee has been given the substance of the allegation and a meaningful opportunity to respond to material relied on." },
     { group: "Records", text: "The material role of AI, and any output that affected the process, is recorded consistently with applicable records requirements." },
-    { group: "Stop and escalate", text: "The system is being asked to decide credibility, medical capacity, sanction or dismissal outcome, or the output cannot be traced to evidence and current sources." },
+    { group: "Limits", text: "The system is not being asked to decide credibility, medical capacity, sanction or dismissal outcome, and the output can be traced to evidence and current sources." },
   ]}
 />
 

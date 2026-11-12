@@ -8,7 +8,7 @@ version: "0.2.1"
 last_updated: "2026-11-12T18:11:03+08:00"
 law_current_as_at: null
 law_sources: []
-reading_minutes: 12
+reading_minutes: 17
 related: [6, 18, 5]
 ---
 
@@ -27,7 +27,7 @@ import DecisionsCited from "../../components/DecisionsCited.astro";
 
 ## The fact and the state of mind are two different questions
 
-Module 5 flagged the trap: an allegation framed as "knowingly" lodging false reports failed because "knowingly" was never proved, even though the reports themselves were wrong. This module is about that same trap, specifically for falsified business records — timesheets, expense claims, maintenance and safety checklists, sales records, records of customer interactions, qualifications on a resume.
+[Module 6](/modules/valid-reason) flagged the trap: an allegation framed as "knowingly" lodging false reports failed because "knowingly" was never proved, even though the reports themselves were wrong. This module is about that same trap, specifically for falsified business records — timesheets, expense claims, maintenance and safety checklists, sales records, records of customer interactions, qualifications on a resume.
 
 An employer who wants to dismiss someone for **dishonesty** is not just proving the record was inaccurate. It has to prove the person knew what they recorded was false — or was reckless as to its truth — at the time they recorded it. A genuine mistake, a misunderstanding of what was actually required, or plain carelessness is not dishonesty, however wrong the record turned out to be.
 
@@ -98,13 +98,13 @@ In practice: later-discovered evidence may bear on whether a reason existed at t
 <p>A technician signed off a maintenance checklist as complete after only a visual check, consistent with a practice he'd been told was acceptable by an earlier supervisor. The employer called it fraud and dishonesty; the Commission called it an honest but mistaken understanding. <Cite id="[2026] FWC 2346" at="[112]" phrase="This was his honest, but mistaken understanding" /></p>
 <p class="lesson">A plausible, consistent, previously-endorsed explanation for an inaccurate record beats the word "dishonest" every time.</p>
 </div>
-<div class="fail">
+<div class="fail won">
 <span class="tag">Employer won</span>
 <h3>Eleven days is not one day</h3>
 <p>A store manager falsified his clock-out time on eleven consecutive days to cover for leaving early, with a clear personal motive and no credible explanation. <Cite id="[2021] FWC 3224" at="[119]" phrase="falsifying his clock out times on multiple occasions was a valid reason for his dismissal" /></p>
 <p class="lesson">A pattern with a motive is close to unanswerable. Build the timeline and show it.</p>
 </div>
-<div class="fail near">
+<div class="fail won">
 <span class="tag">Employer won</span>
 <h3>The story that kept changing</h3>
 <p>Confronted with a timesheet discrepancy, the employee first blamed an altered record, then retreated into "I don't recall" — after an earlier explicit warning not to falsify his entries. <Cite id="[2020] FWC 4819" at="[75]" phrase="I consider it implausible that the further incorrect entry on 10 February 2020 was an innocent or honest mistake" /></p>
@@ -122,6 +122,7 @@ In practice: later-discovered evidence may bear on whether a reason existed at t
 
 <Checklist
   title="Dishonesty and falsified records checklist (s.387(a))"
+  openAdvice="Don't recommend termination yet. Escalate the open items to a senior ER adviser."
   items={[
     { group: "Frame the allegation correctly", text: "I can state separately: (1) what the record said, (2) what actually happened, and (3) what I say the person knew at the time they made the record." },
     { group: "Frame the allegation correctly", text: "I am not using \"dishonestly\" or \"deliberately falsified\" unless I have evidence of knowledge or recklessness, not just an inaccurate record." },
@@ -157,7 +158,7 @@ In practice: later-discovered evidence may bear on whether a reason existed at t
       <li><strong>What would tip it toward dishonesty:</strong> if Dev had been specifically told, after the former team leader left, that the 100% box must only be ticked after a full check, and continued ticking it anyway; if there were a personal benefit to ticking it (for example, a throughput bonus tied to "fully checked" batches); or if his account of the former team leader's instruction changed under questioning.</li>
       <li><strong>Missing:</strong> whether the former team leader's instruction can be corroborated (an email, a message, another inspector who heard it directly); why the two other inspectors say they were never told this — were they on a different line, or is Dev's account simply wrong; how many batches this has happened on, and whether that looks like an isolated practice Dev picked up and never had corrected, or something wider across the shift.</li>
     </ol>
-    <p style="margin-bottom:6px"><strong>Where it could land, depending on what the further inquiries show:</strong></p>
+    <p class="spectrum-label"><strong>Where it could land, depending on what the further inquiries show:</strong></p>
     <div class="spectrum">
       <div class="hi">No corroboration for the claimed instruction, a personal throughput benefit, and an account that shifts under questioning: closer to a genuine dishonesty finding.</div>
       <div class="lo">The instruction is corroborated or plausible, no one ever corrected the practice, and Dev's account stays consistent: an honest misunderstanding of what the checklist required — a training and process fix, not a dismissal for dishonesty.</div>
@@ -167,6 +168,6 @@ In practice: later-discovered evidence may bear on whether a reason existed at t
 
 ## Decisions cited
 
-Check each paragraph reference against the published decision on the FWC website before relying on it. *Newton v Toll Transport Pty Ltd* [2021] FWCFB 3457, *Streeter v Telstra Corporation Limited* [2008] AIRCFB 15 and *APS Group (Placements) Pty Ltd v O'Loughlin* [2011] FWAFB 5230 are each cited as quoted within a later decision and are not independently in this corpus — check each quote against its original. The row for *Spottiswood v Brand Collective Australia* is marked "partial": its resume-misrepresentation finding was made in the course of an extension-of-time decision, not a final merits hearing. The row for *Lainas v AMSPEC Australia* is also marked "partial": the specific timesheet finding and the overall unfair-dismissal outcome are confirmed, but the decision's other grounds were not independently re-verified paragraph by paragraph.
+Check each paragraph reference against the published decision on the FWC website before relying on it. *Newton v Toll Transport Pty Ltd* [2021] FWCFB 3457, *Streeter v Telstra Corporation Limited* [2008] AIRCFB 15 and *APS Group (Placements) Pty Ltd v O'Loughlin* [2011] FWAFB 5230 are each cited as quoted within a later decision and have not been read in the original for this guide — check each quote against its original. The row for *Spottiswood v Brand Collective Australia* is marked "partial": its resume-misrepresentation finding was made in the course of an extension-of-time decision, not a final merits hearing. The row for *Lainas v AMSPEC Australia* is also marked "partial": the specific timesheet finding and the overall unfair-dismissal outcome are confirmed, but the decision's other grounds were not independently re-verified paragraph by paragraph.
 
-<DecisionsCited moduleId={16} />
+<DecisionsCited moduleId={17} />
