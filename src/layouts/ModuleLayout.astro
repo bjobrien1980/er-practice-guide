@@ -42,6 +42,11 @@ const relatedModules = related.map((rid) => allModules.find((m) => m.id === rid)
   <body>
     <header class="topbar">
       <a class="brand" href="/">ER Practice Guide <span>Conduct &amp; performance</span></a>
+      <nav class="quick-links" aria-label="Guide orientation">
+        <a href="/start-here">Start here</a>
+        <a href="/pathways">Pathways</a>
+        <a href="/glossary">Glossary</a>
+      </nav>
       <div class="search" role="search">
         <input id="q" type="search" placeholder="Search the guide" aria-label="Search the guide" autocomplete="off" />
         <div class="results" id="results" role="listbox"></div>
