@@ -40,4 +40,4 @@ The GitHub Actions workflow at `.github/workflows/validate-staging.yml` runs for
 
 ## Publication
 
-The staging-to-main pull request is the review point. Do not merge it until content, authority links, source status and deployment configuration have been reviewed. The eventual `briefer.com.au` deployment can be connected to the `main` branch through the selected hosting provider.
+The staging-to-main pull request is the review point. Do not merge it until content, authority links, source status and deployment configuration have been reviewed. The GitHub Pages deployment is intended for `https://erguide.briefer.com.au`.
