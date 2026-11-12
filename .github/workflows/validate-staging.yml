@@ -30,13 +30,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run source and citation validation
-        run: |
-          npm run verify
-          npm run linkcheck
+      - name: Run repository link validation
+        # The local verify/registry scripts read private Briefer snapshots that
+        # are intentionally not copied into GitHub. Local MS64 validation runs
+        # those additional source-aware gates before pushing to staging.
+        run: npm run linkcheck
 
       - name: Build the static site
-        # The full local registry step reads private Briefer snapshots that are
-        # intentionally not copied into GitHub. CI validates the committed
-        # registry, pinpoints and static build instead.
         run: npx astro build
