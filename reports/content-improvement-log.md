@@ -721,3 +721,16 @@ A proposition-level review was conducted against live MasterDB/Citation Map mate
 
 The review also identified current-source verification gates for positive-duty, Commission-procedure, medical-capacity framework and related time-sensitive propositions. The full findings are at `reports/proposition-level-review.md`. No guide module was changed during the review.
 
+## Proposition-level amendments and verification gates
+
+**Date:** 2026-11-12
+
+Applied the four direct amendments identified in the proposition-level review:
+
+- summary-dismissal examples under reg 1.07 are now qualified as potentially constituting serious misconduct, subject to current source, facts and process;
+- performance-warning guidance now describes a recurring analytical framework rather than a universal four-part statutory test;
+- suspension guidance no longer describes suspension as “routine and low-risk”;
+- after-acquired evidence guidance now distinguishes the existence of a reason, later evidence, procedural fairness and remedy.
+
+Added explicit current-source gates to the summary-dismissal, positive-duty, medical-capacity and Commission-proceedings modules. The affected modules moved to version `0.2.1` with updated timestamps.
+
