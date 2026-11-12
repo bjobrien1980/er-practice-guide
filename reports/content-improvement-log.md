@@ -675,3 +675,18 @@ Deferred by design:
 
 Git provides the authoritative change history through commits, diffs, branches and pull requests. The visible module `Version` and `Last updated` fields describe the content state; they do not replace Git history or amount to legal verification.
 
+## v1.2 implementation record
+
+**Date:** 2026-11-12
+
+Executed the six agreed priorities:
+
+1. **Targeted legal-boundary pass:** revised general protections, notification, support-person, performance-warning, suspension, drug/alcohol, bullying/harassment, medical capacity, social-media and dishonesty guidance.
+2. **Core scenario improvements:** added questions about parallel pathways, evidence, interim measures and non-dismissal outcomes across core and Tier 3 scenarios.
+3. **Currency warning:** added a visible warning that current legislation, thresholds, regulations, Commission procedure and case law must be checked before reliance.
+4. **Scenario breadth:** preserved the human-readable format while making alternative outcomes explicit rather than assuming dismissal is the endpoint.
+5. **Accessibility and presentation:** added skip links, focus handling, labelled/live search results and responsive orientation links.
+6. **Section-level search cross-linking:** generated a 507-section search index so searches can link directly to relevant headings as well as module pages.
+
+All modules were advanced to version `0.2.0` with a new update timestamp. The guide remains a baseline human reference, not an exhaustive authority or prescriptive workflow.
+
