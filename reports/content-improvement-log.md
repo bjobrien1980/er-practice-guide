@@ -653,3 +653,25 @@ The scenarios are useful but predominantly ask whether the employer has a valid 
 
 Keep these as analytical alternatives, not prescribed employer practice. The examples should also be tested against the intended audience’s operational environments, including union representation, labour-hire, safety-critical work and culturally or medically sensitive matters.
 
+## v1.1 implementation decisions
+
+**Date:** 2026-11-12
+
+Implemented:
+
+- Start Here decision map;
+- parallel pathway map;
+- expanded Tier 3 scenario prompts to test non-dismissal and alternative pathways;
+- rendered-content quality gate covering routes, metadata, disclaimers, internal links and duplicated adjacent citations;
+- searchable glossary with orientation links and cross-links from the guide homepage and module headers.
+
+Deferred by design:
+
+- formulaic common module structure;
+- proposition-type labels;
+- exhaustive authority registry;
+- separate legal-review register;
+- enterprise-specific local overlay.
+
+Git provides the authoritative change history through commits, diffs, branches and pull requests. The visible module `Version` and `Last updated` fields describe the content state; they do not replace Git history or amount to legal verification.
+
