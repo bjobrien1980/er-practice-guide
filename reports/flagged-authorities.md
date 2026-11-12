@@ -290,3 +290,27 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 - Quoted in: [2021] FWC 6394 at [31]
 - Full Bench decision not found as a direct record in briefer_master.snapshot.db. Its after-acquired-knowledge principle is quoted at [2021] FWC 6394 at [31], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original.
 
+## Ulan Coal Mines Limited v Honeysett [2010] FWAFB 7578
+
+- Status: `not_in_corpus`
+- Quoted in: [2022] FWC 1905 at [92]
+- Full Bench decision on what redeployment under s.389(2) involves. Not read in the original. Its paragraph [34] is quoted at [2022] FWC 1905 at [92], confirmed against that decision's text. Flagged for checking against the original.
+
+## Helensburgh Coal Pty Ltd v Bartley [2025] HCA 29
+
+- Status: `not_in_corpus`
+- Quoted in: [2026] FWC 1315 at [16]
+- High Court decision on the breadth of the s.389(2) redeployment inquiry, including work performed by contractors. Not read in the original. Described and quoted at [2026] FWC 1315 at [16], confirmed against that decision's text. Flagged for checking against the original.
+
+## Maswan v Escada Textilvertrieb T/A ESCADA [2011] FWA 4239
+
+- Status: `not_in_corpus`
+- Quoted in: [2026] FWC 642 at [60]
+- Observation of Watson VP on when a redundancy dismissal will be harsh, unjust or unreasonable. Not read in the original. Quoted at [2026] FWC 642 at [60], confirmed against that decision's text. Flagged for checking against the original.
+
+## Shachar v Electrical Home Aids Pty Ltd t/a Godfreys [2018] FWC 4892
+
+- Status: `not_in_corpus`
+- Quoted in: [2025] FWC 1393 at [65]
+- Passage on internal and external sources of changed operational requirements. Not read in the original. Quoted at [2025] FWC 1393 at [65], confirmed against that decision's text. Flagged for checking against the original.
+

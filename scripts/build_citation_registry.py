@@ -78,12 +78,13 @@ def main():
 
     facts = json.loads(args.facts.read_text())
     citations = facts.get("citations", {})
+    external_authorities = facts.get("external_authorities", {})
     flagged_authorities = facts.get("flagged_authorities", {})
 
     usage = scan_content_for_cites(args.content)
 
     # Every <Cite id> used in content must have a verified fact entry.
-    unverified_in_content = sorted(set(usage) - set(citations))
+    unverified_in_content = sorted(set(usage) - set(citations) - set(external_authorities))
     if unverified_in_content:
         print("ERROR: <Cite> used in content with no verified entry in citation_facts.json:",
               file=sys.stderr)
@@ -152,6 +153,25 @@ def main():
             "outcome_status": fact["outcome_status"],
             "verification_status": fact["verification_status"],
             "modules": sorted(usage.get(cite, [])),
+        }
+
+    for cite, fact in external_authorities.items():
+        if cite in registry:
+            print(f"ERROR: external authority duplicates citation entry {cite}", file=sys.stderr)
+            sys.exit(1)
+        registry[cite] = {
+            "citation": cite,
+            "short_name": fact["short_name"],
+            "download_id": None,
+            "url": fact["url"],
+            "jurisdiction": fact.get("jurisdiction", ""),
+            "decision_date": fact.get("decision_date"),
+            "outcome": fact["outcome"],
+            "outcome_pinpoint": fact["outcome_pinpoint"],
+            "outcome_status": fact["outcome_status"],
+            "verification_status": fact["verification_status"],
+            "modules": sorted(usage.get(cite, [])),
+            "source_type": "external_authority",
         }
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
