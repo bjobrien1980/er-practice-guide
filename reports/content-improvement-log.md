@@ -690,3 +690,13 @@ Executed the six agreed priorities:
 
 All modules were advanced to version `0.2.0` with a new update timestamp. The guide remains a baseline human reference, not an exhaustive authority or prescriptive workflow.
 
+## Comparative full-mirror review
+
+**Date:** 2026-11-12
+
+A controlled comparison was run using identical topic searches against the limited snapshots used for the initial baseline and the current full read-only mirror. The comparison covered 13 module topics and compared the top 25 distinct decision results for each query.
+
+The tested topic searches returned the same decision-ID sets from both sources. All 126 unique authorities cited by the guide were present in both MasterDB populations. The full mirror contains 3 additional distinct Federal Court/Federal Court Full Court decision IDs and substantially more chunk rows, but those additional Federal Court records were not extracted and did not produce additional FWC results in the tested queries.
+
+Conclusion: full-mirror availability would not, on the evidence tested, have materially changed the initial FWC conduct/performance baseline. The comparative report is at `reports/comparative-full-mirror-review.md`. No guide content was changed as a result of the comparison.
+
