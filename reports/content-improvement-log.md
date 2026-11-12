@@ -734,3 +734,4 @@ Applied the four direct amendments identified in the proposition-level review:
 
 Added explicit current-source gates to the summary-dismissal, positive-duty, medical-capacity and Commission-proceedings modules. The affected modules moved to version `0.2.1` with updated timestamps.
 
+Added a new Tier 1 module, `using-ai-in-performance-and-conduct`, version `0.1.0`. It translates the former DoM pilot's findings into a cautionary, human-accountability framework: AI may support evidence mapping and source retrieval, but cannot replace credibility assessment, legal judgment, proportionality or procedural fairness. The module includes a current-source gate, evidence-layer distinctions, AI failure modes, adviser checklist and scenario. It is linked in Tier 1 navigation.

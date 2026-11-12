@@ -7,6 +7,7 @@ export const TIERS: NavTier[] = [
     modules: [
       { id: 1, title: "Who can claim", slug: "who-can-claim" },
       { id: 2, title: "General protections", slug: "general-protections" },
+      { id: 23, title: "Using AI in performance and conduct matters", slug: "using-ai-in-performance-and-conduct" },
       { id: 3, title: "Agreements and policies", slug: "agreements-and-policies" },
       { id: 4, title: "Notice and summary dismissal", slug: "notice-and-summary-dismissal" },
     ],
