@@ -700,3 +700,11 @@ The tested topic searches returned the same decision-ID sets from both sources. 
 
 Conclusion: full-mirror availability would not, on the evidence tested, have materially changed the initial FWC conduct/performance baseline. The comparative report is at `reports/comparative-full-mirror-review.md`. No guide content was changed as a result of the comparison.
 
+## Comparative live-production review
+
+**Date:** 2026-11-12
+
+A second controlled comparison was run directly against the live MS64 production MasterDB, FWC chunk database and Citation Map using immutable read-only SQLite connections. The live databases and full mirror matched on counts, all 126 guide authorities were present in live MasterDB, and all 13 topic searches returned identical top-25 decision-ID sets.
+
+Conclusion: the live-production comparison confirms the full-mirror result. The initial limited snapshot did not materially change the tested FWC conduct/performance baseline. The live review report is at `reports/comparative-live-production-review.md`. No guide content was changed and no live production data was modified.
+
