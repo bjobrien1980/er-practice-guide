@@ -30,5 +30,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run the production build and validation gates
-        run: npm run build
+      - name: Run source and citation validation
+        run: |
+          npm run verify
+          npm run linkcheck
+
+      - name: Build the static site
+        # The full local registry step reads private Briefer snapshots that are
+        # intentionally not copied into GitHub. CI validates the committed
+        # registry, pinpoints and static build instead.
+        run: npx astro build
