@@ -30,10 +30,10 @@ The first version released as a whole. Before this, each module carried its own 
 - A citation whose quotation contains "/" is no longer skipped by the verifier.
 - The build fails if a link labelled "Module N" points to a different module, or if a case card uses a label outside the fixed set.
 - Citations can show their quotation inline, so a sentence that relies on quoted words displays them.
+- Links to Federal Court judgments were checked live on 14 November 2026 and are working.
 
 ### Known limits of this version
 
-- **Links to Federal Court judgments have not been opened.** They follow the Court's address pattern and need a live check.
 - **Links to Commission practice notes** on the advocacy page have not been opened.
 - **Some statute summaries were written without a decision to anchor them** and should be read against the Act: the agreements covered by s.344, ss.349 and 350, the workplace delegates' rights, the six-year limit for non-dismissal claims, consent arbitration, the grounds for a costs order in court, and who needs permission to appear.
 - **Modules 26 and 28 show no "law checked" date.**
