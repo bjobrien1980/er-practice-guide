@@ -735,3 +735,9 @@ Applied the four direct amendments identified in the proposition-level review:
 Added explicit current-source gates to the summary-dismissal, positive-duty, medical-capacity and Commission-proceedings modules. The affected modules moved to version `0.2.1` with updated timestamps.
 
 Added a new Tier 1 module, `using-ai-in-performance-and-conduct`, version `0.1.1`. It translates the structural lesson that structured legal material does not become a decision algorithm into a cautionary, human-accountability framework: AI may support evidence mapping and source retrieval, but cannot replace credibility assessment, legal judgment, proportionality or procedural fairness. The module includes a current-source gate, evidence-layer distinctions, AI failure modes, adviser checklist and scenario. It is linked in Tier 1 navigation and does not refer to the former internal project by name.
+
+## Redundancy module review
+
+**Date:** 2026-11-12
+
+Reviewed and repaired the new `redundancy-restructuring-and-consultation` module on the working branch. Added a direct official source record for `[2010] FWAFB 7578`, moved the redeployment citations to that record, qualified consultation sequencing, vacancy competition and s.120 cooperation, replaced the ambiguous “yes, yes, no” formulation, and added a current-source gate. Full findings and resolution are at `reports/redundancy-module-review.md`. The affected module moved to version `0.1.1`.

@@ -47,7 +47,7 @@
       "verification_status": "confirmed",
       "modules": [
         6,
-        23
+        24
       ]
     },
     "[2023] FWC 961": {
@@ -275,7 +275,8 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        1
+        1,
+        18
       ]
     },
     "[2021] FWC 3264": {
@@ -306,7 +307,7 @@
       "verification_status": "confirmed",
       "modules": [
         2,
-        23,
+        24,
         26
       ]
     },
@@ -339,7 +340,7 @@
       "verification_status": "confirmed",
       "modules": [
         2,
-        23,
+        24,
         27
       ]
     },
@@ -431,7 +432,7 @@
       "verification_status": "confirmed",
       "modules": [
         4,
-        20
+        21
       ]
     },
     "[2021] FWC 4526": {
@@ -777,8 +778,8 @@
       "verification_status": "confirmed",
       "modules": [
         10,
-        22,
-        23
+        23,
+        24
       ]
     },
     "[2020] FWCFB 3571": {
@@ -794,7 +795,7 @@
       "verification_status": "confirmed",
       "modules": [
         10,
-        22
+        23
       ]
     },
     "[2021] FWC 1229": {
@@ -899,7 +900,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        18
+        19
       ]
     },
     "[2021] FWC 2243": {
@@ -914,7 +915,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        18
+        19
       ]
     },
     "[2021] FWCFB 6018": {
@@ -942,7 +943,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        18
+        19
       ]
     },
     "[2024] FWC 2914": {
@@ -957,7 +958,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        18
+        19
       ]
     },
     "[2022] FWC 221": {
@@ -972,7 +973,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        18
+        19
       ]
     },
     "[2022] FWC 1774": {
@@ -987,7 +988,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        19
+        20
       ]
     },
     "[2024] FWC 3306": {
@@ -1002,7 +1003,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        19
+        20
       ]
     },
     "[2025] FWCFB 274": {
@@ -1017,7 +1018,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        19
+        20
       ]
     },
     "[2025] FWC 1441": {
@@ -1032,7 +1033,7 @@
       "outcome_status": "partial",
       "verification_status": "confirmed",
       "modules": [
-        19
+        20
       ]
     },
     "[2020] FWC 1461": {
@@ -1047,7 +1048,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        19
+        20
       ]
     },
     "[2022] FWC 1530": {
@@ -1062,7 +1063,7 @@
       "outcome_status": "partial",
       "verification_status": "confirmed",
       "modules": [
-        19
+        20
       ]
     },
     "[2021] FWC 6329": {
@@ -1077,7 +1078,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        20
+        21
       ]
     },
     "[2023] FWC 276": {
@@ -1092,7 +1093,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        20
+        21
       ]
     },
     "[2022] FWC 2455": {
@@ -1107,7 +1108,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        20
+        21
       ]
     },
     "[2025] FWC 3513": {
@@ -1122,7 +1123,7 @@
       "outcome_status": "partial",
       "verification_status": "confirmed",
       "modules": [
-        20
+        21
       ]
     },
     "[2023] FWC 1502": {
@@ -1137,7 +1138,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        21
+        22
       ]
     },
     "[2021] FWC 6336": {
@@ -1152,7 +1153,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        21
+        22
       ]
     },
     "[2021] FWC 526": {
@@ -1167,7 +1168,7 @@
       "outcome_status": "partial",
       "verification_status": "confirmed",
       "modules": [
-        21
+        22
       ]
     },
     "[2020] FWC 316": {
@@ -1182,7 +1183,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        21
+        22
       ]
     },
     "[2020] FWC 2491": {
@@ -1197,7 +1198,7 @@
       "outcome_status": "partial",
       "verification_status": "confirmed",
       "modules": [
-        21
+        22
       ]
     },
     "[2020] FWC 1181": {
@@ -1212,7 +1213,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        21
+        22
       ]
     },
     "[2023] FWC 2900": {
@@ -1227,7 +1228,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        22
+        23
       ]
     },
     "[2026] FWC 2050": {
@@ -1242,7 +1243,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        22
+        23
       ]
     },
     "[2020] FWC 4840": {
@@ -1257,7 +1258,7 @@
       "outcome_status": "partial",
       "verification_status": "confirmed",
       "modules": [
-        22
+        23
       ]
     },
     "[2021] FWCFB 280": {
@@ -1272,7 +1273,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        22
+        23
       ]
     },
     "[2020] FWC 2": {
@@ -1287,7 +1288,7 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        23
+        24
       ]
     },
     "[2022] FWC 103": {
@@ -1976,6 +1977,96 @@
       "verification_status": "confirmed",
       "modules": [
         25
+      ]
+    },
+    "[2026] FWC 1315": {
+      "citation": "[2026] FWC 1315",
+      "short_name": "Wang v Service Stream Mobile Communications",
+      "download_id": "848217",
+      "url": "https://dms.fwc.gov.au/document-view/decisions/emerson-jing-wang-v-service-stream-mobile-communications-pty-ltd-2026-fwc?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2026-04-16",
+      "outcome": "Genuine redundancy found on all three limbs of s.389; redeployment into a long-standing contractor's role held not reasonable at [17]-[18]. Jurisdictional objection upheld and application dismissed \u2014 confirmed at [23]-[25].",
+      "outcome_pinpoint": "[23]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        18
+      ]
+    },
+    "[2026] FWC 642": {
+      "citation": "[2026] FWC 642",
+      "short_name": "Semaan v Country Road Clothing",
+      "download_id": "806849",
+      "url": "https://www.fwc.gov.au/document-view/decisions/semaan-v-country-road-clothing-pty-ltd-2026-fwc-642?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2026-02-26",
+      "outcome": "Not a genuine redundancy because award consultation was not complied with \u2014 confirmed at [41]. Dismissal nevertheless found not harsh, unjust or unreasonable and the application dismissed \u2014 confirmed at [61]-[63].",
+      "outcome_pinpoint": "[61]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        18
+      ]
+    },
+    "[2025] FWC 1393": {
+      "citation": "[2025] FWC 1393",
+      "short_name": "Pinto v Further Ed t/a Victorian Institute of Technology",
+      "download_id": "630670",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-kenneth-pinto-v-further-ed-pty-ltd-further-ed-victorian-institute-of?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2025-05-20",
+      "outcome": "Findings that the employer failed to present evidence of changed operational requirements ([66]) and failed to comply with award consultation requirements ([63]) were read and confirmed. The decision's final orders were not available in the text read and are not asserted here.",
+      "outcome_pinpoint": "[66]",
+      "outcome_status": "partial",
+      "verification_status": "confirmed",
+      "modules": [
+        18
+      ]
+    },
+    "[2020] FWC 4724": {
+      "citation": "[2020] FWC 4724",
+      "short_name": "Hurley v Tex Onsite",
+      "download_id": "786401",
+      "url": "https://www.fwc.gov.au/document-view/decisions/hurley-jeremy-v-tex-onsite-pty-ltd-2020-fwc-4724?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2020-09-03",
+      "outcome": "Redundancy objection dismissed because the award consultation clause was not complied with \u2014 confirmed at [16]. Dismissal found harsh, unjust or unreasonable at [38]; compensation assessed as one week's pay at [44] and [51].",
+      "outcome_pinpoint": "[38]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        18
+      ]
+    },
+    "[2022] FWC 1905": {
+      "citation": "[2022] FWC 1905",
+      "short_name": "Graydon v Talent Konnects t/a Talentko",
+      "download_id": "830582",
+      "url": "https://www.fwc.gov.au/document-view/decisions/ms-logan-graydon-v-talent-konnects-pty-ltd-ta-talentko-2022-fwc-1905?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2022-07-22",
+      "outcome": "Not a genuine redundancy: award consultation not complied with ([88]-[89]) and redeployment to a role advertised the next day would have been reasonable ([95]-[97]). Dismissal found harsh, unjust and unreasonable at [107]-[108]; compensation held appropriate at [110]. The amount ordered was not read and is not asserted here.",
+      "outcome_pinpoint": "[107]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        18
+      ]
+    },
+    "[2026] FWC 2083": {
+      "citation": "[2026] FWC 2083",
+      "short_name": "Redpath Contract Services v Papworth",
+      "download_id": "852802",
+      "url": "https://dms.fwc.gov.au/document-view/decisions/application-by-redpath-contract-services-pty-ltd-2026-fwc-2083?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2026-06-05",
+      "outcome": "Employer's s.120 application to reduce redundancy pay dismissed: the alternative role offered was not other acceptable employment \u2014 confirmed at [26]-[29].",
+      "outcome_pinpoint": "[26]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        18
       ]
     },
     "[2023] HCA 27": {
@@ -3007,6 +3098,22 @@
         33
       ],
       "source_type": "external_authority"
+    },
+    "[2010] FWAFB 7578": {
+      "citation": "[2010] FWAFB 7578",
+      "short_name": "Ulan Coal Mines Limited v Honeysett",
+      "download_id": null,
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2010fwafb7578.pdf",
+      "jurisdiction": "FWC Full Bench",
+      "decision_date": null,
+      "outcome": "Direct official source record for the redeployment passage at [34]. The original decision text was not independently read in this pass; the passage is reproduced and confirmed in [2022] FWC 1905 at [92].",
+      "outcome_pinpoint": "[34]",
+      "outcome_status": "partial",
+      "verification_status": "source_identity_confirmed",
+      "modules": [
+        18
+      ],
+      "source_type": "external_authority"
     }
   },
   "flagged_authorities": {
@@ -3351,6 +3458,30 @@
       "note": "Katzmann J's construction of 'discriminates between' as less favourable treatment, preferred in Morton (No 2). Cited only as quoted or summarised there; not read in the original for this guide.",
       "quoted_in": "[2019] FCA 1754",
       "quoted_in_pinpoint": "[70]"
+    },
+    "Ulan Coal Mines Limited v Honeysett [2010] FWAFB 7578": {
+      "status": "not_in_corpus",
+      "note": "Full Bench decision on what redeployment under s.389(2) involves. Not read in the original. Its paragraph [34] is quoted at [2022] FWC 1905 at [92], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2022] FWC 1905",
+      "quoted_in_pinpoint": "[92]"
+    },
+    "Helensburgh Coal Pty Ltd v Bartley [2025] HCA 29": {
+      "status": "not_in_corpus",
+      "note": "High Court decision on the breadth of the s.389(2) redeployment inquiry, including work performed by contractors. Not read in the original. Described and quoted at [2026] FWC 1315 at [16], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2026] FWC 1315",
+      "quoted_in_pinpoint": "[16]"
+    },
+    "Maswan v Escada Textilvertrieb T/A ESCADA [2011] FWA 4239": {
+      "status": "not_in_corpus",
+      "note": "Observation of Watson VP on when a redundancy dismissal will be harsh, unjust or unreasonable. Not read in the original. Quoted at [2026] FWC 642 at [60], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2026] FWC 642",
+      "quoted_in_pinpoint": "[60]"
+    },
+    "Shachar v Electrical Home Aids Pty Ltd t/a Godfreys [2018] FWC 4892": {
+      "status": "not_in_corpus",
+      "note": "Passage on internal and external sources of changed operational requirements. Not read in the original. Quoted at [2025] FWC 1393 at [65], confirmed against that decision's text. Flagged for checking against the original.",
+      "quoted_in": "[2025] FWC 1393",
+      "quoted_in_pinpoint": "[65]"
     }
   }
 }
