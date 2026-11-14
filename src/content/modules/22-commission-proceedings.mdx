@@ -4,12 +4,12 @@ slug: commission-proceedings
 title: Commission proceedings
 tier: 4
 provisions: ["FWA s.596", "FWA s.611", "FWA s.400A"]
-version: "0.2.1"
-last_updated: "2026-11-12T18:11:03+08:00"
+version: "1.0.0"
+last_updated: "2026-11-14T12:00:00+08:00"
 law_current_as_at: null
 law_sources: []
-reading_minutes: 10
-related: [2, 23, 10]
+reading_minutes: 12
+related: [2, 23, 10, 33]
 ---
 
 import Cite from "../../components/Cite.astro";
@@ -18,6 +18,8 @@ import Scenario from "../../components/Scenario.astro";
 import DecisionsCited from "../../components/DecisionsCited.astro";
 
 <p class="lead">Lodging an unfair dismissal application doesn't send a case straight to a hearing. It starts with conciliation, representation isn't a given, and the normal rule is that each side pays its own way — whatever the outcome.</p>
+
+<div class="notice info"><strong>Running the hearing:</strong> this module covers the legal and procedural route from application to outcome. For how to prepare and conduct a hearing yourself, including the documents, etiquette and sample wording for each stage, see <a href="/advocacy">Advocacy in the Fair Work Commission</a>. Always check the directions in your matter and the Commission’s current practice notes.</div>
 
 ## What you'll be able to do
 
@@ -41,7 +43,7 @@ Conciliation can end in a few different ways:
 
 ## Representation: permission, not a right
 
-**Current-source gate:** before relying on any statement about representation, conciliation, settlement, costs or Commission procedure, check the current Fair Work Act, Commission Rules, current Commission guidance and the procedural orders for the matter. Case law remains useful but does not guarantee that a current procedural practice is unchanged.
+**Before you rely on this:** before relying on any statement about representation, conciliation, settlement, costs or Commission procedure, check the current Fair Work Act, Commission Rules, current Commission guidance and the procedural orders for the matter. Case law remains useful but does not guarantee that a current procedural practice is unchanged.
 
 Section 596 of the Fair Work Act doesn't let a party simply turn up with a lawyer or paid agent. In *Durmic v Department of Home Affairs*, the Commission described a decision to grant or refuse permission as one that <Cite id="[2023] FWC 1502" at="[12]" phrase="cannot be properly characterised as a mere procedural decision" />, because it can change the whole dynamic of the hearing.
 
@@ -53,6 +55,8 @@ Permission can only be granted on one (or more) of three grounds:
 
 The Commission in *Donnola v Silverleaf Constructions* put it simply: it <Cite id="[2021] FWC 6336" at="[7]" phrase="need only find that one of the sub-sections above is satisfied" /> to be able to exercise the discretion — but satisfying a ground doesn't make the grant automatic; it opens a discretion the Commission can still decide not to exercise.
 
+**Who needs permission.** The rule is about lawyers and paid agents acting for a party. As a general rule, a person who is an employee or officer of the party isn't treated as a lawyer or paid agent representing it, so an in-house ER adviser can usually appear for the employer without permission. Check the current text of s.596 before relying on that, especially for in-house lawyers and for employees of a related company.
+
 **Permission is the exception, not the rule.** The Explanatory Memorandum, reproduced in *Durmic*, records that <Cite id="[2023] FWC 1502" at="[20]" phrase="It is envisaged that in most cases legal representation will not be necessary" />. In *Donnola*, the Commission reasoned that <Cite id="[2021] FWC 6336" at="[34]" phrase="must normally appear on their own behalf" /> — representation is the departure from the norm, and the applicant has to make the case for it.
 
 ### What persuades the Commission — and what doesn't
@@ -63,7 +67,7 @@ The Commission in *Donnola v Silverleaf Constructions* put it simply: it <Cite i
 
 The pattern across both: the Commission wants a specific, demonstrated reason tied to *this* matter — a genuine point of legal or factual complexity, or a concrete inability to self-represent — not a generalised preference for having a lawyer, and not "the other side might get one too" asserted in the abstract.
 
-**At conciliation specifically**, the same permission requirement applies, but the informal, settlement-focused nature of a conciliation conference means parties attend unrepresented far more often than at a hearing — advisers should expect to be in the room (or on the phone) as a support person rather than as a permitted representative unless permission has actually been sought and granted.
+**At conciliation specifically**, the same permission requirement applies, but the informal, settlement-focused nature of a conciliation conference means parties attend unrepresented far more often than at a hearing — an external lawyer or paid agent should expect to be in the room (or on the phone) as a support person rather than as a permitted representative unless permission has actually been sought and granted. An in-house adviser attends as the employer.
 
 ## Costs: each side bears its own, as the default
 
@@ -84,29 +88,43 @@ There are two separate statutory routes:
 
 A costs application is itself an application — if it's weak, it can expose the person who brought it.
 
+## If the matter goes to hearing
+
+You may have to present the employer's case yourself. The companion guide, <a href="/advocacy">Advocacy in the Fair Work Commission</a>, covers:
+
+- writing the case on one page and matching each fact to a witness or document;
+- drafting witness statements and an outline of submissions, with a complete example of each;
+- dealing with the Member's chambers and meeting directions;
+- preparing witnesses without coaching them;
+- hearing room conventions, appearances and forms of address;
+- sample wording for the opening, tendering a statement, and closing; and
+- cross-examination, including the rule in *Browne v Dunn*, and re-examination.
+
+It does not replace the directions in your matter or the Commission's current practice notes.
+
 ## How representation and costs applications fail
 
 <div class="fails">
 <div class="fail near">
-<span class="tag">Permission refused</span>
+<span class="tag">Point of principle</span>
 <h3>"My client isn't legally trained" isn't a reason on its own</h3>
 <p>No complexity was identified in the actual case; the Commission found the lack of legal training alone did not justify representation. <Cite id="[2021] FWC 6336" at="[22]" phrase="the absence of such training in itself is not a sufficient reason" /></p>
 <p class="lesson">Point to something specific about *this* case — a complex jurisdictional issue, a genuine inability to self-represent — not a general preference.</p>
 </div>
 <div class="fail near">
-<span class="tag">Costs refused</span>
+<span class="tag">Employer won</span>
 <h3>A hard-fought defence isn't an unreasonable one</h3>
 <p>The respondent contested the facts and rejected two settlement offers for reasoned grounds; no costs order followed. <Cite id="[2020] FWC 316" at="[58]" phrase="it is not unreasonable conduct on the part of a losing party to vigorously defend itself" /></p>
 <p class="lesson">Don't assume a costs order follows from a weak or unsuccessful case — the bar is "unreasonable act or omission", not "lost".</p>
 </div>
 <div class="fail near">
-<span class="tag">Costs claim backfired</span>
+<span class="tag">Employee won</span>
 <h3>Bringing a weak costs application cost the respondent money</h3>
 <p>The respondent's own vexatious-application claim was abandoned at hearing and had no reasonable prospects when made; it ended up paying the applicant's costs of that part of the dispute on an indemnity basis. <Cite id="[2020] FWC 2491" at="[73]" phrase="I further exercise my discretion to order that the Respondent pay the Applicant's costs" /></p>
 <p class="lesson">Assess your own costs application as critically as you'd assess the other side's case — it can turn on you.</p>
 </div>
 <div class="fail near">
-<span class="tag">Settlement treated as reversible</span>
+<span class="tag">Employer won</span>
 <h3>Trying to walk away from a conciliation outcome</h3>
 <p>Terms reached verbally at a telephone conciliation conference were held to be a binding settlement, and the later application was dismissed as having no reasonable prospects. <Cite id="[2020] FWC 1181" at="[48]" phrase="I dismiss her application for an unfair dismissal remedy" /></p>
 <p class="lesson">Make sure your client understands that agreeing at conciliation is agreeing, full stop — get instructions before you concede anything.</p>

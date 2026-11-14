@@ -235,3 +235,16 @@ html { scroll-behavior: smooth; }
   .fail, .key, .tool, .scenario, .notice, tr { break-inside: avoid; }
   h2, h3 { break-after: avoid; }
 }
+
+/* Advocacy guide: scripted dialogue and specimen documents */
+blockquote.script p + p { margin-top: 8px; }
+blockquote.script b { font-weight: 600; letter-spacing: .02em; }
+.specimen { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 28px 32px; margin: 24px 0; }
+.specimen .spec-head, .specimen .spec-title { text-align: center; font-weight: 600; letter-spacing: .04em; }
+.specimen .spec-title { margin: 20px 0; }
+.specimen h3 { font-size: 16px; margin: 26px 0 8px; }
+.specimen h4 { font-size: 15px; margin: 18px 0 6px; font-style: italic; font-weight: 600; }
+.specimen .np { display: grid; grid-template-columns: 2.4em 1fr; gap: 0 6px; margin: 8px 0; }
+.specimen .np > span:first-child { color: var(--muted); }
+.specimen .np.sub { margin-left: 2.4em; }
+@media (max-width: 600px) { .specimen { padding: 18px 16px; } }

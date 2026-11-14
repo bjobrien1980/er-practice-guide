@@ -51,6 +51,9 @@ def find_cites_in_content(content_path):
         mdx_files = [content_path]
     else:
         mdx_files = sorted(content_path.glob("*.mdx"))
+        # Standalone pages (e.g. the advocacy guide) may also use <Cite>; check them too.
+        if content_path == DEFAULT_CONTENT_DIR:
+            mdx_files += sorted((ROOT / "src" / "pages").rglob("*.astro"))
 
     for mdx_path in mdx_files:
         text = mdx_path.read_text()

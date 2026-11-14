@@ -7,20 +7,23 @@ const TIERS = await getTiers();
 
 <BaseLayout>
   <main id="top" class="standalone" data-pagefind-body>
-    <p class="eyebrow">Conduct, performance and dismissal</p>
+    <p class="eyebrow">Dismissal, general protections and Commission practice</p>
     <h1>ER Practice Guide</h1>
     <p class="lead">
-      Training material on performance and conduct matters that can lead to dismissal under the Fair Work Act
-      2009 (Cth).
+      Training material for ER advisers on managing conduct, performance and capacity matters under the Fair Work
+      Act 2009 (Cth). It covers unfair dismissal, redundancy and general protections, and what to do when a matter
+      reaches the Commission or a court.
     </p>
     <div class="notice">
-      Training material only — not legal advice. This guide is educational and does not replace checking
+      Training material only — not legal advice. This guide is educational and doesn't replace checking
       current legislation, applicable industrial instruments, workplace policies, evidence or case-specific advice.
     </div>
     <div class="link-grid">
       <a href="/start-here"><b>Start here</b><small>Frame a matter before choosing a legal pathway.</small></a>
       <a href="/pathways"><b>Parallel pathways</b><small>Screen for overlapping legal and workplace issues.</small></a>
+      <a href="/advocacy"><b>Advocacy in the Commission</b><small>How to prepare and run a hearing yourself, with worked examples.</small></a>
       <a href="/glossary"><b>Glossary</b><small>Plain-language definitions of recurring terms.</small></a>
+      <a href="/about"><b>About this guide</b><small>Who it's for, how it's organised and how it's checked.</small></a>
     </div>
     <div id="modules" class="tiers">
       {TIERS.map((t) => (

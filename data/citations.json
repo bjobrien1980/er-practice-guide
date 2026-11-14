@@ -2069,6 +2069,19 @@
         18
       ]
     },
+    "[2022] FWC 1568": {
+      "citation": "[2022] FWC 1568",
+      "short_name": "Sampson v BHP Olympic Dam Corporation",
+      "download_id": "711753",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-joshua-james-sampson-v-bhp-olympic-dam-corporation-pty-ltd-2022-fwc-1568?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2022-06-28",
+      "outcome": "Application dismissed \u2014 confirmed at [56]\u2013[57]. Commissioner Platt found valid reasons for dismissal connected to conduct and capacity ([41]) and was not satisfied the dismissal was harsh, unjust or unreasonable. Used in this guide only to illustrate hearing procedure and the s.387 structure of reasons, not for the law on the site access requirement.",
+      "outcome_pinpoint": "[56]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": []
+    },
     "[2023] HCA 27": {
       "citation": "[2023] HCA 27",
       "short_name": "Qantas Airways Ltd v Transport Workers' Union of Australia",
@@ -3112,6 +3125,54 @@
       "verification_status": "source_identity_confirmed",
       "modules": [
         18
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 1583": {
+      "citation": "[2025] FCA 1583",
+      "short_name": "Weber v Thomas Foods International (Stawell) Pty Ltd (Strike Out Application)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1583",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-15",
+      "outcome": "Interlocutory decision on summary judgment and strike-out. Read for this guide only for Wheelahan J's description at [5] and [27] of his earlier ruling in [2024] FCA 1506; the outcome of the applications was not read. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[27]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2026] FCA 594": {
+      "citation": "[2026] FCA 594",
+      "short_name": "Lye v Commonwealth of Australia (as represented by the Bureau of Meteorology)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca0594",
+      "jurisdiction": "FCA",
+      "decision_date": "2026-05-14",
+      "outcome": "Interlocutory application for interim reinstatement dismissed \u2014 [51]. Snaden J held that the s.361(1) presumption cannot be taken into account on an application for interlocutory injunctive relief ([20]) and that delay weighed strongly against relief ([48]). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[51]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2019] FCA 1008": {
+      "citation": "[2019] FCA 1008",
+      "short_name": "Australian Rail, Tram and Bus Industry Union v Metro Trains Sydney Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2019/2019fca1008",
+      "jurisdiction": "FCA",
+      "decision_date": "2019-06-27",
+      "outcome": "Interlocutory decision \u2014 order granted requiring the second applicant to provide information for subpoenas ([29]). Cited in this guide only to show the matter was continuing towards trial. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[29]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        31
       ],
       "source_type": "external_authority"
     }

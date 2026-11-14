@@ -6,9 +6,12 @@ interface Props {
   at: string;
   phrase?: string;
   status?: "flagged";
+  /** Show the quoted phrase inline before the reference. Use when the sentence relies on the quotation. */
+  quote?: boolean;
 }
 
-const { id, at, status } = Astro.props as Props;
+const { id, at, status, phrase, quote } = Astro.props as Props;
+const showQuote = Boolean(quote && phrase);
 
 const registry = citationsData.citations as Record<string, { url: string | null; short_name: string }>;
 
@@ -24,7 +27,7 @@ const label = `${id} at ${at}`;
 const isFlagged = status === "flagged";
 ---
 
-{entry.url && !isFlagged ? (
+{showQuote && <span class="cite-quote">“{phrase}”</span>}{showQuote && " "}{entry.url && !isFlagged ? (
   <a class="cite" href={entry.url} target="_blank" rel="noopener noreferrer" title={entry.short_name}>{label}</a>
 ) : isFlagged ? (
   <span class="cite flagged" title="Unverified pinpoint — flagged for checking">{label} (unverified)</span>

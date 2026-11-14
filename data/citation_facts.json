@@ -1313,6 +1313,14 @@
       "outcome_status": "confirmed",
       "outcome": "Employer's s.120 application to reduce redundancy pay dismissed: the alternative role offered was not other acceptable employment \u2014 confirmed at [26]-[29].",
       "outcome_pinpoint": "[26]"
+    },
+    "[2022] FWC 1568": {
+      "download_id": "711753",
+      "short_name": "Sampson v BHP Olympic Dam Corporation",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "Application dismissed \u2014 confirmed at [56]\u2013[57]. Commissioner Platt found valid reasons for dismissal connected to conduct and capacity ([41]) and was not satisfied the dismissal was harsh, unjust or unreasonable. Used in this guide only to illustrate hearing procedure and the s.387 structure of reasons, not for the law on the site access requirement.",
+      "outcome_pinpoint": "[56]"
     }
   },
   "external_authorities": {
@@ -1955,6 +1963,36 @@
       "verification_status": "source_identity_confirmed",
       "outcome": "Direct official source record for the redeployment passage at [34]. The original decision text was not independently read in this pass; the passage is reproduced and confirmed in [2022] FWC 1905 at [92].",
       "outcome_pinpoint": "[34]"
+    },
+    "[2025] FCA 1583": {
+      "short_name": "Weber v Thomas Foods International (Stawell) Pty Ltd (Strike Out Application)",
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1583",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-15",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "outcome": "Interlocutory decision on summary judgment and strike-out. Read for this guide only for Wheelahan J's description at [5] and [27] of his earlier ruling in [2024] FCA 1506; the outcome of the applications was not read. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[27]"
+    },
+    "[2026] FCA 594": {
+      "short_name": "Lye v Commonwealth of Australia (as represented by the Bureau of Meteorology)",
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca0594",
+      "jurisdiction": "FCA",
+      "decision_date": "2026-05-14",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "outcome": "Interlocutory application for interim reinstatement dismissed \u2014 [51]. Snaden J held that the s.361(1) presumption cannot be taken into account on an application for interlocutory injunctive relief ([20]) and that delay weighed strongly against relief ([48]). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[51]"
+    },
+    "[2019] FCA 1008": {
+      "short_name": "Australian Rail, Tram and Bus Industry Union v Metro Trains Sydney Pty Ltd",
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2019/2019fca1008",
+      "jurisdiction": "FCA",
+      "decision_date": "2019-06-27",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "outcome": "Interlocutory decision \u2014 order granted requiring the second applicant to provide information for subpoenas ([29]). Cited in this guide only to show the matter was continuing towards trial. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[29]"
     }
   },
   "flagged_authorities": {

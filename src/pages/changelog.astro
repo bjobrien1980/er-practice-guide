@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Content } from "../../CHANGELOG.md";
+---
+
+<BaseLayout title="Changelog" description="What changed in each version of the ER Practice Guide, and what is known to be unfinished.">
+  <main id="top" class="standalone" data-pagefind-body>
+    <p class="eyebrow">Orientation</p>
+    <Content />
+    <p class="backlink"><a href="/about">About this guide</a> · <a href="/">Return to the guide</a></p>
+  </main>
+</BaseLayout>

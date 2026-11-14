@@ -50,6 +50,9 @@ def scan_content_for_cites(content_path):
     """
     usage = {}
     mdx_files = [content_path] if content_path.is_file() else sorted(content_path.glob("*.mdx"))
+    # Standalone pages (e.g. the advocacy guide) may also use <Cite>; they have no module id.
+    if content_path == DEFAULT_CONTENT_DIR:
+        mdx_files += sorted((ROOT / "src" / "pages").rglob("*.astro"))
     for mdx_path in mdx_files:
         text = mdx_path.read_text()
         module_id = None

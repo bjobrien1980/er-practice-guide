@@ -10,14 +10,16 @@ interface Props {
 }
 
 const SITE = "ER Practice Guide";
-const { title, description = "Training material on conduct, performance and dismissal-related issues under the Fair Work Act 2009 (Cth). Not legal advice." } =
+const { title, description = "Training material for ER advisers on dismissal, redundancy, general protections and Commission practice under the Fair Work Act 2009 (Cth). Not legal advice." } =
   Astro.props as Props;
 
 const path = Astro.url.pathname.replace(/\/$/, "") || "/";
 const QUICK_LINKS = [
   { href: "/start-here", label: "Start here" },
   { href: "/pathways", label: "Pathways" },
+  { href: "/advocacy", label: "Advocacy" },
   { href: "/glossary", label: "Glossary" },
+  { href: "/about", label: "About" },
 ];
 ---
 
@@ -38,7 +40,7 @@ const QUICK_LINKS = [
   <body>
     <a class="skip-link" href="#top">Skip to content</a>
     <header class="topbar">
-      <a class="brand" href="/" aria-current={path === "/" ? "page" : undefined}>{SITE} <span>Conduct &amp; performance</span></a>
+      <a class="brand" href="/" aria-current={path === "/" ? "page" : undefined}>{SITE} <span>Fair Work in practice</span></a>
       <nav class="quick-links" aria-label="Guide orientation">
         {QUICK_LINKS.map((l) => (
           <a href={l.href} aria-current={path === l.href ? "page" : undefined}>{l.label}</a>

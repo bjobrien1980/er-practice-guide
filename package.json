@@ -1,15 +1,16 @@
 {
   "name": "er-practice-guide",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "npm run registry && astro dev",
     "registry": "python3 scripts/build_citation_registry.py",
     "verify": "python3 scripts/verify_pinpoints.py",
     "linkcheck": "python3 scripts/link_check.py",
     "contentcheck": "python3 scripts/rendered_content_check.py",
+    "structurecheck": "python3 scripts/structure_check.py",
     "readingtime": "python3 scripts/estimate_reading_time.py",
-    "prebuild": "npm run registry && npm run verify && npm run linkcheck",
+    "prebuild": "npm run registry && npm run verify && npm run linkcheck && npm run structurecheck",
     "build": "astro build",
     "postbuild": "python3 scripts/build_section_index.py && pagefind --site dist && npm run contentcheck",
     "preview": "astro preview",
