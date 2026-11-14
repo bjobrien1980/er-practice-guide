@@ -1,0 +1,82 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="About this guide" description="Who the ER Practice Guide is for, how it's organised, and how the decisions and legislation in it are checked.">
+  <main id="top" class="standalone" data-pagefind-body>
+    <p class="eyebrow">Orientation</p>
+    <h1>About this guide</h1>
+    <p class="lead">Who the guide is for, how it's put together, and how far you can lean on what it says. Read the section on checking before you rely on any citation.</p>
+
+    <div class="notice">
+      <strong>Training material only — not legal advice.</strong> The guide teaches concepts and shows how decided cases have gone. It doesn't replace checking the current legislation, the instruments and policies that apply, the evidence in your matter, or advice on that matter.
+    </div>
+
+    <h2 id="who">Who it's for</h2>
+    <p>The guide is written for employee relations advisers on the employer side: the person who gets the call when a manager wants to warn, suspend, restructure or dismiss someone. It assumes you know your workplace and want to know how the Fair Work Commission and the courts will look at what you're about to do.</p>
+    <p>It isn't written for lawyers, and it doesn't try to be a textbook. Where a question needs legal advice, the modules say so, and <a href="/modules/escalation">Module 24</a> is about when to escalate.</p>
+
+    <h2 id="organised">How it's organised</h2>
+    <ul class="compact">
+      <li><strong>Tier 1: Foundations.</strong> Who can claim, the general protections in outline, agreements and policies, and notice.</li>
+      <li><strong>Tier 2: The s.387 test.</strong> The questions the Commission asks in every unfair dismissal case.</li>
+      <li><strong>Tier 3: Situations.</strong> Common fact patterns, from drug and alcohol testing to redundancy.</li>
+      <li><strong>Tier 4: Running a matter.</strong> Investigations, suspension, records, Commission proceedings, remedies and escalation.</li>
+      <li><strong>Tier 5: General protections in depth.</strong> Workplace rights, adverse action, reasons, and the court pathway. These modules are longer because the law is harder.</li>
+      <li><strong><a href="/advocacy">Advocacy in the Fair Work Commission</a>.</strong> How to prepare and run a hearing yourself, with a complete example witness statement and outline of submissions.</li>
+    </ul>
+    <p>If you're new, begin at <a href="/start-here">Start here</a>. If you have a live matter, <a href="/pathways">Parallel pathways</a> helps you see which parts of the guide it touches.</p>
+
+    <h3>What every module contains</h3>
+    <ul class="compact">
+      <li><strong>What you'll be able to do</strong>: the point of the module, in a few lines.</li>
+      <li><strong>The body</strong>: the test, and how decided cases have applied it.</li>
+      <li><strong>Case cards</strong>: short accounts of how real cases were won and lost, each with a lesson and one of ten outcome labels (below).</li>
+      <li><strong>An adviser checklist</strong> you can tick through on a live matter.</li>
+      <li><strong>A practice scenario</strong> with questions and a worked answer.</li>
+      <li><strong>Decisions cited</strong>: every decision the module relies on, with its result.</li>
+    </ul>
+
+    <h3 id="labels">Case card labels</h3>
+    <ul class="compact">
+      <li><strong>Employee won</strong> and <strong>Employer won</strong>: the overall result.</li>
+      <li><strong>Employer won, narrowly</strong>: the employer won despite a real flaw in its case or process.</li>
+      <li><strong>Mixed result</strong>: each side won part, or the matter was sent back.</li>
+      <li><strong>Respondent won</strong>: the successful party wasn't the employer, for example an individual manager or a union.</li>
+      <li><strong>Regulator won</strong> and <strong>Union won</strong>: the applicant was a regulator or a union.</li>
+      <li><strong>Interim ruling</strong>: a decision before trial, not a final result.</li>
+      <li><strong>Process risk</strong>: a risk pattern, not a decided case.</li>
+      <li><strong>Point of principle</strong>: the card is there for the reasoning, whoever won.</li>
+    </ul>
+
+    <h2 id="checking">How this guide is checked</h2>
+
+    <h3>Decisions</h3>
+    <p>Every citation in a module names a decision and a paragraph, and is tied to a short quotation from that paragraph. When the guide is built, an automated check confirms that each quotation really appears at the paragraph cited. A citation that fails the check stops the build.</p>
+    <ul class="compact">
+      <li><strong>Fair Work Commission decisions</strong> are checked against the text of the decision held in a research collection of Commission decisions.</li>
+      <li><strong>Federal Court decisions</strong> were read from the judgment files as collected from the Court, and each quotation and paragraph number was confirmed against those files. They haven't been compared with the Court's website.</li>
+      <li><strong>High Court decisions</strong> are identified in the module that uses them, along with whether they were read directly or are described through a later decision.</li>
+    </ul>
+    <p>That check tells you the words are in the decision. It doesn't tell you the decision is still good law, or that it would be applied the same way to your facts. So:</p>
+    <ul class="compact">
+      <li><strong>Read the decision before you rely on it.</strong> Each citation links to the published decision where a link is available.</li>
+      <li><strong>Look at the "Decisions cited" entry.</strong> It says what was read. "Read only for…" means the rest of the decision, including its result, wasn't checked.</li>
+      <li><strong>Watch for second-hand authorities.</strong> Where a decision is described only as another decision quoted or summarised it, the module says so. Those haven't been read in the original.</li>
+      <li><strong>Check for appeals.</strong> No systematic search for later appeals has been done.</li>
+      <li><strong>Interlocutory decisions are labelled.</strong> They show how a court approached a question at an early stage, not how the case ended.</li>
+    </ul>
+
+    <h3 id="currency">Legislation</h3>
+    <p>Where a module shows a <strong>Law checked</strong> date, the provisions it relies on were read against the current legislation on that date. Where there's no date, they weren't, and the module's "Before you rely on this" notice says what to check. Either way, check the current text yourself: thresholds, penalty amounts, regulations and procedures change.</p>
+    <p>State and Territory laws, including workers' compensation, work health and safety and anti-discrimination laws, are outside the guide except where a module says otherwise.</p>
+
+    <h3>Scenarios and examples</h3>
+    <p>Every practice scenario, and the worked examples in the advocacy guide, are fictional. The employers, people and events are invented. The decisions cited in them are real.</p>
+
+    <h2 id="version">This version</h2>
+    <p>This is version 1.0.0, released on 14 November 2026. It's a working prototype: complete enough to use and test, and expected to change. Each module shows its own version and the date it was last updated. The <a href="/changelog">changelog</a> lists what changed and what's known to be unfinished.</p>
+
+    <p class="backlink"><a href="/start-here">Start here</a> · <a href="/pathways">Parallel pathways</a> · <a href="/">Return to the guide</a></p>
+  </main>
+</BaseLayout>

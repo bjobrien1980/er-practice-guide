@@ -307,7 +307,8 @@
       "verification_status": "confirmed",
       "modules": [
         2,
-        24
+        24,
+        26
       ]
     },
     "[2024] FWC 840": {
@@ -322,7 +323,8 @@
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
-        2
+        2,
+        25
       ]
     },
     "[2025] FWC 777": {
@@ -338,7 +340,8 @@
       "verification_status": "confirmed",
       "modules": [
         2,
-        24
+        24,
+        27
       ]
     },
     "[2026] FWC 1138": {
@@ -1927,7 +1930,54 @@
       "outcome_pinpoint": "[31]",
       "outcome_status": "confirmed",
       "verification_status": "confirmed",
-      "modules": []
+      "modules": [
+        17
+      ]
+    },
+    "[2025] FWC 3124": {
+      "citation": "[2025] FWC 3124",
+      "short_name": "Sinclair v Transit Systems NSW Pty Ltd",
+      "download_id": "679185",
+      "url": "https://www.fwc.gov.au/document-view/decisions/document-2025fwc3124?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2025-10-24",
+      "outcome": "No contravention of Part 3-1 found \u2014 confirmed at [70]. The applicant did not identify the workplace law or instrument behind his alleged entitlements and did not establish a workplace right under s.341(1)(a), (b) or (c) ([57]); a workers compensation claim was likely to be a workplace right but was not exercised before dismissal ([58]).",
+      "outcome_pinpoint": "[70]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        25
+      ]
+    },
+    "[2023] FWC 245": {
+      "citation": "[2023] FWC 245",
+      "short_name": "Hodgkins v Rockcote Enterprises Pty Ltd",
+      "download_id": "708075",
+      "url": "https://www.fwc.gov.au/document-view/decisions/hodgkins-kim-v-rockcote-enterprises-pty-ltd-2023-fwc-245?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2023-01-27",
+      "outcome": "Read only for the workplace-right findings at [156] and [161]\u2013[163]: one email was a mere request for assistance, not a complaint or inquiry; later emails were complaints or inquiries even though misconceived. The decision's ultimate finding and orders were not read in this pass \u2014 not asserted here.",
+      "outcome_pinpoint": "[163]",
+      "outcome_status": "partial",
+      "verification_status": "confirmed",
+      "modules": [
+        25
+      ]
+    },
+    "[2026] FWC 1941": {
+      "citation": "[2026] FWC 1941",
+      "short_name": "Barakat v Grimshaw Architects Pty Ltd",
+      "download_id": "852176",
+      "url": "https://dms.fwc.gov.au/document-view/decisions/mr-rafat-barakat-v-grimshaw-architects-pty-ltd-2026-fwc-1941?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2026-05-28",
+      "outcome": "Read only for the statement at [33] that there is no workplace right to have discussions or obtain clarification on the terms of an employment contract at the point of recruitment. The decision's ultimate finding was not read in this pass \u2014 not asserted here.",
+      "outcome_pinpoint": "[33]",
+      "outcome_status": "partial",
+      "verification_status": "confirmed",
+      "modules": [
+        25
+      ]
     },
     "[2026] FWC 1315": {
       "citation": "[2026] FWC 1315",
@@ -2019,6 +2069,1049 @@
         18
       ]
     },
+    "[2022] FWC 1568": {
+      "citation": "[2022] FWC 1568",
+      "short_name": "Sampson v BHP Olympic Dam Corporation",
+      "download_id": "711753",
+      "url": "https://www.fwc.gov.au/document-view/decisions/mr-joshua-james-sampson-v-bhp-olympic-dam-corporation-pty-ltd-2022-fwc-1568?from=search",
+      "jurisdiction": "FWC",
+      "decision_date": "2022-06-28",
+      "outcome": "Application dismissed \u2014 confirmed at [56]\u2013[57]. Commissioner Platt found valid reasons for dismissal connected to conduct and capacity ([41]) and was not satisfied the dismissal was harsh, unjust or unreasonable. Used in this guide only to illustrate hearing procedure and the s.387 structure of reasons, not for the law on the site access requirement.",
+      "outcome_pinpoint": "[56]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": []
+    },
+    "[2023] HCA 27": {
+      "citation": "[2023] HCA 27",
+      "short_name": "Qantas Airways Ltd v Transport Workers' Union of Australia",
+      "download_id": null,
+      "url": "https://www.hcourt.gov.au/cases-and-judgments/judgments/judgments-1998-current/qantas-airways-limited-v-transport-workers-union-australia",
+      "jurisdiction": "High Court",
+      "decision_date": "2023-09-13",
+      "outcome": "Appeal dismissed. Read directly for the s.340(1)(b) future-exercise proposition at [43] and [60].",
+      "outcome_pinpoint": "[60]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        25,
+        27
+      ],
+      "source_type": "external_authority"
+    },
+    "[2023] FCA 1036": {
+      "citation": "[2023] FCA 1036",
+      "short_name": "Buckeridge v Littlepay Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2023/2023fca1036",
+      "jurisdiction": "FCA",
+      "decision_date": "2023-08-30",
+      "outcome": "Fair Work Act claims dismissed \u2014 confirmed at [145]. A general counsel alleged she was made redundant because of two complaints and her sick leave. O'Callaghan J accepted the chief executive as a reliable witness ([121]) and that redundancy was the true and only reason ([133]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[145]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        27
+      ],
+      "source_type": "external_authority"
+    },
+    "[2021] FCA 601": {
+      "citation": "[2021] FCA 601",
+      "short_name": "SBP Employment Solutions Pty Ltd v Smith",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca0601",
+      "jurisdiction": "FCA",
+      "decision_date": "2021-06-08",
+      "outcome": "Appeal allowed in part \u2014 summary at [214]. Rangiah J held the primary judge misapplied Jones v Dunkel ([89]) but that the employer failed to prove the complaints were not a substantial and operative factor ([114]), so the s.340 contravention by the employer stood ([115]) and Ground 1 was rejected. Penalties and compensation were reduced, the declarations against two of the four directors were set aside, and the costs orders were replaced with no order as to costs. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[214]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        27,
+        29,
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2023] FCA 1010": {
+      "citation": "[2023] FCA 1010",
+      "short_name": "Han v St Basil's Homes",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2023/2023fca1010",
+      "jurisdiction": "FCA",
+      "decision_date": "2023-08-25",
+      "outcome": "Employee succeeded on termination, failed on the warning. Rares J rejected the claims that the employer contravened s.340(1) or s.351(1) in issuing a warning ([76]\u2013[78]), but found the employer did not discharge its onus on the dismissal ([240]) and that it terminated the employee's employment because of her workplace complaints and her race ([241]). Remedies and penalties were left for a later hearing ([242]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[241]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        27
+      ],
+      "source_type": "external_authority"
+    },
+    "[2018] FCAFC 191": {
+      "citation": "[2018] FCAFC 191",
+      "short_name": "Auimatagi v Australian Building and Construction Commissioner",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2018/2018fcafc0191",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2018-11-13",
+      "outcome": "Read only for the meaning of 'role or responsibility' in s.341(1)(a) at [61]\u2013[73]: a head contractor enforcing a site safety policy under work health and safety law had a role or responsibility under a workplace law ([72]). The outcome of the appeal was not read in this pass and is not asserted. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[72]",
+      "outcome_status": "partial",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25
+      ],
+      "source_type": "external_authority"
+    },
+    "[2019] FCAFC 16": {
+      "citation": "[2019] FCAFC 16",
+      "short_name": "Cigarette & Gift Warehouse Pty Ltd v Whelan",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2019/2019fcafc0016",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2019-02-08",
+      "outcome": "Employer's appeal dismissed \u2014 confirmed at [54]. The employee's inquiry about a discretionary bonus and bonus plan contemplated by his contract was the exercise of a workplace right ([28]); the decision-maker did not give evidence of his reasons ([29]\u2013[30]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[54]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCAFC 15": {
+      "citation": "[2020] FCAFC 15",
+      "short_name": "PIA Mortgage Services Pty Ltd v King",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2020/2020fcafc0015",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2020-02-24",
+      "outcome": "Read only on the workplace-right question. Rangiah and Charlesworth JJ held that 'able to make a complaint' requires an identifiable source of entitlement, which may be a statute, a contract or the general law ([14]\u2013[20], [26]), and that the employee had exercised a workplace right ([32]). Snaden J dissented on that question ([161]\u2013[174]). The overall orders on the appeal were not read in this pass and are not asserted. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[32]",
+      "outcome_status": "partial",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCAFC 204": {
+      "citation": "[2020] FCAFC 204",
+      "short_name": "Cummins South Pacific Pty Ltd v Keenan",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2020/2020fcafc0204",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2020-11-24",
+      "outcome": "Appeal allowed in part \u2014 confirmed at [201] and [206]. Bromberg J (Mortimer J agreeing) considered, without needing to decide, that s.341(1)(c)(ii) does not require a complaint to be underpinned by a right or entitlement ([64], [67]); Anastassiou J disagreed with that construction ([214], [285]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[201]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25,
+        29
+      ],
+      "source_type": "external_authority"
+    },
+    "[2021] FCAFC 178": {
+      "citation": "[2021] FCAFC 178",
+      "short_name": "Alam v National Australia Bank Limited",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2021/2021fcafc0178",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2021-10-08",
+      "outcome": "Appeal allowed and the matter remitted for retrial \u2014 confirmed at [130]. The Full Court held that some of the alleged communications were requests, not complaints or inquiries ([61]\u2013[62]), noted the divergent views on 'able to make' ([65]), and proceeded on the Whelan understanding ([97]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[130]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25
+      ],
+      "source_type": "external_authority"
+    },
+    "[2022] FCAFC 71": {
+      "citation": "[2022] FCAFC 71",
+      "short_name": "Qantas Airways Ltd v Transport Workers' Union of Australia",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2022/2022fcafc0071",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2022-05-04",
+      "outcome": "Both appeals dismissed \u2014 confirmed at [431]. The Full Court held that s.340(1)(b) protects the future possible exercise of a workplace right and does not require the right to exist when the adverse action is taken ([99]\u2013[100], [118]). Paragraph numbers are typed in the judgment file. The later High Court decision is not in the corpus and was not read. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[431]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 1650": {
+      "citation": "[2025] FCA 1650",
+      "short_name": "Azad v Mithila Family Trust trading as Rockingham GP (Trial Judgment)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1650",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-18",
+      "outcome": "Application dismissed \u2014 confirmed at [265]. Dowling J held that s.341(1)(c)(ii) did not apply to an independent contractor ([66]) and that the principal was not a person or body with capacity to seek compliance under s.341(1)(c)(i) ([121]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[265]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25,
+        26
+      ],
+      "source_type": "external_authority"
+    },
+    "[2019] FCA 1754": {
+      "citation": "[2019] FCA 1754",
+      "short_name": "Morton v Commonwealth Scientific and Industrial Research Organisation (No 2)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2019/2019fca1754",
+      "jurisdiction": "FCA",
+      "decision_date": "2019-10-29",
+      "outcome": "Claims 1A\u20133 and 5\u20139 rejected and Claim 4 upheld \u2014 [663]\u2013[664]. Rangiah J held that s.351(1) stands independently of the anti-discrimination laws in s.351(3) and does not import the Sex Discrimination Act's vicarious liability provision ([68]\u2013[69], [79]); preferred the 'less favourable treatment' reading of 'discriminates between' ([72]); and found a contravention of s.340 where a complaint was dismissed without following the grievance procedure ([651]), with $1,000 compensation ([661]). The appendix summarising the evidence was not read. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[663]",
+      "outcome_status": "partial",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        26,
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCA 893": {
+      "citation": "[2020] FCA 893",
+      "short_name": "Australian Building and Construction Commissioner v CoreStaff WA Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2020/2020fca0893",
+      "jurisdiction": "FCA",
+      "decision_date": "2020-06-26",
+      "outcome": "Contravention of s.351(1) by the labour hire company declared \u2014 confirmed at [116]. Banks-Smith J found there was a vacancy and a refusal to employ a 70-year-old applicant because of his age ([87], [95]). The findings on the client's alleged involvement were not read in full and are not asserted. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[116]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        26,
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2021] FCAFC 226": {
+      "citation": "[2021] FCAFC 226",
+      "short_name": "Australian Federation of Air Pilots v Regional Express Holdings Limited",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2021/2021fcafc0226",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2021-12-16",
+      "outcome": "Read only for the principles on 'threatening to take action' under s.342(2) at [146]\u2013[152], adopting Bromberg J's summary in Fair Work Ombudsman v Australian Workers' Union. Claims under ss.340 and 343 were remitted for rehearing ([195]); the full orders were not read in this pass. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[149]",
+      "outcome_status": "partial",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        26,
+        32
+      ],
+      "source_type": "external_authority"
+    },
+    "[2024] FCA 401": {
+      "citation": "[2024] FCA 401",
+      "short_name": "Heal v Sydney Flames Basketball Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2024/2024fca0401",
+      "jurisdiction": "FCA",
+      "decision_date": "2024-04-19",
+      "outcome": "General protections claims dismissed; the employee succeeded on breach of contract and an admitted payslips claim \u2014 confirmed at [382]. The suspension was accepted to be adverse action ([175]) but the decision-makers proved the employee's exercise of workplace rights was not a substantial or operative reason ([196]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[382]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        26
+      ],
+      "source_type": "external_authority"
+    },
+    "[2024] FCA 690": {
+      "citation": "[2024] FCA 690",
+      "short_name": "Avard v Australian Capital Territory",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2024/2024fca0690",
+      "jurisdiction": "FCA",
+      "decision_date": "2024-06-28",
+      "outcome": "Application dismissed \u2014 confirmed at [215]. Kennett J held that a medical-examination direction and a direction not to attend work were not adverse action ([120]); that commencing investigations and the suspension and transfer decisions were ([136], [168], [186], [207]); that action permitted by an enterprise agreement is not 'authorised' under s.342(3)(a) ([97]); and that the respondents proved their reasons for each adverse action ([208]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[215]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25,
+        26
+      ],
+      "source_type": "external_authority"
+    },
+    "[2026] FCAFC 120": {
+      "citation": "[2026] FCAFC 120",
+      "short_name": "Totino v Metro Trains Melbourne Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2026/2026fcafc0120",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2026-09-08",
+      "outcome": "Appeal dismissed \u2014 confirmed at [110]. The Full Court held that a show-cause letter proposing termination for medical incapacity and inviting a response was not a 'threat' under s.342(2) because it expressed no intimidatory purpose ([79]\u2013[85]), and that the employer had discharged its onus on the reasons for termination ([73]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[110]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        26,
+        27,
+        29
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCAFC 152": {
+      "citation": "[2020] FCAFC 152",
+      "short_name": "Coles Supply Chain Pty Ltd v Milford",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2020/2020fcafc0152",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2020-09-11",
+      "outcome": "Judicial review application allowed \u2014 relief at [83]. The Full Court held that whether an applicant under s.365 was dismissed, and whether the application was made within 21 days, are antecedent questions the Commission must resolve before exercising its s.368 powers ([65], [67]); the Full Bench decision was quashed and the matter returned to the Commission. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[83]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2026] FCA 1183": {
+      "citation": "[2026] FCA 1183",
+      "short_name": "Blade v Jones Lang LaSalle (NSW) Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1183",
+      "jurisdiction": "FCA",
+      "decision_date": "2026-08-21",
+      "outcome": "Interlocutory decision \u2014 extensions of time granted under s.370(a)(ii) at [87]. Halley J held that dismissal claims filed before a s.368 certificate issued were not validly made, but extended time because the delay was the legal representatives' error ([74]) and the employer suffered no relevant prejudice ([75]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[87]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2024] FCA 1506": {
+      "citation": "[2024] FCA 1506",
+      "short_name": "Weber v Thomas Foods International (Stawell) Pty Ltd (Interim Reinstatement)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2024/2024fca1506",
+      "jurisdiction": "FCA",
+      "decision_date": "2024-12-20",
+      "outcome": "Interlocutory decision \u2014 employer's jurisdiction challenge dismissed and interim reinstatement ordered at [71]. Wheelahan J held that s.370(b) imposes no time limit on a general protections court application that includes an application for an interim injunction ([44]\u2013[45]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[71]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2024] FCA 810": {
+      "citation": "[2024] FCA 810",
+      "short_name": "McGrory v Horizon One Recruitment Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2024/2024fca0810",
+      "jurisdiction": "FCA",
+      "decision_date": "2024-07-23",
+      "outcome": "Proceeding against the second respondent dismissed for want of jurisdiction \u2014 [20]. Collier J held that ss.365, 368 and 370 were not satisfied for a respondent that was not part of the Commission dispute ([19]); costs were not ordered against the applicant ([24]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[20]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2023] FCA 259": {
+      "citation": "[2023] FCA 259",
+      "short_name": "Deam v Starlight Children's Foundation Australia",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2023/2023fca0259",
+      "jurisdiction": "FCA",
+      "decision_date": "2023-03-24",
+      "outcome": "General protections proceeding dismissed \u2014 conclusions at [113]\u2013[114]. Mortimer J held that s.734 prohibited a general protections court application relying on the same or substantially the same conduct as an earlier discrimination complaint that had not been withdrawn before the court application was made ([89], [99]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[113]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 448": {
+      "citation": "[2025] FCA 448",
+      "short_name": "Han v St Basil's Homes (No 2)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca0448",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-05-06",
+      "outcome": "Compensation and penalties ordered \u2014 summary at [5]. Shariff J awarded $175,000 past economic loss, $61,559.62 future economic loss, $75,000 general damages and $10,000 future expenses, limited to loss caused by the contraventions ([72]), and penalties of $45,000 (s.351) and $15,000 (s.340) ([220]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[5]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        30,
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2026] FCA 1582": {
+      "citation": "[2026] FCA 1582",
+      "short_name": "Gavin v Svitzer Australia Pty Ltd (Relief)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1582",
+      "jurisdiction": "FCA",
+      "decision_date": "2026-10-23",
+      "outcome": "Relief decision \u2014 reinstatement refused as not practicable ([34]); general damages of $15,000 ([66]) and a single penalty of $20,000 payable to the applicant ([81]\u2013[82]); economic loss to be calculated by the parties on the approach in the reasons ([54]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[81]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        28,
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 971": {
+      "citation": "[2025] FCA 971",
+      "short_name": "Transport Workers' Union of Australia v Qantas Airways Limited (Penalty)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca0971",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-08-18",
+      "outcome": "Penalty of $90 million imposed \u2014 [321]. Lee J assessed the penalty against a maximum of $121,212,000 for 1,820 contraventions of s.340(1)(b) ([70], [228]). Read for this guide only for the penalty principles and amount. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[321]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2024] FCA 1266": {
+      "citation": "[2024] FCA 1266",
+      "short_name": "Haire v WorkCo Australia Pty Ltd (No 2)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2024/2024fca1266",
+      "jurisdiction": "FCA",
+      "decision_date": "2024-11-04",
+      "outcome": "Interlocutory decision \u2014 application for summary dismissal of accessorial liability claims dismissed at [9]. Horan J restated that s.550 requires actual knowledge of the essential matters and intentional participation ([63]\u2013[64]). No findings of liability were made. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[9]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 402": {
+      "citation": "[2025] FCA 402",
+      "short_name": "Mount v Dover Castle Metals Pty Ltd (Costs)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca0402",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-04-29",
+      "outcome": "Employer's costs application dismissed \u2014 [77]. Katzmann J held that s.570 limited the costs power ([19]) and that rejecting three reasonable settlement offers, viewed prospectively, was not an unreasonable act or omission ([74], [77]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[77]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCA 1222": {
+      "citation": "[2020] FCA 1222",
+      "short_name": "Rudakova v Congregation of Religious Sisters of Charity of Australia trading as St Vincent's Private Hospital, Sydney",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2020/2020fca1222",
+      "jurisdiction": "FCA",
+      "decision_date": "2020-08-26",
+      "outcome": "Employee's appeal dismissed \u2014 [68]. Flick J found no error in the primary judge's acceptance of the decision-maker's evidence that he did not take the employee's grievance into account when dismissing her for misconduct ([16], [51]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[68]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        28
+      ],
+      "source_type": "external_authority"
+    },
+    "[2023] FCAFC 166": {
+      "citation": "[2023] FCAFC 166",
+      "short_name": "Monash Health v Singh",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2023/2023fcafc0166",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2023-10-16",
+      "outcome": "Employer's appeal allowed \u2014 [157]; remitted for rehearing before a different judge ([165]). The Full Court held the primary judge had not determined, for each alleged proscribed reason, whether the s.361 presumption was rebutted ([86]). The result of the rehearing was not found. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[157]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        28
+      ],
+      "source_type": "external_authority"
+    },
+    "[2023] FCA 1310": {
+      "citation": "[2023] FCA 1310",
+      "short_name": "RPS AAP Consulting Pty Ltd v Lamb",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2023/2023fca1310",
+      "jurisdiction": "FCA",
+      "decision_date": "2023-10-31",
+      "outcome": "Employer's appeal dismissed \u2014 [6]. Raper J upheld a finding that the employer had not rebutted the presumption where the supervisor who was the subject of the complaint was the author and proponent of the demotion ([85], [88], [96]); remitted to the primary judge for penalty and compensation ([100]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[6]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        28
+      ],
+      "source_type": "external_authority"
+    },
+    "[2024] FCA 339": {
+      "citation": "[2024] FCA 339",
+      "short_name": "Nuttall v Hatch Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2024/2024fca0339",
+      "jurisdiction": "FCA",
+      "decision_date": "2024-04-09",
+      "outcome": "Application dismissed \u2014 [258]. Hespe J accepted that the decision-maker genuinely acted on views about the employee's performance and had not been told the specific nature of his complaints ([204]\u2013[205], [211], [235]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[258]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25,
+        28
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCAFC 83": {
+      "citation": "[2025] FCAFC 83",
+      "short_name": "Serco Citizen Services Pty Limited v Parsons",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2025/2025fcafc0083",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2025-06-24",
+      "outcome": "Employer's appeal failed \u2014 [106]. The Full Court found no error in the primary judge's finding that the employee was dismissed because he made a complaint, and held that a decision-maker who adopts a drafted letter adopts its reasons ([83]\u2013[84]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[106]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        28
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 1585": {
+      "citation": "[2025] FCA 1585",
+      "short_name": "Zabortseva v Commonwealth of Australia as represented by the Australian Public Service Commission",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1585",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-15",
+      "outcome": "Application dismissed \u2014 findings at [252]\u2013[253]; order 1. Needham J held the performance feedback was not adverse action ([186]) and that no pleaded action was taken for a prohibited reason. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[252]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        28,
+        29
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 1619": {
+      "citation": "[2025] FCA 1619",
+      "short_name": "Roohizadegan v Technology One Ltd (No 6)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1619",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-18",
+      "outcome": "Proceeding dismissed after a retrial \u2014 [889]. McElwaine J held the employer rebutted the s.361 presumption and dismissed the employee for lawful reasons related to performance ([697]). Read for this guide only for the findings on the reasons for dismissal. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[889]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        28
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 1623": {
+      "citation": "[2025] FCA 1623",
+      "short_name": "Gavin v Svitzer Australia Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1623",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-18",
+      "outcome": "Contraventions of s.340 found \u2014 [200]. Needham J rejected the decision-maker's evidence that the redundancy was reached over weeks ([174]) and found a snap decision made after the employee's email was forwarded to her ([187]). Relief was decided in [2026] FCA 1582. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[200]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        28,
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2017] FCA 61": {
+      "citation": "[2017] FCA 61",
+      "short_name": "Shizas v Commissioner of Police",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2017/2017fca0061",
+      "jurisdiction": "FCA",
+      "decision_date": "2017-02-06",
+      "outcome": "First refusal of employment declared a contravention of s.351(1) \u2014 [140]; no further relief and the application otherwise dismissed ([217]). Katzmann J held the employer bears the onus on the inherent requirements exception ([128]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[140]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        29
+      ],
+      "source_type": "external_authority"
+    },
+    "[2019] FCAFC 181": {
+      "citation": "[2019] FCAFC 181",
+      "short_name": "Western Union Business Solutions (Australia) Pty Ltd v Robinson",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2019/2019fcafc0181",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2019-10-23",
+      "outcome": "Employer's appeal allowed and cross-appeal dismissed \u2014 Kerr J at [102]\u2013[103]; O'Callaghan and Thawley JJ at [154]. The Full Court held that an effect of a disability on capacity for work is not necessarily part of the disability ([137]\u2013[138]) and that the decision-maker did not dismiss because of mental disability ([153]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[102]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        29,
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2022] FCA 481": {
+      "citation": "[2022] FCA 481",
+      "short_name": "Southern Migrant and Refugee Centre Inc v Shum (No 3)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2022/2022fca0481",
+      "jurisdiction": "FCA",
+      "decision_date": "2022-05-04",
+      "outcome": "Appeal allowed in part \u2014 the finding of a s.352 contravention was set aside at [127] because the absence was not of a kind prescribed by reg 3.01 ([125]\u2013[126]); other issues were sent for a further trial. Read for this guide only for the s.352 ground. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[127]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        29
+      ],
+      "source_type": "external_authority"
+    },
+    "[2026] FCA 606": {
+      "citation": "[2026] FCA 606",
+      "short_name": "Leung v Omnia Inclusive Employment Solutions Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca0606",
+      "jurisdiction": "FCA",
+      "decision_date": "2026-05-15",
+      "outcome": "Employee's appeal dismissed \u2014 [7]. Halley J held s.352 could not be engaged where the termination decision was made before the absence began ([108]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[7]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        29
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 1672": {
+      "citation": "[2025] FCA 1672",
+      "short_name": "Talaugon v Allight Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1672",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-23",
+      "outcome": "Application dismissed \u2014 [145]; order 1. Feutrill J held the employer discharged its onus on the reasons for dismissal ([133]) and that caring for a friend fell outside s.97 ([49]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[145]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        29,
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2019] FCAFC 136": {
+      "citation": "[2019] FCAFC 136",
+      "short_name": "Herbert v Star Aviation Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2019/2019fcafc0136",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2019-08-14",
+      "outcome": "Read for this guide only for the point, recorded at [9], that the primary judge decided the case on the employer's reasons and did not need to decide whether advocacy for a family member falls within 'family or carer responsibilities'. No order as to costs ([41]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[9]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2019] FCA 1409": {
+      "citation": "[2019] FCA 1409",
+      "short_name": "Rumble v The Partnership trading as HWL Ebsworth Lawyers",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2019/2019fca1409",
+      "jurisdiction": "FCA",
+      "decision_date": "2019-09-03",
+      "outcome": "Application dismissed \u2014 [169]. Perram J found the employee was dismissed for repeatedly disobeying a direction to stop criticising the firm's clients, not because of political opinion ([14], [132]), and said in obiter that action not proscribed by the local anti-discrimination law is 'not unlawful' for s.351(2)(a) ([142]\u2013[143]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[169]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCA 1193": {
+      "citation": "[2020] FCA 1193",
+      "short_name": "Fair Work Ombudsman v Austrend International Pty Ltd (No 2)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2020/2020fca1193",
+      "jurisdiction": "FCA",
+      "decision_date": "2020-08-20",
+      "outcome": "Penalty decision following an admitted contravention of s.351 (sex and pregnancy) \u2014 penalties of $15,500 against the employer ([184]) and $2,800 against its director ([185]); compensation for non-economic loss also ordered ([114]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[184]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2021] FCA 1242": {
+      "citation": "[2021] FCA 1242",
+      "short_name": "Fair Work Ombudsman v Foot & Thai Massage Pty Ltd (in liquidation) (No 4)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca1242",
+      "jurisdiction": "FCA",
+      "decision_date": "2021-10-14",
+      "outcome": "Contravention of s.351(1) found for reasons including race and national extraction \u2014 [765]; the social origin claim failed because that ground was not unlawful under ACT anti-discrimination law at the time ([764]\u2013[765]). Read for this guide only for the s.351 findings. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[765]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        30
+      ],
+      "source_type": "external_authority"
+    },
+    "[2023] FCAFC 163": {
+      "citation": "[2023] FCAFC 163",
+      "short_name": "Construction, Forestry, Maritime, Mining and Energy Union v Quirk",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2023/2023fcafc0163",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2023-10-11",
+      "outcome": "Officials' cross-appeal dismissed \u2014 Colvin J at [551]. Katzmann J held s.351(1) did not apply to action taken in New South Wales because of political opinion, following Rumble ([298], [310]\u2013[315]); Colvin J agreed the finding as to place was not shown to be in error ([489]). Read for this guide only for the s.351 ground. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[551]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25,
+        30,
+        31
+      ],
+      "source_type": "external_authority"
+    },
+    "[2019] FCA 546": {
+      "citation": "[2019] FCA 546",
+      "short_name": "Australian Rail, Tram and Bus Industry Union, NSW Branch v Metro Trains Sydney Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2019/2019fca0546",
+      "jurisdiction": "FCA",
+      "decision_date": "2019-04-18",
+      "outcome": "Interlocutory decision \u2014 interim reinstatement refused at [64] on the employer's undertaking to pay wages pending an expedited trial. Robertson J found a serious question to be tried about the reasons for dismissing a newly elected delegate and about the decision-maker's knowledge ([47], [55]). The final result was not found. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[64]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        31
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCA 757": {
+      "citation": "[2020] FCA 757",
+      "short_name": "Australian Building and Construction Commissioner v Construction, Forestry, Maritime, Mining and Energy Union (The College Crescent Case)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2020/2020fca0757",
+      "jurisdiction": "FCA",
+      "decision_date": "2020-06-05",
+      "outcome": "Penalty decision on agreed contraventions. Read for this guide only for the facts at [9]: two workers were not allowed to start work because they were not union members. Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[9]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        31
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCA 931": {
+      "citation": "[2020] FCA 931",
+      "short_name": "Construction, Forestry, Maritime, Mining and Energy Union v Melbourne Precast Concrete Nominees Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2020/2020fca0931",
+      "jurisdiction": "FCA",
+      "decision_date": "2020-07-06",
+      "outcome": "Contraventions of ss.50 and 340 found \u2014 [116], [143]; the director was involved in the contraventions ([138]). O'Callaghan J found the skills evaluation relied on for redundancy selection was a contrivance ([109]). Relief was left for a further hearing ([144]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[116]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        31
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCAFC 192": {
+      "citation": "[2020] FCAFC 192",
+      "short_name": "Construction, Forestry, Maritime, Mining and Energy Union v Australian Building and Construction Commissioner (The Bay Street Appeal)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2020/2020fcafc0192",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2020-11-10",
+      "outcome": "Appeal allowed (orders). Read for this guide only for the text of ss.346\u2013348 as set out at [52] and Allsop CJ's explanation that s.347 is definitional ([19], [25]). The judges differed on the meaning of s.347(b)(iv). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[52]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        31
+      ],
+      "source_type": "external_authority"
+    },
+    "[2021] FCA 251": {
+      "citation": "[2021] FCA 251",
+      "short_name": "Salama v Sydney Trains",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca0251",
+      "jurisdiction": "FCA",
+      "decision_date": "2021-03-24",
+      "outcome": "Application dismissed \u2014 [6]. Burley J accepted that some of the delegate's conduct was protected but found no part of the decision was made because the conduct had that character ([362]\u2013[363]). Direct source record: quoted phrases and paragraph numbers were confirmed on 13 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[6]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        31
+      ],
+      "source_type": "external_authority"
+    },
+    "[2020] FCA 1258": {
+      "citation": "[2020] FCA 1258",
+      "short_name": "Retail and Fast Food Workers Union Incorporated v Tantex Holdings Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2020/2020fca1258",
+      "jurisdiction": "FCA",
+      "decision_date": "2020-08-31",
+      "outcome": "Contraventions of ss.345, 340 and 343 found in relation to a manager's Facebook post of 5 January 2019 \u2014 [119], [151], [156]; other misrepresentation claims failed ([53]). Logan J held that recklessness under s.345 is assessed by reference to the author of the representation ([51]). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[156]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        32
+      ],
+      "source_type": "external_authority"
+    },
+    "[2022] FCA 1225": {
+      "citation": "[2022] FCA 1225",
+      "short_name": "Australian Municipal, Administrative, Clerical and Services Union v Commissioner of Taxation",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2022/2022fca1225",
+      "jurisdiction": "FCA",
+      "decision_date": "2022-10-14",
+      "outcome": "Proceeding dismissed (catchwords); the pleaded misrepresentation case could not succeed \u2014 [469]. Jagot J found the working-from-home guidance was accurate and not knowingly or recklessly false or misleading ([460]\u2013[461], [477]). Read for this guide only for the misrepresentation claims. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[469]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        32
+      ],
+      "source_type": "external_authority"
+    },
+    "[2023] FCA 671": {
+      "citation": "[2023] FCA 671",
+      "short_name": "Basi v Namitha Nakul Pty Ltd (No 2)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2023/2023fca0671",
+      "jurisdiction": "FCA",
+      "decision_date": "2023-06-22",
+      "outcome": "Penalty decision. Halley J found a cashback payments regime was enforced by coercive threats and undue influence and pressure, contravening ss.323, 325, 343 and 344 \u2014 [98]. Read for this guide only for that finding. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[98]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        32
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 18": {
+      "citation": "[2025] FCA 18",
+      "short_name": "Australian Nursing and Midwifery Federation v St Vincent's Private Hospitals Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca0018",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-01-17",
+      "outcome": "Interlocutory decision \u2014 injunction granted at [10] restraining the employer from representing to employees that industrial action authorised by a protected action ballot was unlawful or unprotected; serious question as to contravention of s.345 ([41], [54]). The final result was not found. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[10]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        32
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCAFC 179": {
+      "citation": "[2025] FCAFC 179",
+      "short_name": "United Firefighters' Union of Australia v Minister for Emergency Services Victoria (No 2)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2025/2025fcafc0179",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2025-12-11",
+      "outcome": "Union's appeal dismissed (orders). The Full Court reviewed the two-part test for 'intent to coerce' under s.343 and confirmed that action with intent to negate choice is not enough without unlawful, illegitimate or unconscionable means ([195]\u2013[217]). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[217]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        32
+      ],
+      "source_type": "external_authority"
+    },
+    "[2017] FCA 528": {
+      "citation": "[2017] FCA 528",
+      "short_name": "Fair Work Ombudsman v Australian Workers' Union",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2017/2017fca0528",
+      "jurisdiction": "FCA",
+      "decision_date": "2017-05-17",
+      "outcome": "Respondents' application for summary judgment dismissed \u2014 [92]; no finding of contravention. Bromberg J set out seven principles on what is 'threatening to take action' under s.342(2) ([54]) and distinguished the provision of information from a threat ([55]). Concerned item 7(d) of the s.342(1) table (union discipline of members). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[92]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        26
+      ],
+      "source_type": "external_authority"
+    },
+    "[2017] FCA 1046": {
+      "citation": "[2017] FCA 1046",
+      "short_name": "Construction, Forestry, Mining and Energy Union v De Martin & Gasparini Pty Limited (No 2)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2017/2017fca1046",
+      "jurisdiction": "FCA",
+      "decision_date": "2017-09-01",
+      "outcome": "The company contravened s.340 by words and conduct amounting to a threat \u2014 [383]; the two managers were not found to be accessories ([384]). Wigney J rejected the argument that the conduct was authorised under s.342(3) ([282]\u2013[283]). Relief was left for a separate hearing ([386]). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[383]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        26
+      ],
+      "source_type": "external_authority"
+    },
+    "[2022] FCA 677": {
+      "citation": "[2022] FCA 677",
+      "short_name": "Messenger v Commonwealth of Australia (Represented by the Department of Finance)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2022/2022fca0677",
+      "jurisdiction": "FCA",
+      "decision_date": "2022-06-10",
+      "outcome": "Both applications dismissed \u2014 [415]. Snaden J held that the show-cause letters were not threats to dismiss and so were not adverse action as pleaded ([164]\u2013[170]), while observing that they would very likely have been adverse action if pleaded as prejudicial alteration ([171]). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[415]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25,
+        26
+      ],
+      "source_type": "external_authority"
+    },
+    "[2022] FCA 1191": {
+      "citation": "[2022] FCA 1191",
+      "short_name": "Robinson v BMF Pty Ltd (in liq) (No 2)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2022/2022fca1191",
+      "jurisdiction": "FCA",
+      "decision_date": "2022-10-07",
+      "outcome": "Read for this guide only for the text of the s.342(1) table as set out at [36]. The outcome of the proceeding was not read. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[36]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        26
+      ],
+      "source_type": "external_authority"
+    },
+    "[2022] FCAFC 75": {
+      "citation": "[2022] FCAFC 75",
+      "short_name": "Jess v Cooloola Milk Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/full/2022/2022fcafc0075",
+      "jurisdiction": "FCAFC",
+      "decision_date": "2022-05-10",
+      "outcome": "Appeal allowed and the matter remitted (orders). McElwaine J, with whom Rangiah and Downes JJ generally agreed, followed Alam and Whelan on s.341(1)(c)(ii) and held that an inquiry about payment for additional work was an inquiry the employee was able to make ([74]\u2013[78]). Read for this guide only for that ground. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[74]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25
+      ],
+      "source_type": "external_authority"
+    },
+    "[2022] FCA 1166": {
+      "citation": "[2022] FCA 1166",
+      "short_name": "Pigozzo v Mineral Resources Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2022/2022fca1166",
+      "jurisdiction": "FCA",
+      "decision_date": "2022-09-29",
+      "outcome": "Interlocutory pleadings decision. Read for this guide only for Feutrill J's statement at [44] that it is settled that Whelan is to be followed on s.341(1)(c)(ii), citing Alam and Jess. The outcome of the applications was not read. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[44]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25
+      ],
+      "source_type": "external_authority"
+    },
+    "[2024] FCA 162": {
+      "citation": "[2024] FCA 162",
+      "short_name": "Dorsch v HEAD Oceania Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2024/2024fca0162",
+      "jurisdiction": "FCA",
+      "decision_date": "2024-02-29",
+      "outcome": "Read for this guide only for Raper J's summary at [217] of the High Court plurality's reasoning in Qantas v TWU on s.341(1). The outcome was not read; an appeal ([2024] FCAFC 133) is held in the corpus. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[217]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 1509": {
+      "citation": "[2025] FCA 1509",
+      "short_name": "AXR54 v S.M Adams trading as Piper Alderman",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1509",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-01",
+      "outcome": "Interlocutory decision \u2014 extension of time granted under s.370 (orders). Perram J held that the s.370 time limit applies only to the dismissal-related claims in a mixed originating application ([6]\u2013[7]), preferring Absolute Commissioning and Murdock to Kelly ([5]). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[7]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        25,
+        33
+      ],
+      "source_type": "external_authority"
+    },
     "[2010] FWAFB 7578": {
       "citation": "[2010] FWAFB 7578",
       "short_name": "Ulan Coal Mines Limited v Honeysett",
@@ -2032,6 +3125,54 @@
       "verification_status": "source_identity_confirmed",
       "modules": [
         18
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FCA 1583": {
+      "citation": "[2025] FCA 1583",
+      "short_name": "Weber v Thomas Foods International (Stawell) Pty Ltd (Strike Out Application)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2025/2025fca1583",
+      "jurisdiction": "FCA",
+      "decision_date": "2025-12-15",
+      "outcome": "Interlocutory decision on summary judgment and strike-out. Read for this guide only for Wheelahan J's description at [5] and [27] of his earlier ruling in [2024] FCA 1506; the outcome of the applications was not read. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[27]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2026] FCA 594": {
+      "citation": "[2026] FCA 594",
+      "short_name": "Lye v Commonwealth of Australia (as represented by the Bureau of Meteorology)",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca0594",
+      "jurisdiction": "FCA",
+      "decision_date": "2026-05-14",
+      "outcome": "Interlocutory application for interim reinstatement dismissed \u2014 [51]. Snaden J held that the s.361(1) presumption cannot be taken into account on an application for interlocutory injunctive relief ([20]) and that delay weighed strongly against relief ([48]). Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[51]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        33
+      ],
+      "source_type": "external_authority"
+    },
+    "[2019] FCA 1008": {
+      "citation": "[2019] FCA 1008",
+      "short_name": "Australian Rail, Tram and Bus Industry Union v Metro Trains Sydney Pty Ltd",
+      "download_id": null,
+      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2019/2019fca1008",
+      "jurisdiction": "FCA",
+      "decision_date": "2019-06-27",
+      "outcome": "Interlocutory decision \u2014 order granted requiring the second applicant to provide information for subpoenas ([29]). Cited in this guide only to show the matter was continuing towards trial. Direct source record: quoted phrases and paragraph numbers were confirmed on 14 November 2026 against the judgment file held in the Briefer corpus (collected from the Federal Court), not re-checked against the Court's website.",
+      "outcome_pinpoint": "[29]",
+      "outcome_status": "confirmed",
+      "verification_status": "phrase_confirmed_in_source_judgment",
+      "modules": [
+        31
       ],
       "source_type": "external_authority"
     }
@@ -2087,7 +3228,7 @@
     },
     "Construction, Forestry, Mining and Energy Union v De Martin & Gasparini Pty Ltd (No 2) [2017] FCA 1046": {
       "status": "not_checked",
-      "note": "Federal Court (Wigney J) decision distilling the Barclay/BHP Coal principles on s.361. A metadata record exists for this decision (download_id fca-2017-1046) in briefer_master.snapshot.db's court_decision_metadata table, but it has zero rows in the fwc-decision-chunks.snapshot.db chunks table, so its paragraph [303] could not be independently reconstructed and verified in this pass. The passage is confirmed verbatim only as reproduced at [2024] FWC 2475 at [42] (and consistently at [2021] FWC 3264 at [18], not used as a citation in this module). Flagged for checking against the original Federal Court judgment.",
+      "note": "Federal Court (Wigney J) decision distilling the Barclay/BHP Coal principles on s.361. A metadata record exists for this decision (download_id fca-2017-1046) in briefer_master.snapshot.db's court_decision_metadata table, but it has zero rows in the fwc-decision-chunks.snapshot.db chunks table, so its paragraph [303] could not be independently reconstructed and verified in this pass. The passage is confirmed verbatim only as reproduced at [2024] FWC 2475 at [42] (and consistently at [2021] FWC 3264 at [18], not used as a citation in this module). Flagged for checking against the original Federal Court judgment. Update 14 November 2026: the judgment file held in the Briefer corpus was read directly; paragraph [303] reads 'Seventh, it is not necessary for the decision-maker to establish that the reason for the adverse action was entirely disassociated from the relevant protected workplace right: Barclay at [62].' The decision now also has a direct source record under [2017] FCA 1046.",
       "quoted_in": "[2024] FWC 2475",
       "quoted_in_pinpoint": "[42]"
     },
@@ -2324,6 +3465,60 @@
       "note": "Full Bench decision not found as a direct record in briefer_master.snapshot.db. Its after-acquired-knowledge principle is quoted at [2021] FWC 6394 at [31], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original.",
       "quoted_in": "[2021] FWC 6394",
       "quoted_in_pinpoint": "[31]"
+    },
+    "Alam v National Australia Bank Ltd (2021) 288 FCR 301": {
+      "status": "not_checked",
+      "note": "Full Court summary of settled points on s.361. Cited only as quoted or summarised in [2023] FCA 1036; not read in the original for this guide.",
+      "quoted_in": "[2023] FCA 1036",
+      "quoted_in_pinpoint": "[101]"
+    },
+    "Serpanos v Commonwealth [2022] FCA 1266": {
+      "status": "not_checked",
+      "note": "Snaden J on what the s.361 onus requires. Cited only as quoted or summarised in [2023] FCA 1036; not read in the original for this guide.",
+      "quoted_in": "[2023] FCA 1036",
+      "quoted_in_pinpoint": "[110]"
+    },
+    "Elliott v Kodak Australasia Pty Ltd (2001) 129 IR 251": {
+      "status": "not_checked",
+      "note": "Full Court on a contributor's prohibited reason affecting the decision. Cited only as quoted or summarised in [2023] FCA 1010; not read in the original for this guide.",
+      "quoted_in": "[2023] FCA 1010",
+      "quoted_in_pinpoint": "[20]"
+    },
+    "Wong v National Australia Bank Ltd (2022) 318 IR 148": {
+      "status": "not_checked",
+      "note": "Full Court applying Kodak to information relied on by a decision-maker. Cited only as quoted or summarised in [2023] FCA 1010; not read in the original for this guide.",
+      "quoted_in": "[2023] FCA 1010",
+      "quoted_in_pinpoint": "[22]"
+    },
+    "Qantas Airways Ltd v Transport Workers' Union of Australia (High Court appeal from [2022] FCAFC 71)": {
+      "status": "not_in_corpus",
+      "note": "The Briefer corpus holds no High Court decisions. Module 25 relies on the Full Court decision [2022] FCAFC 71 for the proposition that s.340(1)(b) protects workplace rights not yet in existence, and states that the High Court decision has not been read. Flagged for checking before relying on that point. Avard v ACT [2024] FCA 690 at [104] records that the appeal was dismissed. Update 14 November 2026: CFMMEU v Quirk [2023] FCAFC 163 at [42]\u2013[44] and [337] describes the High Court's reasons ([2023] HCA 27) on s.341(1)(c), including that the plurality held the words 'is able to' are not words of limitation. Module 25 relies on that description only; the High Court judgment itself has not been read. The bench (Kiefel CJ, Gageler, Gordon, Edelman, Gleeson, Steward and Jagot JJ) is taken from CEPU v Zinfra Contracting [2025] FCA 1234 at [69], and the date the appeal was dismissed (13 September 2023) from TWU v Qantas Airways (Compensation Claim) [2024] FCA 1216 at [11].",
+      "quoted_in": "[2022] FCAFC 71",
+      "quoted_in_pinpoint": "[99]"
+    },
+    "Patrick Stevedores Operations No 2 Pty Ltd v Maritime Union of Australia (1998) 195 CLR 1": {
+      "status": "not_checked",
+      "note": "High Court on the meaning of 'injures' and prejudicial alteration, as summarised in Heal v Sydney Flames and Avard v ACT. Cited only as quoted or summarised there; not read in the original for this guide.",
+      "quoted_in": "[2024] FCA 401",
+      "quoted_in_pinpoint": "[95]"
+    },
+    "Klein v Metropolitan Fire and Emergency Services Board [2012] FCA 1402": {
+      "status": "not_checked",
+      "note": "Gordon J on prejudicial alteration being real and substantial, as summarised in Heal v Sydney Flames. Cited only as quoted or summarised there; not read in the original for this guide.",
+      "quoted_in": "[2024] FCA 401",
+      "quoted_in_pinpoint": "[97]"
+    },
+    "Sayed v Construction, Forestry, Mining and Energy Union [2015] FCA 27": {
+      "status": "not_checked",
+      "note": "Cited in Heal for a show-cause letter being adverse action and in Morton for one view of 'discriminates between'. Cited only as quoted or summarised there; not read in the original for this guide.",
+      "quoted_in": "[2024] FCA 401",
+      "quoted_in_pinpoint": "[100]"
+    },
+    "Construction, Forestry, Mining and Energy Union v Pilbara Iron Company (Services) Pty Ltd (No 3) [2012] FCA 697": {
+      "status": "not_checked",
+      "note": "Katzmann J's construction of 'discriminates between' as less favourable treatment, preferred in Morton (No 2). Cited only as quoted or summarised there; not read in the original for this guide.",
+      "quoted_in": "[2019] FCA 1754",
+      "quoted_in_pinpoint": "[70]"
     },
     "Ulan Coal Mines Limited v Honeysett [2010] FWAFB 7578": {
       "status": "not_in_corpus",

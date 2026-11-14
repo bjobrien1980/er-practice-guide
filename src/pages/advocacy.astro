@@ -1,0 +1,377 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Cite from "../components/Cite.astro";
+import Checklist from "../components/Checklist.astro";
+---
+
+<BaseLayout title="Advocacy in the Fair Work Commission" description="How to prepare and run a Fair Work Commission hearing yourself: the documents, the witnesses, the etiquette, and what to say at each stage.">
+  <main id="top" class="standalone" data-pagefind-body>
+    <p class="eyebrow">Practice guide</p>
+    <h1>Advocacy in the Fair Work Commission</h1>
+    <p class="lead">You may have to run a Commission hearing yourself. This guide explains how: the documents to file, how to prepare witnesses, where to sit, when to stand, and what to say at each stage. It uses unfair dismissal hearings as the model and includes sample wording you can adapt.</p>
+
+    <div class="notice">
+      <strong>Check current procedure first.</strong> Members run their hearings differently, and the Commission's directions for your matter override anything here. Read the directions, the relevant practice notes and the Commission's own <a href="https://www.fwc.gov.au/hearings-decisions/how-commission-works/prepare-conference-or-hearing" target="_blank" rel="noreferrer">Prepare for a conference or hearing</a> guide. The conventions described on this page are common practice, not rules. The people, employer and events in the examples are fictional.
+    </div>
+
+    <div class="link-grid">
+      <a href="#why"><b>1. Why this matters</b><small>Representation and why you must be ready to appear.</small></a>
+      <a href="#case"><b>2. Know your case</b><small>The one-page case theory and the evidence map.</small></a>
+      <a href="#documents"><b>3. The documents</b><small>Witness statements and outlines of submissions.</small></a>
+      <a href="#preparing"><b>4. Preparing</b><small>The Commission, your witnesses, your instructions and yourself.</small></a>
+      <a href="#hearing"><b>5. The hearing</b><small>Etiquette, appearances, opening, witnesses, closing.</small></a>
+      <a href="#other"><b>6. Other matters</b><small>Transcript, conferences, instructions, AI.</small></a>
+      <a href="#checklist"><b>Checklist</b><small>What to have done before the hearing.</small></a>
+      <a href="/advocacy/witness-statement"><b>Example A</b><small>A complete witness statement.</small></a>
+      <a href="/advocacy/outline-of-submissions"><b>Example B</b><small>A complete outline of submissions.</small></a>
+    </div>
+
+    <h2 id="why">1. Why you need to know about advocacy</h2>
+    <p>A party needs the Commission's permission to be represented by a lawyer or paid agent. <a href="/modules/commission-proceedings">Module 22</a> is this guide's account of who needs permission, how it's decided and how often it's refused. Two things follow for advocacy.</p>
+    <ul class="compact">
+      <li><strong>You may be the advocate.</strong> If you're an employee of the employer, you can usually appear without permission, which is why the in-house ER adviser often runs the case.</li>
+      <li><strong>Permission can be refused late.</strong> It's usually decided before the hearing on written submissions, but sometimes on the day. If it's refused, the employer's case still has to be run.</li>
+    </ul>
+    <p>So even when you expect a lawyer to be allowed, prepare as if you'll be conducting the hearing. Permission is sometimes granted to both sides, as it was in the decision discussed at the end of this guide, where it was given <Cite id="[2022] FWC 1568" at="[4]" phrase="on the basis of complexity and efficiency" quote />. You can't count on that.</p>
+
+    <h3>Conferences and hearings</h3>
+    <p>The two main settings for advocacy are conferences and hearings.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th></th><th>Conference</th><th>Hearing</th></tr></thead>
+        <tbody>
+          <tr><td>Setting</td><td>Usually private, in a meeting room or by phone or video.</td><td>Usually public, in a hearing room or by video.</td></tr>
+          <tr><td>Formality</td><td>Informal. The Member takes an active part and often directs the discussion.</td><td>Formal. Parties sit in set places and the Member presides from the bench.</td></tr>
+          <tr><td>Purpose</td><td>Settlement discussions or procedural issues. A conference can also be determinative, with evidence taken and an order made.</td><td>Determinative. The Member hears evidence and submissions and decides the matter.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>In a determinative conference, the Member will usually explain each step as it happens, and parties are often allowed to give closing submissions in writing. Because conferences are informal, the rest of this guide deals with hearings. If you can run a hearing, you can manage a conference.</p>
+
+    <h2 id="case">2. Know your case before you draft anything</h2>
+    <p>A hearing isn't a chance to tell the whole story of the employment. It decides particular questions on particular evidence. Before drafting a statement or a submission, write the case on one page.</p>
+    <div class="key">
+      <h3>The one-page case theory</h3>
+      <ol>
+        <li><strong>Issue:</strong> what does the Member have to decide?</li>
+        <li><strong>Test:</strong> which section, clause or principle governs it?</li>
+        <li><strong>Facts:</strong> which facts, if accepted, answer the question in your favour?</li>
+        <li><strong>Evidence:</strong> which witness or document proves each fact?</li>
+        <li><strong>Their best point:</strong> what is the strongest thing the other side will say, and what is your answer?</li>
+        <li><strong>Order:</strong> what do you want the Member to do?</li>
+      </ol>
+    </div>
+    <p>If you can't write the case briefly, it isn't yet clear enough to present. In an unfair dismissal matter the issues are set by s.387 of the Fair Work Act, and a simple table keeps the evidence honest.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Issue</th><th>What you must prove</th><th>Best evidence</th><th>Usual weakness</th></tr></thead>
+        <tbody>
+          <tr><td>Valid reason</td><td>The conduct happened, or the capacity problem existed, and it justified dismissal.</td><td>First-hand witnesses, records made at the time, the employee's own admissions.</td><td>Hearsay, missing records, a disputed sequence of events.</td></tr>
+          <tr><td>The rule relied on</td><td>The policy or direction existed, was lawful and reasonable, and the employee knew of it.</td><td>The contract, the policy, training and acknowledgment records.</td><td>No proof the employee was told; inconsistent enforcement.</td></tr>
+          <tr><td>Notice and response</td><td>The employee was told the reason and had a real chance to answer before the decision.</td><td>Letters, meeting notes, the employee's response, the decision record.</td><td>Vague allegations; a decision made before the response.</td></tr>
+          <tr><td>The decision</td><td>Who decided, when, and for what reason.</td><td>The decision-maker in person, supported by documents from the time.</td><td>Several decision-makers; reasons that changed.</td></tr>
+          <tr><td>Remedy</td><td>What should follow if the dismissal is found unfair.</td><td>Evidence about the working relationship, earnings since dismissal, and conduct.</td><td>Left until closing, with no evidence filed.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Use the table to find what is missing. Don't add evidence because it exists. <a href="/modules/records-that-stand-up">Module 21</a> covers records.</p>
+
+    <h2 id="documents">3. Documents used in hearings</h2>
+    <p>Before a hearing the Commission issues directions. They set out what each party must file, by what date and in what form. In an unfair dismissal matter there are almost always two kinds of document: witness statements and an outline of submissions.</p>
+
+    <h3>Witness statements</h3>
+    <p>You file a statement for each person you intend to call. A witness statement is the witness's evidence in writing. In most hearings it stands as their evidence in chief, so what isn't in the statement may not get in at all.</p>
+    <p>Call every person whose evidence is material to an issue in dispute. If the decision-maker's reasons are in issue, call the decision-maker. If the investigation is attacked, call the investigator. Don't call a senior person only because they're senior.</p>
+    <p>A statement is written in the first person and covers only what the witness knows directly. It ordinarily:</p>
+    <ul class="compact">
+      <li>identifies the witness by name, work address and role;</li>
+      <li>says the statement is made from the witness's own observations and knowledge, except where it says otherwise;</li>
+      <li>sets out the witness's relevant experience and their knowledge of the policies in issue;</li>
+      <li>explains the witness's relationship to the other party, for example supervisor, manager or decision-maker;</li>
+      <li>gives the events in date order, in short numbered paragraphs;</li>
+      <li>records conversations as "I said… She said…", or "words to the effect of…" where the exact words aren't remembered;</li>
+      <li>attaches the documents the witness can identify and explain.</li>
+    </ul>
+    <p>Each attachment is marked with the witness's initials and a number, in the order it's mentioned. For a witness named Sarah Anjali Nair the attachments are SAN-1, SAN-2, SAN-3 and so on.</p>
+    <p>The witness must read the final statement carefully, correct anything that is wrong, and sign it. File the signed copy as directed. The words must be the witness's own. You may help with structure and ask questions to fill gaps. You may not supply the evidence.</p>
+    <p><a href="/advocacy/witness-statement">Example A</a> is a complete statement.</p>
+
+    <h3>Outlines of submissions</h3>
+    <p>An outline of submissions explains your case to the Member and to the other side. It ordinarily:</p>
+    <ul class="compact">
+      <li>sets out the relevant requirements of the Fair Work Act;</li>
+      <li>refers to the decisions that explain those requirements;</li>
+      <li>summarises the evidence; and</li>
+      <li>applies the evidence to the law to argue for a particular result, for example that the application be dismissed.</li>
+    </ul>
+    <p>Three habits make an outline useful.</p>
+    <ul class="compact">
+      <li><strong>Follow the statutory questions.</strong> Use a heading for each matter the Member must consider. The Member's reasons will follow the same order.</li>
+      <li><strong>Tie every fact to evidence.</strong> If you say the employee knew the drug and alcohol procedure, cite the paragraph of the statement that proves the training, and the attachment that records it. A fact with no reference is only an assertion.</li>
+      <li><strong>Check every authority.</strong> Cite only decisions you have read, for what they actually decide. Follow the directions about lists or copies of authorities. If nothing is said, be ready to hand up a copy of any decision you rely on.</li>
+    </ul>
+    <p><a href="/advocacy/outline-of-submissions">Example B</a> is a complete outline.</p>
+
+    <h2 id="preparing">4. Preparing for the hearing</h2>
+
+    <h3>Communicating with the Commission</h3>
+    <p>Before the hearing you'll deal with the Member's chambers about filing, witness availability and similar matters. Your contact is the Member's Associate. The Associate manages the Member's matters and is the right person for any procedural question.</p>
+    <ul class="compact">
+      <li>Begin correspondence "Dear Associate".</li>
+      <li>Copy the other party on everything you send about the matter. Don't communicate with chambers about the case behind the other side's back.</li>
+      <li>Keep it short and procedural. Argument belongs in submissions.</li>
+      <li>Meet every date in the directions. If you can't, ask for an extension before the date passes, with a reason, and copy the other side.</li>
+    </ul>
+    <p>Missing a direction has consequences. An applicant who ignores directions risks having the application dismissed. An employer who does so should expect criticism from the Member at the hearing, which may be repeated in the published decision. That's a reputational risk for the employer and for you.</p>
+
+    <h3>Preparing your witnesses</h3>
+    <p>You must not coach a witness. You can't tell a witness what to say. You can, and should, prepare them for the experience.</p>
+    <p>Most witnesses have never given evidence. Brief each one on:</p>
+    <ul class="compact">
+      <li>where the hearing is, or how the video link works, and when to arrive;</li>
+      <li>where to wait, and the order in which you'll call the witnesses;</li>
+      <li>the oath or affirmation, and that they may choose either;</li>
+      <li>how you'll tender their statement, and that the other side will then question them;</li>
+      <li>that once they're under cross-examination they must not discuss their evidence with anyone, including you, until it's finished.</li>
+    </ul>
+    <div class="key">
+      <h3>The best advice you can give a witness</h3>
+      <ol class="principles">
+        <li>It isn't your job to win the case. That's my job.</li>
+        <li>Your only job is to tell the truth as best you remember it.</li>
+        <li>Answer the question you're asked, and only that question. Don't try to work out how the answer will be received.</li>
+      </ol>
+    </div>
+    <p>Add three things. "I don't know" and "I don't remember" are proper answers when they're true. If a question is unclear, ask for it to be repeated. And take your time.</p>
+    <p>The witness needs to know their statement thoroughly. They'll usually have a copy in the witness box, but cross-examination goes beyond it, and any difference between the statement and the oral evidence damages their credibility. Ask each witness to reread the statement and its attachments in the days before the hearing.</p>
+
+    <h3>Settling your instructions</h3>
+    <p>You present the employer's case. You don't decide whether it settles. Before the hearing, establish:</p>
+    <ul class="compact">
+      <li>who can authorise a settlement, within what range, and how to reach them on the day;</li>
+      <li>which facts you're authorised to concede;</li>
+      <li>which outcomes the business can't accept, such as reinstatement to a particular site;</li>
+      <li>who will sit with you to give instructions.</li>
+    </ul>
+    <p><a href="/modules/escalation">Module 24</a> covers when to involve senior ER or Legal.</p>
+
+    <h3>Preparing your approach</h3>
+    <p>Hearings move. Much of what happens will need an answer on the spot. Some parts can be prepared in full, and should be.</p>
+    <ul class="compact">
+      <li><strong>Write out your opening statement</strong> in full.</li>
+      <li><strong>Prepare your cross-examination</strong> of each of the other side's witnesses from their filed statements. Mark the parts you want to test and the documents you'll use.</li>
+      <li><strong>Prepare the skeleton of your closing</strong>, with a heading for each issue, so you can add the evidence as it comes out.</li>
+    </ul>
+    <p>Then put the notes down. Speak to the Member; don't read to them. You can only do that if you know the case thoroughly. Practise the opening aloud until you can deliver it from headings.</p>
+    <p>Everyone presents differently. Use your own style. A clear, plain speaker who knows the file is more persuasive than an imitation of a barrister.</p>
+
+    <h2 id="hearing">5. Conducting the hearing</h2>
+
+    <h3>Conventions and etiquette</h3>
+    <p>The day before, check the Commission's hearing list for the time and room, or test the video link.</p>
+    <p>In a hearing room the Member sits at the bench at the front. The Associate sits in front of or beside the bench. The witness box is to one side. The representatives sit at the bar table facing the bench, with the public seating behind them.</p>
+    <ul class="compact">
+      <li><strong>Where to sit.</strong> By convention the respondent sits on the left of the bar table as you face the bench, and the applicant on the right. If unsure, ask the Associate.</li>
+      <li><strong>Your instructor</strong> may sit beside you at the bar table.</li>
+      <li><strong>Standing.</strong> Stand when the Member enters or leaves, and stay standing until the Member sits or has gone. The Member will usually bow briefly to the room. Return the bow.</li>
+      <li><strong>Coming and going.</strong> If you enter or leave while a hearing is under way, bow briefly towards the bench at the door.</li>
+      <li><strong>Speaking.</strong> Stand to speak. Sit when the other representative is speaking. Stand if the Member addresses you. Only one representative is on their feet at a time.</li>
+      <li><strong>Forms of address.</strong> Use the Member's title: "Commissioner", "Deputy President" or "Vice President". For example, "Yes, Deputy President." If you're unsure how to address a particular Member, ask the Associate beforehand.</li>
+      <li><strong>The other side</strong> is "the Applicant" or "Mr Reeve", and their representative is "my friend" or by name. Don't address the other representative directly. Speak to the Member.</li>
+      <li><strong>Food and drink</strong> stay outside. Water is provided at the bar table.</li>
+      <li><strong>Phones</strong> are silent and out of sight.</li>
+    </ul>
+    <p>By video the same manners apply, adapted: camera on, microphone muted unless speaking, a plain background, and no one else in the room with a witness.</p>
+
+    <h3>How the hearing begins</h3>
+    <ol>
+      <li>The representatives take their places. The Associate will take your name and may confirm your witnesses.</li>
+      <li>The Member knocks before entering. Stand.</li>
+      <li>The Member enters, bows and sits. Return the bow and sit once the Member is seated.</li>
+      <li>The Member takes appearances, starting with the applicant. When your turn comes, stand and say your name and who you appear for.</li>
+    </ol>
+    <blockquote class="script">
+      <p><b>YOU:</b> If the Commission pleases, my name is Smith, initial J. I appear for the Respondent.</p>
+    </blockquote>
+    <p>"Jane Smith for the Respondent, Commissioner" is equally acceptable. If your surname isn't obvious, spell it: "Blomquist, B-L-O-M-Q-U-I-S-T". If you're an employee of the respondent, say so, because it bears on whether permission is needed.</p>
+    <p>The Member will usually make some opening remarks, deal with any housekeeping, and invite the applicant to open.</p>
+
+    <h3>Opening statements</h3>
+    <p>An opening is a short summary of your case and of the evidence you'll call. It concentrates on your strongest reasons for the orders you seek. It isn't the place to argue every point.</p>
+    <p>The applicant opens first. The Member then invites the respondent. If you've filed an outline and statements, your opening can be brief. This example uses the facts in Examples A and B.</p>
+    <blockquote class="script">
+      <p><b>YOU:</b> Thank you, Commissioner.</p>
+      <p>The Respondent has filed an outline of submissions in this matter and relies on it.</p>
+      <p>In brief, the Respondent's position is that the Applicant was not unfairly dismissed. The dismissal was for a valid reason, it followed a fair process, and it was not harsh, unjust or unreasonable.</p>
+      <p>The Respondent will call three witnesses. Each has made a statement, and the statements have been filed.</p>
+      <p>First, Ms Sarah Nair, the Respondent's Depot Manager at Calder Vale, who made the decision to dismiss the Applicant.</p>
+      <p>Second, Mr Thomas Ashby, an Operations Supervisor at the depot, who directed the Applicant to attend for testing.</p>
+      <p>Third, Ms Helen Kwan, a collector employed by Sentinel Workplace Testing, who was conducting the testing that morning.</p>
+      <p>All three are available today, Commissioner, and will give their evidence in person.</p>
+      <p>As the statements set out, the Applicant was dismissed because he refused a direction to undergo a random drug and alcohol test, in breach of a policy he had been trained in and had acknowledged. When refusing, he abused the collector and his supervisor in terms the Respondent could not accept from a driver of passenger vehicles.</p>
+      <p>The Respondent will submit that the application should be dismissed.</p>
+      <p>Unless you have any questions for me at this stage, Commissioner, that is the Respondent's opening.</p>
+    </blockquote>
+
+    <h3>Calling witnesses</h3>
+    <p>The applicant's witnesses are usually called first, then the respondent's. Witnesses normally wait outside the hearing room until called, so that they don't hear each other's evidence. A party's instructor may be allowed to stay; raise it with the Member if your instructor is also a witness.</p>
+    <p>You call a witness by saying: "Commissioner, the Respondent calls Ms Sarah Nair." The Associate brings the witness in. The witness goes to the witness box and takes an oath or makes an affirmation to tell the truth.</p>
+    <p>Each witness is then examined in three stages.</p>
+    <ol>
+      <li><strong>Examination in chief</strong> by the party who called the witness.</li>
+      <li><strong>Cross-examination</strong> by the other party.</li>
+      <li><strong>Re-examination</strong> by the party who called the witness, limited to matters that arose in cross-examination.</li>
+    </ol>
+
+    <h3>Examination in chief</h3>
+    <p>Because the statement is the witness's evidence, examination in chief is usually short. Its main job is to get the statement into evidence. The steps are:</p>
+    <ol>
+      <li>ask the witness to state their full name and work address;</li>
+      <li>make sure the witness, the Member and the other side each have a copy of the statement;</li>
+      <li>ask the witness to confirm it's their statement;</li>
+      <li>ask whether they wish to correct anything;</li>
+      <li>ask them to confirm it's true and correct;</li>
+      <li>tender it.</li>
+    </ol>
+    <p>The Member will mark the statement as an exhibit, for example "Exhibit R1". From then on, refer to it by that number.</p>
+    <blockquote class="script">
+      <p><b>YOU:</b> Commissioner, the Respondent calls Ms Sarah Nair.</p>
+      <p><b>COMMISSIONER:</b> Thank you. Associate, would you bring Ms Nair in, please.</p>
+      <p><i>(Ms Nair enters the witness box and makes an affirmation.)</i></p>
+      <p><b>COMMISSIONER:</b> Yes, Ms Smith.</p>
+      <p><b>YOU:</b> Thank you, Commissioner. Ms Nair, would you please state your full name and work address for the Commission?</p>
+      <p><b>MS NAIR:</b> Sarah Anjali Nair, care of 40 Foundry Road, Calder Vale.</p>
+      <p><b>YOU:</b> Ms Nair, you have made a witness statement in this matter. Do you have a copy of it with you?</p>
+      <p><b>MS NAIR:</b> Yes, I do.</p>
+      <p><b>YOU:</b> Is that a statement of 43 paragraphs, with seven attachments marked SAN-1 to SAN-7, signed by you on 5 June 2026?</p>
+      <p><b>MS NAIR:</b> Yes.</p>
+      <p><b>YOU:</b> Have you read it again recently?</p>
+      <p><b>MS NAIR:</b> Yes, last night.</p>
+      <p><b>YOU:</b> Is there anything in it you wish to correct?</p>
+      <p><b>MS NAIR:</b> No.</p>
+      <p><b>YOU:</b> Are the contents of the statement true and correct to the best of your knowledge and belief?</p>
+      <p><b>MS NAIR:</b> Yes, they are.</p>
+      <p><b>YOU:</b> Commissioner, I tender the statement of Ms Nair.</p>
+      <p><b>COMMISSIONER:</b> The statement of Sarah Nair, with its attachments, will be Exhibit R1. Anything further in chief?</p>
+      <p><b>YOU:</b> No, Commissioner. That is the evidence in chief of Ms Nair.</p>
+    </blockquote>
+    <p>If the witness does want to correct something, let them explain the correction in their own words before you tender the statement.</p>
+    <p>If you need to ask further questions, usually to respond to something new in the other side's material, ask the Member for leave to do so. The witness must answer in their own words. You can't ask leading questions in chief.</p>
+    <div class="key">
+      <h3>Leading questions</h3>
+      <p>A leading question suggests the answer you want, or assumes a fact the witness hasn't given.</p>
+      <p><strong>Leading:</strong> "You had no choice but to dismiss him once he refused the test, did you?"</p>
+      <p><strong>Not leading:</strong> "What did you consider when you were deciding what to do?"</p>
+      <p>Questions that begin with who, what, when, where, why or how are usually safe. Leading questions are allowed in cross-examination, and are the normal way to conduct it.</p>
+    </div>
+    <p>End by saying: "I have no further questions for Ms Nair, Commissioner." The other representative then cross-examines.</p>
+
+    <h3>Cross-examination</h3>
+    <p>You don't have to cross-examine every witness. If a witness's evidence does your case no harm, or helps it, say: "No questions for this witness, Commissioner." In the decision discussed below, <Cite id="[2022] FWC 1568" at="[13]" phrase="None of the witnesses were required for cross-examination" quote />, and the case was decided on the statements and submissions.</p>
+    <p>If you do cross-examine, prepare thoroughly. Preparation is what lets you listen to an answer and see at once what it means for the case.</p>
+    <ul class="compact">
+      <li><strong>Work from the statement.</strong> Look for inconsistencies, errors of fact, things the witness couldn't have seen, and opinion presented as fact. Compare it with the documents and with what the witness said at the time.</li>
+      <li><strong>Listen to the evidence in chief</strong> and note anything new that needs testing.</li>
+      <li><strong>Decide what you need from this witness.</strong> Usually it's three or four propositions. Write them down. Stop when you have them.</li>
+      <li><strong>Ask short, closed questions</strong>, one fact at a time. "You attended the toolbox talk on 14 January?" "The policy was discussed at that talk?" "You signed the attendance sheet?"</li>
+      <li><strong>Control the witness, politely.</strong> If the witness doesn't answer, ask again. If they make a speech, bring them back: "Thank you, but my question was…" Be firm and respectful. Don't argue with the witness or comment on the answers.</li>
+    </ul>
+    <p><strong>The golden rule:</strong> don't ask a question unless you know the answer, or at least have a strong idea of it and can live with any alternative.</p>
+    <div class="key">
+      <h3>The rule in <em>Browne v Dunn</em></h3>
+      <p>The Commission isn't bound by the rules of evidence, but this rule is one of fairness and you should follow it. If you intend to say that a witness's evidence is wrong, you must put the substance of your version to the witness so they can respond.</p>
+      <p><strong>Example.</strong> The applicant's statement says he was never told that refusing a test would be treated as a breach of the policy. You hold a training record showing he completed the drug and alcohol module in January and signed an acknowledgment. Put it to him: show him the record, ask whether it's his signature, and ask him to explain the difference. If you say nothing and then rely on the record in closing, the Member may give your point less weight, or allow the witness to be recalled.</p>
+      <p>The rule also works the other way. Evidence that isn't challenged in cross-examination is generally easier for the Member to accept.</p>
+    </div>
+    <p>End by saying: "I have no further questions for the witness, Commissioner."</p>
+
+    <h3>Re-examination</h3>
+    <p>After your witness has been cross-examined, you may re-examine, but only on matters that came up in cross-examination. Its purpose is to let the witness explain or complete an answer.</p>
+    <ul class="compact">
+      <li>It isn't a second examination in chief. You can't use it to repeat the statement or add evidence you forgot.</li>
+      <li>Where the witness has given inconsistent answers, you can't ask them to choose the one you prefer. You can ask why they answered as they did.</li>
+      <li>You can't lead.</li>
+      <li>Often the best re-examination is none. Re-examine only if there's real damage and you're confident the witness can repair it.</li>
+    </ul>
+    <p>A typical question: "You were asked about the time on the incident report and said it might be wrong. What did you mean by that?"</p>
+    <p>When the evidence is finished, ask for the witness to be excused: "Might Ms Nair be excused, Commissioner?"</p>
+
+    <h3>Closing statements</h3>
+    <p>After all the evidence, each party makes closing submissions. Sometimes the Member will direct that they be in writing. Ask at the start of the hearing if it hasn't been said.</p>
+    <p>The closing is your last chance to persuade. Unlike the outline and the opening, it must take account of what happened in the hearing: the evidence as it actually came out, and the other side's submissions.</p>
+    <ul class="compact">
+      <li><strong>Follow the issues</strong> in the same order as your outline.</li>
+      <li><strong>Point to the evidence</strong> the Member can rely on for each finding, by exhibit and paragraph.</li>
+      <li><strong>Deal with the evidence against you.</strong> Say why it shouldn't be accepted, or why it doesn't change the result.</li>
+      <li><strong>Address credibility</strong> where it matters: who was consistent with the documents, and who wasn't.</li>
+      <li><strong>Answer the other side's best point</strong> directly.</li>
+      <li><strong>Don't introduce a new case.</strong> A theory that was never put to the witnesses shouldn't appear for the first time in closing.</li>
+    </ul>
+    <p>End with the order you seek:</p>
+    <blockquote class="script">
+      <p><b>YOU:</b> For those reasons, Commissioner, the Respondent submits that the dismissal was not harsh, unjust or unreasonable, and that the application should be dismissed. If the Commission is against the Respondent on that, the Respondent relies on Part H of its outline as to remedy. Unless there is anything further, those are the Respondent's submissions.</p>
+    </blockquote>
+    <p>The Member may give a decision on the day or reserve it. Either way, thank the Member, stand as they leave, and bow.</p>
+
+    <h2 id="other">6. Other matters</h2>
+
+    <h3>Transcript</h3>
+    <p>Hearings are recorded. A transcript can be produced from the recording, and a party can ask the Commission for the transcript or the audio. Access, timing and publication vary with the kind of matter, so check with the Associate. Assume that everything you say in the hearing room is on the record.</p>
+
+    <h3>Breaking into conference</h3>
+    <p>During a hearing the Member may stop and send the parties into conference, or ask whether they would like time to talk. A conference is usually off the record. It may be used for settlement discussions, or to sort out a procedural problem that has come up. Be ready for it: know your settlement authority and who you need to phone.</p>
+
+    <h3>Seeking instructions during the hearing</h3>
+    <p>You may need to check something with your instructor. That's normal. Say: "Commissioner, may I have a moment to confirm my instructions?" Then speak quietly and briefly with the person beside you. If you need longer, ask for a short adjournment.</p>
+    <p>It's good practice to do this before you say you have no further questions for a witness, and before you agree to anything.</p>
+
+    <h3>AI and hearing documents</h3>
+    <p>AI tools can help organise a chronology, compare drafts or produce a first draft. They can't tell you whether a witness remembers something, and they can invent authorities. Check every fact, quotation and citation in anything you file against the source. Don't put confidential or privileged material into a system that hasn't been approved for it. See <a href="/modules/using-ai-in-performance-and-conduct">Module 3</a>.</p>
+
+    <h2 id="decision">7. What the decision will look like</h2>
+    <p>Reading a decision shows why the outline should follow the statutory questions. <em>Sampson v BHP Olympic Dam Corporation</em> was an unfair dismissal application by an employee dismissed for not complying with a site access requirement. It's used here only for its structure and procedure, not for the law on the requirement itself, which belonged to a particular period.</p>
+    <ul class="compact">
+      <li><strong>The evidence was the statements.</strong> One statement was filed for the applicant and three for the employer, and no witness was cross-examined.</li>
+      <li><strong>The reasons follow s.387 in order.</strong> The Commissioner took each matter in turn. On valid reason, the direction <Cite id="[2022] FWC 1568" at="[38]" phrase="was a lawful and reasonable direction" quote />, and the employee's failure to comply gave <Cite id="[2022] FWC 1568" at="[41]" phrase="valid reasons for dismissal connected to the Applicant's conduct and capacity" quote />. On process, the employee <Cite id="[2022] FWC 1568" at="[46]" phrase="was given an opportunity to respond to the reason for his dismissal prior to the decision to dismiss being made" quote />.</li>
+      <li><strong>Each matter got a finding, even the ones that didn't apply.</strong> An outline that deals with every paragraph of s.387 gives the Member what they need for each.</li>
+      <li><strong>The result:</strong> <Cite id="[2022] FWC 1568" at="[56]" phrase="I am not satisfied that the dismissal was harsh, unjust or unreasonable" quote />.</li>
+      <li><strong>The decision was given on the day.</strong> The Commissioner recorded: <Cite id="[2022] FWC 1568" at="[5]" phrase="At the conclusion of the Hearing, I delivered my decision" quote />, with written reasons later. Be ready for that, and have your client ready for it.</li>
+    </ul>
+
+    <h2 id="checklist">Adviser checklist</h2>
+    <Checklist
+      title="Before the hearing"
+      openAdvice="Work through the open items before the hearing date. Escalate if permission for representation is undecided, a direction has been missed, or settlement authority is unclear."
+      readyAdvice="You're prepared to appear. Reread the directions once more the day before."
+      items={[
+        { group: "Directions and representation", text: "I have read the directions and met every date in them." },
+        { group: "Directions and representation", text: "I know whether permission for representation has been sought and decided, and I am ready to appear myself." },
+        { group: "The case", text: "The case fits on one page, and each fact I need has a witness or a document." },
+        { group: "The case", text: "Every fact in the outline has a reference, and I have read every decision it cites." },
+        { group: "Witnesses", text: "Each statement is in the witness's own words, signed, with attachments marked and in order." },
+        { group: "Witnesses", text: "Each witness has been briefed on the process, has reread their statement, and hasn't been told what to say." },
+        { group: "Witnesses", text: "I know the order in which I will call the witnesses and that each is available." },
+        { group: "My preparation", text: "My opening is written and practised." },
+        { group: "My preparation", text: "My cross-examination is planned from the other side's statements, with the documents I will use." },
+        { group: "My preparation", text: "The skeleton of my closing follows the same headings as the outline." },
+        { group: "Instructions", text: "I know my settlement authority, who can extend it, and how to reach them on the day." },
+        { group: "Instructions", text: "I know which facts I may concede and which outcomes the business can't accept." },
+        { group: "On the day", text: "I have copies of the statements, the outline and the key documents for the Member, the witness and the other side." },
+        { group: "On the day", text: "I have checked the time, the room or the video link, and the Member's title." },
+      ]}
+    />
+
+    <h2>Commission resources</h2>
+    <p>These links were supplied with an earlier draft of this page and haven't been re-checked. Confirm you're reading the current version.</p>
+    <ul class="compact">
+      <li><a href="https://www.fwc.gov.au/hearings-decisions/how-commission-works/prepare-conference-or-hearing" target="_blank" rel="noreferrer">Prepare for a conference or hearing</a></li>
+      <li><a href="https://www.fwc.gov.au/hearings-decisions/practice-notes/practice-note-fair-hearings" target="_blank" rel="noreferrer">Fair hearings practice note</a></li>
+      <li><a href="https://www.fwc.gov.au/hearings-decisions/practice-notes/practice-note-lawyers-paid-agents" target="_blank" rel="noreferrer">Lawyers and paid agents practice note</a></li>
+      <li><a href="https://www.fwc.gov.au/hearings-decisions/practice-notes/practice-note-unfair-dismissal-proceedings" target="_blank" rel="noreferrer">Unfair dismissal proceedings practice note</a></li>
+      <li><a href="https://www.fwc.gov.au/hearings-decisions/practice-notes/practice-note-orders-attend-orders-produce" target="_blank" rel="noreferrer">Orders to attend and orders to produce practice note</a></li>
+      <li><a href="https://www.fwc.gov.au/hearings-decisions/practice-notes/practice-note-requests-appear-remotely" target="_blank" rel="noreferrer">Requests to appear remotely practice note</a></li>
+    </ul>
+
+    <p class="backlink"><a href="/advocacy/witness-statement">Example A: witness statement</a> · <a href="/advocacy/outline-of-submissions">Example B: outline of submissions</a> · <a href="/modules/commission-proceedings">Module 22: Commission proceedings</a> · <a href="/">Return to the guide</a></p>
+  </main>
+</BaseLayout>

@@ -35,7 +35,9 @@ CHUNKS_DB = "file:" + str(Path.home() / "briefer-claude/snapshots/fwc-decision-c
 DEFAULT_FACTS_PATH = ROOT / "data" / "citation_facts.json"
 DEFAULT_CONTENT_DIR = ROOT / "src" / "content" / "modules"
 
-CITE_TAG_RE = re.compile(r'<Cite\s+([^/>]+?)\s*/?>')
+# Attribute values are matched as whole quoted strings so that a "/" or ">" inside a quoted
+# phrase (e.g. "personal/carer's leave") does not hide the tag from this check.
+CITE_TAG_RE = re.compile(r'<Cite\s+((?:[^"/>]|"[^"]*")+?)\s*/?>')
 ATTR_RE = re.compile(r'(\w+)="([^"]*)"')
 PARA_NUM_RE = re.compile(r"\[(\d+)\]")
 
@@ -49,6 +51,9 @@ def find_cites_in_content(content_path):
         mdx_files = [content_path]
     else:
         mdx_files = sorted(content_path.glob("*.mdx"))
+        # Standalone pages (e.g. the advocacy guide) may also use <Cite>; check them too.
+        if content_path == DEFAULT_CONTENT_DIR:
+            mdx_files += sorted((ROOT / "src" / "pages").rglob("*.astro"))
 
     for mdx_path in mdx_files:
         text = mdx_path.read_text()

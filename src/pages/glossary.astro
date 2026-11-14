@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { GLOSSARY } from "../data/glossary";
+
+const TERMS = [...GLOSSARY].sort((a, b) => a.term.localeCompare(b.term));
 ---
 
 <BaseLayout title="Glossary" description="Plain-language starting points for terms used across the ER Practice Guide. Training material only, not legal advice.">
@@ -8,7 +10,7 @@ import { GLOSSARY } from "../data/glossary";
       <p class="eyebrow">Reference</p><h1>Glossary</h1>
       <p class="lead">Plain-language starting points for terms used across the guide. Definitions are deliberately concise; the relevant module and current source control the analysis.</p>
       <div class="notice">Training material only — not legal advice. Definitions may be incomplete outside the context in which the term is used.</div>
-      <div class="glossary">{GLOSSARY.map((g) => <section id={g.id}><h2>{g.term}</h2><p>{g.definition}</p></section>)}</div>
+      <div class="glossary">{TERMS.map((g) => <section id={g.id}><h2>{g.term}</h2><p>{g.definition}</p></section>)}</div>
       <p class="backlink"><a href="/start-here">← Start here</a> · <a href="/">Return to the guide</a></p>
   </main>
 </BaseLayout>

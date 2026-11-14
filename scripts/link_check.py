@@ -5,7 +5,7 @@ Static link check — no live HTTP requests (WebFetch is denied for this project
 Confirms:
   1. Every <Cite id="..."> in content resolves to an entry in data/citations.json.
   2. Every citations.json URL is either null or an https URL on an expected government domain
-     (fwc.gov.au or judgments.fedcourt.gov.au) — catches a hand-typed or malformed link.
+     (fwc.gov.au, judgments.fedcourt.gov.au or hcourt.gov.au) — catches a hand-typed or malformed link.
   3. No MDX content file hand-types a link directly to a decision (fwc.gov.au / fedcourt.gov.au)
      via a raw <a href>. All decision links must go through <Cite>, which renders from the
      registry — never a hand-entered URL.
@@ -24,8 +24,9 @@ ALLOWED_DOMAINS = {
     "www.fwc.gov.au", "fwc.gov.au",
     "dms.fwc.gov.au",  # FWC's media-download subdomain, used when a decision has no landing-page URL
     "www.judgments.fedcourt.gov.au", "judgments.fedcourt.gov.au",
+    "www.hcourt.gov.au", "hcourt.gov.au",
 }
-CITE_ID_RE = re.compile(r'<Cite\s+[^/>]*?id="([^"]+)"')
+CITE_ID_RE = re.compile(r'<Cite\s+(?:(?!id=)\w+="[^"]*"\s+)*id="([^"]+)"')
 RAW_HREF_RE = re.compile(r'href="(https?://[^"]+)"')
 
 

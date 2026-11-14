@@ -37,7 +37,9 @@ MISSING_URLS_REPORT = ROOT / "reports" / "missing-urls.md"
 DUPLICATES_REPORT = ROOT / "reports" / "duplicate-citations.md"
 FLAGGED_REPORT = ROOT / "reports" / "flagged-authorities.md"
 
-CITE_TAG_RE = re.compile(r'<Cite\s+([^/>]+?)\s*/?>')
+# Attribute values are matched as whole quoted strings so that a "/" or ">" inside a quoted
+# phrase (e.g. "personal/carer's leave") does not hide the tag from this check.
+CITE_TAG_RE = re.compile(r'<Cite\s+((?:[^"/>]|"[^"]*")+?)\s*/?>')
 ATTR_RE = re.compile(r'(\w+)="([^"]*)"')
 
 
@@ -48,6 +50,9 @@ def scan_content_for_cites(content_path):
     """
     usage = {}
     mdx_files = [content_path] if content_path.is_file() else sorted(content_path.glob("*.mdx"))
+    # Standalone pages (e.g. the advocacy guide) may also use <Cite>; they have no module id.
+    if content_path == DEFAULT_CONTENT_DIR:
+        mdx_files += sorted((ROOT / "src" / "pages").rglob("*.astro"))
     for mdx_path in mdx_files:
         text = mdx_path.read_text()
         module_id = None

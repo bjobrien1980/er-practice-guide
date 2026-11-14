@@ -54,7 +54,7 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 
 - Status: `not_checked`
 - Quoted in: [2024] FWC 2475 at [42]
-- Federal Court (Wigney J) decision distilling the Barclay/BHP Coal principles on s.361. A metadata record exists for this decision (download_id fca-2017-1046) in briefer_master.snapshot.db's court_decision_metadata table, but it has zero rows in the fwc-decision-chunks.snapshot.db chunks table, so its paragraph [303] could not be independently reconstructed and verified in this pass. The passage is confirmed verbatim only as reproduced at [2024] FWC 2475 at [42] (and consistently at [2021] FWC 3264 at [18], not used as a citation in this module). Flagged for checking against the original Federal Court judgment.
+- Federal Court (Wigney J) decision distilling the Barclay/BHP Coal principles on s.361. A metadata record exists for this decision (download_id fca-2017-1046) in briefer_master.snapshot.db's court_decision_metadata table, but it has zero rows in the fwc-decision-chunks.snapshot.db chunks table, so its paragraph [303] could not be independently reconstructed and verified in this pass. The passage is confirmed verbatim only as reproduced at [2024] FWC 2475 at [42] (and consistently at [2021] FWC 3264 at [18], not used as a citation in this module). Flagged for checking against the original Federal Court judgment. Update 14 November 2026: the judgment file held in the Briefer corpus was read directly; paragraph [303] reads 'Seventh, it is not necessary for the decision-maker to establish that the reason for the adverse action was entirely disassociated from the relevant protected workplace right: Barclay at [62].' The decision now also has a direct source record under [2017] FCA 1046.
 
 ## Tattsbet Limited v Morrow
 
@@ -289,6 +289,60 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 - Status: `not_in_corpus`
 - Quoted in: [2021] FWC 6394 at [31]
 - Full Bench decision not found as a direct record in briefer_master.snapshot.db. Its after-acquired-knowledge principle is quoted at [2021] FWC 6394 at [31], confirmed verbatim against that decision's text. Flagged per the brief for checking against the original.
+
+## Alam v National Australia Bank Ltd (2021) 288 FCR 301
+
+- Status: `not_checked`
+- Quoted in: [2023] FCA 1036 at [101]
+- Full Court summary of settled points on s.361. Cited only as quoted or summarised in [2023] FCA 1036; not read in the original for this guide.
+
+## Serpanos v Commonwealth [2022] FCA 1266
+
+- Status: `not_checked`
+- Quoted in: [2023] FCA 1036 at [110]
+- Snaden J on what the s.361 onus requires. Cited only as quoted or summarised in [2023] FCA 1036; not read in the original for this guide.
+
+## Elliott v Kodak Australasia Pty Ltd (2001) 129 IR 251
+
+- Status: `not_checked`
+- Quoted in: [2023] FCA 1010 at [20]
+- Full Court on a contributor's prohibited reason affecting the decision. Cited only as quoted or summarised in [2023] FCA 1010; not read in the original for this guide.
+
+## Wong v National Australia Bank Ltd (2022) 318 IR 148
+
+- Status: `not_checked`
+- Quoted in: [2023] FCA 1010 at [22]
+- Full Court applying Kodak to information relied on by a decision-maker. Cited only as quoted or summarised in [2023] FCA 1010; not read in the original for this guide.
+
+## Qantas Airways Ltd v Transport Workers' Union of Australia (High Court appeal from [2022] FCAFC 71)
+
+- Status: `not_in_corpus`
+- Quoted in: [2022] FCAFC 71 at [99]
+- The Briefer corpus holds no High Court decisions. Module 25 relies on the Full Court decision [2022] FCAFC 71 for the proposition that s.340(1)(b) protects workplace rights not yet in existence, and states that the High Court decision has not been read. Flagged for checking before relying on that point. Avard v ACT [2024] FCA 690 at [104] records that the appeal was dismissed. Update 14 November 2026: CFMMEU v Quirk [2023] FCAFC 163 at [42]–[44] and [337] describes the High Court's reasons ([2023] HCA 27) on s.341(1)(c), including that the plurality held the words 'is able to' are not words of limitation. Module 25 relies on that description only; the High Court judgment itself has not been read. The bench (Kiefel CJ, Gageler, Gordon, Edelman, Gleeson, Steward and Jagot JJ) is taken from CEPU v Zinfra Contracting [2025] FCA 1234 at [69], and the date the appeal was dismissed (13 September 2023) from TWU v Qantas Airways (Compensation Claim) [2024] FCA 1216 at [11].
+
+## Patrick Stevedores Operations No 2 Pty Ltd v Maritime Union of Australia (1998) 195 CLR 1
+
+- Status: `not_checked`
+- Quoted in: [2024] FCA 401 at [95]
+- High Court on the meaning of 'injures' and prejudicial alteration, as summarised in Heal v Sydney Flames and Avard v ACT. Cited only as quoted or summarised there; not read in the original for this guide.
+
+## Klein v Metropolitan Fire and Emergency Services Board [2012] FCA 1402
+
+- Status: `not_checked`
+- Quoted in: [2024] FCA 401 at [97]
+- Gordon J on prejudicial alteration being real and substantial, as summarised in Heal v Sydney Flames. Cited only as quoted or summarised there; not read in the original for this guide.
+
+## Sayed v Construction, Forestry, Mining and Energy Union [2015] FCA 27
+
+- Status: `not_checked`
+- Quoted in: [2024] FCA 401 at [100]
+- Cited in Heal for a show-cause letter being adverse action and in Morton for one view of 'discriminates between'. Cited only as quoted or summarised there; not read in the original for this guide.
+
+## Construction, Forestry, Mining and Energy Union v Pilbara Iron Company (Services) Pty Ltd (No 3) [2012] FCA 697
+
+- Status: `not_checked`
+- Quoted in: [2019] FCA 1754 at [70]
+- Katzmann J's construction of 'discriminates between' as less favourable treatment, preferred in Morton (No 2). Cited only as quoted or summarised there; not read in the original for this guide.
 
 ## Ulan Coal Mines Limited v Honeysett [2010] FWAFB 7578
 

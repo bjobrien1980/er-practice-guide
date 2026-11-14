@@ -2,6 +2,7 @@
 import BaseLayout from "./BaseLayout.astro";
 import { getTiers } from "../data/nav";
 import { linkGlossaryTerms } from "../lib/glossary-links";
+import { linkModuleReferences } from "../lib/module-links";
 
 interface Props {
   id: number;
@@ -40,7 +41,7 @@ function dateLabel(value: string) {
 const updatedLabel = dateLabel(last_updated);
 
 // Glossary terms are linked on first use in the module body.
-const body = linkGlossaryTerms(await Astro.slots.render("default"));
+const body = linkModuleReferences(linkGlossaryTerms(await Astro.slots.render("default")), allModules);
 ---
 
 <BaseLayout title={title}>
@@ -82,10 +83,9 @@ const body = linkGlossaryTerms(await Astro.slots.render("default"));
         )}
       </div>
 
-      <div class="notice">
-        Training material only — not legal advice. It is an educational guide to Australian employment-law concepts and selected authorities, not a substitute for checking the current legislation, applicable industrial instruments, workplace policies, evidence or case-specific legal advice.
+      <div class="notice info">
+        <b>Training material only — not legal advice.</b> The law and Commission procedure change, so check the current source before you rely on anything here. <a href="/about#checking">How this guide is checked</a>.
       </div>
-      <div class="notice info"><b>Currency warning:</b> legislation, thresholds, regulations, Commission procedure and case law can change. Check the current source before relying on a time-sensitive proposition.</div>
 
       {sections.length > 0 && (
         <details class="toc-inline">
@@ -119,7 +119,7 @@ const body = linkGlossaryTerms(await Astro.slots.render("default"));
       </ol>
       {relatedModules.length > 0 && (
         <div class="rel">
-          <p class="nav-heading">Related</p>
+          <p class="nav-heading">Related modules — overlaps and next places to look</p>
           <ol>
             {relatedModules.map((m) => (
               <li><a href={`/modules/${m.slug}`}>{m.id}. {m.title}</a></li>

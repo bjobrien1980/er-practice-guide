@@ -7,7 +7,7 @@ const modules = defineCollection({
     id: z.number(),
     slug: z.string(),
     title: z.string(),
-    tier: z.number().min(1).max(4),
+    tier: z.number().min(1).max(5),
     provisions: z.array(z.string()),
     version: z.string(),
     last_updated: z.string(),
