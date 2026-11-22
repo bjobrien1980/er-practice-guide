@@ -1,7 +1,7 @@
 {
   "name": "er-practice-guide",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "dev": "npm run registry && astro dev",
     "registry": "python3 scripts/build_citation_registry.py",
@@ -13,6 +13,7 @@
     "prebuild": "npm run registry && npm run verify && npm run linkcheck && npm run structurecheck",
     "build": "astro build",
     "postbuild": "python3 scripts/build_section_index.py && pagefind --site dist && npm run contentcheck",
+    "build:public": "npm run linkcheck && npm run structurecheck && astro build && npm run postbuild",
     "preview": "astro preview",
     "astro": "astro"
   },

@@ -21,6 +21,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -30,11 +35,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run repository link validation
-        run: npm run linkcheck
-
-      - name: Build the static site
-        run: npx astro build
+      - name: Build and validate the public site and search indexes
+        run: npm run build:public
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -350,12 +350,6 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 - Quoted in: [2022] FWC 1905 at [92]
 - Full Bench decision on what redeployment under s.389(2) involves. Not read in the original. Its paragraph [34] is quoted at [2022] FWC 1905 at [92], confirmed against that decision's text. Flagged for checking against the original.
 
-## Helensburgh Coal Pty Ltd v Bartley [2025] HCA 29
-
-- Status: `not_in_corpus`
-- Quoted in: [2026] FWC 1315 at [16]
-- High Court decision on the breadth of the s.389(2) redeployment inquiry, including work performed by contractors. Not read in the original. Described and quoted at [2026] FWC 1315 at [16], confirmed against that decision's text. Flagged for checking against the original.
-
 ## Maswan v Escada Textilvertrieb T/A ESCADA [2011] FWA 4239
 
 - Status: `not_in_corpus`
@@ -367,4 +361,10 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 - Status: `not_in_corpus`
 - Quoted in: [2025] FWC 1393 at [65]
 - Passage on internal and external sources of changed operational requirements. Not read in the original. Quoted at [2025] FWC 1393 at [65], confirmed against that decision's text. Flagged for checking against the original.
+
+## AMWU v Berri Pty Ltd [2017] FWCFB 3005
+
+- Status: `not_checked`
+- Quoted in: [2025] FWC 994 at [22]
+- Full Bench interpretation principles quoted at [2025] FWC 994 at [22], confirmed verbatim against that decision's text. Not located as a direct corpus record in this pass — flagged for checking against the original.
 

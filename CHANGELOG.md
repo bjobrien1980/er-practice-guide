@@ -2,6 +2,28 @@
 
 What changed in each version of the ER Practice Guide, and what is known to be unfinished.
 
+## 1.1.0 — 22 November 2026
+
+### Added
+
+- **Tier 6: Commission matters beyond dismissal.** A new tier for applications that don't turn on whether a dismissal was fair or lawful. The content schema now allows tiers 1 to 6.
+- **Module 34: Stop-bullying and stop-sexual-harassment applications.** The employer's side of an application under s.789FC or s.527F.
+- **Module 35: Flexible work requests and s.65B disputes.** Valid requests, the s.65A(3) steps before refusal, reasonable business grounds and s.65C orders.
+- **Module 36: Enterprise agreement disputes and interpretation (s.739).** Where the Commission's power comes from, jurisdictional objections, and how agreements are interpreted.
+
+### Changed
+
+- Modules 34 and 35 moved from Tier 3 to Tier 6. Module 18 stays in Tier 3. No existing module was renumbered: modules 1 to 33 were already in tier order.
+- Modules 13, 14, 18 and 29 revised after review (sexual harassment pathway and test, early s.352 check, ss.530–534 notifications, direct *Helensburgh* and *Buckeridge* citations).
+
+- Fixed the public build so it includes both search indexes and checks they are present before deployment.
+
+### Review and remaining limitations
+
+- Checked Module 36 against the Federal Register’s 7 July 2026 Fair Work Act compilation. Clarified consent-based arbitration, the separate ss.739 and 740 limits, workplace referral steps and court enforcement. Verified the *Lactalis* disposition against the issued Briefer PDF; *Berri* remains cited indirectly. Added Tier 6 links from Parallel pathways and entry points to Module 36 from Modules 4, 22 and 35.
+- Several High Court, Federal Court and Full Bench citations are external source records without a quoted phrase, so the build does not check their pinpoints against the text.
+- Selection and voluntary-redundancy guidance for Module 18 is deferred.
+
 ## 1.0.0 — 14 November 2026
 
 The first version released as a whole. Before this, each module carried its own version number (0.1.0 to 0.2.1).
