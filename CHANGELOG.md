@@ -2,6 +2,20 @@
 
 What changed in each version of the ER Practice Guide, and what is known to be unfinished.
 
+## Unreleased — draft (branch `draft/modules-34-35`)
+
+### Added (draft, not reviewed)
+
+- **Module 34: Stop-bullying and stop-sexual-harassment applications** (Tier 3). The employer's side of a worker's own application under s.789FC or s.527F: the two requirements for an order, future risk, reasonable management action, what shapes orders, and what happens to a sexual harassment dispute after the stop-order part ends.
+- **Module 35: Flexible work requests and s.65B disputes** (Tier 3). Valid requests, the s.65A(3) steps before refusal, proving reasonable business grounds, and s.65C orders.
+- **Gap review of Modules 14, 18 and 29** (`reports/gap-review-modules-14-18-29.md`), with a proposed correction to Module 13. Proposed edits only; those modules are unchanged.
+
+### Known unfinished
+
+- Both new modules checked statutory text against the Briefer legislation collection (current as at 3 April 2026), not the live register, so `law_current_as_at` is unset.
+- Full Bench authority in both modules is cited as quoted in first-instance decisions and listed in `flagged_authorities`.
+- One pinpoint in Module 35 (`[2025] FWC 3115` at [53]) renders as unverified because it isn't in the approved snapshot.
+
 ## 1.0.0 — 14 November 2026
 
 The first version released as a whole. Before this, each module carried its own version number (0.1.0 to 0.2.1).
