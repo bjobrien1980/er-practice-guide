@@ -2,9 +2,15 @@
 
 **Review date:** 22 November 2026
 **Branch:** `draft/modules-34-35` (from `staging` at `ded86ca`, v1.0.0)
-**Scope:** check whether fitness for work, incapacity, and redundancy and restructuring needed new modules. They don't. This report lists proposed edits only. **No changes were made to Modules 13, 14, 18 or 29 on this branch.**
+**Scope:** check whether fitness for work, incapacity, and redundancy and restructuring needed new modules. They don't. **Follow-up status:** Modules 13, 14, 18 and 29 were updated in the local draft. The findings below record the original review; see the disposition immediately below.
 
-## Conclusion
+## Follow-up disposition
+
+- **Module 18:** implemented G18-1 and G18-4 against the current Act and Regulations, with separate Centrelink and employee-association steps, s.534 exclusions and the prescribed form. Implemented G18-3 using the issued *Helensburgh* judgment already held in Briefer. Deferred G18-2: the existing selection warning remains; any future voluntary-redundancy guidance should start with whether there was a dismissal under s.386.
+- **Module 14:** implemented G14-1 without limiting it to certified leave. Checked that the decision cited in G14-3 discusses *Blackadder*, not *Grant*; clarified the source-of-power and reasonableness checks. Qualified the *Rennick* passage rather than treating permanent incapacity as a general clearance. G14-2 remains optional; no broader WHS or disability-law currency claim was added (G14-4).
+- **Module 29:** implemented G29-1 with *Buckeridge* at [141] and kept *Leung* as a fact-specific illustration. Added a link to Module 30 for G29-2.
+
+## Original conclusions
 
 The v1.0.0 Guide already covers fitness for work and incapacity in two modules: Module 14 (medical capacity and inherent requirements, s.387(a)) and Module 29 (illness, injury and leave as general protections). It covers redundancy in Module 18. All three are substantive (3,800–4,500 words) and use current authority, including *Helensburgh* in Module 18. A new module in either area would duplicate them.
 
@@ -50,4 +56,4 @@ The module is the most complete of the three and has a currency check recorded (
 ## Out of scope but noticed
 
 - The repository's `reports/duplicate-citations.md` lists 52 duplicate groups after this branch's registry rebuild, unchanged from the baseline pattern. The new modules cite only one download ID per decision.
-- `[2025] FWC 3115` at [53] appears in the live Briefer chunk store but not in the approved snapshot, so Module 35 shows that pinpoint as unverified. Re-check after the next snapshot refresh.
+- `[2025] FWC 3115` at [53] was outside the approved snapshot. The review pass checked the locally held decision and replaced that indirect reference with a direct citation to *Paper Australia* [2025] FWCFB 224.

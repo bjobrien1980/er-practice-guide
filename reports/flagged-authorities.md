@@ -350,12 +350,6 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 - Quoted in: [2022] FWC 1905 at [92]
 - Full Bench decision on what redeployment under s.389(2) involves. Not read in the original. Its paragraph [34] is quoted at [2022] FWC 1905 at [92], confirmed against that decision's text. Flagged for checking against the original.
 
-## Helensburgh Coal Pty Ltd v Bartley [2025] HCA 29
-
-- Status: `not_in_corpus`
-- Quoted in: [2026] FWC 1315 at [16]
-- High Court decision on the breadth of the s.389(2) redeployment inquiry, including work performed by contractors. Not read in the original. Described and quoted at [2026] FWC 1315 at [16], confirmed against that decision's text. Flagged for checking against the original.
-
 ## Maswan v Escada Textilvertrieb T/A ESCADA [2011] FWA 4239
 
 - Status: `not_in_corpus`
@@ -367,34 +361,4 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 - Status: `not_in_corpus`
 - Quoted in: [2025] FWC 1393 at [65]
 - Passage on internal and external sources of changed operational requirements. Not read in the original. Quoted at [2025] FWC 1393 at [65], confirmed against that decision's text. Flagged for checking against the original.
-
-## Osure v National Disability Insurance Agency [2025] FWCFB 168
-
-- Status: `not_checked`
-- Quoted in: [2026] FWC 2117 at [17]
-- Full Bench principles on the stop-bullying jurisdiction (future risk, prospective orders, no compensation, persons against whom orders can be made) quoted at [2026] FWC 2117 at [17], confirmed verbatim against that decision's text. Not independently located as a direct corpus record in this pass — flagged for checking against the original.
-
-## Quirke v BSR Australia Ltd [2023] FWCFB 209
-
-- Status: `not_checked`
-- Quoted in: [2025] FWC 3079 at [20]
-- Full Bench summary of the requirements for a valid s.65 request quoted at [2025] FWC 3079 at [20], confirmed verbatim against that decision's text. Not independently located as a direct corpus record in this pass — flagged for checking against the original.
-
-## Paper Australia Full Bench appeal [2025] FWCFB 224
-
-- Status: `not_checked`
-- Quoted in: [2025] FWC 3115 at [53]
-- Full Bench conclusion on when an enterprise agreement term excludes or displaces the s.65 right, quoted in [2025] FWC 3115 (read in the live Briefer chunk store at [53]). That paragraph number was not found in the approved fwc-decision-chunks snapshot, so the pinpoint renders as unverified. Party names and the original were not checked in this pass — flagged for checking against the original.
-
-## Ridings v FedEx Express Australia Pty Ltd [2024] FWCFB 473
-
-- Status: `not_checked`
-- Quoted in: [2025] FWC 3115 at [25]
-- Full Bench described at [2025] FWC 3115 at [25] (s.65C arbitration involves a discretion; a finding of no reasonable business grounds does not compel an order). Described, not quoted, in that decision; the original was not read — flagged for checking.
-
-## Naden v Catholic Schools Broken Bay Ltd (Full Bench appeal)
-
-- Status: `not_checked`
-- Quoted in: [2025] FWC 3115 at [30]
-- Full Bench described at [2025] FWC 3115 at [30] as holding that s.65A(3)(c) imposes a positive obligation to consider the consequences of refusal. The Full Bench citation was not confirmed in this pass — flagged for checking against the original.
 

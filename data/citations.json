@@ -2149,9 +2149,9 @@
       "url": "https://www.fwc.gov.au/document-view/decisions/document-2025fwc3115?from=search",
       "jurisdiction": "FWC",
       "decision_date": "2025-10-20",
-      "outcome": "The Commission found Westpac did not meet s.65A(3)(a), (b) and (c) ([31]) and that the evidence did not establish reasonable business grounds for the refusal ([38]). The decision text available in this pass ends at [61]; the final order was not read and is not asserted here.",
-      "outcome_pinpoint": "[38]",
-      "outcome_status": "partial",
+      "outcome": "Westpac did not meet s.65A(3)(a), (b) and (c) ([31]); no reasonable business grounds were established ([38]). By separate order PR792746, Westpac was required to grant the request.",
+      "outcome_pinpoint": "[31], [38]; PR792746 at [1]",
+      "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
         35
@@ -2231,7 +2231,8 @@
       "outcome_status": "confirmed",
       "verification_status": "phrase_confirmed_in_source_judgment",
       "modules": [
-        27
+        27,
+        29
       ],
       "source_type": "external_authority"
     },
@@ -3295,6 +3296,118 @@
         31
       ],
       "source_type": "external_authority"
+    },
+    "[2025] FWCFB 168": {
+      "citation": "[2025] FWCFB 168",
+      "short_name": "Osure v National Disability Insurance Agency",
+      "download_id": null,
+      "url": "https://www.fwc.gov.au/document-view/media/download/684386",
+      "jurisdiction": "FWC Full Bench",
+      "decision_date": "2025-08-05",
+      "outcome": "Permission to appeal granted; appeal dismissed. Checked against the issued document in Briefer (doc-684386), separately from the Guide snapshot.",
+      "outcome_pinpoint": "[49]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        34
+      ],
+      "source_type": "external_authority"
+    },
+    "[2023] FWCFB 209": {
+      "citation": "[2023] FWCFB 209",
+      "short_name": "Quirke v BSR Australia Ltd",
+      "download_id": null,
+      "url": "https://www.fwc.gov.au/document-view/media/download/696256",
+      "jurisdiction": "FWC Full Bench",
+      "decision_date": "2023-11-10",
+      "outcome": "Application dismissed: no valid s.65 request capable of supporting arbitration. Checked against the issued document in Briefer (doc-696256), separately from the Guide snapshot.",
+      "outcome_pinpoint": "[46]\u2013[47]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        35
+      ],
+      "source_type": "external_authority"
+    },
+    "[2024] FWCFB 473": {
+      "citation": "[2024] FWCFB 473",
+      "short_name": "Ridings v FedEx Express Australia Pty Ltd",
+      "download_id": null,
+      "url": "https://www.fwc.gov.au/document-view/media/download/698148",
+      "jurisdiction": "FWC Full Bench",
+      "decision_date": "2024-12-24",
+      "outcome": "Explains the scope of the Commission\u2019s discretion under s.65C. Checked against the issued document in Briefer (doc-698148), separately from the Guide snapshot.",
+      "outcome_pinpoint": "[33]\u2013[35]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        35
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FWCFB 224": {
+      "citation": "[2025] FWCFB 224",
+      "short_name": "Paper Australia Pty Ltd v May",
+      "download_id": null,
+      "url": "https://www.fwc.gov.au/document-view/media/download/647395",
+      "jurisdiction": "FWC Full Bench",
+      "decision_date": "2025-10-01",
+      "outcome": "Permission to appeal granted; appeal dismissed. Checked against the issued document in Briefer (doc-647395), separately from the Guide snapshot.",
+      "outcome_pinpoint": "[85]\u2013[86]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        35
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] FWCFB 82": {
+      "citation": "[2025] FWCFB 82",
+      "short_name": "Naden v Catholic Schools Broken Bay Limited",
+      "download_id": null,
+      "url": "https://www.fwc.gov.au/document-view/media/download/691544",
+      "jurisdiction": "FWC Full Bench",
+      "decision_date": "2025-04-22",
+      "outcome": "Appeal allowed; employer required to implement the requested arrangement for term 2 of 2025. Checked against the issued document in Briefer (doc-691544), separately from the Guide snapshot.",
+      "outcome_pinpoint": "[53]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        35
+      ],
+      "source_type": "external_authority"
+    },
+    "PR792746": {
+      "citation": "PR792746",
+      "short_name": "Chandler v Westpac Banking Corporation \u2014 order",
+      "download_id": null,
+      "url": "https://www.fwc.gov.au/document-view/media/download/377539",
+      "jurisdiction": "FWC",
+      "decision_date": "2025-10-20",
+      "outcome": "Refusal grounds deemed not reasonable; Westpac ordered to grant the 17 January 2025 request. Checked against the issued document in Briefer (doc-377539), separately from the Guide snapshot.",
+      "outcome_pinpoint": "[1]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        35
+      ],
+      "source_type": "external_authority"
+    },
+    "[2025] HCA 29": {
+      "citation": "[2025] HCA 29",
+      "short_name": "Helensburgh Coal Pty Ltd v Bartley",
+      "download_id": null,
+      "url": "https://www.hcourt.gov.au/cases-and-judgments/judgments/judgments-1998-current/helensburgh-coal-pty-ltd-v-bartley",
+      "jurisdiction": "High Court",
+      "decision_date": "2025-08-06",
+      "outcome": "Appeal dismissed. Joint reasons at [34]\u2013[41] explain why s.389(2) permits considering changes to how the employer uses its workforce, without changing the nature of the enterprise. Checked against the issued judgment held in Briefer.",
+      "outcome_pinpoint": "[34]\u2013[41]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        18
+      ],
+      "source_type": "external_authority"
     }
   },
   "flagged_authorities": {
@@ -3646,12 +3759,6 @@
       "quoted_in": "[2022] FWC 1905",
       "quoted_in_pinpoint": "[92]"
     },
-    "Helensburgh Coal Pty Ltd v Bartley [2025] HCA 29": {
-      "status": "not_in_corpus",
-      "note": "High Court decision on the breadth of the s.389(2) redeployment inquiry, including work performed by contractors. Not read in the original. Described and quoted at [2026] FWC 1315 at [16], confirmed against that decision's text. Flagged for checking against the original.",
-      "quoted_in": "[2026] FWC 1315",
-      "quoted_in_pinpoint": "[16]"
-    },
     "Maswan v Escada Textilvertrieb T/A ESCADA [2011] FWA 4239": {
       "status": "not_in_corpus",
       "note": "Observation of Watson VP on when a redundancy dismissal will be harsh, unjust or unreasonable. Not read in the original. Quoted at [2026] FWC 642 at [60], confirmed against that decision's text. Flagged for checking against the original.",
@@ -3663,36 +3770,6 @@
       "note": "Passage on internal and external sources of changed operational requirements. Not read in the original. Quoted at [2025] FWC 1393 at [65], confirmed against that decision's text. Flagged for checking against the original.",
       "quoted_in": "[2025] FWC 1393",
       "quoted_in_pinpoint": "[65]"
-    },
-    "Osure v National Disability Insurance Agency [2025] FWCFB 168": {
-      "status": "not_checked",
-      "note": "Full Bench principles on the stop-bullying jurisdiction (future risk, prospective orders, no compensation, persons against whom orders can be made) quoted at [2026] FWC 2117 at [17], confirmed verbatim against that decision's text. Not independently located as a direct corpus record in this pass \u2014 flagged for checking against the original.",
-      "quoted_in": "[2026] FWC 2117",
-      "quoted_in_pinpoint": "[17]"
-    },
-    "Quirke v BSR Australia Ltd [2023] FWCFB 209": {
-      "status": "not_checked",
-      "note": "Full Bench summary of the requirements for a valid s.65 request quoted at [2025] FWC 3079 at [20], confirmed verbatim against that decision's text. Not independently located as a direct corpus record in this pass \u2014 flagged for checking against the original.",
-      "quoted_in": "[2025] FWC 3079",
-      "quoted_in_pinpoint": "[20]"
-    },
-    "Paper Australia Full Bench appeal [2025] FWCFB 224": {
-      "status": "not_checked",
-      "note": "Full Bench conclusion on when an enterprise agreement term excludes or displaces the s.65 right, quoted in [2025] FWC 3115 (read in the live Briefer chunk store at [53]). That paragraph number was not found in the approved fwc-decision-chunks snapshot, so the pinpoint renders as unverified. Party names and the original were not checked in this pass \u2014 flagged for checking against the original.",
-      "quoted_in": "[2025] FWC 3115",
-      "quoted_in_pinpoint": "[53]"
-    },
-    "Ridings v FedEx Express Australia Pty Ltd [2024] FWCFB 473": {
-      "status": "not_checked",
-      "note": "Full Bench described at [2025] FWC 3115 at [25] (s.65C arbitration involves a discretion; a finding of no reasonable business grounds does not compel an order). Described, not quoted, in that decision; the original was not read \u2014 flagged for checking.",
-      "quoted_in": "[2025] FWC 3115",
-      "quoted_in_pinpoint": "[25]"
-    },
-    "Naden v Catholic Schools Broken Bay Ltd (Full Bench appeal)": {
-      "status": "not_checked",
-      "note": "Full Bench described at [2025] FWC 3115 at [30] as holding that s.65A(3)(c) imposes a positive obligation to consider the consequences of refusal. The Full Bench citation was not confirmed in this pass \u2014 flagged for checking against the original.",
-      "quoted_in": "[2025] FWC 3115",
-      "quoted_in_pinpoint": "[30]"
     }
   }
 }
