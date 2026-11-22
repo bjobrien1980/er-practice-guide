@@ -56,6 +56,11 @@ def main():
         raise AssertionError("dist/ does not exist; run the static build first")
 
     errors = decisions_table_errors()
+    # These are runtime dependencies of the search box, not HTML hrefs.
+    for relative in ("search-sections.json", "pagefind/pagefind.js", "pagefind/pagefind-entry.json"):
+        target = DIST / relative
+        if not target.is_file() or not target.stat().st_size:
+            errors.append(f"missing or empty search asset: /{relative}")
     expected = {"index.html", "start-here/index.html", "pathways/index.html", "glossary/index.html"}
     expected.update(f"modules/{slug}/index.html" for slug in source_slugs())
     for relative in sorted(expected):

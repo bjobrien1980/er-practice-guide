@@ -2240,9 +2240,9 @@
       "url": "https://www.fwc.gov.au/document-view/decisions/automotive-food-metals-engineering-printing-and-kindred-industries-union-known-as-the-australian-22?from=search",
       "jurisdiction": "FWC",
       "decision_date": "2025-04-08",
-      "outcome": "Cited only for the Berri interpretation principles as set out at [22] and the distinction between agreements and modern awards at [24]. The decision text available in this pass is incomplete; the outcome was not read and is not asserted here.",
-      "outcome_pinpoint": "[22]",
-      "outcome_status": "partial",
+      "outcome": "Determined the two annual leave loading questions and rejected the alternative cl.3.5 argument. The applicable shift loadings are averaged across the entire roster cycle that applied at termination. Disposition checked in the issued PDF held in Briefer.",
+      "outcome_pinpoint": "[163]\u2013[165]",
+      "outcome_status": "confirmed",
       "verification_status": "confirmed",
       "modules": [
         36
@@ -3452,6 +3452,22 @@
       "verification_status": "confirmed",
       "modules": [
         18
+      ],
+      "source_type": "external_authority"
+    },
+    "[2001] HCA 16": {
+      "citation": "[2001] HCA 16",
+      "short_name": "CFMEU v Australian Industrial Relations Commission",
+      "download_id": null,
+      "url": "https://www.hcourt.gov.au/cases-and-judgments/judgments/judgments-1998-current/construction-forestry-mining-and-energy-union-v-australian-industrial-relations-commission",
+      "jurisdiction": "High Court",
+      "decision_date": "2001-03-15",
+      "outcome": "Appeal allowed. Distinguishes an agreed binding arbitration from the exercise of judicial power. Checked against the judgment held in Briefer.",
+      "outcome_pinpoint": "Orders; [30]\u2013[31]",
+      "outcome_status": "confirmed",
+      "verification_status": "confirmed",
+      "modules": [
+        36
       ],
       "source_type": "external_authority"
     }

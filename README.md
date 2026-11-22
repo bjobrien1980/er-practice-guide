@@ -2,7 +2,7 @@
 
 An Astro-based practice guide for ER advisers on dismissal, redundancy, general protections, Commission practice, and Commission matters beyond dismissal (stop orders, flexible work and enterprise agreement disputes) under the Fair Work Act 2009 (Cth).
 
-Current version: **1.0.0** (14 November 2026). See [CHANGELOG.md](CHANGELOG.md).
+Guide version: **1.1.0**. See [CHANGELOG.md](CHANGELOG.md).
 
 ## Repository model
 
@@ -21,6 +21,7 @@ Run from the repository root:
 |---|---|
 | `npm run dev` | Start the local guide at `http://localhost:4321` |
 | `npm run build` | Run the MS64 source-aware validation gates and build the static site |
+| `npm run build:public` | Reproduce the GitHub build from committed citation data, including search indexes and rendered checks |
 | `npm run verify` | Verify citation pinpoints against the local Briefer decision snapshot |
 | `npm run linkcheck` | Check citation registry integrity and approved link domains |
 | `npm run preview` | Preview the production build locally |
