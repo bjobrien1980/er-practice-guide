@@ -1385,6 +1385,30 @@
       "outcome_status": "confirmed",
       "outcome": "Employer met its obligations under the Act in relation to both requests; order under s.65C(1)(b)(i) that the grounds for refusal be taken to have been reasonable business grounds \u2014 confirmed at [5] and [96].",
       "outcome_pinpoint": "[96]"
+    },
+    "[2025] FWC 1293": {
+      "download_id": "690481",
+      "short_name": "Transport Workers' Union v FedEx Express Australia",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "FedEx's jurisdictional objections dismissed: the dispute was within the Commission's jurisdiction under clause 12 of the agreement, was arbitrable, and did not involve an impermissible exercise of judicial power \u2014 confirmed at [88], [91]\u2013[92]. The substantive dispute was not decided in this decision.",
+      "outcome_pinpoint": "[92]"
+    },
+    "[2025] FWC 1610": {
+      "download_id": "272037",
+      "short_name": "Cox v The Florey Institute of Neuroscience and Mental Health",
+      "verification_status": "confirmed",
+      "outcome_status": "confirmed",
+      "outcome": "The Commission was satisfied it had jurisdiction to deal with the dispute under clause 43 of the agreement and listed the matters for arbitration \u2014 confirmed at [55]. Whether the applicants were fixed-term or continuing employees was not decided in this decision.",
+      "outcome_pinpoint": "[55]"
+    },
+    "[2025] FWC 994": {
+      "download_id": "692303",
+      "short_name": "AMWU and CEPU v Lactalis Australia YD",
+      "verification_status": "confirmed",
+      "outcome_status": "partial",
+      "outcome": "Cited only for the Berri interpretation principles as set out at [22] and the distinction between agreements and modern awards at [24]. The decision text available in this pass is incomplete; the outcome was not read and is not asserted here.",
+      "outcome_pinpoint": "[22]"
     }
   },
   "external_authorities": {
@@ -2489,6 +2513,12 @@
       "note": "Passage on internal and external sources of changed operational requirements. Not read in the original. Quoted at [2025] FWC 1393 at [65], confirmed against that decision's text. Flagged for checking against the original.",
       "quoted_in": "[2025] FWC 1393",
       "quoted_in_pinpoint": "[65]"
+    },
+    "AMWU v Berri Pty Ltd [2017] FWCFB 3005": {
+      "status": "not_checked",
+      "note": "Full Bench interpretation principles quoted at [2025] FWC 994 at [22], confirmed verbatim against that decision's text. Not located as a direct corpus record in this pass \u2014 flagged for checking against the original.",
+      "quoted_in": "[2025] FWC 994",
+      "quoted_in_pinpoint": "[22]"
     }
   }
 }

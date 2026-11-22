@@ -11,6 +11,7 @@ const TIER_TITLES = [
   "Tier 3: Situations",
   "Tier 4: Running a matter",
   "Tier 5: General protections in depth",
+  "Tier 6: Commission matters beyond dismissal",
 ];
 
 export async function getTiers(): Promise<NavTier[]> {

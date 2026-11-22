@@ -362,3 +362,9 @@ These authorities are quoted in a decision that is in the corpus, but are not in
 - Quoted in: [2025] FWC 1393 at [65]
 - Passage on internal and external sources of changed operational requirements. Not read in the original. Quoted at [2025] FWC 1393 at [65], confirmed against that decision's text. Flagged for checking against the original.
 
+## AMWU v Berri Pty Ltd [2017] FWCFB 3005
+
+- Status: `not_checked`
+- Quoted in: [2025] FWC 994 at [22]
+- Full Bench interpretation principles quoted at [2025] FWC 994 at [22], confirmed verbatim against that decision's text. Not located as a direct corpus record in this pass — flagged for checking against the original.
+
