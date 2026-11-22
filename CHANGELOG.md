@@ -2,7 +2,7 @@
 
 What changed in each version of the ER Practice Guide, and what is known to be unfinished.
 
-## 1.1.0
+## 1.1.0 — 22 November 2026
 
 ### Added
 

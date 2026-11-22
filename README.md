@@ -2,7 +2,7 @@
 
 An Astro-based practice guide for ER advisers on dismissal, redundancy, general protections, Commission practice, and Commission matters beyond dismissal (stop orders, flexible work and enterprise agreement disputes) under the Fair Work Act 2009 (Cth).
 
-Guide version: **1.1.0**. See [CHANGELOG.md](CHANGELOG.md).
+Guide version: **1.1.0** (22 November 2026). See [CHANGELOG.md](CHANGELOG.md).
 
 ## Repository model
 
